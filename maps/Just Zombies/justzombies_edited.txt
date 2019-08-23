@@ -1,9 +1,8 @@
 {
 "compiler" "ZHLT 3.4 VL34 (Mar  2 2016)"
 "_generator" "Jackhammer 1.1.855 (vpHalfLife)"
-"wad" "basics.wad;decals.wad;halflife.wad;scopfor.wad;svencoop1.wad;svencoop2.wad;xeno.wad;justzombies.wad;"
+"wad" "decals.wad;halflife.wad;scopfor.wad;svencoop1.wad;svencoop2.wad;xeno.wad;justzombies.wad;"
 "angles" "0 0 0"
-"globalmodellist" "modelreplacement.txt"
 "mapversion" "220"
 "MaxRange" "4096"
 "sounds" "1"
@@ -11,6 +10,7 @@
 "message" "JustZombies"
 "classname" "worldspawn"
 }
+//Traducido por Cadaver 14-04-19 ---- Revisado 27-04-19
 {
 "origin" "-118 890 -1122"
 "angles" "0 0 0"
@@ -840,34 +840,6 @@
 "health" "100"
 "angles" "0 0 0"
 "classname" "item_healthkit"
-}
-{
-"model" "*23"
-"angles" "0 180 0"
-"wait" "-1"
-"speed" "100"
-"targetname" "elev"
-"rendercolor" "0 0 0"
-"classname" "func_door"
-}
-{
-"model" "*24"
-"wait" "-1"
-"speed" "100"
-"angles" "0 0 0"
-"targetname" "elev"
-"rendercolor" "0 0 0"
-"classname" "func_door"
-}
-{
-"model" "*25"
-"spawnflags" "1"
-"wait" "-1"
-"speed" "5"
-"angles" "0 0 0"
-"target" "elev"
-"rendercolor" "0 0 0"
-"classname" "func_button"
 }
 {
 "model" "*26"
@@ -2216,6 +2188,7 @@
 "master" "labshortcut2"
 "spawnflags" "32"
 "renderamt" "0"
+"movesnd" "2"
 "wait" "4"
 "speed" "100"
 "angles" "0 180 0"
@@ -2226,7 +2199,8 @@
 "model" "*47"
 "master" "labshortcut2"
 "spawnflags" "32"
-"wait" "4"
+"wait" "-1"
+"movesnd" "2"
 "speed" "100"
 "angles" "0 180 0"
 "rendercolor" "0 0 0"
@@ -2568,16 +2542,6 @@
 "renderamt" "120"
 "rendercolor" "0 0 0"
 "classname" "func_door"
-}
-{
-"model" "*51"
-"spawnflags" "1"
-"wait" "-1"
-"speed" "5"
-"angles" "0 0 0"
-"target" "grappledoor"
-"rendercolor" "0 0 0"
-"classname" "func_button"
 }
 {
 "origin" "-1456 2144 -832"
@@ -2950,30 +2914,6 @@
 "classname" "func_button"
 }
 {
-"model" "*55"
-"spawnflags" "32"
-"wait" "-1"
-"lip" "-40"
-"speed" "50"
-"angles" "0 180 0"
-"target" "MultiIN1"
-"rendercolor" "0 0 0"
-"classname" "func_button"
-}
-{
-"model" "*56"
-"origin" "-2167 -149 -859"
-"spawnflags" "98"
-"target" "MultiIN1"
-"distance" "90"
-"wait" "-1"
-"sounds" "25"
-"speed" "50"
-"angles" "0 0 0"
-"rendercolor" "0 0 0"
-"classname" "func_rot_button"
-}
-{
 "model" "*57"
 "origin" "-2134 -152 -847"
 "spawnflags" "64"
@@ -2997,15 +2937,6 @@
 "angles" "0 0 0"
 "rendercolor" "0 0 0"
 "classname" "func_button"
-}
-{
-"origin" "-2151 -148 -768"
-"spawnflags" "3"
-"angles" "0 0 0"
-"message" "Door unlocked..."
-"targetname" "MultiOUT2"
-"messagevolume" "10"
-"classname" "env_message"
 }
 {
 "origin" "-2151 -516 -1021"
@@ -3285,13 +3216,6 @@
 "classname" "squadmaker"
 }
 {
-"origin" "-2151 -116 -768"
-"angles" "0 0 0"
-"target" "MultiOUT2"
-"targetname" "MultiIN2"
-"classname" "multisource"
-}
-{
 "model" "*59"
 "targetname" "MultiOUT2"
 "wait" "-1"
@@ -3446,26 +3370,6 @@
 "angles" "0 0 0"
 "target" "labfinal"
 "classname" "trigger_once"
-}
-{
-"origin" "-3240 88 -1024"
-"trigger_target" "StageEndDoor"
-"trigger_condition" "4"
-"renderamt" "0"
-"maxhullsize" "0 0 0"
-"minhullsize" "0 0 0"
-"weapons" "1"
-"gag" "-1"
-"notsolid" "-1"
-"new_body" "-1"
-"monstertype" "monster_alien_voltigore"
-"rendercolor" "0 0 0"
-"targetname" "labfinal"
-"m_imaxlivechildren" "5"
-"delay" "5"
-"monstercount" "1"
-"angles" "0 270 0"
-"classname" "squadmaker"
 }
 {
 "origin" "-1771 -40 -844"
@@ -4204,16 +4108,6 @@
 "classname" "func_button"
 }
 {
-"origin" "-3242 90 -950"
-"spawnflags" "2"
-"angles" "0 0 0"
-"messageattenuation" "0"
-"message" "Loading JustMilitary..."
-"targetname" "StageEndPrepareChange"
-"messagevolume" "10"
-"classname" "env_message"
-}
-{
 "origin" "-2833.88 -102.93 -1040"
 "renderamt" "0"
 "framerate" "1"
@@ -4392,16 +4286,6 @@
 "classname" "path_corner"
 }
 {
-"model" "*81"
-"spawnflags" "1"
-"target" "hax"
-"wait" "-1"
-"speed" "5"
-"angles" "0 0 0"
-"rendercolor" "0 0 0"
-"classname" "func_button"
-}
-{
 "model" "*82"
 "spawnflags" "32"
 "targetname" "SewerDr1"
@@ -4503,7 +4387,7 @@
 {
 "model" "*86"
 "spawnflags" "1"
-"wait" "3"
+"wait" "-1"
 "target" "SewerDr1"
 "speed" "5"
 "angles" "0 0 0"
@@ -4514,7 +4398,7 @@
 "model" "*87"
 "spawnflags" "1"
 "target" "hax"
-"wait" "5"
+"wait" "-1"
 "speed" "5"
 "angles" "0 0 0"
 "rendercolor" "0 0 0"
@@ -4540,19 +4424,6 @@
 "angles" "0 0 0"
 "target" "Manhack1"
 "classname" "trigger_once"
-}
-{
-"model" "*90"
-"origin" "489 1184 -1163"
-"spawnflags" "64"
-"target" "SecretSewer"
-"distance" "90"
-"wait" "3"
-"sounds" "21"
-"speed" "40"
-"angles" "0 0 0"
-"rendercolor" "0 0 0"
-"classname" "func_rot_button"
 }
 {
 "model" "*91"
@@ -4687,18 +4558,6 @@
 "speed" "100"
 "rendercolor" "0 0 0"
 "classname" "func_door"
-}
-{
-"model" "*102"
-"spawnflags" "32"
-"health" "0"
-"wait" "3"
-"lip" "-40"
-"speed" "50"
-"angles" "0 0 0"
-"target" "LabDoor1"
-"rendercolor" "0 0 0"
-"classname" "func_button"
 }
 {
 "origin" "-714 1466 -1072"
@@ -5726,10 +5585,10 @@
 {
 "model" "*114"
 "spawnflags" "1"
-"wait" "-1"
+"wait" "4"
 "speed" "5"
 "angles" "0 0 0"
-"target" "Pech"
+"target" "Pech_txt"
 "rendercolor" "0 0 0"
 "classname" "func_button"
 }
@@ -5744,16 +5603,6 @@
 "_fade" "1.0"
 "_light" "255 255 255 300"
 "classname" "light_spot"
-}
-{
-"origin" "-952 304 -919"
-"spawnflags" "2"
-"angles" "0 0 0"
-"messageattenuation" "0"
-"message" "Warning: Subject escaped. Please wait for orders..."
-"targetname" "Pech"
-"messagevolume" "10"
-"classname" "env_message"
 }
 {
 "origin" "252 276 -896"
@@ -5795,7 +5644,7 @@
 "renderfx" "0"
 "dmg" "0"
 "stopsnd" "0"
-"movesnd" "0"
+"movesnd" "1"
 "unlocked_sentence" "0"
 "locked_sentence" "0"
 "unlocked_sound" "0"
@@ -6167,28 +6016,6 @@
 "pitch" "100"
 "health" "10"
 "classname" "ambient_generic"
-}
-{
-"model" "*120"
-"spawnflags" "33"
-"target" "Manhack1"
-"zhlt_lightflags" "0"
-"renderamt" "0"
-"rendermode" "0"
-"renderfx" "0"
-"unlocked_sentence" "0"
-"locked_sentence" "0"
-"unlocked_sound" "0"
-"locked_sound" "0"
-"delay" "0"
-"wait" "2"
-"sounds" "0"
-"lip" "0"
-"health" "0"
-"speed" "5"
-"angles" "0 0 0"
-"rendercolor" "0 0 0"
-"classname" "func_button"
 }
 {
 "model" "*121"
@@ -7108,18 +6935,6 @@
 "classname" "squadmaker"
 }
 {
-"model" "*128"
-"spawnflags" "32"
-"health" "0"
-"wait" "3"
-"lip" "-40"
-"speed" "50"
-"angles" "0 0 0"
-"target" "multiLabCorridor"
-"rendercolor" "0 0 0"
-"classname" "func_button"
-}
-{
 "origin" "-682 1276 -1552"
 "new_model" "models/justzombies/monster/zombie_barnabus.mdl"
 "bloodcolor" "1"
@@ -7252,16 +7067,6 @@
 "target" "ZombieAliens"
 "delay" "1"
 "classname" "trigger_once"
-}
-{
-"origin" "-242 1552 -1520"
-"spawnflags" "2"
-"angles" "0 0 0"
-"messageattenuation" "0"
-"message" "Corridor Door unlocked..."
-"targetname" "FreeTyrant"
-"messagevolume" "10"
-"classname" "env_message"
 }
 {
 "origin" "-116 1968 -154"
@@ -7643,17 +7448,8 @@
 "classname" "squadmaker"
 }
 {
-"origin" "434.599 44 -880"
-"angles" "0 0 0"
-"spawn1" "1"
-"spawn2" "0"
-"targetname" "spawnpointer"
-"classname" "multi_manager"
-}
-{
 "model" "*131"
 "angles" "0 0 0"
-"message" "New Spawnpoint activated"
 "delay" "0"
 "sounds" "0"
 "target" "spawnpointer"
@@ -8180,18 +7976,6 @@
 "classname" "func_door"
 }
 {
-"model" "*146"
-"angles" "0 0 0"
-"target" "StageEndPrepareChange"
-"delay" "0"
-"sounds" "0"
-"coutfiltertype" "0"
-"toutfiltertype" "0"
-"cinfiltertype" "0"
-"tinfiltertype" "0"
-"classname" "trigger_once"
-}
-{
 "model" "*147"
 "zhlt_embedlightmap" "1"
 "renderamt" "220"
@@ -8606,16 +8390,16 @@
 "displayname" "Killer Rabbit of Caerbannog"
 "monstertype" "monster_headcrab"
 "new_model" "models/justzombies/monster/headcrab_bunny.mdl"
-"health" "999999"
+"health" "666"
 "maxhullsize" "0 0 0"
 "minhullsize" "0 0 0"
 "weapons" "1"
 "gag" "-1"
 "notsolid" "-1"
 "new_body" "-1"
-"m_imaxlivechildren" "1"
+"m_imaxlivechildren" "2"
 "delay" "0"
-"monstercount" "-1"
+"monstercount" "1"
 "rendercolor" "0 0 0"
 "angles" "0 0 0"
 "classname" "squadmaker"
@@ -8657,21 +8441,20 @@
 "classname" "multisource"
 }
 {
-"origin" "-392.03 1867.1 -120"
-"spawnflags" "1"
-"angles" "0 0 0"
-"message" "Secret Weapon unlocked: DAS BOOT"
-"targetname" "unlocked_BootMessage"
+"origin" "666 666 666"
 "channel" "1"
-"fxtime" "0.25"
-"holdtime" "1.2"
-"fadeout" "0.5"
-"fadein" "1.5"
-"color2" "255 0 0"
-"color" "255 0 0"
-"effect" "0"
+"fxtime" "6"
+"holdtime" "1"
+"fadeout" "2"
+"fadein" "5"
+"color2" "140 50 200"
+"color" "0 200 250"
+"effect" "1"
 "y" "-1"
 "x" "-1"
+"message" "Arma secreta desbloqueada:\n DAS BOOT"
+"spawnflags" "1"
+"targetname" "unlocked_BootMessage"
 "classname" "game_text"
 }
 {
@@ -8765,6 +8548,7 @@
 "angles" "0 0 0"
 "signCorridorAccess" "2"
 "FreeTyrant" "0"
+"FreeTyrant_txt" "1"
 "targetname" "multiLabCorridor"
 "classname" "multi_manager"
 }
@@ -8816,12 +8600,6 @@
 {
 "model" "*168"
 "classname" "func_healthcharger"
-}
-{
-"origin" "-3256 240 -896"
-"angles" "0 0 0"
-"targetname" "StageEndChangeStage"
-"classname" "game_end"
 }
 {
 "origin" "-62 212 -898"
@@ -10363,4 +10141,601 @@
 "spawnobject" "0"
 "explodemagnitude" "15"
 "classname" "func_breakable"
+}
+///////////////////////////////////////////////////////////////////////////////////////////////
+{
+"origin" "-1463 1601 -1120"
+"renderfx" "255"
+"spawnflags" "1"
+"rendermode" "0"
+"angles" "0 0 0"
+"framerate" "10.0"
+"model" "sprites/adamr/arrow_use.spr"
+"targetname" "grappledoor_spr"
+"scale" "0.3"
+"vp_type" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "-1462 1993 -926"
+"renderfx" "255"
+"spawnflags" "1"
+"rendermode" "0"
+"angles" "0 0 0"
+"framerate" "10.0"
+"model" "sprites/adamr/arrow_use.spr"
+"targetname" "grappledoor_spr"
+"scale" "0.3"
+"vp_type" "1"
+"classname" "env_sprite"
+}
+{
+"model" "*51"
+"spawnflags" "1"
+"wait" "-1"
+"speed" "5"
+"angles" "0 0 0"
+"target" "grappledoor_mm"
+"rendercolor" "0 0 0"
+"classname" "func_button"
+}
+{
+"origin" "666 666 666"
+"grappledoor" "0"
+"grappledoor_spr" "0#2"
+"targetname" "grappledoor_mm"
+"classname" "multi_manager"
+}
+{
+"origin" "-1468 1276 -492"
+"renderfx" "255"
+"spawnflags" "1"
+"rendermode" "0"
+"angles" "0 0 0"
+"framerate" "10.0"
+"model" "sprites/justzombies/barnacle_use.spr"
+"scale" "0.3"
+"vp_type" "3"
+"classname" "env_sprite"
+}
+{
+"origin" "488 1184 -1142"
+"renderfx" "255"
+"spawnflags" "1"
+"rendermode" "0"
+"angles" "0 0 0"
+"framerate" "10.0"
+"model" "sprites/adamr/arrow_use.spr"
+"scale" "0.3"
+"targetname" "SecretSewer_spr"
+"vp_type" "1"
+"classname" "env_sprite"
+}
+{
+"model" "*90"
+"origin" "489 1184 -1163"
+"spawnflags" "64"
+"target" "SecretSewer_mm"
+"distance" "90"
+"wait" "-1"
+"sounds" "21"
+"speed" "40"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"classname" "func_rot_button"
+}
+{
+"origin" "-1191 1560 -1001"
+"angles" "10 0 0"
+"wait" "4"
+"spawnflags" "24"
+"hud_health" "0"
+"hud_flashlight "0"
+"hud_weapons" "0"
+"targetname" "SecretSewer_cam"
+"classname" "trigger_camera"
+}
+{
+"origin" "666 666 666"
+"SecretSewer" "1"
+"SecretSewer_spr" "1#2"
+"SecretSewer_cam" "1#1"
+"SecretSewer_txt" "1#1"
+"targetname" "SecretSewer_mm"
+"classname" "multi_manager"
+}
+{
+"origin" "-83 676 -1160"
+"renderfx" "255"
+"spawnflags" "1"
+"rendermode" "0"
+"angles" "0 0 0"
+"framerate" "10.0"
+"model" "sprites/adamr/arrow_use.spr"
+"scale" "0.3"
+"targetname" "hax_spr"
+"vp_type" "1"
+"classname" "env_sprite"
+}
+{
+"model" "*81"
+"spawnflags" "1"
+"target" "hax_mm"
+"wait" "-1"
+"speed" "5"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"classname" "func_button"
+}
+{
+"origin" "666 666 666"
+"hax" "1"
+"hax_spr" "1#2"
+"targetname" "hax_mm"
+"classname" "multi_manager"
+}
+{
+"model" "*120"
+"spawnflags" "33"
+"target" "Manhack1_mm"
+"zhlt_lightflags" "0"
+"renderamt" "0"
+"rendermode" "0"
+"renderfx" "0"
+"unlocked_sentence" "0"
+"locked_sentence" "0"
+"unlocked_sound" "0"
+"locked_sound" "0"
+"delay" "0"
+"wait" "-1"
+"sounds" "0"
+"lip" "0"
+"health" "0"
+"speed" "5"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"classname" "func_button"
+}
+{
+"origin" "-923 1676 -1025"
+"renderfx" "255"
+"spawnflags" "1"
+"rendermode" "0"
+"angles" "0 0 0"
+"framerate" "10.0"
+"model" "sprites/adamr/arrow_use.spr"
+"scale" "0.3"
+"targetname" "Manhack1_spr"
+"vp_type" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "-1075 325 76"
+"spawnflags" "1"
+"angles" "0 0 0"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "3"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 128 64"
+"effect" "0"
+"y" "0.7"
+"x" "-1"
+"delay" "0"
+"message" "-Eso detuvo la turbina..."
+"targetname" "Manhack1_txt"
+"classname" "game_text"
+}
+{
+"origin" "666 666 666"
+"Manhack1" "2"
+"Manhack1_spr" "0#2"
+"Manhack1_txt" "1"
+"Manhack1_cam" "1"
+"targetname" "Manhack1_mm"
+"classname" "multi_manager"
+}
+{
+"origin" "-117 1441 -1048"
+"angles" "20 63 0"
+"wait" "4"
+"spawnflags" "24"
+"hud_health" "0"
+"hud_flashlight "0"
+"hud_weapons" "0"
+"targetname" "Manhack1_cam"
+"classname" "trigger_camera"
+}
+{
+"model" "*102"
+"spawnflags" "32"
+"health" "0"
+"wait" "-1"
+"lip" "-40"
+"speed" "50"
+"angles" "0 0 0"
+"target" "LabDoor1_mm"
+"rendercolor" "0 0 0"
+"classname" "func_button"
+}
+{
+"origin" "562 576 -842"
+"renderfx" "255"
+"spawnflags" "1"
+"rendermode" "0"
+"angles" "0 0 0"
+"framerate" "10.0"
+"model" "sprites/adamr/arrow_use.spr"
+"scale" "0.3"
+"targetname" "LabDoor1_spr"
+"vp_type" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "666 666 666"
+"LabDoor1" "0"
+"LabDoor1_spr" "0#2"
+"targetname" "LabDoor1_mm"
+"classname" "multi_manager"
+}
+{
+"origin" "-417 117 -897"
+"renderfx" "255"
+"spawnflags" "1"
+"rendermode" "0"
+"angles" "0 0 0"
+"framerate" "10.0"
+"model" "sprites/adamr/arrow_gohere.spr"
+"scale" "0.6"
+"vp_type" "1"
+"classname" "env_sprite"
+}
+{
+"model" "*128"
+"spawnflags" "32"
+"health" "0"
+"wait" "-1"
+"lip" "-40"
+"speed" "50"
+"angles" "0 0 0"
+"target" "multiLabCorridor_mm"
+"rendercolor" "0 0 0"
+"classname" "func_button"
+}
+{
+"origin" "-312 1597 -1500"
+"renderfx" "255"
+"spawnflags" "1"
+"rendermode" "0"
+"angles" "0 0 0"
+"framerate" "10.0"
+"model" "sprites/adamr/arrow_use.spr"
+"scale" "0.3"
+"targetname" "multiLabCorridor_spr"
+"vp_type" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "666 666 666"
+"multiLabCorridor" "0"
+"multiLabCorridor_spr" "0#2"
+"targetname" "multiLabCorridor_mm"
+"classname" "multi_manager"
+}
+{
+"model" "*56"
+"origin" "-2167 -149 -859"
+"spawnflags" "98"
+"target" "MultiIN1_mm"
+"distance" "90"
+"wait" "-1"
+"sounds" "25"
+"speed" "50"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"classname" "func_rot_button"
+}
+{
+"origin" "-2168 -142 -834"
+"renderfx" "255"
+"spawnflags" "1"
+"rendermode" "0"
+"angles" "0 0 0"
+"framerate" "10.0"
+"model" "sprites/adamr/arrow_use.spr"
+"scale" "0.3"
+"targetname" "MultiIN1_spr"
+"vp_type" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "666 666 666"
+"MultiIN1" "0"
+"MultiIN1_spr" "0#2"
+"targetname" "MultiIN1_mm"
+"classname" "multi_manager"
+}
+{
+"model" "*55"
+"spawnflags" "32"
+"wait" "-1"
+"lip" "-40"
+"speed" "50"
+"angles" "0 180 0"
+"target" "MultiIN1_a_mm"
+"rendercolor" "0 0 0"
+"classname" "func_button"
+}
+{
+"origin" "-1827 -607 -966"
+"renderfx" "255"
+"spawnflags" "1"
+"rendermode" "0"
+"angles" "0 0 0"
+"framerate" "10.0"
+"model" "sprites/adamr/arrow_use.spr"
+"scale" "0.3"
+"targetname" "MultiIN1_a_spr"
+"vp_type" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "666 666 666"
+"MultiIN1" "0"
+"MultiIN1_a_spr" "0#2"
+"targetname" "MultiIN1_a_mm"
+"classname" "multi_manager"
+}
+//{
+//"origin" "-242 1552 -1520"
+//"spawnflags" "2"
+//"angles" "0 0 0"
+//"messageattenuation" "0"
+//"message" "Puerta del corredor desbloqueada..."
+//"targetname" "FreeTyrant"
+//"messagevolume" "10"
+//"classname" "env_message"
+//}
+{
+"origin" "666 666 666"
+"spawnflags" "1"
+"channel" "3"
+"fxtime" "3"
+"holdtime" "3"
+"fadeout" "0.7"
+"fadein" "0.05"
+"color2" "0 255 0"
+"color" "128 255 128"
+"effect" "2"
+"y" "0.7"
+"x" "-1"
+"message" "Puerta del corredor desbloqueada..."
+"targetname" "FreeTyrant_txt"
+"classname" "game_text"
+}
+//{
+//"origin" "-2151 -148 -768"
+//"spawnflags" "3"
+//"angles" "0 0 0"
+//"message" "Puerta desbloqueada..."
+//"targetname" "MultiOUT2"
+//"messagevolume" "10"
+//"classname" "env_message"
+//}
+{
+"origin" "666 666 666"
+"spawnflags" "1"
+"channel" "3"
+"fxtime" "3"
+"holdtime" "2.5"
+"fadeout" "0.7"
+"fadein" "0.05"
+"color2" "0 255 0"
+"color" "128 255 128"
+"effect" "2"
+"y" "0.7"
+"x" "-1"
+"message" "Puerta desbloqueada..."
+"targetname" "MultiOUT2_txt"
+"classname" "game_text"
+}
+{
+"origin" "-2151 -116 -768"
+"angles" "0 0 0"
+"target" "MultiOUT2_mm"
+"targetname" "MultiIN2"
+"classname" "multisource"
+}
+{
+"origin" "666 666 666"
+"MultiOUT2" "0"
+"MultiOUT2_txt" "0#1"
+"Pech_txt" "1#2"
+"targetname" "MultiOUT2_mm"
+"classname" "multi_manager"
+}
+//{
+//"origin" "-952 304 -919"
+//"spawnflags" "2"
+//"angles" "0 0 0"
+//"messageattenuation" "0"
+//"message" "Advertencia: el sujeto escapó. Por favor, espere órdenes ..."
+//"targetname" "Pech"
+//"messagevolume" "10"
+//"classname" "env_message"
+//}
+{
+"origin" "666 666 666"
+"channel" "3"
+"fxtime" "2"
+"holdtime" "3"
+"fadeout" "0.5"
+"fadein" "0.05"
+"color2" "255 0 0"
+"color" "70 0 0"
+"effect" "2"
+"y" "0.7"
+"x" "-1"
+"message" "Advertencia: el sujeto escapó. Por favor, espere órdenes..."
+"targetname" "Pech_txt"
+"classname" "game_text"
+}
+//{
+//"origin" "-3242 90 -950"
+//"spawnflags" "2"
+//"angles" "0 0 0"
+//"messageattenuation" "0"
+//"message" "Cargando Just Military..."
+//"targetname" "StageEndPrepareChange"
+//"messagevolume" "10"
+//"classname" "env_message"
+//}
+{
+"origin" "666 666 666"
+"spawnflags" "1"
+"channel" "3"
+"fxtime" "3"
+"holdtime" "25"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "244 120 120"
+"color" "20 255 100"
+"effect" "1"
+"y" "0.7"
+"x" "-1"
+"message" "Cargando Just Military..."
+"targetname" "StageEndPrepareChange_txt"
+"classname" "game_text"
+}
+{
+"model" "*146"
+"angles" "0 0 0"
+"target" "StageEndPrepareChange_mm"
+"delay" "0"
+"sounds" "0"
+"coutfiltertype" "0"
+"toutfiltertype" "0"
+"cinfiltertype" "0"
+"tinfiltertype" "0"
+"classname" "trigger_once"
+}
+{
+"origin" "666 666 666"
+"end_fade" "0#1"
+"StageEndPrepareChange" "5"
+"StageEndPrepareChange_txt" "0#1"
+"targetname" "StageEndPrepareChange_mm"
+"classname" "multi_manager"
+}
+{
+"origin" "-3256 240 -896"
+"angles" "0 0 0"
+"targetname" "StageEndChangeStage"
+"map" "justmilitary_v2"
+"keep_inventory" "1"
+"changedelay" "15"
+"spawnflags" "2"
+"classname" "trigger_changelevel"
+}
+{
+"origin" "434.599 44 -880"
+"angles" "0 0 0"
+"spawn1" "1"
+"spawn2" "0"
+"spawn_txt" "1"
+"targetname" "spawnpointer"
+"classname" "multi_manager"
+}
+{
+"origin" "666 666 666"
+"spawnflags" "1"
+"channel" "3"
+"fxtime" "3"
+"holdtime" "2.5"
+"fadeout" "0.7"
+"fadein" "0.05"
+"color2" "0 255 0"
+"color" "128 255 128"
+"effect" "2"
+"y" "0.7"
+"x" "-1"
+"message" "Nuevo punto de aparición activado"
+"targetname" "spawn_txt"
+"classname" "game_text"
+}
+{
+"origin" "-3237 269 -945"
+"renderamt" "255"
+"rendermode" "4"
+"scale" "0.15"
+"framerate" "10.0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"model" "sprites/level_change.spr"
+"classname" "env_sprite"
+}
+{
+"origin" "-3240 88 -1035"
+"trigger_target" "StageEndDoor"
+"trigger_condition" "4"
+"renderamt" "0"
+"displayname" "CryoGore"
+"health" "2500"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"monstertype" "monster_alien_voltigore"
+"rendercolor" "0 0 0"
+"targetname" "labfinal"
+"m_imaxlivechildren" "5"
+"delay" "5"
+"monstercount" "1"
+"angles" "0 270 0"
+"classname" "squadmaker"
+}
+{
+"model" "*25"
+"spawnflags" "1"
+"wait" "-1"
+"speed" "5"
+"angles" "0 0 0"
+"target" "elev"
+"rendercolor" "0 0 0"
+"classname" "func_button"
+}
+{
+"model" "*23"
+"angles" "0 180 0"
+"wait" "-1"
+"movesnd" "2"
+"stopsnd" "1"
+"speed" "100"
+"targetname" "elev"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*24"
+"wait" "-1"
+"speed" "100"
+"angles" "0 0 0"
+"movesnd" "2"
+"stopsnd" "1"
+"targetname" "elev"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"origin" "666 666 666"
+"duration" "15"
+"holdtime" "15"
+"renderamt" "255"
+"rendercolor" "0 0 0"
+"targetname" "end_fade"
+"classname" "env_fade"
 }
