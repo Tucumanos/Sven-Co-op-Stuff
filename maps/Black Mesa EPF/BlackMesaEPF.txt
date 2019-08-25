@@ -5116,7 +5116,7 @@
 }
 {
 "origin" "160 -1880 272"
-"message" "MISIÓN 1 - LIMPIEZA DE SERVICIO"
+"message" "MISSION 1 - CLEAN UP DUTY"
 "targetname" "text1"
 "effect" "2"
 "channel" "1"
@@ -5133,7 +5133,7 @@
 }
 {
 "origin" "160 -1832 272"
-"message" "Su primer objetivo es asegurar el corredor cercano, los laboratorios y la recepción. Entonces podemos pensar en contraatacar."
+"message" "Your first objective is to secure the nearby corridor, labs and reception. We can then think about counter attacking."
 "targetname" "text4"
 "effect" "2"
 "channel" "2"
@@ -5150,7 +5150,7 @@
 }
 {
 "origin" "160 -1864 272"
-"message" "Saludos Equipo Sven Co-op. Gracias por responder a nuestra llamada y por venir a Black Mesa Sector EPF."
+"message" "Greetings Sven Co-op Team. Thank you for responding to our call and coming to Black Mesa Sector EPF."
 "targetname" "text2"
 "effect" "2"
 "channel" "2"
@@ -5181,7 +5181,7 @@
 }
 {
 "origin" "160 -1656 272"
-"message" "Necesitas una ruta alternativa. Afortunadamente, hay una, a través de la tubería en el tanque de tiburones del Sr. Nibbles. ¡Buena suerte!"
+"message" "You need an alternative route. Fortunately, there is one, through the piping in Mr. Nibbles shark tank. Good luck!"
 "targetname" "mission2_1_text4"
 "effect" "2"
 "channel" "2"
@@ -5198,7 +5198,7 @@
 }
 {
 "origin" "160 -1672 272"
-"message" "Es probable que sean poco acogedores, así que trata con ellos como lo harías con cualquier escoria alienígena."
+"message" "They are likely to be unwelcoming, so deal with them as you would any alien scum."
 "targetname" "mission2_1_text3"
 "effect" "2"
 "channel" "1"
@@ -5215,7 +5215,7 @@
 }
 {
 "origin" "160 -1688 272"
-"message" "Tu próxima misión es volver a una enfermería que solía ser nuestra. Desafortunadamente, algunos rebeldes entraron y la cerraron."
+"message" "Your next mission is to get back an infirmary that used to be ours. Unfortunately some rebels broke in and locked us out."
 "targetname" "mission2_1_text2"
 "effect" "2"
 "channel" "2"
@@ -5232,7 +5232,7 @@
 }
 {
 "origin" "160 -1704 272"
-"message" "MISIÓN 2 - NATACIÓN CON LOS PECES"
+"message" "MISSION 2 - SWIMMING WITH THE FISHES"
 "targetname" "mission2_1_text1"
 "effect" "2"
 "channel" "1"
@@ -5261,7 +5261,7 @@
 }
 {
 "origin" "160 -1496 272"
-"message" "Las puertas se abrirán en 30 segundos. Prepararse."
+"message" "The doors will open in 30 seconds. Get ready."
 "targetname" "mission3_1_text4"
 "effect" "2"
 "channel" "2"
@@ -5278,7 +5278,7 @@
 }
 {
 "origin" "160 -1512 272"
-"message" "Planean atacar en su propio tiempo, pero en cambio, abriré las puertas y les daré una lluvia de balas."
+"message" "They are planning to attack in their own time, but instead I will open the doors and let you give them a rain of bullets."
 "targetname" "mission3_1_text3"
 "effect" "2"
 "channel" "1"
@@ -5295,7 +5295,7 @@
 }
 {
 "origin" "160 -1528 272"
-"message" "Mientras les comunico esto, los grunts se están reuniendo afuera de las puertas principales de nuestra recepción. Quiero que los sorprendas."
+"message" "As I communicate this to you, grunts are gathering outside the main doors to our reception. I want you to surprise them."
 "targetname" "mission3_1_text2"
 "effect" "2"
 "channel" "2"
@@ -5312,7 +5312,7 @@
 }
 {
 "origin" "160 -1544 272"
-"message" "MISIÓN 3 - ANTI-EMBOSCADA"
+"message" "MISSION 3 - ANTI-AMBUSH"
 "targetname" "mission3_1_text1"
 "effect" "2"
 "channel" "1"
@@ -5355,7 +5355,7 @@
 }
 {
 "origin" "160 -1592 272"
-"message" "¡Excelente! Ahora podemos curar a nuestros heridos (usa los paneles sobre las camas para curar)."
+"message" "Excellent! Now we can heal our wounded (Use the panels above the beds to heal)."
 "targetname" "mission2_end_text2"
 "effect" "2"
 "channel" "2"
@@ -5381,7 +5381,7 @@
 }
 {
 "origin" "160 -1608 272"
-"message" "MISIÓN 2 - NATACIÓN CON LOS PECES - MISIÓN CUMPLIDA"
+"message" "MISSION 2 - SWIMMING WITH THE FISHES - MISSION ACCOMPLISHED"
 "targetname" "mission2_end_text1"
 "effect" "2"
 "channel" "1"
@@ -5398,7 +5398,7 @@
 }
 {
 "origin" "160 -1416 272"
-"message" "¡Bien, seguro que les mostraste una buena contraofensiva!"
+"message" "Nice one, you sure showed them a good counter-offensive!"
 "targetname" "mission3_end_text2"
 "effect" "2"
 "channel" "2"
@@ -5415,7 +5415,7 @@
 }
 {
 "origin" "160 -1432 272"
-"message" "MISIÓN 3 - ANTI-AMBUSH - MISIÓN CUMPLIDA"
+"message" "MISSION 3 - ANTI-AMBUSH - MISSION ACCOMPLISHED"
 "targetname" "mission3_end_text1"
 "effect" "2"
 "channel" "1"
@@ -5450,7 +5450,7 @@
 }
 {
 "origin" "160 -1848 272"
-"message" "Como saben, las instalaciones de Black Mesa han sido testigos de una Cascada de Resonancia. El sector EPF también se ha visto afectado."
+"message" "As you are aware, the Black Mesa facility has witnessed a Resonance Cascade. Sector EPF has also been affected."
 "targetname" "text3"
 "effect" "2"
 "channel" "1"
@@ -5479,7 +5479,7 @@
 }
 {
 "origin" "161 -1368 272"
-"message" "MISIÓN 4 - EXTENDIENDO EL PUENTE LEVADIZO"
+"message" "MISSION 4 - EXTENDING THE DRAWBRIDGE"
 "targetname" "mission4_1_text1"
 "effect" "2"
 "channel" "1"
@@ -5496,7 +5496,7 @@
 }
 {
 "origin" "161 -1352 272"
-"message" "El siguiente paso es que tenemos que luchar por nuestro camino hacia la superficie para escapar, sin embargo primero necesitamos un camino."
+"message" "The next step is we need to fight our way to the surface for escape, however we need a way up there first."
 "targetname" "mission4_1_text2"
 "effect" "2"
 "channel" "2"
@@ -5513,7 +5513,7 @@
 }
 {
 "origin" "161 -1336 272"
-"message" "La forma normal de hacerlo es activar el puente desde la sala de control, sin embargo, Barney ya no puede hacer eso."
+"message" "The normal way to do this is to activate the bridge from the control room, however barney is no longer able to do this."
 "targetname" "mission4_1_text3"
 "effect" "2"
 "channel" "1"
@@ -5530,7 +5530,7 @@
 }
 {
 "origin" "161 -1320 272"
-"message" "Tendrán que tomar un desvío. Cuidado, hay más rebeldes en esta área, y es poco probable que la seguridad sea acogedora."
+"message" "You'll need to take a detour. Watch out, there are more rebels in this area, and security is unlikely to be welcoming."
 "targetname" "mission4_1_text4"
 "effect" "2"
 "channel" "2"
@@ -5570,7 +5570,7 @@
 }
 {
 "origin" "160 -1272 272"
-"message" "MISIÓN 4 - EXTENDIENDO EL PUENTE LEVADIZO - MISIÓN CUMPLIDA"
+"message" "MISSION 4 - EXTENDING THE DRAWBRIDGE - MISSION ACCOMPLISHED"
 "targetname" "mission4_end_text1"
 "effect" "2"
 "channel" "1"
@@ -5587,7 +5587,7 @@
 }
 {
 "origin" "160 -1256 272"
-"message" "Buen trabajo. Ahora sube las escaleras: un helicóptero está esperando para evacuarte."
+"message" "Nice work. Now head up the stairs - a chopper is waiting to evacuate you out."
 "targetname" "mission4_end_text2"
 "effect" "2"
 "channel" "2"
@@ -5639,7 +5639,7 @@
 }
 {
 "origin" "160 -1768 272"
-"message" "MISIÓN 1 - LIMPIEZA DE SERVICIO - MISIÓN CUMPLIDA"
+"message" "MISSION 1 - CLEAN UP DUTY - MISSION ACCOMPLISHED"
 "targetname" "mission1_end_text1"
 "effect" "2"
 "channel" "1"
@@ -5668,7 +5668,7 @@
 }
 {
 "origin" "160 -1752 272"
-"message" "¡Buen trabajo! ¡Esas cucarachas asquerosas lo pensarán dos veces antes de invadirnos de nuevo!"
+"message" "Good work! Those filthy roaches will think twice before invading us again!"
 "targetname" "mission1_end_text2"
 "effect" "2"
 "channel" "2"
@@ -5735,7 +5735,7 @@
 }
 {
 "origin" "-488 1336 200"
-"message" "BLACK MESA SECTOR EPF - MISIÓN CUMPLIDA"
+"message" "BLACK MESA SECTOR EPF - MISSION ACCOMPLISHED"
 "targetname" "gameover_text1"
 "effect" "2"
 "channel" "1"
@@ -5752,7 +5752,7 @@
 }
 {
 "origin" "-504 1336 200"
-"message" "Buen trabajo equipo, el sector se ha limpiado y se ha forjado una ruta de escape. Regresa a la base."
+"message" "Good work team, the sector has been cleansed, and an escape route forged. Head back to base."
 "targetname" "gameover_text2"
 "effect" "2"
 "channel" "2"
@@ -5769,7 +5769,7 @@
 }
 {
 "origin" "-520 1336 200"
-"message" "Sin embargo, no te pongas demasiado cómodo, no creo que esto sea lo último que veremos de Black Mesa ..."
+"message" "Don't get too comfortable though, I don't think this is the last we'll see of Black Mesa..."
 "targetname" "gameover_text3"
 "effect" "2"
 "channel" "1"
@@ -6639,7 +6639,7 @@
 }
 {
 "origin" "-128 -1696 80"
-"message" "ACTUALIZACIÓN DE LAS COMUNICACIONES - EL RESUMEN EMPEZARÁ EN 30 SEGUNDOS"
+"message" "COMMUNICATIONS UPDATING - BRIEFING WILL BEGIN IN 30 SECONDS"
 "targetname" "start_text1"
 "effect" "2"
 "channel" "1"
@@ -10978,7 +10978,7 @@
 }
 {
 "origin" "-720 -1864 80"
-"message" "Ese sistema láser está bloqueando el camino. Puede quemar el panel de fusibles o restablecerlo."
+"message" "That laser system is blocking the way. You can either blow  the fuse panel, or reset it."
 "targetname" "mission4_lr_text1"
 "effect" "2"
 "channel" "2"
@@ -10995,7 +10995,7 @@
 }
 {
 "origin" "-720 -1848 80"
-"message" "Si lo restableces, la seguridad se desactivará y cualquier futuro robogrunts luchará de tu lado. Tu llamada."
+"message" "If you reset it, security will be disengaged and any future robogrunts will fight on your side. Your call."
 "targetname" "mission4_lr_text2"
 "effect" "2"
 "channel" "1"
