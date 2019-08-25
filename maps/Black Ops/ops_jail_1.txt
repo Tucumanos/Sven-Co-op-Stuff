@@ -1,0 +1,3988 @@
+{
+  "wad" "\spiele\half-life\valve\halflife.wad;\spiele\half-life\valve\xeno.wad;\spiele\half-life\svencoop\blackops.wad;\spiele\half-life\svencoop\blackops_decals.wad;"
+  "mapversion" "220"
+  "MaxRange" "4096"
+  "sounds" "1"
+  "message" "JAILHOUSE ROCK"
+  "newunit" "1"
+  "skyname" "desert_nite"
+  "classname" "worldspawn"
+  "classname" "worldspawn"
+}
+{
+  "origin" "848 72 104"
+  "_fade" "1.0"
+  "_light" "160 170 220 125"
+  "classname" "light"
+}
+{
+  "model" "*1"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*2"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*3"
+  "damagetype" "8"
+  "dmg" "10"
+  "classname" "trigger_hurt"
+}
+{
+  "origin" "1256 -192 80"
+  "fadein" "75"
+  "message" "ambience/burning3.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "4"
+  "spawnflags" "4"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "1024 -72 -64"
+  "angles" "0 0 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1024 -8 -64"
+  "angles" "0 0 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "960 -72 -64"
+  "angles" "0 0 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "960 -8 -64"
+  "angles" "0 0 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1024 104 -64"
+  "angles" "0 0 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1024 168 64"
+  "angles" "0 0 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1024 344 64"
+  "angles" "0 0 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1024 280 64"
+  "angles" "0 0 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "960 344 64"
+  "angles" "0 0 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "960 280 64"
+  "angles" "0 0 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1236 -196 52"
+  "scale" "1.2"
+  "renderamt" "180"
+  "rendermode" "5"
+  "model" "sprites/fire.spr"
+  "framerate" "12.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "1252 -164 52"
+  "scale" "1.0"
+  "renderamt" "180"
+  "rendermode" "5"
+  "model" "sprites/fire.spr"
+  "framerate" "15.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "1232 -168 80"
+  "_fade" "0.6"
+  "_light" "255 112 43 60"
+  "classname" "light"
+}
+{
+  "model" "*4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "1081 248 80"
+  "rendermode" "3"
+  "renderamt" "95"
+  "scale" "0.5"
+  "model" "sprites/glow03.spr"
+  "rendercolor" "245 235 185"
+  "classname" "env_glow"
+}
+{
+  "model" "*5"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "1081 72 80"
+  "rendermode" "3"
+  "renderamt" "95"
+  "scale" "0.5"
+  "model" "sprites/glow03.spr"
+  "rendercolor" "245 235 185"
+  "classname" "env_glow"
+}
+{
+  "origin" "744 23 100"
+  "_fade" "1.0"
+  "_light" "86 126 222 115"
+  "classname" "light"
+}
+{
+  "model" "*6"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*7"
+  "lip" "2"
+  "wait" "-1"
+  "stopsnd" "4"
+  "movesnd" "2"
+  "speed" "75"
+  "renderamt" "255"
+  "rendermode" "4"
+  "targetname" "cell_dr1"
+  "angles" "0 270 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_door"
+}
+{
+  "model" "*8"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*9"
+  "_minlight" "1"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "744 -416 104"
+  "renderamt" "125"
+  "rendermode" "3"
+  "scale" "0.75"
+  "model" "sprites/glow03.spr"
+  "rendercolor" "255 255 215"
+  "classname" "env_glow"
+}
+{
+  "model" "*10"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "744 -416 107"
+  "_fade" "1.0"
+  "_light" "160 170 220 70"
+  "classname" "light"
+}
+{
+  "origin" "284 -200 112"
+  "_light" "86 126 222 150"
+  "pitch" "-30"
+  "_cone2" "35"
+  "_cone" "15"
+  "_fade" "1.0"
+  "angles" "0 0 0"
+  "classname" "light_spot"
+}
+{
+  "model" "*11"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "284 280 112"
+  "_light" "86 126 222 150"
+  "pitch" "-30"
+  "_cone2" "35"
+  "_cone" "15"
+  "_fade" "1.0"
+  "angles" "0 0 0"
+  "classname" "light_spot"
+}
+{
+  "model" "*12"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "572 -416 107"
+  "_fade" "1.0"
+  "_light" "160 170 220 70"
+  "classname" "light"
+}
+{
+  "model" "*13"
+  "_minlight" "1"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "572 -416 104"
+  "renderamt" "125"
+  "rendermode" "3"
+  "scale" "0.75"
+  "model" "sprites/glow03.spr"
+  "rendercolor" "255 255 215"
+  "classname" "env_glow"
+}
+{
+  "model" "*14"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "304 168 96"
+  "message" "ambience/industrial1.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "3"
+  "spawnflags" "2"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "360 40 96"
+  "message" "blackops/ambience/thunder.wav"
+  "targetname" "thunder_snd"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "49"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "360 -288 64"
+  "flash#3" "0.7"
+  "flash#2" "0.5"
+  "flash#1" "0.3"
+  "flash" "0.2"
+  "thunder_snd" "0"
+  "targetname" "mm_thunder"
+  "classname" "multi_manager"
+}
+{
+  "style" "32"
+  "origin" "284 -200 112"
+  "targetname" "flash"
+  "_light" "255 255 255 175"
+  "pitch" "-30"
+  "_cone2" "40"
+  "_cone" "20"
+  "_fade" "1.0"
+  "angles" "0 0 0"
+  "spawnflags" "1"
+  "classname" "light_spot"
+}
+{
+  "model" "*15"
+  "wait" "25"
+  "target" "mm_thunder"
+  "classname" "trigger_multiple"
+}
+{
+  "origin" "304 -104 96"
+  "message" "ambience/industrial1.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "3"
+  "spawnflags" "2"
+  "classname" "ambient_generic"
+}
+{
+  "style" "32"
+  "origin" "284 280 112"
+  "targetname" "flash"
+  "_light" "255 255 255 175"
+  "pitch" "-30"
+  "_cone2" "40"
+  "_cone" "20"
+  "_fade" "1.0"
+  "angles" "0 0 0"
+  "spawnflags" "1"
+  "classname" "light_spot"
+}
+{
+  "origin" "1176 -40 320"
+  "_light" "86 126 222 250"
+  "pitch" "-90"
+  "_cone2" "45"
+  "_cone" "30"
+  "_fade" "1.0"
+  "angles" "90 0 0"
+  "classname" "light_spot"
+}
+{
+  "origin" "1176 232 320"
+  "_light" "86 126 222 250"
+  "pitch" "-90"
+  "_cone2" "45"
+  "_cone" "30"
+  "_fade" "1.0"
+  "angles" "90 0 0"
+  "classname" "light_spot"
+}
+{
+  "origin" "992 312 127"
+  "rendermode" "3"
+  "renderamt" "95"
+  "scale" "0.5"
+  "model" "sprites/glow03.spr"
+  "rendercolor" "245 235 185"
+  "classname" "env_glow"
+}
+{
+  "model" "*16"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*17"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "1104 136 -9"
+  "rendermode" "3"
+  "renderamt" "95"
+  "scale" "0.5"
+  "model" "sprites/glow03.spr"
+  "rendercolor" "245 235 185"
+  "classname" "env_glow"
+}
+{
+  "model" "*18"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "1104 -40 -9"
+  "rendermode" "3"
+  "renderamt" "95"
+  "scale" "0.5"
+  "model" "sprites/glow03.spr"
+  "rendercolor" "245 235 185"
+  "classname" "env_glow"
+}
+{
+  "model" "*19"
+  "material" "7"
+  "health" "1"
+  "rendermode" "2"
+  "renderamt" "75"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "origin" "1176 96 288"
+  "fadein" "75"
+  "message" "ambience/industrial1.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "4"
+  "spawnflags" "4"
+  "classname" "ambient_generic"
+}
+{
+  "model" "*20"
+  "origin" "928 88 4"
+  "target" "cell_dr1"
+  "distance" "10"
+  "wait" "-1"
+  "sounds" "24"
+  "speed" "32"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "64"
+  "classname" "func_rot_button"
+}
+{
+  "origin" "0 160 280"
+  "pitch" "-45"
+  "_light" "45 35 35 12"
+  "_fade" "1.0"
+  "angles" "0 160 0"
+  "classname" "light_environment"
+}
+{
+  "model" "*21"
+  "skin" "-1"
+  "renderamt" "65"
+  "rendermode" "5"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*22"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*23"
+  "skin" "-1"
+  "renderamt" "65"
+  "rendermode" "5"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*24"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*25"
+  "skin" "-1"
+  "renderamt" "65"
+  "rendermode" "5"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*26"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*27"
+  "skin" "-1"
+  "renderamt" "65"
+  "rendermode" "5"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*28"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*29"
+  "skin" "-1"
+  "renderamt" "65"
+  "rendermode" "5"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*30"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*31"
+  "skin" "-1"
+  "renderamt" "65"
+  "rendermode" "5"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*32"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-128 672 95"
+  "_fade" "1.0"
+  "_light" "160 170 220 95"
+  "classname" "light"
+}
+{
+  "origin" "-848 72 104"
+  "style" "10"
+  "_fade" "1.0"
+  "_light" "160 170 220 125"
+  "classname" "light"
+}
+{
+  "model" "*33"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-1081 248 80"
+  "rendermode" "3"
+  "renderamt" "95"
+  "scale" "0.5"
+  "model" "sprites/glow03.spr"
+  "rendercolor" "245 235 185"
+  "classname" "env_glow"
+}
+{
+  "model" "*34"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-1081 72 80"
+  "rendermode" "3"
+  "renderamt" "95"
+  "scale" "0.5"
+  "model" "sprites/glow03.spr"
+  "rendercolor" "245 235 185"
+  "classname" "env_glow"
+}
+{
+  "origin" "-744 23 100"
+  "_fade" "1.0"
+  "_light" "86 126 222 115"
+  "classname" "light"
+}
+{
+  "model" "*35"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-284 -200 112"
+  "_light" "86 126 222 150"
+  "pitch" "-30"
+  "_cone2" "35"
+  "_cone" "15"
+  "_fade" "1.0"
+  "angles" "0 180 0"
+  "classname" "light_spot"
+}
+{
+  "model" "*36"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-284 280 112"
+  "_light" "86 126 222 150"
+  "pitch" "-30"
+  "_cone2" "35"
+  "_cone" "15"
+  "_fade" "1.0"
+  "angles" "0 180 0"
+  "classname" "light_spot"
+}
+{
+  "model" "*37"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-572 -416 107"
+  "_fade" "1.0"
+  "_light" "160 170 220 70"
+  "classname" "light"
+}
+{
+  "model" "*38"
+  "_minlight" "1"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-572 -416 104"
+  "renderamt" "125"
+  "rendermode" "3"
+  "scale" "0.75"
+  "model" "sprites/glow03.spr"
+  "rendercolor" "255 255 215"
+  "classname" "env_glow"
+}
+{
+  "model" "*39"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-304 168 96"
+  "message" "ambience/industrial1.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "3"
+  "spawnflags" "2"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "-360 40 96"
+  "message" "blackops/ambience/thunder.wav"
+  "targetname" "thunder_snd2"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "49"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "-360 -288 64"
+  "thunder_snd2" "0"
+  "flash#3" "0.7"
+  "flash#2" "0.5"
+  "flash#1" "0.3"
+  "flash" "0.2"
+  "targetname" "mm_thunder2"
+  "classname" "multi_manager"
+}
+{
+  "style" "32"
+  "origin" "-284 -200 112"
+  "targetname" "flash"
+  "_light" "255 255 255 175"
+  "pitch" "-30"
+  "_cone2" "40"
+  "_cone" "20"
+  "_fade" "1.0"
+  "angles" "0 180 0"
+  "spawnflags" "1"
+  "classname" "light_spot"
+}
+{
+  "model" "*40"
+  "wait" "25"
+  "target" "mm_thunder2"
+  "classname" "trigger_multiple"
+}
+{
+  "origin" "-304 -104 96"
+  "message" "ambience/industrial1.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "3"
+  "spawnflags" "2"
+  "classname" "ambient_generic"
+}
+{
+  "style" "32"
+  "origin" "-284 280 112"
+  "targetname" "flash"
+  "_light" "255 255 255 175"
+  "pitch" "-30"
+  "_cone2" "40"
+  "_cone" "20"
+  "_fade" "1.0"
+  "angles" "0 180 0"
+  "spawnflags" "1"
+  "classname" "light_spot"
+}
+{
+  "origin" "-1176 232 320"
+  "_light" "86 126 222 250"
+  "pitch" "-90"
+  "_cone2" "45"
+  "_cone" "30"
+  "_fade" "1.0"
+  "angles" "90 0 0"
+  "classname" "light_spot"
+}
+{
+  "origin" "-992 312 127"
+  "rendermode" "3"
+  "renderamt" "95"
+  "scale" "0.5"
+  "model" "sprites/glow03.spr"
+  "rendercolor" "245 235 185"
+  "classname" "env_glow"
+}
+{
+  "model" "*41"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*42"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-992 136 -9"
+  "rendermode" "3"
+  "renderamt" "95"
+  "scale" "0.5"
+  "model" "sprites/glow03.spr"
+  "rendercolor" "245 235 185"
+  "classname" "env_glow"
+}
+{
+  "model" "*43"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-1104 -40 -9"
+  "rendermode" "3"
+  "renderamt" "95"
+  "scale" "0.5"
+  "model" "sprites/glow03.spr"
+  "rendercolor" "245 235 185"
+  "classname" "env_glow"
+}
+{
+  "model" "*44"
+  "material" "7"
+  "health" "1"
+  "rendermode" "2"
+  "renderamt" "75"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*45"
+  "material" "7"
+  "health" "1"
+  "rendermode" "2"
+  "renderamt" "75"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "origin" "-1176 96 288"
+  "message" "ambience/industrial1.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "4"
+  "spawnflags" "4"
+  "classname" "ambient_generic"
+}
+{
+  "model" "*46"
+  "origin" "-951 88 4"
+  "target" "cell_dr3"
+  "distance" "10"
+  "wait" "-1"
+  "sounds" "24"
+  "speed" "32"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "64"
+  "classname" "func_rot_button"
+}
+{
+  "origin" "928 96 75"
+  "texture" "{dv_cellblcka"
+  "classname" "infodecal"
+}
+{
+  "origin" "992 -40 -9"
+  "rendermode" "3"
+  "renderamt" "95"
+  "scale" "0.5"
+  "model" "sprites/glow03.spr"
+  "rendercolor" "245 235 185"
+  "classname" "env_glow"
+}
+{
+  "model" "*47"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*48"
+  "skin" "-1"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*49"
+  "skin" "-1"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*50"
+  "skin" "-1"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*51"
+  "skin" "-1"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*52"
+  "skin" "-1"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*53"
+  "skin" "-1"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*54"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*55"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-848 72 88"
+  "message" "blackops/ambience/flicker.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "8"
+  "spawnflags" "2"
+  "classname" "ambient_generic"
+}
+{
+  "model" "*56"
+  "lip" "2"
+  "wait" "-1"
+  "stopsnd" "4"
+  "movesnd" "2"
+  "speed" "200"
+  "rendermode" "4"
+  "targetname" "cell_dr3"
+  "angles" "0 90 0"
+  "renderamt" "255"
+  "rendercolor" "0 0 0"
+  "spawnflags" "512"
+  "classname" "func_door"
+}
+{
+  "model" "*57"
+  "skin" "-1"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "origin" "-1248 -184 96"
+  "message" "blackops/ambience/burn_small.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "2"
+  "classname" "ambient_generic"
+}
+{
+  "model" "*58"
+  "damagetype" "8"
+  "dmg" "10"
+  "classname" "trigger_hurt"
+}
+{
+  "origin" "-1224 -160 80"
+  "_fade" "0.6"
+  "_light" "255 123 60 60"
+  "classname" "light"
+}
+{
+  "model" "*59"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-1248 -184 60"
+  "angles" "0 0 0"
+  "scale" "0.5"
+  "renderamt" "180"
+  "rendermode" "5"
+  "model" "sprites/fire.spr"
+  "framerate" "12.0"
+  "rendercolor" "0 0 0"
+  "classname" "env_sprite"
+}
+{
+  "origin" "-1272 301 161"
+  "texture" "{dv_b"
+  "classname" "infodecal"
+}
+{
+  "origin" "-1272 204 161"
+  "texture" "{dv_blck"
+  "classname" "infodecal"
+}
+{
+  "model" "*60"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*61"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-992 312 -9"
+  "rendermode" "3"
+  "renderamt" "95"
+  "scale" "0.5"
+  "model" "sprites/glow03.spr"
+  "rendercolor" "245 235 185"
+  "classname" "env_glow"
+}
+{
+  "model" "*62"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*63"
+  "rendermode" "4"
+  "renderamt" "255"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "1272 164 160"
+  "texture" "{dv_a"
+  "classname" "infodecal"
+}
+{
+  "origin" "1272 261 160"
+  "texture" "{dv_blck"
+  "classname" "infodecal"
+}
+{
+  "model" "*64"
+  "renderamt" "255"
+  "rendermode" "4"
+  "lip" "2"
+  "wait" "-1"
+  "stopsnd" "4"
+  "movesnd" "2"
+  "speed" "75"
+  "angles" "0 270 0"
+  "targetname" "cell_dr1"
+  "rendercolor" "0 0 0"
+  "classname" "func_door"
+}
+{
+  "model" "*65"
+  "material" "4"
+  "health" "75"
+  "target" "grate_break"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*66"
+  "skin" "-1"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "origin" "1008 14 -128"
+  "angles" "0 65 0"
+  "classname" "weapon_crowbar"
+}
+{
+  "model" "*67"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*68"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*69"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*70"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*71"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*72"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*73"
+  "renderamt" "255"
+  "rendermode" "4"
+  "material" "2"
+  "health" "1"
+  "targetname" "grate_break"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "origin" "8 376 168"
+  "message" "ambience/wind2.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "4"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "8 320 168"
+  "message" "ambience/waterfall2.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "4"
+  "spawnflags" "4"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "200 456 304"
+  "LightningEnd" "dt01a"
+  "LightningStart" "dt01b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "212 444 356"
+  "targetname" "dt01a"
+  "classname" "info_target"
+}
+{
+  "origin" "180 476 -252"
+  "targetname" "dt01b"
+  "classname" "info_target"
+}
+{
+  "origin" "156 492 368"
+  "targetname" "dt02a"
+  "classname" "info_target"
+}
+{
+  "origin" "144 504 304"
+  "LightningEnd" "dt02a"
+  "LightningStart" "dt02b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "124 524 -252"
+  "targetname" "dt02b"
+  "classname" "info_target"
+}
+{
+  "origin" "100 436 364"
+  "targetname" "dt03a"
+  "classname" "info_target"
+}
+{
+  "origin" "88 448 304"
+  "LightningEnd" "dt03a"
+  "LightningStart" "dt03b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "68 468 -252"
+  "targetname" "dt03b"
+  "classname" "info_target"
+}
+{
+  "origin" "12 516 -252"
+  "targetname" "dt04b"
+  "classname" "info_target"
+}
+{
+  "origin" "32 496 304"
+  "LightningEnd" "dt04a"
+  "LightningStart" "dt04b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "44 484 348"
+  "targetname" "dt04a"
+  "classname" "info_target"
+}
+{
+  "origin" "-36 460 -252"
+  "targetname" "dt05b"
+  "classname" "info_target"
+}
+{
+  "origin" "-16 440 304"
+  "LightningEnd" "dt05a"
+  "LightningStart" "dt05b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "-4 428 348"
+  "targetname" "dt05a"
+  "classname" "info_target"
+}
+{
+  "origin" "-108 508 -252"
+  "targetname" "dt06b"
+  "classname" "info_target"
+}
+{
+  "origin" "-88 488 304"
+  "LightningEnd" "dt06a"
+  "LightningStart" "dt06b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "-76 476 348"
+  "targetname" "dt06a"
+  "classname" "info_target"
+}
+{
+  "origin" "-164 460 -252"
+  "targetname" "dt07b"
+  "classname" "info_target"
+}
+{
+  "origin" "-144 440 304"
+  "LightningEnd" "dt07a"
+  "LightningStart" "dt07b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "-132 428 348"
+  "targetname" "dt07a"
+  "classname" "info_target"
+}
+{
+  "origin" "-228 516 -252"
+  "targetname" "dt08b"
+  "classname" "info_target"
+}
+{
+  "origin" "-196 484 348"
+  "targetname" "dt08a"
+  "classname" "info_target"
+}
+{
+  "origin" "-208 496 304"
+  "LightningEnd" "dt08a"
+  "LightningStart" "dt08b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "164 404 336"
+  "targetname" "dt09a"
+  "classname" "info_target"
+}
+{
+  "origin" "152 416 304"
+  "LightningEnd" "dt09a"
+  "LightningStart" "dt09b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "132 436 -252"
+  "targetname" "dt09b"
+  "classname" "info_target"
+}
+{
+  "origin" "188 396 -252"
+  "targetname" "dt10b"
+  "classname" "info_target"
+}
+{
+  "origin" "208 376 304"
+  "LightningEnd" "dt10a"
+  "LightningStart" "dt10b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "220 364 380"
+  "targetname" "dt10a"
+  "classname" "info_target"
+}
+{
+  "origin" "76 388 -252"
+  "targetname" "dt11b"
+  "classname" "info_target"
+}
+{
+  "origin" "96 368 304"
+  "LightningEnd" "dt11a"
+  "LightningStart" "dt11b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "108 356 380"
+  "targetname" "dt11a"
+  "classname" "info_target"
+}
+{
+  "origin" "20 420 -252"
+  "targetname" "dt12b"
+  "classname" "info_target"
+}
+{
+  "origin" "40 400 304"
+  "LightningEnd" "dt12a"
+  "LightningStart" "dt12b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "52 388 380"
+  "targetname" "dt12a"
+  "classname" "info_target"
+}
+{
+  "origin" "-92 412 -252"
+  "targetname" "dt13b"
+  "classname" "info_target"
+}
+{
+  "origin" "-72 392 304"
+  "LightningEnd" "dt13a"
+  "LightningStart" "dt13b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "-60 380 356"
+  "targetname" "dt13a"
+  "classname" "info_target"
+}
+{
+  "origin" "-220 428 -252"
+  "targetname" "dt14b"
+  "classname" "info_target"
+}
+{
+  "origin" "-200 408 304"
+  "LightningEnd" "dt14a"
+  "LightningStart" "dt14b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "-188 396 380"
+  "targetname" "dt14a"
+  "classname" "info_target"
+}
+{
+  "origin" "-148 380 -252"
+  "targetname" "dt15b"
+  "classname" "info_target"
+}
+{
+  "origin" "-128 360 304"
+  "LightningEnd" "dt15a"
+  "LightningStart" "dt15b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "-116 348 336"
+  "targetname" "dt15a"
+  "classname" "info_target"
+}
+{
+  "origin" "-212 340 -252"
+  "targetname" "dt16b"
+  "classname" "info_target"
+}
+{
+  "origin" "-192 320 304"
+  "LightningEnd" "dt16a"
+  "LightningStart" "dt16b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "-180 308 348"
+  "targetname" "dt16a"
+  "classname" "info_target"
+}
+{
+  "origin" "-76 332 -252"
+  "targetname" "dt17b"
+  "classname" "info_target"
+}
+{
+  "origin" "-56 312 304"
+  "LightningEnd" "dt17a"
+  "LightningStart" "dt17b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "-44 300 380"
+  "targetname" "dt17a"
+  "classname" "info_target"
+}
+{
+  "origin" "-12 364 -252"
+  "targetname" "dt18b"
+  "classname" "info_target"
+}
+{
+  "origin" "8 344 304"
+  "LightningEnd" "dt18a"
+  "LightningStart" "dt18b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "20 332 336"
+  "targetname" "dt18a"
+  "classname" "info_target"
+}
+{
+  "origin" "92 276 380"
+  "targetname" "dt19a"
+  "classname" "info_target"
+}
+{
+  "origin" "60 308 -252"
+  "targetname" "dt19b"
+  "classname" "info_target"
+}
+{
+  "origin" "80 288 304"
+  "LightningEnd" "dt19a"
+  "LightningStart" "dt19b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "140 340 -252"
+  "targetname" "dt20b"
+  "classname" "info_target"
+}
+{
+  "origin" "160 320 304"
+  "LightningEnd" "dt20a"
+  "LightningStart" "dt20b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "176 308 360"
+  "targetname" "dt20a"
+  "classname" "info_target"
+}
+{
+  "origin" "180 260 -252"
+  "targetname" "dt21b"
+  "classname" "info_target"
+}
+{
+  "origin" "200 240 304"
+  "LightningEnd" "dt21a"
+  "LightningStart" "dt21b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "212 228 380"
+  "targetname" "dt21a"
+  "classname" "info_target"
+}
+{
+  "origin" "116 236 -252"
+  "targetname" "dt22b"
+  "classname" "info_target"
+}
+{
+  "origin" "136 216 304"
+  "LightningEnd" "dt22a"
+  "LightningStart" "dt22b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "148 204 340"
+  "targetname" "dt22a"
+  "classname" "info_target"
+}
+{
+  "origin" "4 252 -252"
+  "targetname" "dt23b"
+  "classname" "info_target"
+}
+{
+  "origin" "24 232 304"
+  "LightningEnd" "dt23a"
+  "LightningStart" "dt23b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "40 220 364"
+  "targetname" "dt23a"
+  "classname" "info_target"
+}
+{
+  "origin" "-124 284 -252"
+  "targetname" "dt24b"
+  "classname" "info_target"
+}
+{
+  "origin" "-104 264 304"
+  "LightningEnd" "dt24a"
+  "LightningStart" "dt24b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "-92 252 348"
+  "targetname" "dt24a"
+  "classname" "info_target"
+}
+{
+  "origin" "-180 236 -252"
+  "targetname" "dt25b"
+  "classname" "info_target"
+}
+{
+  "origin" "-160 216 304"
+  "LightningEnd" "dt25a"
+  "LightningStart" "dt25b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "-148 204 368"
+  "targetname" "dt25a"
+  "classname" "info_target"
+}
+{
+  "origin" "-204 436 348"
+  "targetname" "dt26a"
+  "classname" "info_target"
+}
+{
+  "origin" "-216 448 304"
+  "LightningEnd" "dt26a"
+  "LightningStart" "dt26b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "-236 468 -252"
+  "targetname" "dt26b"
+  "classname" "info_target"
+}
+{
+  "origin" "-172 516 -252"
+  "targetname" "dt27b"
+  "classname" "info_target"
+}
+{
+  "origin" "-152 496 304"
+  "LightningEnd" "dt27a"
+  "LightningStart" "dt27b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "-140 484 380"
+  "targetname" "dt27a"
+  "classname" "info_target"
+}
+{
+  "origin" "-100 452 -252"
+  "targetname" "dt28b"
+  "classname" "info_target"
+}
+{
+  "origin" "-80 432 304"
+  "LightningEnd" "dt28a"
+  "LightningStart" "dt28b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "-68 420 368"
+  "targetname" "dt28a"
+  "classname" "info_target"
+}
+{
+  "origin" "-44 508 -252"
+  "targetname" "dt29b"
+  "classname" "info_target"
+}
+{
+  "origin" "-24 488 304"
+  "LightningEnd" "dt29a"
+  "LightningStart" "dt29b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "-12 476 380"
+  "targetname" "dt29a"
+  "classname" "info_target"
+}
+{
+  "origin" "172 524 -252"
+  "targetname" "dt30b"
+  "classname" "info_target"
+}
+{
+  "origin" "192 504 304"
+  "LightningEnd" "dt30a"
+  "LightningStart" "dt30b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "204 492 340"
+  "targetname" "dt30a"
+  "classname" "info_target"
+}
+{
+  "origin" "-68 204 -252"
+  "targetname" "dt31b"
+  "classname" "info_target"
+}
+{
+  "origin" "-48 184 304"
+  "LightningEnd" "dt31a"
+  "LightningStart" "dt31b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "-36 172 348"
+  "targetname" "dt31a"
+  "classname" "info_target"
+}
+{
+  "origin" "60 188 -252"
+  "targetname" "dt32b"
+  "classname" "info_target"
+}
+{
+  "origin" "80 168 304"
+  "LightningEnd" "dt32a"
+  "LightningStart" "dt32b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "92 156 380"
+  "targetname" "dt32a"
+  "classname" "info_target"
+}
+{
+  "origin" "180 188 -252"
+  "targetname" "dt33b"
+  "classname" "info_target"
+}
+{
+  "origin" "200 168 304"
+  "LightningEnd" "dt33a"
+  "LightningStart" "dt33b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "212 156 380"
+  "targetname" "dt33a"
+  "classname" "info_target"
+}
+{
+  "origin" "-132 148 -252"
+  "targetname" "dt34b"
+  "classname" "info_target"
+}
+{
+  "origin" "-112 128 304"
+  "LightningEnd" "dt34a"
+  "LightningStart" "dt34b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "-100 116 356"
+  "targetname" "dt34a"
+  "classname" "info_target"
+}
+{
+  "origin" "-236 172 -252"
+  "targetname" "dt35b"
+  "classname" "info_target"
+}
+{
+  "origin" "-216 152 304"
+  "LightningEnd" "dt35a"
+  "LightningStart" "dt35b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "-204 140 348"
+  "targetname" "dt35a"
+  "classname" "info_target"
+}
+{
+  "origin" "16 112 304"
+  "LightningEnd" "dt36a"
+  "LightningStart" "dt36b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "28 100 380"
+  "targetname" "dt36a"
+  "classname" "info_target"
+}
+{
+  "origin" "-4 132 -252"
+  "targetname" "dt36b"
+  "classname" "info_target"
+}
+{
+  "origin" "124 140 -252"
+  "targetname" "dt37b"
+  "classname" "info_target"
+}
+{
+  "origin" "144 120 304"
+  "LightningEnd" "dt37a"
+  "LightningStart" "dt37b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "156 108 348"
+  "targetname" "dt37a"
+  "classname" "info_target"
+}
+{
+  "origin" "204 60 -252"
+  "targetname" "dt38b"
+  "classname" "info_target"
+}
+{
+  "origin" "224 40 304"
+  "LightningEnd" "dt38a"
+  "LightningStart" "dt38b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "236 28 380"
+  "targetname" "dt38a"
+  "classname" "info_target"
+}
+{
+  "origin" "76 44 -252"
+  "targetname" "dt39b"
+  "classname" "info_target"
+}
+{
+  "origin" "96 24 304"
+  "LightningEnd" "dt39a"
+  "LightningStart" "dt39b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "108 12 348"
+  "targetname" "dt39a"
+  "classname" "info_target"
+}
+{
+  "origin" "-68 52 -252"
+  "targetname" "dt40b"
+  "classname" "info_target"
+}
+{
+  "origin" "-48 32 304"
+  "LightningEnd" "dt40a"
+  "LightningStart" "dt40b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "-36 20 372"
+  "targetname" "dt40a"
+  "classname" "info_target"
+}
+{
+  "origin" "-196 76 -252"
+  "targetname" "dt41b"
+  "classname" "info_target"
+}
+{
+  "origin" "-176 56 304"
+  "LightningEnd" "dt41a"
+  "LightningStart" "dt41b"
+  "StrikeTime" "1"
+  "TextureScroll" "-35"
+  "texture" "sprites/blackops/rain.spr"
+  "BoltWidth" "30"
+  "Radius" "512"
+  "rendercolor" "128 128 128"
+  "renderamt" "125"
+  "spawnflags" "257"
+  "classname" "env_beam"
+}
+{
+  "origin" "-164 44 380"
+  "targetname" "dt41a"
+  "classname" "info_target"
+}
+{
+  "model" "*74"
+  "origin" "8 318 -238"
+  "renderamt" "255"
+  "rendermode" "4"
+  "distance" "2"
+  "speed" "3"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "89"
+  "classname" "func_pendulum"
+}
+{
+  "model" "*75"
+  "origin" "7 -1 -238"
+  "renderamt" "255"
+  "rendermode" "4"
+  "distance" "1"
+  "speed" "2"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "89"
+  "classname" "func_pendulum"
+}
+{
+  "model" "*76"
+  "material" "7"
+  "health" "1"
+  "rendermode" "2"
+  "renderamt" "85"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*77"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*78"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*79"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*80"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*81"
+  "material" "7"
+  "health" "1"
+  "rendermode" "2"
+  "renderamt" "85"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*82"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*83"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*84"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*85"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*86"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*87"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*88"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*89"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*90"
+  "material" "7"
+  "health" "1"
+  "rendermode" "2"
+  "renderamt" "50"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*91"
+  "material" "7"
+  "health" "1"
+  "rendermode" "2"
+  "renderamt" "100"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*92"
+  "material" "7"
+  "health" "1"
+  "rendermode" "2"
+  "renderamt" "100"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*93"
+  "material" "7"
+  "health" "1"
+  "rendermode" "2"
+  "renderamt" "100"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*94"
+  "locked_sound" "12"
+  "wait" "4"
+  "speed" "100"
+  "angles" "0 0 0"
+  "targetname" "not1"
+  "rendercolor" "0 0 0"
+  "classname" "func_door"
+}
+{
+  "origin" "-1560 -96 107"
+  "_fade" "1.0"
+  "_light" "160 170 220 150"
+  "classname" "light"
+}
+{
+  "origin" "-1560 -96 104"
+  "renderamt" "125"
+  "rendermode" "3"
+  "scale" "0.75"
+  "model" "sprites/glow03.spr"
+  "rendercolor" "255 255 215"
+  "classname" "env_glow"
+}
+{
+  "model" "*95"
+  "_minlight" "1"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*96"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-1304 64 95"
+  "_fade" "1.0"
+  "_light" "160 170 220 85"
+  "classname" "light"
+}
+{
+  "model" "*97"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*98"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-1024 -416 104"
+  "renderamt" "125"
+  "rendermode" "3"
+  "scale" "0.75"
+  "model" "sprites/glow03.spr"
+  "rendercolor" "255 255 215"
+  "classname" "env_glow"
+}
+{
+  "origin" "-1024 -416 107"
+  "_fade" "1.0"
+  "_light" "160 170 220 70"
+  "classname" "light"
+}
+{
+  "model" "*99"
+  "_minlight" "1"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*100"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*101"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*102"
+  "renderamt" "90"
+  "rendermode" "5"
+  "skin" "-1"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*103"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*104"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*105"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-1652 903 36"
+  "_fade" "1.0"
+  "_light" "86 126 222 115"
+  "classname" "light"
+}
+{
+  "origin" "-1472 903 36"
+  "_fade" "1.0"
+  "_light" "86 126 222 115"
+  "classname" "light"
+}
+{
+  "model" "*106"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-1184 928 -1"
+  "rendermode" "3"
+  "renderamt" "95"
+  "scale" "0.5"
+  "model" "sprites/glow03.spr"
+  "rendercolor" "255 135 80"
+  "classname" "env_glow"
+}
+{
+  "model" "*107"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-1032 872 40"
+  "_fade" "1.0"
+  "_light" "160 170 220 125"
+  "classname" "light"
+}
+{
+  "model" "*108"
+  "material" "2"
+  "health" "25"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*109"
+  "material" "2"
+  "health" "25"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*110"
+  "material" "2"
+  "health" "25"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*111"
+  "material" "2"
+  "health" "25"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*112"
+  "material" "2"
+  "health" "25"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*113"
+  "material" "2"
+  "health" "25"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "origin" "-1488 632 -192"
+  "model" "models/blackops/tool_box.mdl"
+  "angles" "0 90 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "276"
+  "classname" "monster_furniture"
+}
+{
+  "origin" "-1472 672 -156"
+  "angles" "0 22 0"
+  "rendercolor" "0 0 0"
+  "model" "models/blackops/w_pipe_wrench.mdl"
+  "spawnflags" "276"
+  "classname" "monster_generic"
+}
+{
+  "model" "*114"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-1504 960 -1"
+  "rendermode" "3"
+  "renderamt" "95"
+  "scale" "0.5"
+  "model" "sprites/glow03.spr"
+  "rendercolor" "255 135 80"
+  "classname" "env_glow"
+}
+{
+  "model" "*115"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*116"
+  "rendermode" "4"
+  "renderamt" "255"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*117"
+  "rendermode" "2"
+  "speed" "8"
+  "angles" "0 0 0"
+  "renderamt" "35"
+  "rendercolor" "0 0 0"
+  "spawnflags" "3"
+  "classname" "func_conveyor"
+}
+{
+  "model" "*118"
+  "speed" "8"
+  "angles" "0 0 0"
+  "rendermode" "2"
+  "renderamt" "50"
+  "rendercolor" "0 0 0"
+  "spawnflags" "3"
+  "classname" "func_conveyor"
+}
+{
+  "model" "*119"
+  "skin" "-7"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*120"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*121"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*122"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*123"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*124"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*125"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*126"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*127"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*128"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*129"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*130"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*131"
+  "lip" "2"
+  "wait" "-1"
+  "stopsnd" "4"
+  "movesnd" "2"
+  "speed" "75"
+  "renderamt" "255"
+  "rendermode" "4"
+  "targetname" "cell_dr1"
+  "angles" "0 270 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_door"
+}
+{
+  "model" "*132"
+  "lip" "2"
+  "wait" "-1"
+  "stopsnd" "4"
+  "movesnd" "2"
+  "speed" "75"
+  "rendermode" "4"
+  "targetname" "cell_dr1"
+  "angles" "0 270 0"
+  "renderamt" "255"
+  "rendercolor" "0 0 0"
+  "classname" "func_door"
+}
+{
+  "model" "*133"
+  "lip" "2"
+  "wait" "-1"
+  "stopsnd" "4"
+  "movesnd" "2"
+  "speed" "75"
+  "angles" "0 90 0"
+  "renderamt" "255"
+  "rendermode" "4"
+  "targetname" "cell_dr3"
+  "rendercolor" "0 0 0"
+  "spawnflags" "512"
+  "classname" "func_door"
+}
+{
+  "origin" "-1656 96 104"
+  "message" "blackops/ambience/fluorescent.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "8"
+  "spawnflags" "2"
+  "classname" "ambient_generic"
+}
+{
+  "model" "*134"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-1816 48 36"
+  "body" "9"
+  "model" "models/garbagegibs.mdl"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "276"
+  "classname" "monster_generic"
+}
+{
+  "origin" "-1960 96 36"
+  "body" "9"
+  "model" "models/garbagegibs.mdl"
+  "angles" "0 54 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "276"
+  "classname" "monster_generic"
+}
+{
+  "origin" "-1904 88 36"
+  "body" "3"
+  "model" "models/office_gibs.mdl"
+  "angles" "0 154 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "276"
+  "classname" "monster_generic"
+}
+{
+  "origin" "-1960 48 36"
+  "model" "models/office_gibs.mdl"
+  "angles" "0 54 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "276"
+  "classname" "monster_generic"
+}
+{
+  "origin" "-1864 48 36"
+  "body" "4"
+  "model" "models/office_gibs.mdl"
+  "angles" "0 15 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "276"
+  "classname" "monster_generic"
+}
+{
+  "origin" "-1848 96 36"
+  "body" "2"
+  "model" "models/office_gibs.mdl"
+  "angles" "0 344 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "276"
+  "classname" "monster_generic"
+}
+{
+  "origin" "-1776 96 36"
+  "body" "1"
+  "model" "models/office_gibs.mdl"
+  "angles" "0 109 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "276"
+  "classname" "monster_generic"
+}
+{
+  "origin" "-1816 80 36"
+  "body" "9"
+  "model" "models/garbagegibs.mdl"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "276"
+  "classname" "monster_generic"
+}
+{
+  "origin" "-1872 80 36"
+  "body" "2"
+  "model" "models/office_gibs.mdl"
+  "angles" "0 103 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "276"
+  "classname" "monster_generic"
+}
+{
+  "origin" "-1912 64 36"
+  "body" "4"
+  "model" "models/office_gibs.mdl"
+  "angles" "0 65 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "276"
+  "classname" "monster_generic"
+}
+{
+  "origin" "-1936 96 36"
+  "body" "3"
+  "model" "models/office_gibs.mdl"
+  "angles" "0 219 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "276"
+  "classname" "monster_generic"
+}
+{
+  "origin" "-1648 104 104"
+  "_fade" "0.5"
+  "_light" "160 170 220 125"
+  "classname" "light"
+}
+{
+  "origin" "-1312 744 -24"
+  "drip_snd#7" "9"
+  "drip_snd#6" "8"
+  "mm_drip" "12"
+  "drip_snd#5" "7"
+  "drip_snd#4" "6"
+  "drip_snd#3" "4"
+  "drip_snd#2" "3"
+  "drip_snd#1" "1"
+  "drip_snd" "0"
+  "targetname" "mm_drip"
+  "spawnflags" "1"
+  "classname" "multi_manager"
+}
+{
+  "origin" "-1312 768 -8"
+  "message" "blackops/ambience/singledrip.wav"
+  "targetname" "drip_snd"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "18"
+  "classname" "ambient_generic"
+}
+{
+  "model" "*135"
+  "target" "mm_drip"
+  "classname" "trigger_once"
+}
+{
+  "origin" "-1656 880 40"
+  "message" "ambience/industrial1.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "3"
+  "spawnflags" "2"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "-1472 880 40"
+  "message" "ambience/industrial1.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "3"
+  "spawnflags" "2"
+  "classname" "ambient_generic"
+}
+{
+  "model" "*136"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*137"
+  "skin" "-1"
+  "rendermode" "4"
+  "renderamt" "255"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*138"
+  "skin" "-1"
+  "rendermode" "4"
+  "renderamt" "255"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*139"
+  "classname" "trigger_autosave"
+}
+{
+  "model" "*140"
+  "classname" "trigger_autosave"
+}
+{
+  "origin" "-1056 1184 -1"
+  "rendermode" "3"
+  "renderamt" "95"
+  "scale" "0.5"
+  "model" "sprites/glow03.spr"
+  "rendercolor" "255 135 80"
+  "classname" "env_glow"
+}
+{
+  "model" "*141"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*142"
+  "landmark" "jail1_to_jail2"
+  "map" "ops_jail_2"
+  "classname" "trigger_changelevel"
+}
+{
+  "origin" "-928 1184 -80"
+  "targetname" "jail1_to_jail2"
+  "classname" "info_landmark"
+}
+{
+  "origin" "952 280 0"
+  "angles" "0 0 0"
+  "classname" "item_battery"
+}
+{
+  "origin" "952 336 0"
+  "angles" "0 180 0"
+  "classname" "item_healthkit"
+}
+{
+  "model" "*143"
+  "gibmodel" "models/mil_crategibs.mdl"
+  "spawnobject" "6"
+  "material" "1"
+  "health" "50"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*144"
+  "gibmodel" "models/med_crategibs.mdl"
+  "spawnobject" "2"
+  "material" "1"
+  "health" "25"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*145"
+  "spawnobject" "6"
+  "material" "1"
+  "health" "25"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*146"
+  "gibmodel" "models/mil_crategibs.mdl"
+  "spawnobject" "9"
+  "material" "1"
+  "health" "50"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*147"
+  "material" "1"
+  "health" "25"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*148"
+  "spawnobject" "4"
+  "material" "1"
+  "health" "25"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "origin" "-1032 200 40"
+  "angles" "0 270 0"
+  "classname" "ammo_9mmclip"
+}
+{
+  "origin" "-1000 200 40"
+  "angles" "0 270 0"
+  "classname" "ammo_9mmAR"
+}
+{
+  "origin" "-960 200 40"
+  "angles" "0 270 0"
+  "classname" "ammo_buckshot"
+}
+{
+  "origin" "-952 336 0"
+  "angles" "0 203 0"
+  "classname" "item_battery"
+}
+{
+  "model" "*149"
+  "gibmodel" "models/mil_crategibs.mdl"
+  "spawnobject" "17"
+  "material" "1"
+  "health" "50"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*150"
+  "material" "1"
+  "health" "25"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*151"
+  "gibmodel" "models/med_crategibs.mdl"
+  "spawnobject" "2"
+  "material" "1"
+  "health" "25"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*152"
+  "spawnobject" "13"
+  "material" "1"
+  "health" "25"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "origin" "-944 360 -136"
+  "angles" "0 0 0"
+  "classname" "ammo_crossbow"
+}
+{
+  "origin" "-976 360 -136"
+  "angles" "0 0 0"
+  "classname" "ammo_crossbow"
+}
+{
+  "origin" "-992 304 -136"
+  "angles" "0 306 0"
+  "classname" "ammo_buckshot"
+}
+{
+  "origin" "-1648 72 0"
+  "angles" "0 180 0"
+  "classname" "ammo_buckshot"
+}
+{
+  "origin" "-1648 40 0"
+  "angles" "0 0 0"
+  "classname" "ammo_9mmAR"
+}
+{
+  "model" "*153"
+  "material" "1"
+  "health" "25"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*154"
+  "gibmodel" "models/med_crategibs.mdl"
+  "spawnobject" "2"
+  "material" "1"
+  "health" "25"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*155"
+  "spawnobject" "4"
+  "material" "1"
+  "health" "25"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "origin" "328 48 0"
+  "angles" "0 273 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_headcrab"
+}
+{
+  "origin" "392 16 0"
+  "angles" "0 273 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_headcrab"
+}
+{
+  "origin" "368 144 0"
+  "angles" "0 270 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_headcrab"
+}
+{
+  "origin" "-1544 -200 48"
+  "monstertype" "monster_human_grunt"
+  "targetname" "gruntspawn1"
+  "m_imaxlivechildren" "5"
+  "delay" "5"
+  "monstercount" "1"
+  "angles" "0 320 0"
+  "classname" "monstermaker"
+}
+{
+  "origin" "-1360 -48 48"
+  "monstertype" "monster_human_grunt"
+  "targetname" "gruntspawn1"
+  "m_imaxlivechildren" "5"
+  "delay" "5"
+  "monstercount" "1"
+  "angles" "0 287 0"
+  "classname" "monstermaker"
+}
+{
+  "origin" "-1552 -32 48"
+  "monstertype" "monster_human_grunt"
+  "targetname" "gruntspawn1"
+  "m_imaxlivechildren" "5"
+  "delay" "5"
+  "monstercount" "1"
+  "angles" "0 324 0"
+  "classname" "monstermaker"
+}
+{
+  "model" "*156"
+  "target" "gruntspawn1"
+  "classname" "trigger_once"
+}
+{
+  "origin" "-984 160 -136"
+  "angles" "0 198 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_zombie"
+}
+{
+  "origin" "-1428 -72 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-1432 -192 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-1392 -312 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-1360 -408 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-1264 -416 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-1168 -416 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-1072 -416 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-976 -416 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-880 -416 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-784 -416 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-736 -320 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-688 -416 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-1480 -280 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-736 -224 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-776 -152 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-896 -152 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-992 -160 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-1088 -160 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-1144 -136 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-1136 -40 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-1128 56 44"
+  "classname" "info_node"
+}
+{
+  "model" "*157"
+  "skin" "-1"
+  "rendermode" "4"
+  "renderamt" "255"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*158"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-872 0 0"
+  "targetname" "chicken1"
+  "angles" "0 135 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "512"
+  "classname" "monster_bullchicken"
+}
+{
+  "origin" "-872 48 0"
+  "m_iszEntity" "chicken1"
+  "m_fMoveTo" "4"
+  "m_iszIdle" "eat"
+  "m_flRadius" "512"
+  "angles" "0 45 0"
+  "classname" "scripted_sequence"
+}
+{
+  "origin" "-840 80 0"
+  "body" "3"
+  "pose" "2"
+  "angles" "0 225 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_hgrunt_dead"
+}
+{
+  "model" "*159"
+  "rendermode" "4"
+  "renderamt" "255"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*160"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*161"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*162"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*163"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*164"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*165"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*166"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "360 -40 44"
+  "classname" "info_node"
+}
+{
+  "origin" "360 96 44"
+  "classname" "info_node"
+}
+{
+  "origin" "360 -136 44"
+  "classname" "info_node"
+}
+{
+  "origin" "360 -232 44"
+  "classname" "info_node"
+}
+{
+  "origin" "360 -328 44"
+  "classname" "info_node"
+}
+{
+  "origin" "384 -408 44"
+  "classname" "info_node"
+}
+{
+  "origin" "480 -416 44"
+  "classname" "info_node"
+}
+{
+  "origin" "576 -416 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-592 -416 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-496 -416 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-400 -416 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-360 -344 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-360 -152 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-360 -8 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-360 136 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-360 280 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-360 424 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-360 568 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-296 616 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-152 616 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-8 616 44"
+  "classname" "info_node"
+}
+{
+  "origin" "136 616 44"
+  "classname" "info_node"
+}
+{
+  "origin" "280 616 44"
+  "classname" "info_node"
+}
+{
+  "origin" "336 568 44"
+  "classname" "info_node"
+}
+{
+  "origin" "360 424 44"
+  "classname" "info_node"
+}
+{
+  "origin" "360 280 44"
+  "classname" "info_node"
+}
+{
+  "origin" "856 208 -96"
+  "slave_spawn1" "0.2"
+  "beam_snd" "0"
+  "targetname" "mm_fight"
+  "classname" "multi_manager"
+}
+{
+  "origin" "-857 96 31"
+  "texture" "{blood1"
+  "classname" "infodecal"
+}
+{
+  "origin" "-881 96 64"
+  "texture" "{blood4"
+  "classname" "infodecal"
+}
+{
+  "origin" "-894 96 34"
+  "texture" "{blood3"
+  "classname" "infodecal"
+}
+{
+  "origin" "-824 55 49"
+  "texture" "{blood3"
+  "classname" "infodecal"
+}
+{
+  "origin" "-824 25 31"
+  "texture" "{blood4"
+  "classname" "infodecal"
+}
+{
+  "origin" "-859 63 0"
+  "texture" "{blood4"
+  "classname" "infodecal"
+}
+{
+  "origin" "-867 23 0"
+  "texture" "{blood5"
+  "classname" "infodecal"
+}
+{
+  "origin" "864 -8 0"
+  "body" "2"
+  "pose" "1"
+  "angles" "0 53 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_hgrunt_dead"
+}
+{
+  "origin" "889 -1 0"
+  "texture" "{bigblood2"
+  "classname" "infodecal"
+}
+{
+  "origin" "824 -20 43"
+  "texture" "{blood1"
+  "classname" "infodecal"
+}
+{
+  "origin" "824 10 29"
+  "texture" "{blood2"
+  "classname" "infodecal"
+}
+{
+  "origin" "824 -26 82"
+  "texture" "{blood2"
+  "classname" "infodecal"
+}
+{
+  "origin" "824 15 77"
+  "texture" "{blood3"
+  "classname" "infodecal"
+}
+{
+  "origin" "824 59 33"
+  "texture" "{blood6"
+  "classname" "infodecal"
+}
+{
+  "origin" "861 96 59"
+  "texture" "{blood6"
+  "classname" "infodecal"
+}
+{
+  "origin" "936 -8 0"
+  "angles" "0 45 0"
+  "classname" "weapon_9mmAR"
+}
+{
+  "model" "*167"
+  "renderamt" "255"
+  "rendermode" "4"
+  "targetname" "grate_break"
+  "material" "1"
+  "health" "1"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "origin" "-1032 136 -92"
+  "classname" "info_node"
+}
+{
+  "origin" "-1112 136 -92"
+  "classname" "info_node"
+}
+{
+  "origin" "-1120 232 -92"
+  "classname" "info_node"
+}
+{
+  "origin" "-1120 40 -92"
+  "classname" "info_node"
+}
+{
+  "origin" "-1000 -8 40"
+  "angles" "0 135 0"
+  "classname" "weapon_shotgun"
+}
+{
+  "model" "*168"
+  "classname" "func_monsterclip"
+}
+{
+  "origin" "-1376 216 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-1376 288 12"
+  "classname" "info_node"
+}
+{
+  "origin" "-1376 360 -28"
+  "classname" "info_node"
+}
+{
+  "origin" "-1376 432 -60"
+  "classname" "info_node"
+}
+{
+  "origin" "-1376 504 -84"
+  "classname" "info_node"
+}
+{
+  "origin" "-1472 504 -84"
+  "classname" "info_node"
+}
+{
+  "origin" "-1328 136 80"
+  "NoiseAmplitude" "65"
+  "LightningEnd" "b1trgt1"
+  "LightningStart" "center1"
+  "targetname" "tbeams1"
+  "StrikeTime" "1"
+  "TextureScroll" "35"
+  "texture" "sprites/lgtning.spr"
+  "BoltWidth" "18"
+  "Radius" "200"
+  "rendercolor" "195 245 165"
+  "renderamt" "150"
+  "spawnflags" "2"
+  "classname" "env_beam"
+}
+{
+  "origin" "-1376 192 48"
+  "targetname" "tel_spawn1"
+  "monstertype" "monster_alien_slave"
+  "m_imaxlivechildren" "1"
+  "delay" "5"
+  "monstercount" "1"
+  "angles" "0 90 0"
+  "classname" "monstermaker"
+}
+{
+  "origin" "-1376 192 76"
+  "targetname" "center1"
+  "classname" "info_target"
+}
+{
+  "origin" "-1360 136 80"
+  "NoiseAmplitude" "65"
+  "LightningEnd" "b1trgt2"
+  "LightningStart" "center1"
+  "targetname" "tbeams1"
+  "StrikeTime" "1"
+  "TextureScroll" "35"
+  "texture" "sprites/lgtning.spr"
+  "BoltWidth" "18"
+  "Radius" "200"
+  "rendercolor" "195 245 165"
+  "renderamt" "150"
+  "spawnflags" "2"
+  "classname" "env_beam"
+}
+{
+  "origin" "-1392 136 80"
+  "NoiseAmplitude" "65"
+  "LightningEnd" "b1trgt3"
+  "LightningStart" "center1"
+  "targetname" "tbeams1"
+  "StrikeTime" "1"
+  "TextureScroll" "35"
+  "texture" "sprites/lgtning.spr"
+  "BoltWidth" "18"
+  "Radius" "200"
+  "rendercolor" "195 245 165"
+  "renderamt" "150"
+  "spawnflags" "2"
+  "classname" "env_beam"
+}
+{
+  "origin" "-1424 136 80"
+  "NoiseAmplitude" "65"
+  "LightningEnd" "b1trgt4"
+  "LightningStart" "center1"
+  "targetname" "tbeams1"
+  "StrikeTime" "1"
+  "TextureScroll" "35"
+  "texture" "sprites/lgtning.spr"
+  "BoltWidth" "18"
+  "Radius" "200"
+  "rendercolor" "195 245 165"
+  "renderamt" "150"
+  "spawnflags" "2"
+  "classname" "env_beam"
+}
+{
+  "origin" "-1360 160 76"
+  "targetname" "b1trgt9"
+  "classname" "info_target"
+}
+{
+  "origin" "-1360 224 76"
+  "targetname" "b1trgt1"
+  "classname" "info_target"
+}
+{
+  "origin" "-1392 160 76"
+  "targetname" "b1trgt12"
+  "classname" "info_target"
+}
+{
+  "origin" "-1376 156 76"
+  "targetname" "b1trgt11"
+  "classname" "info_target"
+}
+{
+  "origin" "-1344 172 76"
+  "targetname" "b1trgt6"
+  "classname" "info_target"
+}
+{
+  "origin" "-1344 212 76"
+  "targetname" "b1trgt5"
+  "classname" "info_target"
+}
+{
+  "origin" "-1340 192 76"
+  "targetname" "b1trgt2"
+  "classname" "info_target"
+}
+{
+  "origin" "-1408 212 76"
+  "targetname" "b1trgt8"
+  "classname" "info_target"
+}
+{
+  "origin" "-1392 224 76"
+  "targetname" "b1trgt4"
+  "classname" "info_target"
+}
+{
+  "origin" "-1408 172 76"
+  "targetname" "b1trgt7"
+  "classname" "info_target"
+}
+{
+  "origin" "-1376 228 76"
+  "targetname" "b1trgt10"
+  "classname" "info_target"
+}
+{
+  "origin" "-1412 192 76"
+  "targetname" "b1trgt3"
+  "classname" "info_target"
+}
+{
+  "origin" "-1328 136 80"
+  "NoiseAmplitude" "65"
+  "LightningEnd" "b1trgt5"
+  "LightningStart" "center1"
+  "targetname" "tbeams1"
+  "StrikeTime" "1"
+  "TextureScroll" "35"
+  "texture" "sprites/lgtning.spr"
+  "BoltWidth" "18"
+  "Radius" "200"
+  "rendercolor" "195 245 165"
+  "renderamt" "150"
+  "spawnflags" "2"
+  "classname" "env_beam"
+}
+{
+  "origin" "-1360 136 80"
+  "NoiseAmplitude" "65"
+  "LightningEnd" "b1trgt6"
+  "LightningStart" "center1"
+  "targetname" "tbeams1"
+  "StrikeTime" "1"
+  "TextureScroll" "35"
+  "texture" "sprites/lgtning.spr"
+  "BoltWidth" "18"
+  "Radius" "200"
+  "rendercolor" "195 245 165"
+  "renderamt" "150"
+  "spawnflags" "2"
+  "classname" "env_beam"
+}
+{
+  "origin" "-1392 136 80"
+  "NoiseAmplitude" "65"
+  "LightningEnd" "b1trgt7"
+  "LightningStart" "center1"
+  "targetname" "tbeams1"
+  "StrikeTime" "1"
+  "TextureScroll" "35"
+  "texture" "sprites/lgtning.spr"
+  "BoltWidth" "18"
+  "Radius" "200"
+  "rendercolor" "195 245 165"
+  "renderamt" "150"
+  "spawnflags" "2"
+  "classname" "env_beam"
+}
+{
+  "origin" "-1424 136 80"
+  "NoiseAmplitude" "65"
+  "LightningEnd" "b1trgt8"
+  "LightningStart" "center1"
+  "targetname" "tbeams1"
+  "StrikeTime" "1"
+  "TextureScroll" "35"
+  "texture" "sprites/lgtning.spr"
+  "BoltWidth" "18"
+  "Radius" "200"
+  "rendercolor" "195 245 165"
+  "renderamt" "150"
+  "spawnflags" "2"
+  "classname" "env_beam"
+}
+{
+  "origin" "-1328 136 80"
+  "NoiseAmplitude" "65"
+  "LightningEnd" "b1trgt9"
+  "LightningStart" "center1"
+  "targetname" "tbeams1"
+  "StrikeTime" "1"
+  "TextureScroll" "35"
+  "texture" "sprites/lgtning.spr"
+  "BoltWidth" "18"
+  "Radius" "200"
+  "rendercolor" "195 245 165"
+  "renderamt" "150"
+  "spawnflags" "2"
+  "classname" "env_beam"
+}
+{
+  "origin" "-1360 136 80"
+  "NoiseAmplitude" "65"
+  "LightningEnd" "b1trgt10"
+  "LightningStart" "center1"
+  "targetname" "tbeams1"
+  "StrikeTime" "1"
+  "TextureScroll" "35"
+  "texture" "sprites/lgtning.spr"
+  "BoltWidth" "18"
+  "Radius" "200"
+  "rendercolor" "195 245 165"
+  "renderamt" "150"
+  "spawnflags" "2"
+  "classname" "env_beam"
+}
+{
+  "origin" "-1392 136 80"
+  "NoiseAmplitude" "65"
+  "LightningEnd" "b1trgt11"
+  "LightningStart" "center1"
+  "targetname" "tbeams1"
+  "StrikeTime" "1"
+  "TextureScroll" "35"
+  "texture" "sprites/lgtning.spr"
+  "BoltWidth" "18"
+  "Radius" "200"
+  "rendercolor" "195 245 165"
+  "renderamt" "150"
+  "spawnflags" "2"
+  "classname" "env_beam"
+}
+{
+  "origin" "-1424 136 80"
+  "NoiseAmplitude" "65"
+  "LightningEnd" "b1trgt12"
+  "LightningStart" "center1"
+  "targetname" "tbeams1"
+  "StrikeTime" "1"
+  "TextureScroll" "35"
+  "texture" "sprites/lgtning.spr"
+  "BoltWidth" "18"
+  "Radius" "200"
+  "rendercolor" "195 245 165"
+  "renderamt" "150"
+  "spawnflags" "2"
+  "classname" "env_beam"
+}
+{
+  "origin" "-1376 192 72"
+  "NoiseAmplitude" "65"
+  "LightningStart" "chaos_beam1"
+  "targetname" "chaos_beam1"
+  "StrikeTime" "-0.5"
+  "TextureScroll" "35"
+  "texture" "sprites/lgtning.spr"
+  "BoltWidth" "18"
+  "life" "0.5"
+  "Radius" "200"
+  "rendercolor" "0 255 0"
+  "renderamt" "150"
+  "spawnflags" "34"
+  "classname" "env_beam"
+}
+{
+  "origin" "-1376 192 68"
+  "renderamt" "255"
+  "rendermode" "3"
+  "renderfx" "14"
+  "targetname" "tel1_sprite1"
+  "model" "sprites/Fexplo1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "75 210 130"
+  "spawnflags" "2"
+  "classname" "env_sprite"
+}
+{
+  "origin" "-1376 192 68"
+  "targetname" "tel1_sprite2"
+  "renderfx" "14"
+  "rendermode" "3"
+  "renderamt" "255"
+  "model" "sprites/XFlare1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "185 250 215"
+  "spawnflags" "2"
+  "classname" "env_sprite"
+}
+{
+  "origin" "-1328 168 88"
+  "tel_snd2" "0.5"
+  "tel_spawn1" "0.5"
+  "tel_snd1" "0"
+  "tel1_sprite2" "0"
+  "tel1_sprite1" "0"
+  "chaos_beam1#1" "1"
+  "tbeams1#1" "1"
+  "chaos_beam1" "0"
+  "tbeams1" "0"
+  "targetname" "mm_telespawn1"
+  "classname" "multi_manager"
+}
+{
+  "model" "*169"
+  "target" "mm_telespawn1"
+  "classname" "trigger_once"
+}
+{
+  "origin" "-1192 0 -92"
+  "classname" "info_node"
+}
+{
+  "origin" "-1200 360 -128"
+  "angles" "0 262 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_headcrab"
+}
+{
+  "origin" "-1144 304 -128"
+  "angles" "0 270 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_headcrab"
+}
+{
+  "origin" "-1120 352 -128"
+  "angles" "0 270 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_headcrab"
+}
+{
+  "origin" "-992 136 0"
+  "angles" "0 180 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_alien_slave"
+}
+{
+  "origin" "-1112 136 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-1032 136 44"
+  "classname" "info_node"
+}
+{
+  "origin" "-1456 800 64"
+  "rendercolor" "0 0 0"
+  "classname" "monster_barnacle"
+}
+{
+  "origin" "-1392 688 64"
+  "rendercolor" "0 0 0"
+  "classname" "monster_barnacle"
+}
+{
+  "origin" "-1248 824 64"
+  "rendercolor" "0 0 0"
+  "classname" "monster_barnacle"
+}
+{
+  "origin" "-1376 248 40"
+  "message" "debris/beamstart2.wav"
+  "targetname" "tel_snd2"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "49"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "-1376 248 56"
+  "message" "debris/beamstart7.wav"
+  "targetname" "tel_snd1"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "49"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "-1568 504 -84"
+  "classname" "info_node"
+}
+{
+  "origin" "-1640 544 -84"
+  "classname" "info_node"
+}
+{
+  "origin" "-1640 624 -84"
+  "classname" "info_node"
+}
+{
+  "origin" "-1640 720 -84"
+  "classname" "info_node"
+}
+{
+  "origin" "1224 216 -136"
+  "angles" "0 141 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_headcrab"
+}
+{
+  "origin" "1112 64 -136"
+  "angles" "0 90 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_headcrab"
+}
+{
+  "origin" "1184 264 -92"
+  "classname" "info_node"
+}
+{
+  "origin" "1112 312 -92"
+  "classname" "info_node"
+}
+{
+  "origin" "1032 312 -92"
+  "classname" "info_node"
+}
+{
+  "origin" "936 312 -92"
+  "classname" "info_node"
+}
+{
+  "origin" "864 312 -92"
+  "classname" "info_node"
+}
+{
+  "origin" "864 216 -92"
+  "classname" "info_node"
+}
+{
+  "origin" "1120 152 -92"
+  "classname" "info_node"
+}
+{
+  "origin" "1128 8 -92"
+  "classname" "info_node"
+}
+{
+  "style" "33"
+  "origin" "-1652 903 36"
+  "targetname" "flash_base"
+  "_fade" "1.0"
+  "_light" "192 192 192 250"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "style" "33"
+  "origin" "-1472 903 36"
+  "targetname" "flash_base"
+  "_fade" "1.0"
+  "_light" "192 192 192 250"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "origin" "-1568 880 -8"
+  "targetname" "thunder_snd3"
+  "message" "blackops/ambience/thunder.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "56"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "-1568 848 -40"
+  "flash_base#3" "0.7"
+  "flash_base#2" "0.5"
+  "flash_base#1" "0.3"
+  "flash_base" "0.2"
+  "thunder_snd3" "0"
+  "targetname" "mm_thunder3"
+  "classname" "multi_manager"
+}
+{
+  "model" "*170"
+  "target" "mm_thunder3"
+  "classname" "trigger_once"
+}
+{
+  "model" "*171"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*172"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*173"
+  "landmark" "cut3_to_jail1"
+  "map" "ops_cut_3"
+  "spawnflags" "2"
+  "classname" "trigger_changelevel"
+}
+{
+  "origin" "1144 -640 -336"
+  "targetname" "cut3_to_jail1"
+  "classname" "info_landmark"
+}
+{
+  "origin" "1024 -64 -136"
+  "targetname" "tele_target1"
+  "angles" "0 135 0"
+  "classname" "info_teleport_destination"
+}
+{
+  "model" "*174"
+  "target" "mm_start"
+  "classname" "trigger_once"
+}
+{
+  "origin" "1128 -40 -64"
+  "targetname" "hudtoggle"
+  "classname" "env_hudtoggle"
+}
+{
+  "origin" "1128 -64 -64"
+  "message" "Chapter 4:\nJAILHOUSE ROCK"
+  "targetname" "grate_break"
+  "channel" "4"
+  "effect" "2"
+  "x" "-1"
+  "y" "-0.25"
+  "color" "100 100 100"
+  "color2" "240 0 0"
+  "fadein" "0.04"
+  "fadeout" "0.5"
+  "fxtime" "0.25"
+  "holdtime" "5.0"
+  "spawnflags" "1"
+  "classname" "game_text"
+}
+{
+  "origin" "1128 -104 -64"
+  "targetname" "thief"
+  "classname" "player_weaponstrip"
+}
+{
+  "origin" "1152 -56 -64"
+  "chptr_msg" "9"
+  "hudtoggle#1" "9"
+  "hudtoggle" "0"
+  "targetname" "mm_start"
+  "classname" "multi_manager"
+}
+{
+  "model" "*175"
+  "target" "tele_target1"
+  "classname" "trigger_teleport"
+}
