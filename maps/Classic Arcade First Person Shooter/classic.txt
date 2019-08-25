@@ -9,6 +9,7 @@
 "classname" "worldspawn"
 "classname" "worldspawn"
 }
+//Edit by Cadaver 18/05
 {
 "origin" "496 -1260 -432"
 "targetname" "oldspawn"
@@ -297,7 +298,7 @@
 }
 {
 "origin" "3920 -3980 -1424"
-"message" "classic/BGMUSIC01.wav"
+"message" "classic/BGMUSIC01.ogg"
 "targetname" "BGMUSIC01"
 "pitchstart" "100"
 "pitch" "100"
@@ -586,7 +587,7 @@
 }
 {
 "origin" "3920 -3948 -1424"
-"message" "classic/BGMUSIC02.wav"
+"message" "classic/BGMUSIC02.ogg"
 "targetname" "BGMUSIC02"
 "pitchstart" "100"
 "pitch" "100"
@@ -938,7 +939,7 @@
 }
 {
 "origin" "3920 -3916 -1424"
-"message" "classic/BGMUSIC09.wav"
+"message" "classic/BGMUSIC09.ogg"
 "targetname" "BGMUSIC03"
 "pitchstart" "100"
 "pitch" "100"
@@ -1039,7 +1040,7 @@
 }
 {
 "origin" "3920 -3884 -1424"
-"message" "classic/BGMUSIC03.wav"
+"message" "classic/BGMUSIC03.ogg"
 "targetname" "BGMUSIC04"
 "pitchstart" "100"
 "pitch" "100"
@@ -2622,7 +2623,7 @@
 }
 {
 "origin" "3920 -3852 -1424"
-"message" "classic/BGMUSIC12.wav"
+"message" "classic/BGMUSIC12.ogg"
 "targetname" "BGMUSIC05"
 "pitchstart" "100"
 "pitch" "100"
@@ -3150,7 +3151,7 @@
 "TriggerCondition" "4"
 "TriggerTarget" "mychapter01"
 "model" "models/classic/spiderdemon.mdl"
-"health" "3000"
+"health" "1500"
 "maxhullsize" "0 0 0"
 "minhullsize" "0 0 0"
 "angles" "0 270 0"
@@ -3400,7 +3401,7 @@
 }
 {
 "origin" "3888 -3980 -1424"
-"message" "classic/BGMUSIC04.wav"
+"message" "classic/BGMUSIC04.ogg"
 "targetname" "BGMUSIC06"
 "pitchstart" "100"
 "pitch" "100"
@@ -5962,7 +5963,7 @@
 }
 {
 "origin" "3888 -3948 -1424"
-"message" "classic/BGMUSIC05.wav"
+"message" "classic/BGMUSIC05.ogg"
 "targetname" "BGMUSIC07"
 "pitchstart" "100"
 "pitch" "100"
@@ -5972,7 +5973,7 @@
 }
 {
 "origin" "3888 -3916 -1424"
-"message" "classic/BGMUSIC06.wav"
+"message" "classic/BGMUSIC06.ogg"
 "targetname" "BGMUSIC08"
 "pitchstart" "100"
 "pitch" "100"
@@ -5982,7 +5983,7 @@
 }
 {
 "origin" "3888 -3884 -1424"
-"message" "classic/BGMUSIC08.wav"
+"message" "classic/BGMUSIC08.ogg"
 "targetname" "BGMUSIC09"
 "pitchstart" "100"
 "pitch" "100"
