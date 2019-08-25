@@ -12,6 +12,7 @@
 "classname" "worldspawn"
 "classname" "worldspawn"
 }
+//Edited by Cadaver 11/05/2019
 {
 "origin" "2568 3368 3144"
 "pitchstart" "100"
@@ -143,7 +144,7 @@
 }
 {
 "origin" "-2112 -2208 -2624"
-"message" "rosenberg/ro_xen_call1.wav"
+"message" "decay/rosenberg/ro_xen_call1.wav"
 "targetname" "calhoun"
 "pitchstart" "100"
 "pitch" "100"
@@ -292,7 +293,7 @@
 }
 {
 "origin" "688 -1224 1760"
-"message" "keller/dk_12_iiii.wav"
+"message" "decay/keller/dk_12_iiii.wav"
 "pitchstart" "100"
 "pitch" "100"
 "health" "10"
@@ -313,7 +314,9 @@
 {
 "origin" "584 -1264 1727"
 "angles" "0 180 0"
-"model" "models/decay/wheelchair_sci.mdl"
+"model" "models/wheelchair_sci.mdl"
+"displayname" "Dr. Richard Keller"
+"health" "100"
 "trigger_hits" "4"
 "targetname" "keller"
 "rendercolor" "0 0 0"
@@ -786,7 +789,7 @@
 }
 {
 "origin" "-16 -2048 1984"
-"message" "keller/dk_12_radio.wav"
+"message" "decay/keller/dk_12_radio.wav"
 "pitchstart" "100"
 "pitch" "100"
 "health" "10"
@@ -2477,7 +2480,7 @@
 "holdtime" "1"
 "fadeout" "0.5"
 "channel" "1"
-"message" "Sven Co-op Conversion and\nAnti-Rush Modification By:\nCubeMath"
+"message" "Sven Co-op Conversion and\nAnti-Rush Modification By:\nCubeMath\nFixed by Cadaver"
 "messagevolume" "10"
 "spawnflags" "3"
 "targetname" "msg_thanks_3"
@@ -3155,13 +3158,6 @@
 }
 {
 "origin" "1780 3144 3190"
-"target" "bothplayersspawned_r"
-"delay" "10"
-"spawnflags" "1"
-"classname" "trigger_auto"
-}
-{
-"origin" "1780 3144 3190"
 "targetname" "bothplayersspawned_r"
 "target" "bothplayersspawned"
 "triggerstate" "1"
@@ -3305,13 +3301,6 @@
 "classname" "trigger_relay"
 }
 {
-"delay" "1"
-"target" "kill_game_end_no_secret"
-"globalstate" "glo_unlock_alien"
-"triggerstate" "1"
-"classname" "trigger_auto"
-}
-{
 "globalstate" "glo_unlock_alien"
 "targetname" "glo_unlock_alien_master"
 "classname" "multisource"
@@ -3380,4 +3369,18 @@
 "messagevolume" "10"
 "spawnflags" "3"
 "classname" "game_text"
+}
+{
+"origin" "1780 3144 3190"
+"target" "bothplayersspawned_r"
+"delay" "40"
+"spawnflags" "1"
+"classname" "trigger_auto"
+}
+{
+"delay" "31"
+"target" "kill_game_end_no_secret"
+"globalstate" "glo_unlock_alien"
+"triggerstate" "1"
+"classname" "trigger_auto"
 }

@@ -23,16 +23,27 @@
 "classname" "worldspawn"
 "classname" "worldspawn"
 }
+//Edited by Cadaver 11/05/2019 - Revised 16/05/2019
 {
 "origin" "-688 272 16"
 "angles" "0 0 0"
 "classname" "item_healthkit"
 }
 {
-"origin" "3 148 36"
-"index" "1"
-"angles" "0 225 0"
-"classname" "info_player_coop"
+"x" "-1"
+"y" "-0.2"
+"effect" "2"
+"color" "100 100 100"
+"color2" "240 110 0"
+"fadein" "0.03"
+"fxtime" "0.25"
+"holdtime" "5"
+"fadeout" "1.5"
+"channel" "1"
+"message" "CODE GREEN"
+"targetname" "title_msg"
+"spawnflags" "3"
+"classname" "game_text"
 }
 {
 "origin" "-192 1664 504"
@@ -124,17 +135,6 @@
 "health" "1"
 "message" "ambience/crtnoise.wav"
 "classname" "ambient_generic"
-}
-{
-"origin" "-56 88 36"
-"angles" "0 225 0"
-"classname" "info_player_start"
-}
-{
-"origin" "-61 148 36"
-"angles" "0 225 0"
-"index" "2"
-"classname" "info_player_coop"
 }
 {
 "origin" "1600 2768 32"
@@ -236,7 +236,7 @@
 {
 "origin" "1098 468 258"
 "trigger_hits" "4"
-"model" "models/decay/barney.mdl"
+"model" "models/decay/merge/barney.mdl"
 "targetname" "barney3"
 "pose" "2"
 "rendercolor" "0 0 0"
@@ -248,7 +248,7 @@
 "origin" "704 896 256"
 "rendermode" "2"
 "trigger_hits" "4"
-"model" "models/decay/barney.mdl"
+"model" "models/decay/merge/barney.mdl"
 "targetname" "trapped_barney"
 "angles" "0 90 0"
 "rendercolor" "0 0 0"
@@ -404,17 +404,6 @@
 "classname" "monster_generic"
 }
 {
-"origin" "640 512 640"
-"rendercolor" "0 0 0"
-"angles" "0 135 0"
-"targetname" "superosprey1"
-"target" "os1"
-"TriggerCondition" "4"
-"TriggerTarget" "math_counter2"
-"spawnflags" "64"
-"classname" "monster_osprey"
-}
-{
 "origin" "32 448 256"
 "TriggerCondition" "4"
 "TriggerTarget" "math_counter1"
@@ -527,7 +516,7 @@
 "material" "1"
 "explosion" "1"
 "spawnobject" "13"
-"gibmodel" "Models/tech_crategibs.mdl"
+"gibmodel" "models/tech_crategibs.mdl"
 "rendercolor" "0 0 0"
 "spawnflags" "260"
 "classname" "func_breakable"
@@ -548,16 +537,6 @@
 "netname" "squad_enemy44"
 "spawnflags" "33280"
 "classname" "monster_human_grunt"
-}
-{
-"origin" "160 -352 312"
-"targetname" "keller1"
-"pitchstart" "100"
-"pitch" "100"
-"health" "10"
-"message" "!DK_HT07_01"
-"spawnflags" "49"
-"classname" "ambient_generic"
 }
 {
 "origin" "815 -201 257"
@@ -790,7 +769,7 @@
 "TriggerTarget" "kill_sentence"
 "TriggerCondition" "2"
 "targetname" "table_barney"
-"pose" "2"
+"model" "models/barney.mdl"
 "rendercolor" "0 0 0"
 "angles" "0 135 0"
 "spawnflags" "33410"
@@ -823,7 +802,7 @@
 "trigger_hits" "4"
 "targetname" "gun_target2"
 "model" "models/can.mdl"
-"rendermode" "2"
+"rendermode" "0"
 "rendercolor" "0 0 0"
 "spawnflags" "524288"
 "classname" "monster_generic"
@@ -895,7 +874,7 @@
 "material" "1"
 "explosion" "1"
 "spawnobject" "4"
-"gibmodel" "Models/tech_crategibs.mdl"
+"gibmodel" "models/tech_crategibs.mdl"
 "rendercolor" "0 0 0"
 "spawnflags" "260"
 "classname" "func_breakable"
@@ -906,7 +885,7 @@
 "material" "1"
 "explosion" "1"
 "spawnobject" "9"
-"gibmodel" "Models/tech_crategibs.mdl"
+"gibmodel" "models/tech_crategibs.mdl"
 "rendercolor" "0 0 0"
 "spawnflags" "260"
 "classname" "func_breakable"
@@ -916,7 +895,7 @@
 "model" "*27"
 "health" "1"
 "material" "1"
-"gibmodel" "Models/tech_crategibs.mdl"
+"gibmodel" "models/tech_crategibs.mdl"
 "rendercolor" "0 0 0"
 "spawnflags" "260"
 "classname" "func_breakable"
@@ -926,7 +905,7 @@
 "health" "1"
 "material" "1"
 "explosion" "1"
-"gibmodel" "Models/tech_crategibs.mdl"
+"gibmodel" "models/tech_crategibs.mdl"
 "rendercolor" "0 0 0"
 "spawnflags" "260"
 "classname" "func_breakable"
@@ -947,7 +926,7 @@
 "material" "1"
 "explosion" "1"
 "spawnobject" "1"
-"gibmodel" "Models/tech_crategibs.mdl"
+"gibmodel" "models/tech_crategibs.mdl"
 "rendercolor" "0 0 0"
 "spawnflags" "260"
 "classname" "func_breakable"
@@ -958,7 +937,7 @@
 "material" "1"
 "explosion" "1"
 "spawnobject" "1"
-"gibmodel" "Models/tech_crategibs.mdl"
+"gibmodel" "models/tech_crategibs.mdl"
 "rendercolor" "0 0 0"
 "spawnflags" "260"
 "classname" "func_breakable"
@@ -968,7 +947,7 @@
 "health" "1"
 "material" "1"
 "explosion" "1"
-"gibmodel" "Models/tech_crategibs.mdl"
+"gibmodel" "models/tech_crategibs.mdl"
 "rendercolor" "0 0 0"
 "spawnflags" "260"
 "classname" "func_breakable"
@@ -978,7 +957,7 @@
 "model" "*33"
 "health" "1"
 "material" "1"
-"gibmodel" "Models/tech_crategibs.mdl"
+"gibmodel" "models/tech_crategibs.mdl"
 "rendercolor" "0 0 0"
 "spawnflags" "260"
 "classname" "func_breakable"
@@ -994,7 +973,7 @@
 "classname" "func_breakable"
 }
 {
-"gibmodel" "Models/med_crategibs.mdl"
+"gibmodel" "models/med_crategibs.mdl"
 "spawnobject" "1"
 "model" "*35"
 "health" "30"
@@ -1008,13 +987,13 @@
 "health" "1"
 "material" "1"
 "explosion" "1"
-"gibmodel" "Models/tech_crategibs.mdl"
+"gibmodel" "models/tech_crategibs.mdl"
 "rendercolor" "0 0 0"
 "spawnflags" "260"
 "classname" "func_breakable"
 }
 {
-"gibmodel" "Models/med_crategibs.mdl"
+"gibmodel" "models/med_crategibs.mdl"
 "spawnobject" "13"
 "model" "*37"
 "health" "30"
@@ -1029,7 +1008,7 @@
 "material" "1"
 "explosion" "1"
 "spawnobject" "1"
-"gibmodel" "Models/tech_crategibs.mdl"
+"gibmodel" "models/tech_crategibs.mdl"
 "rendercolor" "0 0 0"
 "spawnflags" "260"
 "classname" "func_breakable"
@@ -1051,7 +1030,7 @@
 "stopsnd" "5"
 "movesnd" "2"
 "speed" "50"
-"targetname" "elev_doors"
+"targetname" "elev_doors2"
 "angles" "0 90 0"
 "rendercolor" "0 0 0"
 "classname" "func_door"
@@ -1063,7 +1042,7 @@
 "stopsnd" "5"
 "movesnd" "2"
 "speed" "50"
-"targetname" "elev_doors"
+"targetname" "elev_doors2"
 "angles" "0 270 0"
 "rendercolor" "0 0 0"
 "classname" "func_door"
@@ -1086,11 +1065,6 @@
 "classname" "func_breakable"
 }
 {
-"origin" "-3 85 37"
-"angles" "0 0 0"
-"classname" "info_player_start"
-}
-{
 "angles" "0 0 0"
 "model" "*56"
 "locked_sound" "2"
@@ -1107,7 +1081,7 @@
 {
 "model" "*58"
 "angles" "0 0 0"
-"target" "elev_doors"
+"target" "elev_doors2"
 "master" "power_master1"
 "locked_sound" "2"
 "wait" "-1"
@@ -1279,7 +1253,7 @@
 "health" "1"
 "material" "1"
 "explosion" "1"
-"gibmodel" "Models/tech_crategibs.mdl"
+"gibmodel" "models/tech_crategibs.mdl"
 "rendercolor" "0 0 0"
 "spawnflags" "260"
 "classname" "func_breakable"
@@ -1299,7 +1273,7 @@
 "model" "*113"
 "health" "1"
 "material" "1"
-"gibmodel" "Models/tech_crategibs.mdl"
+"gibmodel" "models/tech_crategibs.mdl"
 "rendercolor" "0 0 0"
 "spawnflags" "260"
 "classname" "func_breakable"
@@ -1309,7 +1283,7 @@
 "health" "1"
 "material" "1"
 "explosion" "1"
-"gibmodel" "Models/tech_crategibs.mdl"
+"gibmodel" "models/tech_crategibs.mdl"
 "rendercolor" "0 0 0"
 "spawnflags" "260"
 "classname" "func_breakable"
@@ -1319,7 +1293,7 @@
 "health" "1"
 "material" "1"
 "explosion" "1"
-"gibmodel" "Models/tech_crategibs.mdl"
+"gibmodel" "models/tech_crategibs.mdl"
 "rendercolor" "0 0 0"
 "spawnflags" "260"
 "classname" "func_breakable"
@@ -1327,7 +1301,7 @@
 {
 "model" "*116"
 "spawnobject" "2"
-"gibmodel" "Models/med_crategibs.mdl"
+"gibmodel" "models/med_crategibs.mdl"
 "material" "1"
 "health" "30"
 "rendercolor" "0 0 0"
@@ -1339,7 +1313,7 @@
 "health" "1"
 "material" "1"
 "explosion" "1"
-"gibmodel" "Models/tech_crategibs.mdl"
+"gibmodel" "models/tech_crategibs.mdl"
 "rendercolor" "0 0 0"
 "spawnflags" "260"
 "classname" "func_breakable"
@@ -1350,7 +1324,7 @@
 "health" "1"
 "material" "1"
 "explosion" "1"
-"gibmodel" "Models/tech_crategibs.mdl"
+"gibmodel" "models/tech_crategibs.mdl"
 "rendermode" "2"
 "rendercolor" "0 0 0"
 "spawnflags" "260"
@@ -1423,7 +1397,7 @@
 "health" "1"
 "material" "1"
 "explosion" "1"
-"gibmodel" "Models/tech_crategibs.mdl"
+"gibmodel" "models/tech_crategibs.mdl"
 "rendercolor" "0 0 0"
 "spawnflags" "260"
 "classname" "func_breakable"
@@ -1444,7 +1418,7 @@
 "model" "*155"
 "health" "1"
 "material" "1"
-"gibmodel" "Models/tech_crategibs.mdl"
+"gibmodel" "models/tech_crategibs.mdl"
 "rendercolor" "0 0 0"
 "spawnflags" "260"
 "classname" "func_breakable"
@@ -1454,7 +1428,7 @@
 "health" "1"
 "material" "1"
 "explosion" "1"
-"gibmodel" "Models/tech_crategibs.mdl"
+"gibmodel" "models/tech_crategibs.mdl"
 "rendercolor" "0 0 0"
 "spawnflags" "260"
 "classname" "func_breakable"
@@ -1575,19 +1549,6 @@
 "classname" "func_door"
 }
 {
-"origin" "989 1719 51"
-"targetname" "osprey_kill_check_door"
-"target" "spawn_grunts2"
-"model" "*201"
-"angles" "0 0 0"
-"distance" "90"
-"wait" "-1"
-"speed" "100"
-"rendercolor" "0 0 0"
-"spawnflags" "530"
-"classname" "func_door_rotating"
-}
-{
 "model" "*202"
 "angles" "0 180 0"
 "unlocked_sound" "4"
@@ -1705,7 +1666,7 @@
 "material" "1"
 "explosion" "1"
 "spawnobject" "13"
-"gibmodel" "Models/tech_crategibs.mdl"
+"gibmodel" "models/tech_crategibs.mdl"
 "rendercolor" "0 0 0"
 "classname" "func_breakable"
 }
@@ -2142,12 +2103,6 @@
 "m_fMoveTo" "2"
 "m_flRadius" "512"
 "classname" "scripted_sequence"
-}
-{
-"origin" "104 0 72"
-"target" "equip_player"
-"spawnflags" "1"
-"classname" "trigger_auto"
 }
 {
 "origin" "168 664 264"
@@ -2913,19 +2868,6 @@
 "classname" "light"
 }
 {
-"origin" "16 -472 330"
-"target" "a_c_master_relay"
-"triggerstate" "1"
-"delay" "2"
-"spawnflags" "1"
-"classname" "trigger_auto"
-}
-{
-"origin" "48 88 36"
-"angles" "0 225 0"
-"classname" "info_player_deathmatch"
-}
-{
 "model" "*1"
 "rendercolor" "0 0 0"
 "classname" "func_wall"
@@ -3058,16 +3000,10 @@
 "classname" "info_node"
 }
 {
-"origin" "48 56 72"
-"delay" ".1"
-"target" "start_seq"
-"spawnflags" "1"
-"classname" "trigger_auto"
-}
-{
 "origin" "16 56 72"
-"keller1" "3"
-"keller_door" "23"
+"keller1" "10"
+"percent_lock_1" "1#45"
+"keller_door" "30"
 "targetname" "start_seq"
 "classname" "multi_manager"
 }
@@ -3641,12 +3577,6 @@
 "target" "invisiguy"
 "rendercolor" "0 0 0"
 "classname" "env_render"
-}
-{
-"delay" "1"
-"target" "renderguys"
-"triggerstate" "1"
-"classname" "trigger_auto"
 }
 {
 "origin" "1472 2624 40"
@@ -4465,6 +4395,7 @@
 {
 "model" "*196"
 "map" "dy_focus"
+"keep_inventory" "1"
 "targetname" "endmap"
 "spawnflags" "2"
 "classname" "trigger_changelevel"
@@ -4706,12 +4637,6 @@
 "classname" "multi_manager"
 }
 {
-"target" "shotty_guy_shoot_loop"
-"delay" "5"
-"triggerstate" "1"
-"classname" "trigger_auto"
-}
-{
 "targetname" "power_manager1_ms"
 "classname" "multisource"
 }
@@ -4833,6 +4758,49 @@
 "classname" "info_target"
 }
 {
+"origin" "160 -352 312"
+"targetname" "keller1"
+"health" "10"
+"message" "decay/keller/dk_07_basement.wav"
+"spawnflags" "1"
+"classname" "ambient_music"
+}
+{
+"target" "shotty_guy_shoot_loop"
+"delay" "35"
+"triggerstate" "1"
+"classname" "trigger_auto"
+}
+{
+"delay" "31"
+"target" "renderguys"
+"triggerstate" "1"
+"classname" "trigger_auto"
+}
+{
+"origin" "48 56 72"
+"delay" "31"
+"target" "start_seq"
+"spawnflags" "1"
+"classname" "trigger_auto"
+}
+{
+"origin" "16 -472 330"
+"target" "a_c_master_relay"
+"triggerstate" "1"
+"delay" "32"
+"spawnflags" "1"
+"classname" "trigger_auto"
+}
+{
+"origin" "104 0 72"
+"target" "equip_player"
+"delay" "30"
+"spawnflags" "1"
+"classname" "trigger_auto"
+}
+///////////////////////////////////////////////////////////////////////////////////////////////
+{
 "osprey_kill_check_door" "1"
 "spawn_door_grunt" "1"
 "door_grunt_attack" "2"
@@ -4840,9 +4808,166 @@
 "classname" "multi_manager"
 }
 {
+"math_counter2_mm" "1"
 "targetname" "math_counter2"
-"target" "math_counter2_mm"
-"count" "3"
-"spawnflags" "3"
-"classname" "trigger_counter"
+"classname" "multi_manager"
+}
+{
+"origin" "640 512 640"
+"rendercolor" "0 0 0"
+"angles" "0 135 0"
+"health" "1500"
+"targetname" "superosprey1"
+"target" "os1"
+"TriggerCondition" "4"
+"TriggerTarget" "math_counter2"
+"spawnflags" "64"
+"classname" "monster_osprey"
+}
+{
+"origin" "989 1719 51"
+"targetname" "osprey_kill_check_door"
+"target" "spawn_grunts2"
+"model" "*201"
+"angles" "0 0 0"
+"distance" "90"
+"wait" "-1"
+"speed" "100"
+"rendercolor" "0 0 0"
+"spawnflags" "530"
+"classname" "func_door_rotating"
+}
+{
+"title_msg" "15#1"
+"targetname" "title_mm"
+"classname" "multi_manager"
+}
+{
+"origin" "276 2096 -432"
+"delay" "20"
+"target" "title_mm"
+"spawnflags" "1"
+"classname" "trigger_auto"
+}
+{
+"origin" "8 170 36"
+"angles" "0 -180 0"
+"targetname" "first_spawn"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "10 102 36"
+"angles" "0 -180 0"
+"targetname" "first_spawn"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "10 31 36"
+"angles" "0 -180 0"
+"targetname" "first_spawn"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-50 34 36"
+"angles" "0 -180 0"
+"targetname" "first_spawn"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-56 110 36"
+"angles" "0 -180 0"
+"targetname" "first_spawn"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-54 181 36"
+"angles" "0 -180 0"
+"targetname" "first_spawn"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-122 -7 36"
+"angles" "0 -180 0"
+"targetname" "first_spawn"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-126 52 36"
+"angles" "0 -180 0"
+"targetname" "first_spawn"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "114 -3 36"
+"angles" "0 -180 0"
+"targetname" "first_spawn"
+"classname" "info_player_deathmatch"
+}
+///////////////////////////////////////////////////////////////////////////////////////////////
+{
+"origin" "245 1292 292"
+"angles" "0 90 0"
+"targetname" "second_spawn"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "144 1296 292"
+"angles" "0 90 0"
+"targetname" "second_spawn"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "50 1295 292"
+"angles" "0 90 0"
+"targetname" "second_spawn"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-48 1295 292"
+"angles" "0 90 0"
+"targetname" "second_spawn"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-50 1384 292"
+"angles" "0 90 0"
+"targetname" "second_spawn"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "48 1387 292"
+"angles" "0 90 0"
+"targetname" "second_spawn"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "144 1390 292"
+"angles" "0 90 0"
+"targetname" "second_spawn"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "241 1393 292"
+"angles" "0 90 0"
+"targetname" "second_spawn"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"first_spawn" "0#0"
+"second_spawn" "0#1"
+"targetname" "switch_spawns"
+"classname" "multi_manager"
+}
+{
+"model" "*55"
+"target" "switch_spawns"
+"classname" "trigger_once"
 }

@@ -23,6 +23,7 @@
 "spawnflags" "20"
 "classname" "ambient_generic"
 }
+//Edited by Cadaver 11/05/2019 - Revised 16/05/2019
 {
 "origin" "2630 193 777"
 "message" "ambience/industrial4.wav"
@@ -32,6 +33,22 @@
 "targetname" "snd_hand_dryer"
 "spawnflags" "18"
 "classname" "ambient_generic"
+}
+{
+"x" "-1"
+"y" "-0.2"
+"effect" "2"
+"color" "100 100 100"
+"color2" "240 110 0"
+"fadein" "0.03"
+"fxtime" "0.25"
+"holdtime" "5"
+"fadeout" "1.5"
+"channel" "1"
+"message" "DOMESTIC VIOLENCE"
+"targetname" "title_msg"
+"spawnflags" "3"
+"classname" "game_text"
 }
 {
 "origin" "2630 193 777"
@@ -295,16 +312,6 @@
 "classname" "scripted_sequence"
 }
 {
-"origin" "2246 1056 676"
-"sequence" "73"
-"model" "models/decay/barney.mdl"
-"angles" "0 180 0"
-"targetname" "pool_barney"
-"rendercolor" "0 0 0"
-"spawnflags" "720902"
-"classname" "monster_generic"
-}
-{
 "origin" "2327 -981 756"
 "angles" "0 0 0"
 "classname" "item_healthcharger"
@@ -356,16 +363,6 @@
 "classname" "item_generic"
 }
 {
-"origin" "2375 -1175 724"
-"model" "models/decay/dead_scientist.mdl"
-"targetname" "deadsci2"
-"angles" "0 90 0"
-"body" "-1"
-"rendercolor" "0 0 0"
-"spawnflags" "134"
-"classname" "monster_generic"
-}
-{
 "origin" "2468 -1177 724"
 "angles" "0 90 0"
 "m_iszIdle" "messhall_dead1"
@@ -386,16 +383,6 @@
 "rendercolor" "0 0 0"
 "spawnflags" "1"
 "classname" "monster_headcrab"
-}
-{
-"origin" "2163 -1171 577"
-"sequence" "86"
-"angles" "0 270 0"
-"model" "models/decay/barney.mdl"
-"rendercolor" "0 0 0"
-"targetname" "cafe_fdoor_owned_barney"
-"spawnflags" "4"
-"classname" "monster_generic"
 }
 {
 "origin" "2157 1580 756"
@@ -454,16 +441,6 @@
 "m_flRadius" "512"
 "spawnflags" "104"
 "classname" "scripted_sequence"
-}
-{
-"origin" "2445 -395 724"
-"targetname" "robs_sux"
-"model" "models/decay/dead_scientist.mdl"
-"angles" "0 90 0"
-"body" "-1"
-"rendercolor" "0 0 0"
-"spawnflags" "134"
-"classname" "monster_generic"
 }
 {
 "origin" "2429 367 725"
@@ -683,14 +660,6 @@
 "classname" "func_breakable"
 }
 {
-"origin" "-401 1765 565"
-"targetname" "intro_sec_barney"
-"angles" "0 270 0"
-"rendercolor" "0 0 0"
-"spawnflags" "128"
-"classname" "monster_barney"
-}
-{
 "origin" "-1409 1301 600"
 "player_index" "2"
 "angles" "0 131 0"
@@ -763,16 +732,6 @@
 "message" "HT05_"
 "health" "5"
 "classname" "speaker"
-}
-{
-"origin" "-627 815 564"
-"trigger_hits" "4"
-"angles" "0 0 0"
-"targetname" "deadsci1"
-"model" "models/decay/dead_scientist.mdl"
-"rendercolor" "0 0 0"
-"spawnflags" "134"
-"classname" "monster_generic"
 }
 {
 "origin" "-626 765 564"
@@ -1003,64 +962,6 @@
 "classname" "func_door"
 }
 {
-"angles" "0 0 0"
-"model" "*68"
-"targetname" "intro_sec_doors"
-"dmg" "5"
-"lip" "-4"
-"wait" "5"
-"speed" "50"
-"renderamt" "96"
-"rendermode" "2"
-"rendercolor" "0 0 0"
-"spawnflags" "512"
-"classname" "func_door"
-}
-{
-"angles" "0 0 0"
-"model" "*69"
-"targetname" "intro_sec_doors"
-"unlocked_sound" "3"
-"locked_sound" "2"
-"dmg" "5"
-"lip" "4"
-"wait" "5"
-"speed" "50"
-"rendercolor" "0 0 0"
-"spawnflags" "512"
-"classname" "func_door"
-}
-{
-"model" "*70"
-"targetname" "intro_sec_doors"
-"unlocked_sound" "3"
-"locked_sound" "2"
-"dmg" "5"
-"lip" "4"
-"wait" "5"
-"stopsnd" "1"
-"movesnd" "5"
-"speed" "50"
-"angles" "0 180 0"
-"rendercolor" "0 0 0"
-"spawnflags" "512"
-"classname" "func_door"
-}
-{
-"model" "*71"
-"targetname" "intro_sec_doors"
-"dmg" "5"
-"lip" "-4"
-"wait" "5"
-"speed" "50"
-"renderamt" "96"
-"rendermode" "2"
-"angles" "0 180 0"
-"rendercolor" "0 0 0"
-"spawnflags" "512"
-"classname" "func_door"
-}
-{
 "model" "*72"
 "target" "intro_scanner_track1"
 "movesnd" "4"
@@ -1094,17 +995,6 @@
 "classname" "func_button"
 }
 {
-"model" "*76"
-"angles" "0 0 0"
-"sounds" "8"
-"target" "intro_sec_doors"
-"wait" "5"
-"speed" "5"
-"rendercolor" "0 0 0"
-"spawnflags" "1"
-"classname" "func_button"
-}
-{
 "origin" "-2055 1609 630"
 "weapon_shotgun" "1"
 "ammo_357" "2"
@@ -1118,9 +1008,11 @@
 }
 {
 "origin" "-2000 1425 581"
-"model" "models/decay/wheelchair_sci.mdl"
+"model" "models/wheelchair_sci.mdl"
 "targetname" "intro_wheelchair"
 "TriggerTarget" "dont_shoot_me"
+"displayname" "Dr. Richard Keller"
+"health" "100"
 "TriggerCondition" "2"
 "angles" "0 180 0"
 "rendercolor" "0 0 0"
@@ -1155,22 +1047,6 @@
 "radius" "512"
 "duration" "5"
 "spawnflags" "4"
-"classname" "scripted_sentence"
-}
-{
-"origin" "-1887 1472 574"
-"target" "dk_02_findguard"
-"attenuation" "2"
-"delay" "12.5"
-"targetname" "dk_01_sealrift"
-"listener" "player"
-"entity" "intro_wheelchair"
-"sentence" "!DK_HT05_01"
-"volume" "10"
-"refire" "3"
-"radius" "512"
-"duration" "12.5"
-"spawnflags" "5"
 "classname" "scripted_sentence"
 }
 {
@@ -1942,9 +1818,11 @@
 }
 {
 "origin" "-1488 -2355 563"
-"model" "models/decay/wheelchair_sci.mdl"
+"model" "models/wheelchair_sci.mdl"
 "targetname" "outro_wheelchair"
 "TriggerTarget" "dont_shoot_me"
+"displayname" "Dr. Richard Keller"
+"health" "100"
 "TriggerCondition" "2"
 "angles" "0 0 0"
 "rendercolor" "0 0 0"
@@ -2354,64 +2232,6 @@
 "classname" "func_breakable"
 }
 {
-"model" "*97"
-"targetname" "outro_sec_doors"
-"dmg" "5"
-"lip" "-4"
-"wait" "5"
-"speed" "50"
-"renderamt" "96"
-"rendermode" "2"
-"angles" "0 180 0"
-"rendercolor" "0 0 0"
-"spawnflags" "512"
-"classname" "func_door"
-}
-{
-"angles" "0 0 0"
-"model" "*98"
-"targetname" "outro_sec_doors"
-"dmg" "5"
-"lip" "-4"
-"wait" "5"
-"speed" "50"
-"renderamt" "96"
-"rendermode" "2"
-"rendercolor" "0 0 0"
-"spawnflags" "512"
-"classname" "func_door"
-}
-{
-"angles" "0 0 0"
-"model" "*99"
-"unlocked_sound" "3"
-"locked_sound" "2"
-"dmg" "5"
-"lip" "4"
-"wait" "5"
-"speed" "50"
-"targetname" "outro_sec_doors"
-"rendercolor" "0 0 0"
-"spawnflags" "512"
-"classname" "func_door"
-}
-{
-"model" "*100"
-"unlocked_sound" "3"
-"locked_sound" "2"
-"dmg" "5"
-"lip" "4"
-"wait" "5"
-"stopsnd" "1"
-"movesnd" "5"
-"speed" "50"
-"angles" "0 180 0"
-"targetname" "outro_sec_doors"
-"rendercolor" "0 0 0"
-"spawnflags" "512"
-"classname" "func_door"
-}
-{
 "model" "*102"
 "lip" "8"
 "stopsnd" "5"
@@ -2770,18 +2590,6 @@
 "classname" "infodecal"
 }
 {
-"model" "*146"
-"origin" "-1951 1546 590"
-"skin" "-1"
-"volume" "0.85"
-"target" "door_p1"
-"speed" "30"
-"_minlight" "0.01"
-"targetname" "ubertram_door"
-"rendercolor" "0 0 0"
-"classname" "func_train"
-}
-{
 "origin" "-394 1707 564"
 "texture" "{BIGBLOOD1"
 "classname" "infodecal"
@@ -2805,16 +2613,6 @@
 "origin" "-559 853 627"
 "texture" "{BIGBLOOD1"
 "classname" "infodecal"
-}
-{
-"origin" "-144 2242 564"
-"targetname" "surrender_freemen"
-"model" "models/decay/dead_scientist.mdl"
-"angles" "0 -18 0"
-"body" "-1"
-"rendercolor" "0 0 0"
-"spawnflags" "134"
-"classname" "monster_generic"
 }
 {
 "model" "*149"
@@ -2879,14 +2677,6 @@
 "origin" "2635 -1364 758"
 "texture" "{BLOOD3"
 "classname" "infodecal"
-}
-{
-"origin" "2530 -1452 724"
-"targetname" "pizza"
-"model" "models/decay/dead_scientist.mdl"
-"angles" "0 0 0"
-"rendercolor" "0 0 0"
-"classname" "monster_generic"
 }
 {
 "origin" "2633 -1459 724"
@@ -3373,7 +3163,7 @@
 "health" "1"
 "speed" "60"
 "angles" "0 0 0"
-"noise" "sound/buttons/lightswitch2.wav"
+"noise" "buttons/lightswitch2.wav"
 "targetname" "u"
 "rendercolor" "0 0 0"
 "classname" "func_button"
@@ -4066,21 +3856,6 @@
 "classname" "item_healthcharger"
 }
 {
-"origin" "1036 -72 -688"
-"model" "models/decay/scientist.mdl"
-"renderamt" "1"
-"rendermode" "2"
-"TriggerCondition" "2"
-"TriggerTarget" "zomb_hit2"
-"targetname" "walter"
-"sequence" "13"
-"body" "1"
-"angles" "0 180 0"
-"rendercolor" "0 0 0"
-"spawnflags" "145"
-"classname" "monster_generic"
-}
-{
 "origin" "576 -283 -528"
 "angles" "0 0 0"
 "rendercolor" "0 0 0"
@@ -4420,13 +4195,6 @@
 "angles" "0 180 0"
 "reset_delay" "2.5"
 "classname" "item_eyescanner"
-}
-{
-"origin" "-414 312 -568"
-"angles" "0 180 0"
-"movetype" "5"
-"model" "models/decay/EYE_SCANNER.mdl"
-"classname" "item_generic"
 }
 {
 "origin" "-661 -232 -506"
@@ -5003,18 +4771,6 @@
 "spawnflags" "52"
 "targetname" "percent_lock_2_sound"
 "classname" "ambient_generic"
-}
-{
-"model" "*101"
-"angles" "0 0 0"
-"sounds" "8"
-"target" "outro_sec_doors"
-"master" "outro_sec_button_ms"
-"wait" "5"
-"speed" "5"
-"rendercolor" "0 0 0"
-"spawnflags" "1"
-"classname" "func_button"
 }
 {
 "origin" "-33 -2032 632"
@@ -5995,12 +5751,6 @@
 "classname" "env_render"
 }
 {
-"origin" "-2060 1374 617"
-"angles" "0 0 0"
-"targetname" "escape_train"
-"classname" "info_player_deathmatch"
-}
-{
 "origin" "-1462 2769 565"
 "angles" "0 0 0"
 "target" "intermission_track_1"
@@ -6038,6 +5788,7 @@
 "model" "*52"
 "map" "dy_signal"
 "targetname" "success"
+"keep_inventory" "1"
 "spawnflags" "2"
 "classname" "trigger_changelevel"
 }
@@ -6111,26 +5862,6 @@
 "classname" "env_render"
 }
 {
-"origin" "-1967 1697 610"
-"nofall_hack" "0"
-"escape_train_r1" "1"
-"escape_train2" "0#1"
-"escape_train" "0#2"
-"traindoorsound" "0"
-"ubertram_door" "0"
-"targetname" "intro_tram_mm"
-"intro_tram_kill_mm" "0"
-"classname" "multi_manager"
-}
-{
-"origin" "-1967 1362 654"
-"traindoorsound" "0"
-"ubertram_door" "0"
-"intro_blather_ct" "0"
-"targetname" "intro_blather_mm"
-"classname" "multi_manager"
-}
-{
 "origin" "-1959 1353 630"
 "targetname" "intro_blather_ct"
 "target" "intro_blather"
@@ -6142,12 +5873,6 @@
 "killtarget" "ubertram_door"
 "targetname" "kill_door"
 "classname" "trigger_relay"
-}
-{
-"delay" "10"
-"target" "dk_01_sealrift"
-"triggerstate" "1"
-"classname" "trigger_auto"
 }
 {
 "model" "*77"
@@ -8318,13 +8043,6 @@
 "classname" "trigger_relay"
 }
 {
-"origin" "-1824 1444 604"
-"angles" "0 0 0"
-"targetname" "escape_train2"
-"spawnflags" "2"
-"classname" "info_player_deathmatch"
-}
-{
 "$v_addthis" "210 64 0"
 "targetname" "escape_train2_respawn"
 "netname" "escape_train2_respawn"
@@ -8593,4 +8311,436 @@
 "messagevolume" "10"
 "spawnflags" "3"
 "classname" "game_text"
+}
+{
+"origin" "-1887 1472 574"
+"target" "dk_02_findguard"
+"attenuation" "2"
+"delay" "12.5"
+"targetname" "dk_01_sealrift"
+"listener" "player"
+"entity" "intro_wheelchair"
+"sentence" "!DK_HT05_01"
+"volume" "1"
+"refire" "3"
+"radius" "1"
+"duration" "12.5"
+"spawnflags" "5"
+"classname" "scripted_sentence"
+}
+///////////////////////////////////////////////////////////////////////////////////////////////
+{
+"dk_01_sealrift" "1"
+"dk_01_sealrift_music" "1"
+"targetname" "dk_01_sealrift_mm"
+"classname" "multi_manager"
+}
+{
+"origin" "-696 248 160"
+"message" "decay/keller/dk_05_mustseal.wav"
+"targetname" "dk_01_sealrift_music"
+"health" "10"
+"spawnflags" "1"
+"classname" "ambient_music"
+}
+{
+"delay" "40"
+"target" "dk_01_sealrift_mm"
+"triggerstate" "1"
+"classname" "trigger_auto"
+}
+{
+"origin" "-1967 1697 610"
+"nofall_hack" "0"
+"escape_train_r1" "1"
+"escape_train2" "0#1"
+"escape_train" "0#2"
+"traindoorsound" "0"
+"ubertram_door" "0"
+"targetname" "intro_tram_mm"
+"intro_tram_kill_mm" "0"
+"classname" "multi_manager"
+}
+{
+"origin" "-1967 1362 654"
+"traindoorsound" "0"
+"ubertram_door" "0"
+"intro_blather_ct" "0"
+"start_no_rush" "1#2"
+"targetname" "intro_blather_mm"
+"classname" "multi_manager"
+}
+{
+"model" "*78"
+"rendermode" "2"
+"targetname" "start_no_rush"
+"rendercolor" "0 0 0"
+"classname" "func_wall_toggle"
+}
+{
+"origin" "-401 1765 565"
+"targetname" "intro_sec_barney"
+"is_not_revivable" "1"
+"angles" "0 270 0"
+"rendercolor" "0 0 0"
+"spawnflags" "128"
+"classname" "monster_barney"
+}
+{
+"angles" "0 0 0"
+"model" "*68"
+"targetname" "intro_sec_doors"
+"dmg" "5"
+"lip" "-4"
+"wait" "-1"
+"speed" "50"
+"renderamt" "96"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"spawnflags" "512"
+"classname" "func_door"
+}
+{
+"angles" "0 0 0"
+"model" "*69"
+"targetname" "intro_sec_doors"
+"unlocked_sound" "3"
+"locked_sound" "2"
+"dmg" "5"
+"lip" "4"
+"wait" "-1"
+"speed" "50"
+"rendercolor" "0 0 0"
+"spawnflags" "512"
+"classname" "func_door"
+}
+{
+"model" "*70"
+"targetname" "intro_sec_doors"
+"unlocked_sound" "3"
+"locked_sound" "2"
+"dmg" "5"
+"lip" "4"
+"wait" "-1"
+"stopsnd" "1"
+"movesnd" "5"
+"speed" "50"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"spawnflags" "512"
+"classname" "func_door"
+}
+{
+"model" "*71"
+"targetname" "intro_sec_doors"
+"dmg" "5"
+"lip" "-4"
+"wait" "-1"
+"speed" "50"
+"renderamt" "96"
+"rendermode" "2"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"spawnflags" "512"
+"classname" "func_door"
+}
+{
+"model" "*76"
+"angles" "0 0 0"
+"sounds" "8"
+"target" "intro_sec_doors"
+"wait" "-1"
+"speed" "5"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_button"
+}
+{
+"model" "*146"
+"origin" "-1951 1546 590"
+"skin" "-1"
+"volume" "0.85"
+"dmg" "9999999"
+"target" "door_p1"
+"speed" "30"
+"_minlight" "0.01"
+"targetname" "ubertram_door"
+"rendercolor" "0 0 0"
+"classname" "func_train"
+}
+{
+"model" "*101"
+"angles" "0 0 0"
+"sounds" "8"
+"target" "outro_sec_doors"
+"master" "outro_sec_button_ms"
+"wait" "-1"
+"speed" "5"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_button"
+}
+{
+"model" "*97"
+"targetname" "outro_sec_doors"
+"dmg" "5"
+"lip" "-4"
+"wait" "-1"
+"speed" "50"
+"renderamt" "96"
+"rendermode" "2"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"spawnflags" "512"
+"classname" "func_door"
+}
+{
+"angles" "0 0 0"
+"model" "*98"
+"targetname" "outro_sec_doors"
+"dmg" "5"
+"lip" "-4"
+"wait" "-1"
+"speed" "50"
+"renderamt" "96"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"spawnflags" "512"
+"classname" "func_door"
+}
+{
+"angles" "0 0 0"
+"model" "*99"
+"unlocked_sound" "3"
+"locked_sound" "2"
+"dmg" "5"
+"lip" "4"
+"wait" "-1"
+"speed" "50"
+"targetname" "outro_sec_doors"
+"rendercolor" "0 0 0"
+"spawnflags" "512"
+"classname" "func_door"
+}
+{
+"model" "*100"
+"unlocked_sound" "3"
+"locked_sound" "2"
+"dmg" "5"
+"lip" "4"
+"wait" "-1"
+"stopsnd" "1"
+"movesnd" "5"
+"speed" "50"
+"angles" "0 180 0"
+"targetname" "outro_sec_doors"
+"rendercolor" "0 0 0"
+"spawnflags" "512"
+"classname" "func_door"
+}
+{
+"origin" "1036 -72 -688"
+"model" "models/scientist.mdl"
+"renderamt" "1"
+"is_not_revivable" "1"
+"rendermode" "2"
+"TriggerCondition" "2"
+"TriggerTarget" "zomb_hit2"
+"targetname" "walter"
+"sequence" "13"
+"displayname" "Scientist"
+"body" "1"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"spawnflags" "145"
+"classname" "monster_generic"
+}
+{
+"origin" "2246 1056 676"
+"sequence" "73"
+"model" "models/decay/merge/barney.mdl"
+"angles" "0 180 0"
+"targetname" "pool_barney"
+"rendercolor" "0 0 0"
+"is_not_revivable" "1"
+"spawnflags" "720902"
+"classname" "monster_generic"
+}
+{
+"origin" "2375 -1175 724"
+"model" "models/decay/dead_scientist.mdl"
+"targetname" "deadsci2"
+"is_not_revivable" "1"
+"angles" "0 90 0"
+"body" "-1"
+"rendercolor" "0 0 0"
+"spawnflags" "134"
+"classname" "monster_generic"
+}
+{
+"origin" "2163 -1171 577"
+"sequence" "86"
+"angles" "0 270 0"
+"is_not_revivable" "1"
+"model" "models/decay/merge/barney.mdl"
+"rendercolor" "0 0 0"
+"targetname" "cafe_fdoor_owned_barney"
+"spawnflags" "4"
+"classname" "monster_generic"
+}
+{
+"origin" "2445 -395 724"
+"targetname" "robs_sux"
+"model" "models/decay/dead_scientist.mdl"
+"angles" "0 90 0"
+"is_not_revivable" "1"
+"body" "-1"
+"rendercolor" "0 0 0"
+"spawnflags" "134"
+"classname" "monster_generic"
+}
+{
+"origin" "-627 815 564"
+"trigger_hits" "4"
+"angles" "0 0 0"
+"is_not_revivable" "1"
+"targetname" "deadsci1"
+"model" "models/decay/dead_scientist.mdl"
+"rendercolor" "0 0 0"
+"spawnflags" "134"
+"classname" "monster_generic"
+}
+{
+"origin" "-144 2242 564"
+"targetname" "surrender_freemen"
+"model" "models/decay/dead_scientist.mdl"
+"angles" "0 -18 0"
+"is_not_revivable" "1"
+"body" "-1"
+"rendercolor" "0 0 0"
+"spawnflags" "134"
+"classname" "monster_generic"
+}
+{
+"origin" "2530 -1452 724"
+"targetname" "pizza"
+"is_not_revivable" "1"
+"model" "models/decay/dead_scientist.mdl"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"classname" "monster_generic"
+}
+///////////////////////////////////////////////////////////////////////////////////////////////
+{
+"origin" "-1761 1456 600"
+"angles" "0 90 0"
+"targetname" "escape_train2"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1824 1444 604"
+"angles" "0 90 0"
+"targetname" "escape_train2"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1690 1456 600"
+"angles" "0 90 0"
+"targetname" "escape_train2"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1683 1757 600"
+"angles" "0 -90 0"
+"targetname" "escape_train2"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1772 1757 600"
+"angles" "0 -90 0"
+"targetname" "escape_train2"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1876 1757 600"
+"angles" "0 -90 0"
+"targetname" "escape_train2"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+///////////////////////////////////Inside_train////////////////////////////////////////////////////
+{
+"origin" "-2061 1442 612"
+"angles" "0 0 0"
+"targetname" "escape_train"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2064 1535 612"
+"angles" "0 0 0"
+"targetname" "escape_train"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1999 1571 612"
+"angles" "0 -90 0"
+"targetname" "escape_train"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2060 1374 617"
+"angles" "0 0 0"
+"targetname" "escape_train"
+"classname" "info_player_deathmatch"
+}
+////////////////////////////////////////////////////////////////////////////////////////////////
+{
+"origin" "1844 1093 760"
+"angles" "0 0 0"
+"targetname" "pool_spawn"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1844 1009 760"
+"angles" "0 0 0"
+"targetname" "pool_spawn"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1844 899 760"
+"angles" "0 0 0"
+"targetname" "pool_spawn"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*24"
+"target" "pool_spawn_mm"
+"classname" "trigger_once"
+}
+{
+"origin" "2630 197 796"
+"escape_train2" "0#0"
+"pool_spawn" "1#1"
+"targetname" "pool_spawn_mm"
+"classname" "multi_manager"
+}
+{
+"title_msg" "15#1"
+"targetname" "title_mm"
+"classname" "multi_manager"
+}
+{
+"origin" "276 2096 -432"
+"delay" "20"
+"target" "title_mm"
+"spawnflags" "1"
+"classname" "trigger_auto"
 }
