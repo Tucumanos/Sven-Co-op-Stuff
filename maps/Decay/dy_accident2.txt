@@ -3191,7 +3191,7 @@
 "classname" "trigger_auto"
 }
 {
-"origin" "-1010 8770 -434"
+"origin" "-1010 877 -434"
 "angles" "0 10 0"
 "classname" "info_player_deathmatch"
 }
@@ -3230,3 +3230,4 @@
 "angles" "0 10 0"
 "classname" "info_player_deathmatch"
 }
+
