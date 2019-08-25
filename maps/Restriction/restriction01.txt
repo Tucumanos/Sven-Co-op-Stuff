@@ -5,6 +5,7 @@
 "MaxRange" "8192"
 "classname" "worldspawn"
 }
+////Edit by Cadaver 20/05/2018
 {
 "model" "*1"
 "rendercolor" "0 0 0"
@@ -1450,6 +1451,7 @@
 {
 "model" "*86"
 "map" "restriction02"
+"keep_inventory" "1"
 "classname" "trigger_changelevel"
 }
 {
@@ -2604,7 +2606,7 @@
 {
 "origin" "649 -82 -265"
 "effect" "1"
-"message" "You found a keycode !"
+"message" "Encontraste la tarjeta"
 "targetname" "button_security01CH"
 "channel" "1"
 "fxtime" "0.25"
@@ -2631,7 +2633,7 @@
 {
 "origin" "2193 -480 -471"
 "effect" "1"
-"message" "You need a keycode !"
+"message" "Necesitas una tarjeta"
 "targetname" "button_security01TX"
 "channel" "1"
 "fxtime" "0.25"
@@ -3121,7 +3123,7 @@
 }
 {
 "origin" "2047 -1432 -518"
-"message" "... but something happened ..."
+"message" "...pero algo pasó ..."
 "targetname" "indead"
 "channel" "2"
 "fxtime" "0.25"
@@ -3137,7 +3139,7 @@
 }
 {
 "origin" "2063 -1432 -518"
-"message" "It was a good job, without incidents to manage..."
+"message" "Fue un buen trabajo, sin incidentes para administrar..."
 "targetname" "equality2"
 "channel" "2"
 "fxtime" "0.25"
@@ -3153,7 +3155,7 @@
 }
 {
 "origin" "2079 -1432 -518"
-"message" "We are a mercenary team hired to assume the security in this complex"
+"message" "Somos un equipo mercenario contratado para asumir la seguridad en este complejo"
 "targetname" "equality"
 "channel" "2"
 "fxtime" "0.25"
@@ -3169,7 +3171,7 @@
 }
 {
 "origin" "2095 -1432 -518"
-"message" "The NP Corporation is a gigantic corporation which lead to dominate the bio-technology business"
+"message" "La Corporación NP es una corporación gigantesca que llega a dominar el negocio de la biotecnología"
 "targetname" "poverty"
 "channel" "1"
 "fxtime" "0.25"
@@ -3185,7 +3187,7 @@
 }
 {
 "origin" "2111 -1432 -518"
-"message" "Welcome to the NP Corporation Research Facility"
+"message" "Bienvenidos a NP Corporation Research Facility"
 "targetname" "dictatorship"
 "channel" "2"
 "fxtime" "0.25"
@@ -3661,7 +3663,7 @@
 {
 "origin" "2131 -2077 -286"
 "effect" "1"
-"message" "We need something..."
+"message" "Necesitamos algo..."
 "targetname" "mess_plank"
 "channel" "1"
 "fxtime" "0.25"
@@ -3697,7 +3699,7 @@
 {
 "origin" "2044 -2063 -271"
 "effect" "1"
-"message" "We can pass here now !"
+"message" "¡Ahora si podemos pasar por ahi!"
 "targetname" "plank"
 "channel" "1"
 "fxtime" "0.25"
@@ -3745,7 +3747,7 @@
 {
 "origin" "2323 -2931 -263"
 "effect" "1"
-"message" "Security bay opened !"
+"message" "Puerta de seguridad abierta.."
 "targetname" "security_bay"
 "channel" "1"
 "fxtime" "0.25"
@@ -4414,7 +4416,7 @@
 {
 "origin" "1128 -2917 -303"
 "effect" "1"
-"message" "You found some planks !"
+"message" "¡Encontraste algunos tablones!"
 "targetname" "plank_found"
 "channel" "1"
 "fxtime" "0.25"
@@ -6763,7 +6765,7 @@
 }
 {
 "origin" "2117 -841 -512"
-"message" "What happened here ?\n\nWe have to find a way to access the labs\nand contact the security team over there !"
+"message" "¿Que pasó aqui?\n\n¡Tenemos que encontrar la manera de entrar a los laboratorios\ny contactar con el servicio de seguridad!"
 "targetname" "text_scenar01"
 "channel" "4"
 "fxtime" "0.25"
@@ -6784,7 +6786,7 @@
 }
 {
 "origin" "2944 -1938 -475"
-"message" "What the hell was that ?!"
+"message" "¿Que carajos fue eso?"
 "targetname" "killscene_ventsnd2"
 "channel" "4"
 "fxtime" "0.25"
@@ -7500,8 +7502,10 @@
 {
 "origin" "2736 1081 -72"
 "target" "camera_mm2"
-"message" "Time to start our mission ?"
+"message" "Hora de comenzar la misión?, asegurate de que todos hayan entrado al server"
 "targetname" "Vote_Start"
+"m_iszYesString" "Si, vamos"
+"m_iszNoString" "No, aun no"
 "health" "50"
 "frags" "15"
 "classname" "trigger_vote"
@@ -8638,4 +8642,12 @@
 "origin" "768 -351 -312"
 "texture" "{BLOOD4"
 "classname" "infodecal"
+}
+{
+"origin" "-1386 700 -740"
+"model" "sprites/map_change.spr"
+"rendermode" "4"
+"renderamt" "255"
+"scale" "1"
+"classname" "env_sprite"
 }
