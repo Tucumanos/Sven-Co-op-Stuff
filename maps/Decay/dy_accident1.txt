@@ -10,16 +10,27 @@
 "MaxRange" "4096"
 "message" "HT01ACCIDENT"
 "newunit" "1"
-"gametitle" "1"
 "startdark" "1"
 "mapversion" "220"
 "skyname" "black"
 "classname" "worldspawn"
 }
+//Edited by Cadaver 11/05/2019 - Revised 16/05/2019
 {
-"origin" "1471 -2816 -1500"
-"angles" "0 90 0"
-"classname" "info_player_start"
+"x" "-1"
+"y" "-0.2"
+"effect" "2"
+"color" "100 100 100"
+"color2" "240 110 0"
+"fadein" "0.03"
+"fxtime" "0.25"
+"holdtime" "5"
+"fadeout" "1.5"
+"channel" "1"
+"message" "INTRO"
+"targetname" "title_msg"
+"spawnflags" "3"
+"classname" "game_text"
 }
 {
 "origin" "1880 -1592 -1532"
@@ -50,7 +61,7 @@
 {
 "origin" "1472 -2688 -1440"
 "targetname" "entry_vox"
-"message" "!ht01_1"
+"message" "!HT01_1"
 "pitchstart" "100"
 "pitch" "100"
 "health" "10"
@@ -221,18 +232,8 @@
 "classname" "monster_scientist"
 }
 {
-"origin" "1512 -2840 -1500"
-"angles" "0 90 0"
-"classname" "info_player_coop"
-}
-{
-"origin" "1431 -2840 -1500"
-"angles" "0 90 0"
-"classname" "info_player_coop"
-}
-{
 "origin" "1392 -1424 -1536"
-"target" "barn_talk2"
+"target" "barn_talk2_mm"
 "attenuation" "2"
 "delay" "5"
 "entity" "first_barney"
@@ -380,6 +381,7 @@
 "sequence" "13"
 "targetname" "zoner"
 "angles" "0 90 0"
+"displayname" "¿Como llegaste aquí?\nUsando Noclip eh.."
 "body" "3"
 "rendercolor" "0 0 0"
 "spawnflags" "65792"
@@ -403,8 +405,10 @@
 }
 {
 "origin" "204 2650 -560"
-"model" "models/decay/wheelchair_sci.mdl"
+"model" "models/wheelchair_sci.mdl"
 "targetname" "wheels"
+"displayname" "Dr. Richard Keller"
+"health" "100"
 "TriggerTarget" "dont_shoot_me"
 "TriggerCondition" "2"
 "angles" "0 270 0"
@@ -423,6 +427,7 @@
 "rendercolor" "0 0 0"
 "spawnflags" "65794"
 "displayname" "Dr. Rosenberg"
+"health" "100"
 "classname" "monster_scientist"
 }
 {
@@ -1906,10 +1911,13 @@
 }
 {
 "origin" "1733 -1434 -1536"
+"unlocked_target" "hall_retina_door"
+"unlockersname" "retinal_mm"
+"targetname" "retinal_scanner"
 "angles" "0 180 0"
-"model" "models/decay/EYE_SCANNER.mdl"
-"movetype" "5"
-"classname" "item_generic"
+"reset_delay" "2.5"
+"spawnflags" "1"
+"classname" "item_eyescanner"
 }
 {
 "origin" "92 2600 -392"
@@ -2179,63 +2187,6 @@
 "classname" "scripted_sequence"
 }
 {
-"model" "*8"
-"accuracyc" "10.0"
-"accuracyb" "25.0"
-"accuracya" "40.0"
-"killsc" "4"
-"killsb" "10"
-"killsa" "15"
-"woundsc" "76.0"
-"woundsb" "50.0"
-"woundsa" "25.0"
-"holdtime" "4"
-"message" "GAMEOVER"
-"duration" "4"
-"renderamt" "255"
-"targetname" "dont_shoot_me"
-"rendercolor" "0 0 0"
-"classname" "trigger_enddecay"
-}
-{
-"model" "*9"
-"accuracyc" "10.0"
-"accuracyb" "25.0"
-"accuracya" "40.0"
-"killsc" "4"
-"killsb" "10"
-"killsa" "15"
-"woundsc" "76.0"
-"woundsb" "50.0"
-"woundsa" "25.0"
-"holdtime" "4"
-"message" "DEADCOLETTE"
-"duration" "4"
-"renderamt" "255"
-"targetname" "decay_player2_dead"
-"rendercolor" "0 0 0"
-"classname" "trigger_enddecay"
-}
-{
-"model" "*10"
-"accuracyc" "10.0"
-"accuracyb" "25.0"
-"accuracya" "40.0"
-"killsc" "4"
-"killsb" "10"
-"killsa" "15"
-"woundsc" "76.0"
-"woundsb" "50.0"
-"woundsa" "25.0"
-"holdtime" "4"
-"message" "DEADGINA"
-"duration" "4"
-"renderamt" "255"
-"targetname" "decay_player1_dead"
-"rendercolor" "0 0 0"
-"classname" "trigger_enddecay"
-}
-{
 "model" "*11"
 "angles" "0 0 0"
 "wait" ".15"
@@ -2346,6 +2297,7 @@
 "angles" "0 180 0"
 "lip" "-8"
 "wait" "-1"
+"dmg" "101"
 "speed" "60"
 "targetname" "inside_door"
 "renderamt" "60"
@@ -2357,6 +2309,7 @@
 "angles" "0 180 0"
 "lip" "4"
 "wait" "-1"
+"dmg" "101"
 "movesnd" "4"
 "speed" "60"
 "_minlight" "0.05"
@@ -2380,7 +2333,7 @@
 "pitchstart" "100"
 "pitch" "100"
 "health" "3"
-"message" "Ambience/wind1.wav"
+"message" "ambience/wind1.wav"
 "spawnflags" "1"
 "classname" "ambient_generic"
 }
@@ -2389,7 +2342,7 @@
 "pitchstart" "100"
 "pitch" "100"
 "health" "3"
-"message" "Ambience/wind1.wav"
+"message" "ambience/wind1.wav"
 "spawnflags" "1"
 "classname" "ambient_generic"
 }
@@ -2398,13 +2351,14 @@
 "pitchstart" "100"
 "pitch" "100"
 "health" "3"
-"message" "Ambience/wind1.wav"
+"message" "ambience/wind1.wav"
 "spawnflags" "1"
 "classname" "ambient_generic"
 }
 {
 "model" "*46"
-"health" "1"
+"material" "7"
+"health" "5"
 "renderamt" "127"
 "rendermode" "2"
 "rendercolor" "0 0 0"
@@ -2412,7 +2366,8 @@
 }
 {
 "model" "*48"
-"health" "1"
+"material" "7"
+"health" "5"
 "renderamt" "127"
 "rendermode" "2"
 "rendercolor" "0 0 0"
@@ -2471,7 +2426,7 @@
 "rendercolor" "0 0 0"
 "bodygroup" "1"
 "body" "1"
-"scale" "0.8"
+"scale" "1"
 "skin" "1"
 "model" "models/decay/pipe_1_straight.mdl"
 "angles" "0 90 0"
@@ -2483,7 +2438,7 @@
 "rendercolor" "0 0 0"
 "bodygroup" "1"
 "body" "1"
-"scale" "0.8"
+"scale" "1"
 "skin" "1"
 "model" "models/decay/pipe_1_straight.mdl"
 "angles" "0 90 0"
@@ -2495,7 +2450,7 @@
 "rendercolor" "0 0 0"
 "bodygroup" "1"
 "body" "1"
-"scale" "0.8"
+"scale" "1"
 "skin" "1"
 "model" "models/decay/pipe_1_curve.mdl"
 "angles" "-90 90 0"
@@ -2507,7 +2462,7 @@
 "rendercolor" "0 0 0"
 "bodygroup" "1"
 "body" "1"
-"scale" "0.8"
+"scale" "1"
 "skin" "1"
 "model" "models/decay/pipe_1_straight.mdl"
 "angles" "0 90 0"
@@ -2519,7 +2474,7 @@
 "rendercolor" "0 0 0"
 "bodygroup" "1"
 "body" "1"
-"scale" "0.8"
+"scale" "1"
 "skin" "1"
 "model" "models/decay/pipe_1_straight.mdl"
 "angles" "0 90 0"
@@ -2531,7 +2486,7 @@
 "rendercolor" "0 0 0"
 "bodygroup" "1"
 "body" "1"
-"scale" "0.8"
+"scale" "1"
 "skin" "1"
 "model" "models/decay/pipe_1_straight.mdl"
 "angles" "0 90 0"
@@ -2543,7 +2498,7 @@
 "rendercolor" "0 0 0"
 "bodygroup" "1"
 "body" "1"
-"scale" "0.8"
+"scale" "1"
 "skin" "1"
 "model" "models/decay/pipe_1_straight.mdl"
 "angles" "0 0 0"
@@ -2555,7 +2510,7 @@
 "rendercolor" "0 0 0"
 "bodygroup" "1"
 "body" "1"
-"scale" "0.8"
+"scale" "1"
 "skin" "1"
 "model" "models/decay/pipe_1_straight.mdl"
 "angles" "0 0 0"
@@ -2567,7 +2522,7 @@
 "rendercolor" "0 0 0"
 "bodygroup" "1"
 "body" "1"
-"scale" "0.8"
+"scale" "1"
 "skin" "1"
 "model" "models/decay/pipe_1_straight.mdl"
 "angles" "0 0 0"
@@ -2934,7 +2889,7 @@
 }
 {
 "origin" "2734 1440 -503"
-"model" "models/decay/gman.mdl"
+"model" "models/gman.mdl"
 "targetname" "mulder"
 "angles" "0 180 0"
 "rendercolor" "0 0 0"
@@ -2979,6 +2934,7 @@
 "lip" "4"
 "wait" "-1"
 "speed" "50"
+"dmg" "101"
 "angles" "0 0 0"
 "unlocked_sound" "3"
 "locked_sound" "2"
@@ -2995,6 +2951,7 @@
 "angles" "0 0 0"
 "targetname" "uberdoors"
 "renderamt" "90"
+"dmg" "101"
 "rendermode" "2"
 "rendercolor" "0 0 0"
 "spawnflags" "544"
@@ -3008,6 +2965,7 @@
 "wait" "-1"
 "speed" "50"
 "angles" "0 180 0"
+"dmg" "101"
 "targetname" "uberdoors"
 "renderamt" "90"
 "light_origin" "uberdoors"
@@ -3024,6 +2982,7 @@
 "speed" "50"
 "angles" "0 180 0"
 "unlocked_sound" "3"
+"dmg" "101"
 "locked_sound" "2"
 "targetname" "uberdoors"
 "rendercolor" "0 0 0"
@@ -3038,6 +2997,7 @@
 "speed" "50"
 "angles" "0 0 0"
 "targetname" "uberdoors2"
+"dmg" "101"
 "renderamt" "90"
 "rendermode" "2"
 "rendercolor" "0 0 0"
@@ -3052,6 +3012,7 @@
 "wait" "-1"
 "speed" "50"
 "angles" "0 0 0"
+"dmg" "101"
 "targetname" "uberdoors2"
 "rendercolor" "0 0 0"
 "spawnflags" "544"
@@ -3067,6 +3028,7 @@
 "movesnd" "5"
 "speed" "50"
 "angles" "0 180 0"
+"dmg" "101"
 "targetname" "uberdoors2"
 "rendercolor" "0 0 0"
 "spawnflags" "544"
@@ -3081,6 +3043,7 @@
 "angles" "0 180 0"
 "targetname" "uberdoors2"
 "renderamt" "90"
+"dmg" "101"
 "rendercolor" "0 0 0"
 "spawnflags" "544"
 "classname" "func_door"
@@ -3648,17 +3611,6 @@
 "classname" "func_frame"
 }
 {
-"model" "*191"
-"target" "rosenvator_doors"
-"speed" "5"
-"rendercolor" "0 0 0"
-"wait" "3"
-"sounds" "3"
-"angles" "0 0 0"
-"spawnflags" "1"
-"classname" "func_button"
-}
-{
 "model" "*192"
 "classname" "func_frame"
 }
@@ -4129,10 +4081,10 @@
 }
 {
 "origin" "1524 406 -1534"
+"unlockersname" "gman"
+"unlocked_target" "dummy"
 "angles" "0 180 0"
-"movetype" "5"
-"model" "models/decay/EYE_SCANNER.mdl"
-"classname" "item_generic"
+"classname" "item_eyescanner"
 }
 {
 "origin" "1880 -1621 -1532"
@@ -4248,14 +4200,6 @@
 "entry_vox" "0"
 "targetname" "start_sequence"
 "classname" "multi_manager"
-}
-{
-"origin" "1472 -2784 -1464"
-"delay" "2"
-"triggerstate" "2"
-"target" "start_sequence"
-"spawnflags" "1"
-"classname" "trigger_auto"
 }
 {
 "origin" "1544 -2536 -1480"
@@ -4732,19 +4676,6 @@
 "messagevolume" "10"
 "spawnflags" "3"
 "classname" "game_text"
-}
-{
-"origin" "1471 -2849 -1500"
-"angles" "0 90 0"
-"targetname" "spawn1"
-"classname" "info_player_deathmatch"
-}
-{
-"origin" "1576 -2232 -1496"
-"barn_talk3" "2"
-"intro_barney_seq2" "0"
-"targetname" "intro_movealong_mm"
-"classname" "multi_manager"
 }
 {
 "origin" "1264 32 -1448"
@@ -6273,7 +6204,7 @@
 }
 {
 "model" "*15"
-"target" "barn_talk3"
+"target" "barn_talk3_mm"
 "sounds" "3"
 "spawnflags" "3"
 "classname" "trigger_once"
@@ -6740,13 +6671,6 @@
 "classname" "info_node"
 }
 {
-"origin" "2676 1496 -1552"
-"delay" "5"
-"killtarget" "ubervator_node_hack"
-"spawnflags" "1"
-"classname" "trigger_auto"
-}
-{
 "origin" "2837 1440 -1456"
 "_fade" "1.0"
 "_light" "150 160 210 200"
@@ -6868,12 +6792,6 @@
 "classname" "trigger_relay"
 }
 {
-"delay" "1"
-"target" "ubervator_start_r1"
-"triggerstate" "1"
-"classname" "trigger_auto"
-}
-{
 "targetname" "ubervator_start_ms"
 "classname" "multisource"
 }
@@ -6981,13 +6899,6 @@
 "model" "*144"
 "rendercolor" "0 0 0"
 "classname" "func_wall"
-}
-{
-"origin" "276 2096 -432"
-"delay" "7"
-"target" "post_accident_mm"
-"spawnflags" "1"
-"classname" "trigger_auto"
 }
 {
 "origin" "204 2188 -716"
@@ -7584,6 +7495,7 @@
 "map" "dy_accident2"
 "targetname" "transition"
 "rendercolor" "0 0 0"
+"keep_inventory" "1"
 "spawnflags" "6"
 "classname" "trigger_changelevel"
 }
@@ -8101,13 +8013,6 @@
 "classname" "multi_manager"
 }
 {
-"origin" "200 3152 -512"
-"angles" "0 270 0"
-"targetname" "spawn2"
-"spawnflags" "2"
-"classname" "info_player_deathmatch"
-}
-{
 "spawn2" "0#1"
 "spawn1" "0#2"
 "targetname" "dk_greetz"
@@ -8119,4 +8024,574 @@
 "maxhullsize" "31 2880 -400"
 "target" "percent_lock_1"
 "classname" "trigger_once_mp"
+}
+{
+"origin" "1472 -2784 -1464"
+"delay" "42"
+"triggerstate" "2"
+"target" "start_sequence"
+"spawnflags" "1"
+"classname" "trigger_auto"
+}
+{
+"origin" "2676 1496 -1552"
+"delay" "45"
+"killtarget" "ubervator_node_hack"
+"spawnflags" "1"
+"classname" "trigger_auto"
+}
+{
+"delay" "41"
+"target" "ubervator_start_r1"
+"triggerstate" "1"
+"classname" "trigger_auto"
+}
+{
+"origin" "276 2096 -432"
+"delay" "47"
+"target" "post_accident_mm"
+"spawnflags" "1"
+"classname" "trigger_auto"
+}
+///////////////////////////////////////////////////////////////////////////////////////////////
+{
+"logo_fadein" "0#1"
+"logo" "6#1"
+"logo_fadeout" "6.5#1"
+"title_msg" "25#1"
+"targetname" "start_logo_mm"
+"classname" "multi_manager"
+}
+{
+"origin" "276 2096 -432"
+"delay" "35"
+"target" "start_logo_mm"
+"spawnflags" "1"
+"classname" "trigger_auto"
+}
+{
+"origin" "0 0 0"
+"classname" "trigger_script"
+"m_iMode" "1"
+"delay" "0"
+"targetname" "logo"
+"m_iszScriptFunctionName" "ShowDecayLogo"
+}
+{
+"origin" "203 1860 -504"
+"holdtime" "5"
+"targetname" "logo_fadein"
+"rendercolor" "0 0 0"
+"renderamt" "255"
+"duration" "2"
+"classname" "env_fade"
+}
+{
+"origin" "203 1860 -504"
+"holdtime" "6"
+"targetname" "logo_fadeout"
+"rendercolor" "0 0 0"
+"renderamt" "255"
+"duration" "5"
+"spawnflags" "1"
+"classname" "env_fade"
+}
+{
+"model" "*260"
+"target" "donot_enter"
+"delay" "0.5"
+"classname" "trigger_teleport"
+}
+{
+"origin" "-656 1716 -780"
+"teleport_cooldown" "0.3"
+"targetname" "donot_enter"
+"classname" "info_teleport_destination"
+}
+///////////////////////////////////////////////////////////////////////////////////////////////
+{
+"origin" "1420 -2878 -1500"
+"angles" "0 90 0"
+"targetname" "spawn1"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1527 -2878 -1500"
+"angles" "0 90 0"
+"targetname" "spawn1"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1470 -2828 -1500"
+"angles" "0 90 0"
+"targetname" "spawn1"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1417 -2772 -1500"
+"angles" "0 90 0"
+"targetname" "spawn1"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1526 -2771 -1500"
+"angles" "0 90 0"
+"targetname" "spawn1"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1471 -2717 -1500"
+"angles" "0 90 0"
+"targetname" "spawn1"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1420 -2664 -1500"
+"angles" "0 90 0"
+"targetname" "spawn1"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1527 -2665 -1500"
+"angles" "0 90 0"
+"targetname" "spawn1"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1470 -2613 -1500"
+"angles" "0 90 0"
+"targetname" "spawn1"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1417 -2561 -1500"
+"angles" "0 90 0"
+"targetname" "spawn1"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1526 -2558 -1500"
+"angles" "0 90 0"
+"targetname" "spawn1"
+"classname" "info_player_deathmatch"
+}
+///////////////////////////////////////////////////////////////////////////////////////////////
+{
+"origin" "284 3164 -524"
+"angles" "0 -90 0"
+"targetname" "spawn2"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "200 3165 -524"
+"angles" "0 -90 0"
+"targetname" "spawn2"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "125 3163 -524"
+"angles" "0 -90 0"
+"targetname" "spawn2"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "125 3097 -524"
+"angles" "0 -90 0"
+"targetname" "spawn2"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "204 3098 -524"
+"angles" "0 -90 0"
+"targetname" "spawn2"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "284 3098 -524"
+"angles" "0 -90 0"
+"targetname" "spawn2"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "284 3037 -524"
+"angles" "0 -90 0"
+"targetname" "spawn2"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "200 3037 -524"
+"angles" "0 -90 0"
+"targetname" "spawn2"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "125 3038 -524"
+"angles" "0 -90 0"
+"targetname" "spawn2"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*191"
+//"target" "rosenvator_doors"
+"speed" "5"
+"rendercolor" "0 0 0"
+"wait" "3"
+"sounds" "3"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_button"
+}
+//////////////////////////////////////////Subtitulos///////////////////////////////////////////
+{
+"origin" "666 666 666"
+"channel" "6"
+"fxtime" "0.25"
+"holdtime" "3"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "95 110 250"
+"color" "60 90 250"
+"y" "-0.1"
+"x" "-1"
+"message" "Barney: Buenos dias Doctores, parece que han sido puntuales hoy."
+"targetname" "barn_talk1"
+"spawnflags" "3"
+"classname" "game_text"
+}
+{
+"origin" "666 666 666"
+"channel" "6"
+"fxtime" "0.25"
+"holdtime" "8"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "95 110 250"
+"color" "60 90 250"
+"y" "-0.1"
+"x" "-1"
+"message" "Barney: Me temo que habido problemas con el sistema, así que es posible que hayan sido borrados \nde la base de datos de seguridad, si me siguen hasta la puerta, los dejaré entrar para que lo solucionen."
+"targetname" "barn_talk2_msg"
+"spawnflags" "3"
+"classname" "game_text"
+}
+//Por alguna razón se vuelve a triggerear, asi que lo elimino ¯\_(C:)_/¯
+{
+"origin" "666 666 666"
+"barn_talk2" "0#1"
+"barn_talk2_msg" "0#1"
+"barn_talk2_msg" "9#2"
+"targetname" "barn_talk2_mm"
+"classname" "multi_manager"
+}
+{
+"origin" "666 666 666"
+"channel" "6"
+"fxtime" "0.25"
+"holdtime" "7.5"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "95 110 250"
+"color" "60 90 250"
+"y" "-0.1"
+"x" "-1"
+"message" "Barney: Así que supongo que hoy es el gran día, el gran hombre estaba muy nervioso cuando entró antes,\n hablaba del tipo nuevo, el Dr. Freeman, solo espero que todo salga bien hoy."
+"targetname" "barn_talk3_msg"
+"spawnflags" "3"
+"classname" "game_text"
+}
+{
+"origin" "666 666 666"
+"barn_talk3" "0#1"
+"barn_talk3_msg" "0#1"
+"barn_talk3_msg" "8.2#2"
+"targetname" "barn_talk3_mm"
+"classname" "multi_manager"
+}
+{
+"origin" "1576 -2232 -1496"
+"barn_talk3_mm" "2"
+"intro_barney_seq2" "0"
+"targetname" "intro_movealong_mm"
+"classname" "multi_manager"
+}
+{
+"origin" "666 666 666"
+"channel" "6"
+"fxtime" "0.25"
+"holdtime" "4"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "95 110 250"
+"color" "60 90 250"
+"y" "-0.1"
+"x" "-1"
+"message" "Barney: Muy bien, esto debería tomarme un segundo...\nAdelante, nos veremos después del experimento."
+"targetname" "barn_talk4"
+"spawnflags" "3"
+"classname" "game_text"
+}
+{
+"origin" "666 666 666"
+"channel" "7"
+"fxtime" "0.25"
+"holdtime" "2"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 128 64"
+"y" "-0.1"
+"x" "-1"
+"message" "Científico: Buenos días, los están esperando en la sala de control."
+"targetname" "walter_talk_1"
+"spawnflags" "3"
+"classname" "game_text"
+}
+{
+"origin" "666 666 666"
+"channel" "7"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 128 64"
+"y" "-0.1"
+"x" "-1"
+"message" "Científico: Ah, ya les abro la puerta, tendrían que ser capaces de ponerlos de nuevo en la base de datos de seguridad, en la sala contigua."
+"targetname" "walter_talk_2"
+"spawnflags" "3"
+"classname" "game_text"
+}
+{
+"origin" "666 666 666"
+"channel" "7"
+"fxtime" "0.25"
+"holdtime" "10"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 128 64"
+"y" "-0.1"
+"x" "-1"
+"message" "Científico: Bienvenidos, parece ser que se han perdido los datos debido a un fallo de sistema ocurrido esta mañana, \nno es para preocuparse, puedo volver a registrarlos en este puesto, entren en la cabina de uno en uno y comenzaré el procedimiento."
+"targetname" "scan_station_talk1"
+"spawnflags" "3"
+"classname" "game_text"
+}
+{
+"origin" "666 666 666"
+"channel" "7"
+"fxtime" "0.25"
+"holdtime" "5"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 128 64"
+"y" "-0.1"
+"x" "-1"
+"message" "Científico: No se mueva durante el procedimiento, no se preocupe Dr. Cross, solo tardaré unos minutos."
+"targetname" "scan_station_talk3"
+"spawnflags" "3"
+"classname" "game_text"
+}
+{
+"origin" "666 666 666"
+"channel" "4"
+"fxtime" "0.25"
+"holdtime" "10"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "255 255 255"
+"color" "255 255 255"
+"y" "-0.1"
+"x" "-1"
+"message" "Dr. Keller: Ah, hola Doctores, es agradable ver que alguien es puntual hoy, el Dr. Freeman llega tarde.. Otra vez.\n Sinceramente no entiendo que puede ver Kleiner en ese chico."
+"targetname" "dk_01_late"
+"spawnflags" "3"
+"classname" "game_text"
+}
+{
+"origin" "666 666 666"
+"channel" "7"
+"fxtime" "0.25"
+"holdtime" "14"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "255 255 255"
+"color" "255 255 255"
+"y" "-0.1"
+"x" "-1"
+"message" "Dr. Keller: De todos modos empecemos, cuando el Dr. Freeman esté preparado arriba querrán empezar el experimento, \nasí que tendrán que recuperar la muestra Dr. Cross.\nYo llevaré a la Dr. Green a la sala de pruebas para preparar otras cosas."
+"targetname" "dk_03_started"
+"spawnflags" "3"
+"classname" "game_text"
+}
+{
+"origin" "666 666 666"
+"channel" "8"
+"fxtime" "0.25"
+"holdtime" "1"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 200 5"
+"color" "250 220 80"
+"y" "-0.1"
+"x" "-1"
+"message" "Dr. Rosenberg: Dr. Keller."
+"targetname" "ro_01_keller"
+"spawnflags" "3"
+"classname" "game_text"
+}
+{
+"origin" "666 666 666"
+"channel" "7"
+"fxtime" "0.25"
+"holdtime" "2.5"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "255 255 255"
+"color" "255 255 255"
+"y" "-0.1"
+"x" "-1"
+"message" "Dr. Keller: Ah hola Dr. Rosenberg, estamos en mitad de algo, así que si pudieras.."
+"targetname" "dk_04_rosenberg"
+"spawnflags" "3"
+"classname" "game_text"
+}
+{
+"origin" "666 666 666"
+"channel" "8"
+"fxtime" "0.25"
+"holdtime" "8"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 200 5"
+"color" "250 220 80"
+"y" "-0.1"
+"x" "-1"
+"message" "Dr. Rosenberg: Eh estado hablando con Harold, parece que tiene la impresión de que estás\nplaneando utilizar el espectrómetro anti-masa a mas del 90%,\n te habrás dado cuenta de que el amortiguador de seguridad está por algo."
+"targetname" "ro_02_spectrom"
+"spawnflags" "3"
+"classname" "game_text"
+}
+{
+"origin" "666 666 666"
+"channel" "7"
+"fxtime" "0.25"
+"holdtime" "3"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "255 255 255"
+"color" "255 255 255"
+"y" "-0.1"
+"x" "-1"
+"message" "Dr. Keller: Entiendo tu preocupación Dr., pero el administrador lo dejó bastante claro."
+"targetname" "dk_05_concern"
+"spawnflags" "3"
+"classname" "game_text"
+}
+{
+"origin" "666 666 666"
+"channel" "8"
+"fxtime" "0.25"
+"holdtime" "4"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 200 5"
+"color" "250 220 80"
+"y" "-0.1"
+"x" "-1"
+"message" "Dr. Rosenberg: El administrador es un burócrata, no un científico, yo no diseñe este equipo para utilizarlo con una intensidad tan alta."
+"targetname" "ro_03_admin"
+"spawnflags" "3"
+"classname" "game_text"
+}
+{
+"origin" "666 666 666"
+"channel" "7"
+"fxtime" "0.25"
+"holdtime" "8.5"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "255 255 255"
+"color" "255 255 255"
+"y" "-0.1"
+"x" "-1"
+"message" "Dr. Keller: Esta decisión no te corresponde, ahora si quieres puedes quedarte a dirigir el experimento,\n de lo contrario puedes volver a tu insignificante laboratorio, por la estación de deposito."
+"targetname" "dk_06_decision"
+"spawnflags" "3"
+"classname" "game_text"
+}
+{
+"origin" "666 666 666"
+"channel" "7"
+"fxtime" "0.25"
+"holdtime" "8.5"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "255 255 255"
+"color" "255 255 255"
+"y" "-0.1"
+"x" "-1"
+"message" "Dr. Keller: Dr. Cross el área de almacenamiento de muestras está detrás de esta puerta,\nDr. Green necesitamos que estés en la sala de pruebas, controlaremos el experimento desde aquí."
+"targetname" "dk_07_storage"
+"spawnflags" "3"
+"classname" "game_text"
+}
+{
+"origin" "666 666 666"
+"channel" "7"
+"fxtime" "0.25"
+"holdtime" "3"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 128 64"
+"y" "-0.1"
+"x" "-1"
+"message" "Científico: Si fuera tan amable como para empujar la muestra hacia el elevador, podremos comenzar el experimento."
+"targetname" "sampsci_pushsamp"
+"spawnflags" "3"
+"classname" "game_text"
+}
+{
+"origin" "666 666 666"
+"channel" "7"
+"fxtime" "0.25"
+"holdtime" "15"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 128 64"
+"y" "-0.1"
+"x" "-1"
+"message" "Científico: Interesante...Eso no debería pasar...En teoría esto es imposible, sabes..."
+"targetname" "sampsci_zoner1"
+"spawnflags" "3"
+"classname" "game_text"
+}
+{
+"origin" "666 666 666"
+"channel" "7"
+"fxtime" "0.25"
+"holdtime" "9"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 128 64"
+"y" "-0.1"
+"x" "-1"
+"message" "Científico: Hmm vaya, debe de haber algo atascado, comprueba si hay algo que interfiera con el mecanismo \ndel ascensor ahí abajo, en la sala de pruebas, seguiré intentado hacer funcionar el ascensor desde aquí."
+"targetname" "sampsci_zoner4"
+"spawnflags" "3"
+"classname" "game_text"
 }
