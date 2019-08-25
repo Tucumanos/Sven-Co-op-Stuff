@@ -10,6 +10,7 @@
 "skyname" "night"
 "classname" "worldspawn"
 }
+//Traducido por Cadaver 31-03-19 Revisado 04-05-19
 {
 "model" "*1"
 "target" "moving_2"
@@ -1403,7 +1404,7 @@
 }
 {
 "origin" "243 -2408 -2460"
-"message" "Chapter 7 \n Train Terror \n \nSurvive the Train ride for 3 minutes!"
+"message" "Capítulo 7 \n Tren del terror \n \n¡Sobrevive al viaje en tren durante 3 minutos!"
 "targetname" "will_start"
 "channel" "1"
 "fxtime" "0.25"
@@ -1427,7 +1428,7 @@
 }
 {
 "origin" "-168 -3440 -2032"
-"message" "The Train will leave in 10 seconds"
+"message" "El tren saldrá en 10 segundos."
 "targetname" "train_leavetext"
 "channel" "1"
 "fxtime" "0.25"
@@ -4183,7 +4184,7 @@
 }
 {
 "origin" "164 -1862 390"
-"message" "Chapter 8 \n Bridge Brawl"
+"message" "Capítulo 8 \n Pelea en el puente"
 "targetname" "chapter8"
 "channel" "1"
 "fxtime" "0.25"
@@ -4218,7 +4219,7 @@
 }
 {
 "origin" "-782 1526 390"
-"message" "Loading Part 5, Stand By.."
+"message" "Cargando Parte 5, Espere.."
 "targetname" "parte_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -4247,6 +4248,7 @@
 {
 "model" "*219"
 "map" "escape_series_2e"
+"keep_inventory" "1"
 "targetname" "changelevel"
 "classname" "trigger_changelevel"
 }

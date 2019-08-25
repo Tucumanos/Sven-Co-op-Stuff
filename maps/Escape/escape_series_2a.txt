@@ -9,6 +9,7 @@
 "sounds" "1"
 "classname" "worldspawn"
 }
+//Traducido por Cadaver 31-03-19 Revisado 04-05-19
 {
 "origin" "966 494 -18"
 "linearmax" "5"
@@ -238,7 +239,7 @@
 }
 {
 "origin" "1076 559 107"
-"message" "We will need a weapon to break this padlock..."
+"message" "Necesitaremos un arma para romper este candado...."
 "targetname" "text05"
 "channel" "1"
 "fxtime" "0.25"
@@ -595,7 +596,7 @@
 }
 {
 "origin" "931 641 317"
-"message" "We will need to get the pumps \n working again and get this acid lowered..."
+"message" "Tendremos que conseguir las bombas \n trabajando de nuevo y conseguir que este ácido drene..."
 "targetname" "moving_cam1_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -611,7 +612,7 @@
 }
 {
 "origin" "933 659 320"
-"message" "Great work, the acids draining!"
+"message" "¡Gran trabajo, los ácidos drenan!"
 "targetname" "moving_cam2_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -720,7 +721,7 @@
 }
 {
 "origin" "1159 1919 220"
-"message" "Those lasers look dangerous better keep away \n Looks like we can turn them off over there..."
+"message" "Esos láseres parecen peligrosos, mejor manténgase alejado \n Parece que podemos apagarlos desde ahí ..."
 "targetname" "camera03_5"
 "channel" "1"
 "fxtime" "0.25"
@@ -1063,7 +1064,7 @@
 }
 {
 "origin" "468 276 -330"
-"message" "Chapter 2 \n Down the Drain"
+"message" "Capítulo 2 \n Por el desagüe"
 "targetname" "chapter2"
 "channel" "1"
 "fxtime" "0.25"
@@ -1606,7 +1607,7 @@
 }
 {
 "origin" "621 -578 -363"
-"message" "We're going to need some \n explosives to take down this wall..."
+"message" "Vamos a necesitar algunos \n explosivos para derribar este muro..."
 "targetname" "text_00001"
 "channel" "1"
 "fxtime" "0.25"
@@ -1869,7 +1870,7 @@
 }
 {
 "origin" "513 -2179 -339"
-"message" "Seems like the door's locked on the other side..."
+"message" "Parece que la puerta está cerrada por el otro lado..."
 "targetname" "text_000011"
 "channel" "1"
 "fxtime" "0.25"
@@ -1935,7 +1936,7 @@
 }
 {
 "origin" "647 1651 122"
-"message" "GONOMES!?"
+"message" "¿¡GONOMES!?"
 "targetname" "laser"
 "channel" "1"
 "fxtime" "0.25"
@@ -1981,7 +1982,7 @@
 }
 {
 "origin" "597 1554 146"
-"message" "What do they want from us?"
+"message" "¡¿Que quieren de nosotros?!"
 "targetname" "intro_text03"
 "channel" "1"
 "fxtime" "0.25"
@@ -2137,7 +2138,7 @@
 }
 {
 "origin" "1380 325 88"
-"message" "Allright Lets get out of Here!"
+"message" "¡Bien, salgamos de aqui!"
 "targetname" "text02"
 "channel" "1"
 "fxtime" "0.25"
@@ -2942,7 +2943,7 @@
 }
 {
 "origin" "1050 214 -446"
-"message" "We need a Keycard to open this door..."
+"message" "Necesitamos una tarjeta de acceso para abrir esta puerta..."
 "targetname" "keycard_gofind_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -3130,7 +3131,7 @@
 }
 {
 "origin" "-173 -1609 -342"
-"message" "Damn! The Doors jammed!"
+"message" "¡Maldita sea! Las puertas están atascadas"
 "targetname" "door_stuck"
 "channel" "1"
 "fxtime" "0.25"
@@ -3174,7 +3175,7 @@
 }
 {
 "origin" "-440 -1895 -602"
-"message" "YES! Nice work team!"
+"message" "¡SÍ! ¡Buen trabajo de equipo!"
 "targetname" "boss1_end_cam"
 "channel" "1"
 "fxtime" "0.25"
@@ -3426,7 +3427,7 @@
 }
 {
 "origin" "1035 215 -445"
-"message" "Great we have the key, now lets open that door"
+"message" "Genial tenemos la llave, ahora vamos a abrir esa puerta."
 "targetname" "keycard_found_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -3452,7 +3453,7 @@
 }
 {
 "origin" "-875 -1142 238"
-"message" "Loading Part 2 Please stand by..."
+"message" "Cargando parte 2 Por favor, espere..."
 "targetname" "changelevel1"
 "channel" "1"
 "fxtime" "0.25"
@@ -3479,7 +3480,7 @@
 }
 {
 "origin" "-424 -1896 -601"
-"message" "We will have to defeat that monster before we can get out of here!"
+"message" "¡Tendremos que derrotar a ese monstruo antes de que podamos salir de aquí!"
 "targetname" "boss1_intro"
 "channel" "1"
 "fxtime" "0.25"
@@ -5136,7 +5137,7 @@
 }
 {
 "origin" "2200 656 208"
-"message" "Looks like were going to have to find the combination for this lock...."
+"message" "Parece que tendremos que encontrar la combinación para esta cerradura...."
 "targetname" "text_keycode"
 "channel" "1"
 "fxtime" "0.25"
@@ -5256,11 +5257,11 @@
 }
 {
 "origin" "2151 -53 75"
-"message" "Umm there seems to be a number on the paper.... 7 - 1 - 6 - 3"
+"message" "Umm parece que hay un número en el papel.... 7 - 1 - 6 - 3"
 "targetname" "keycode_source_text"
 "channel" "1"
 "fxtime" "0.25"
-"holdtime" "8"
+"holdtime" "10"
 "fadeout" "1"
 "fadein" "1"
 "color2" "255 255 255"
@@ -5505,7 +5506,7 @@
 }
 {
 "origin" "600 -580 -362"
-"message" "Great we can use these satchels \n to take out that wall!"
+"message" "¡Genial podemos usar estos satchels \n para destruir esa pared!"
 "targetname" "camera03_2nd_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -7239,7 +7240,7 @@
 }
 {
 "origin" "-2232 784 -1232"
-"message" "We are going to once again team up and..."
+"message" "Vamos a unirnos una vez más y..."
 "targetname" "intro_text10"
 "channel" "1"
 "fxtime" "0.25"
@@ -7255,7 +7256,7 @@
 }
 {
 "origin" "-2216 784 -1232"
-"message" "We have been captured again and thrown into another prison \n We are not going to stay captive forever"
+"message" "Hemos sido capturados de nuevo y arrojados a otra prisión. \n No vamos a permanecer cautivos para siempre..."
 "targetname" "intro_text09"
 "channel" "1"
 "fxtime" "0.25"
@@ -7271,7 +7272,7 @@
 }
 {
 "origin" "-2219 967 -1379"
-"message" "Please take your seats the movie will begin \n in a few moments"
+"message" "Por favor, tome asiento, la película comenzará en unos momentos"
 "targetname" "sit_down"
 "channel" "1"
 "fxtime" "0.25"
@@ -7485,7 +7486,7 @@
 }
 {
 "origin" "-2184 800 -1216"
-"message" "Chapter 1 \n Imprisonment"
+"message" "Capítulo 1 \n Prisión"
 "targetname" "chapter1"
 "channel" "1"
 "fxtime" "0.25"
@@ -7501,7 +7502,7 @@
 }
 {
 "origin" "-2200 800 -1232"
-"message" "E  -|-  S  -|-  C  -|-  A  -|-  P  -|-  E"
+"message" "E -|- S -|- C -|- A -|- P -|- A -|- R -|- O -|- N"
 "targetname" "intro_text11"
 "channel" "1"
 "fxtime" "0.25"
@@ -7517,7 +7518,7 @@
 }
 {
 "origin" "-2200 784 -1232"
-"message" "We made it out at the last second and stole an osprey from a launch pad \n However the osprey took us to another lab..."
+"message" "Lo logramos en el último segundo y robamos un osprey de una plataforma de lanzamiento. \n Sin embargo, el osprey nos llevó a otro laboratorio..."
 "targetname" "intro_text08"
 "channel" "1"
 "fxtime" "0.25"
@@ -7533,7 +7534,7 @@
 }
 {
 "origin" "-2200 768 -1232"
-"message" "Before we were allowed to make the final accent out of the lab the \n self-destruct-system activated leaving us little time"
+"message" "Antes de que se nos permitiera hacer el acento final fuera del laboratorio, el \n sistema de autodestrucción activado nos deja poco tiempo."
 "targetname" "intro_text07"
 "channel" "1"
 "fxtime" "0.25"
@@ -7549,7 +7550,7 @@
 }
 {
 "origin" "-2184 768 -1232"
-"message" "We escaped out of the prison with great teamwork and resourcefulness however..."
+"message" "Sin embargo, escapamos de la prisión con un gran trabajo de equipo e ingenio...."
 "targetname" "intro_text04"
 "channel" "1"
 "fxtime" "0.25"
@@ -7565,7 +7566,7 @@
 }
 {
 "origin" "-2184 800 -1232"
-"message" "We defeated many obstacles that faced us as we \n struggled to leave the horror of the labs"
+"message" "Derrotamos muchos obstáculos que nos enfrentamos, al igual que nosotros \n luchamos por dejar el horror de los laboratorios."
 "targetname" "intro_text06"
 "channel" "1"
 "fxtime" "0.25"
@@ -7581,7 +7582,7 @@
 }
 {
 "origin" "-2184 784 -1232"
-"message" "Our Escape had only just begun!"
+"message" "¡Nuestro escape acababa de comenzar!"
 "targetname" "intro_text05"
 "channel" "1"
 "fxtime" "0.25"
@@ -7597,7 +7598,7 @@
 }
 {
 "origin" "-2168 800 -1232"
-"message" "Once they were done we were thrown into a prison"
+"message" "Una vez que terminaron fuimos arrojados a una prisión."
 "targetname" "intro_text03"
 "channel" "1"
 "fxtime" "0.25"
@@ -7613,7 +7614,7 @@
 }
 {
 "origin" "-2168 784 -1232"
-"message" "Where we got used as human guinea pigs for the amusement of the scientists"
+"message" "Donde nos utilizamos como conejillos de indias humanos para la diversión de los científicos."
 "targetname" "intro_text02"
 "channel" "1"
 "fxtime" "0.25"
@@ -7629,7 +7630,7 @@
 }
 {
 "origin" "-2168 768 -1232"
-"message" "Our Story of Escape starts in \n A hardened underground Laboratory"
+"message" "Nuestra historia de escape comienza en \n un laboratorio subterráneo abandonado"
 "y" "0.4"
 "targetname" "intro_text01"
 "channel" "1"
@@ -8002,7 +8003,7 @@
 {
 "origin" "-978 1550 -1448"
 "targetname" "Key_found"
-"message" "Its in the toilet.. alwell its still a ticket! \n Now lets go watch Escape 2!"
+"message" "¡Estaba en el baño.. es un boleto! \n ¡Ahora vamos a ver a Escape 2!"
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "6"
@@ -8042,7 +8043,7 @@
 {
 "origin" "-1684 1265 -1414"
 "targetname" "key_missing"
-"message" "Ive lost my movie ticket.., must of droped it somewhere..."
+"message" "He perdido mi boleto de cine.., debo de haberlo dejado caer en alguna parte..."
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "6"

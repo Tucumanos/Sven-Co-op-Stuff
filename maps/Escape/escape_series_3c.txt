@@ -9,6 +9,7 @@
 "skyname" "black"
 "classname" "worldspawn"
 }
+//Traducido por Cadaver 31-03-19 Revisado 04-05-19
 {
 "origin" "-3568 -16 3856"
 "linearmax" "5"
@@ -1433,7 +1434,7 @@
 }
 {
 "origin" "296 -320 -112"
-"message" "Is there someone down there?"
+"message" "¿Hay alguien ahí abajo?"
 "targetname" "someonethere"
 "channel" "1"
 "fxtime" "0.25"
@@ -3578,7 +3579,7 @@
 "color" "255 255 255"
 "y" "0.8"
 "x" "0.2"
-"message" "You've found a secret!"
+"message" "¡Han encontrado un secreto!"
 "spawnflags" "1"
 "classname" "game_text"
 }
@@ -7383,7 +7384,7 @@
 "color" "255 255 255"
 "y" "0.7"
 "x" "-1"
-"message" "Those who open my 5 seals, dare to disturb my slumber."
+"message" "Los que abren mis 5 sellos se atreven a perturbar mi sueño..."
 "spawnflags" "1"
 "classname" "game_text"
 }
@@ -8572,7 +8573,7 @@
 "color" "255 0 0"
 "y" "0.7"
 "x" "-1"
-"message" "Who dares disturb my slumber!?"
+"message" "¡¿Quién se atreve a perturbar mi sueño?!"
 "spawnflags" "1"
 "classname" "game_text"
 }

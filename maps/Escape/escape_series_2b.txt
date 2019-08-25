@@ -9,6 +9,7 @@
 "skyname" "night"
 "classname" "worldspawn"
 }
+//Traducido por Cadaver 31-03-19 Revisado 04-05-19
 {
 "origin" "28 204 -312"
 "_fade" "1.0"
@@ -333,7 +334,7 @@
 }
 {
 "origin" "-212 274 510"
-"message" "Chapter 3 \n Crystal Mystery"
+"message" "Capítulo 3 \n Misterio del cristal"
 "targetname" "chapter3"
 "channel" "1"
 "fxtime" "0.25"
@@ -774,7 +775,7 @@
 }
 {
 "origin" "1188 1470 736"
-"message" "Seems we need 3 crystals in order to pass..."
+"message" "Parece que necesitamos 3 cristales para pasar...."
 "targetname" "go_find_crystal_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -865,7 +866,7 @@
 }
 {
 "origin" "1172 1470 768"
-"message" "Collect the crystals \n and insert them left to right..."
+"message" "Recoge los cristales e \n insértenlos de izquierda a derecha...."
 "targetname" "crystal_text_explain"
 "channel" "1"
 "fxtime" "0.25"
@@ -881,7 +882,7 @@
 }
 {
 "origin" "1156 1470 768"
-"message" "Orange, Yellow and Green crystals...."
+"message" "Cristales naranja, amarillo y verde....."
 "targetname" "crystal_text_explain2"
 "channel" "1"
 "fxtime" "0.25"
@@ -2217,7 +2218,7 @@
 }
 {
 "origin" "-760 -922 736"
-"message" "Yes! good work team, Grab The Crystal and lets go!"
+"message" "¡Sí! Buen trabajo equipo, ¡Agarra el cristal y vámonos!"
 "targetname" "release_crystal1_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -2233,7 +2234,7 @@
 }
 {
 "origin" "-760 -906 736"
-"message" "Crystal 1 Colleted!"
+"message" "¡Cristal 1 recogido!"
 "targetname" "crystal1"
 "channel" "1"
 "fxtime" "0.25"
@@ -2324,7 +2325,7 @@
 }
 {
 "origin" "1248 1496 794"
-"message" "Great that takes care of the first Crystal now to find the yellow Crystal...."
+"message" "Genial, el primer cristal ahora está a salvo, ahora vamos a encontrar el cristal amarillo...."
 "targetname" "crystal1_placed"
 "channel" "1"
 "fxtime" "0.25"
@@ -2340,7 +2341,7 @@
 }
 {
 "origin" "1248 1480 794"
-"message" "Great that takes care of the Second Crystal now to find the Last Crystal...."
+"message" "Genial, el segundo cristal ahora está a salvo, ahora vamos a encontrar el ultimo...."
 "targetname" "crystal2_placed"
 "channel" "1"
 "fxtime" "0.25"
@@ -2357,7 +2358,7 @@
 {
 "origin" "1248 1464 794"
 "targetname" "crystal3_placed"
-"message" "Great work team thats all 3 Crystals now lets go!"
+"message" "¡Buen trabajo equipo!, recolectamos los 3 cristales, ahora vamonos a la verga wey"
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "6.0"
@@ -3449,7 +3450,7 @@
 }
 {
 "origin" "2608 1802 736"
-"message" "Crystal 2 Colleted!"
+"message" "¡Cristal 2 recogido!"
 "targetname" "crystal2"
 "channel" "1"
 "fxtime" "0.25"
@@ -3465,7 +3466,7 @@
 }
 {
 "origin" "2608 1818 736"
-"message" "Yes! good work team, Grab The Crystal and lets go!"
+"message" "¡Sí! ¡Buen trabajo equipo, ahora agarra el cristal y vámonos!"
 "targetname" "release_crystal2_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -3760,7 +3761,7 @@
 }
 {
 "origin" "1112 166 776"
-"message" "Crystal 3 Colleted!"
+"message" "¡Cristal 1 recogido!"
 "targetname" "crystal3"
 "channel" "1"
 "fxtime" "0.25"
@@ -3938,7 +3939,7 @@
 }
 {
 "origin" "1424 240 755"
-"message" "Get Ready!!! Here comes another Monster!!"
+"message" "¡¡¡Prepararse!!! ¡¡Aquí viene otro monstruo!!"
 "targetname" "boss1_intro"
 "channel" "1"
 "fxtime" "0.25"
@@ -3991,7 +3992,7 @@
 }
 {
 "origin" "1398 230 754"
-"message" "The crystal's power was just \n to much fo that monster to handle..."
+"message" "El poder del cristal era \n demasiado para ese monstruo..."
 "targetname" "boss1_end"
 "channel" "1"
 "fxtime" "0.25"
@@ -4919,7 +4920,7 @@
 }
 {
 "origin" "-555 -1226 -205"
-"message" "Great now we can repair the wire!"
+"message" "¡Genial ahora podemos reparar el cable!"
 "targetname" "collect_wire_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -5152,7 +5153,7 @@
 }
 {
 "origin" "1188 1674 818"
-"message" "Chapter 4 \n Current In a Wire"
+"message" "Capítulo 4 \n Corriente en un cable"
 "targetname" "grunts_invation"
 "channel" "1"
 "fxtime" "0.25"

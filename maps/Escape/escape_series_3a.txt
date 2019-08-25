@@ -9,6 +9,7 @@
   "skyname" "night"
   "classname" "worldspawn"
 }
+//Traducido por Cadaver 31-03-19 Revisado 04-05-19
 {
   "model" "*1"
   "damagetype" "32"
@@ -901,7 +902,7 @@
   "color" "255 255 255"
   "y" "0.7"
   "x" "-1"
-  "message" "The fire is too intense,\nwe need to find a way to extinguish the flames\n and recover our equipment."
+  "message" "El fuego es demasiado intenso,\nnecesitamos encontrar una manera de extinguir las llamas.\n y recuperar nuestros equipos.."
   "spawnflags" "1"
   "classname" "game_text"
 }
@@ -1719,7 +1720,7 @@
   "color" "255 255 255"
   "y" "0.7"
   "x" "-1"
-  "message" "If only we had a weapon,\n we could break down this barricade..."
+  "message" "Si tan solo tuviéramos un arma,\n podríamos romper esta barricada..."
   "spawnflags" "1"
   "classname" "game_text"
 }
@@ -2515,7 +2516,7 @@
   "color" "255 255 255"
   "y" "0.8"
   "x" "0.8"
-  "message" "New Check Point \n Activated"
+  "message" "Nuevo punto de reaparición activado"
   "spawnflags" "1"
   "classname" "game_text"
 }
@@ -3130,7 +3131,7 @@
   "color" "255 255 255"
   "y" "0.8"
   "x" "0.8"
-  "message" "Incy247 Presents"
+  "message" "Incy247 Presenta"
   "spawnflags" "1"
   "classname" "game_text"
 }
@@ -3354,7 +3355,7 @@
   "color" "255 255 255"
   "y" "0.8"
   "x" "0.8"
-  "message" "The final chapter in\nThe Escape Series"
+  "message" "El capitulo final en \nThe Escape Series"
   "spawnflags" "1"
   "classname" "game_text"
 }
@@ -4412,7 +4413,7 @@
   "color" "255 255 255"
   "y" "0.6"
   "x" "-1"
-  "message" "Several hours after the events of Escape 2..."
+  "message" "Varias horas después de los eventos de Escape 2..."
   "spawnflags" "1"
   "classname" "game_text"
 }
@@ -7136,7 +7137,7 @@
   "color" "255 255 255"
   "y" "0.8"
   "x" "0.2"
-  "message" "You've found a secret!"
+  "message" "¡Han encontrado un secreto!"
   "spawnflags" "1"
   "classname" "game_text"
 }
@@ -8121,7 +8122,7 @@
   "color" "255 255 255"
   "y" "0.8"
   "x" "0.8"
-  "message" "Loading : Escape 3 Part B"
+  "message" "Cargando : Escape 3 Parte B"
   "spawnflags" "1"
   "classname" "game_text"
 }

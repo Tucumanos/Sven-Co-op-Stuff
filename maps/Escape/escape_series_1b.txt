@@ -10,6 +10,7 @@
 "skyname" "night"
 "classname" "worldspawn"
 }
+//Traducido por Cadaver 31-03-19 Revisado 04-05-19
 {
 "model" "*1"
 "rendercolor" "0 0 0"
@@ -652,7 +653,7 @@
 }
 {
 "origin" "-602 -148 -130"
-"message" "Chapter 4 \n Cold Storage"
+"message" "Capítulo 4 \n Almacenamiento frio"
 "targetname" "text_16_1"
 "channel" "1"
 "fxtime" "0.25"
@@ -773,7 +774,7 @@
 }
 {
 "origin" "-257 -352 -194"
-"message" "Holy!? Quick take cover under the tables!!"
+"message" "¿¡Santo cielo, que es eso!?\n¡¡Cubranse rápido debajo de las mesas.!!"
 "targetname" "wall1"
 "channel" "1"
 "fxtime" "0.25"
@@ -926,6 +927,8 @@
 "weapon" "1"
 "targetname" "aaaaaaaaaaaaaaaaa"
 "rendercolor" "0 0 0"
+"rendermode" "5"
+"renderfx" "15"
 "buoyancy" "10"
 "friction" "200"
 "size" "1"
@@ -956,7 +959,7 @@
 }
 {
 "origin" "-580 -186 -130"
-"message" "Now we have fixed the power cable we can turn the power switch!"
+"message" "¡Ahora que hemos arreglado el cable de alimentación, podemos encender el interruptor de alimentación!"
 "targetname" "unlock_power_button"
 "channel" "1"
 "fxtime" "0.25"
@@ -972,7 +975,7 @@
 }
 {
 "origin" "-349 398 -125"
-"message" "Chapter 5 \n The Office Complex"
+"message" "Capítulo 5 \n Complejo de oficinas"
 "targetname" "camra5"
 "channel" "1"
 "fxtime" "0.25"
@@ -1178,7 +1181,7 @@
 }
 {
 "origin" "-1050 555 -190"
-"message" "You have collected the Level 06 Keycard!"
+"message" "¡La tarjeta del nivel 06 fue recogida!"
 "targetname" "level06_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -2492,7 +2495,7 @@
 }
 {
 "origin" "-394 679 1764"
-"message" "The Self-Destruct System has been activated, This system can not be aborted!!"
+"message" "El sistema de autodestrucción se ha activado. \n¡Este sistema no puede abortarse!"
 "targetname" "fredom"
 "channel" "1"
 "fxtime" "0.25"
@@ -2508,7 +2511,7 @@
 }
 {
 "origin" "-360 707 1764"
-"message" "One Minute untill detonation!"
+"message" "¡Un minuto para la detonación!"
 "targetname" "1_min"
 "channel" "1"
 "fxtime" "0.25"
@@ -2529,7 +2532,7 @@
 }
 {
 "origin" "-810 128 1767"
-"message" "You've Done It You've ESCAPED!!!"
+"message" "¡¡¡Lo han hecho, han escapado!!!"
 "targetname" "text1"
 "channel" "1"
 "fxtime" "0.25"
@@ -2545,7 +2548,7 @@
 }
 {
 "origin" "-789 152 1767"
-"message" "The Escape Series \n Escape 2 Loading..."
+"message" "The Escape Series \n Cargando Escape 2..."
 "targetname" "text2"
 "channel" "1"
 "fxtime" "0.25"
@@ -2766,7 +2769,7 @@
 {
 "origin" "-1260 1056 -17"
 "targetname" "sec_door_open"
-"message" "Chapter 7 \n Inpending Doom"
+"message" "Capítulo 7 \n Muerte inminente"
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "5"
@@ -2782,7 +2785,7 @@
 {
 "origin" "-1027 381 -16"
 "targetname" "spawn_change33"
-"message" "Surface Access A, A lift. Finaly an easy way out..."
+"message" "Acceso a la superficie A, un ascensor. Finalmente una salida fácil..."
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "5"
@@ -2930,7 +2933,7 @@
 {
 "origin" "-1251 806 1598"
 "targetname" "boss_music"
-"message" "We will have to defeat that monter if we are ever to get out of here!"
+"message" "¡Tendremos que derrotar al monstruo si queremos salir de aquí!"
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "5"
@@ -3492,7 +3495,7 @@
 }
 {
 "origin" "-442 -399 -134"
-"message" "Maybe we could use this box to connect the broken power cable..."
+"message" "Tal vez podríamos usar esta caja para conectar el cable de alimentación roto..."
 "targetname" "text_16_5"
 "channel" "1"
 "fxtime" "0.25"
@@ -4620,7 +4623,7 @@
 }
 {
 "origin" "-519 2396 0"
-"message" "Chapter 6 \n Surface Access"
+"message" "Capítulo 6 \n Acceso a la superficie"
 "targetname" "text24444"
 "channel" "1"
 "fxtime" "0.25"
@@ -5375,7 +5378,7 @@
 {
 "origin" "-1273 760 596"
 "targetname" "blocked_text"
-"message" "Damn! The stair case has been destroyed... \n There must be another way around.."
+"message" "¡Maldita sea! La caja de la escalera ha sido destruida ... \n Debe haber otra manera..."
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "5"
@@ -5742,7 +5745,7 @@
 }
 {
 "origin" "-1326 31 1899"
-"message" "Quick! Start up the engines and lets get outa here!"
+"message" "¡Rápido! ¡Pon en marcha los motores y salgamos de aquí!"
 "targetname" "aaaaaaa"
 "channel" "1"
 "fxtime" "0.25"

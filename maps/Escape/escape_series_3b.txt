@@ -10,6 +10,7 @@
 "startdark" "1"
 "classname" "worldspawn"
 }
+//Traducido por Cadaver 31-03-19 Revisado 04-05-19
 {
 "model" "*1"
 "angles" "0 0 0"
@@ -2077,7 +2078,7 @@
 "color" "255 255 255"
 "y" "0.7"
 "x" "-1"
-"message" "Robotic Gaurds?... We dont have the equipment to face them now...\n\nWe have to get out of here, run!"
+"message" "¡¿Guardias robóticos?!... No tenemos el equipo para enfrentarlos ahora....\n\n¡Tenemos que salir de aquí, corran!"
 "spawnflags" "1"
 "classname" "game_text"
 }
@@ -2237,7 +2238,7 @@
 "color" "255 255 255"
 "y" "0.7"
 "x" "-1"
-"message" "This security pannel requires a keycard\nMaybe we could find it on the security monitors..."
+"message" "Este panel de seguridad requiere una tarjeta de acceso \n Puede que lo encontremos en los monitores de seguridad..."
 "spawnflags" "1"
 "classname" "game_text"
 }
@@ -3319,7 +3320,7 @@
 "color" "255 255 255"
 "y" "0.7"
 "x" "-1"
-"message" "The exit is blocked... \n\nAll we need is some explosives and a detonator.."
+"message" "La salida está bloqueada... \n\nTodo lo que necesitamos son unos explosivos y un detonador..."
 "spawnflags" "1"
 "classname" "game_text"
 }
@@ -3476,7 +3477,7 @@
 "color" "255 255 255"
 "y" "0.7"
 "x" "-1"
-"message" "Great we have the remote in place"
+"message" "Genial, tenemos el control remoto en su lugar."
 "spawnflags" "1"
 "classname" "game_text"
 }
@@ -3504,7 +3505,7 @@
 "color" "255 255 255"
 "y" "0.7"
 "x" "-1"
-"message" "Great we have the explosives in place"
+"message" "Genial, tenemos los explosivos en su lugar."
 "spawnflags" "1"
 "classname" "game_text"
 }
@@ -3534,7 +3535,7 @@
 "color" "255 255 255"
 "y" "0.7"
 "x" "-1"
-"message" "Take Cover!"
+"message" "¡Cubranse!"
 "spawnflags" "1"
 "classname" "game_text"
 }
@@ -4030,7 +4031,7 @@
 "color" "255 255 255"
 "y" "0.7"
 "x" "-1"
-"message" "This door's locked up tight \n We'll need to find the key..."
+"message" "Esta puerta está cerrada con llave \n Tendremos que encontrar la llave...."
 "spawnflags" "1"
 "classname" "game_text"
 }
@@ -4926,7 +4927,7 @@
 "color" "255 255 255"
 "y" "0.8"
 "x" "0.8"
-"message" "New Check Point \n Activated"
+"message" "Nuevo punto de reaparición activado"
 "spawnflags" "1"
 "classname" "game_text"
 }
@@ -5101,7 +5102,7 @@
 "color" "255 255 255"
 "y" "0.7"
 "x" "-1"
-"message" "We've found the key"
+"message" "Hemos encontrado la llave"
 "spawnflags" "1"
 "classname" "game_text"
 }
@@ -5448,7 +5449,7 @@
 "color" "255 255 255"
 "y" "0.7"
 "x" "-1"
-"message" "We've found the Level 03 keycard"
+"message" "Hemos encontrado la llave de nivel 03"
 "spawnflags" "1"
 "classname" "game_text"
 }
@@ -5781,6 +5782,7 @@
 {
 "model" "*214"
 "map" "escape_series_3c"
+"keep_inventory" "1"
 "classname" "trigger_changelevel"
 }
 {

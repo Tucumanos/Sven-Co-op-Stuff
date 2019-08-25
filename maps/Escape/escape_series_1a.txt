@@ -9,6 +9,7 @@
 "skyname" "night"
 "classname" "worldspawn"
 }
+//Traducido por Cadaver 31-03-19 Revisado 04-05-19
 {
 "origin" "1497 -1004 74"
 "maxhullsize" "0 0 0"
@@ -633,7 +634,7 @@
 }
 {
 "origin" "508 250 67"
-"message" "The elevator is locked with the Level 03 Keycard. We must find that card!"
+"message" "El ascensor está bloqueado con la tarjeta del nivel 03. ¡Debemos encontrar esa tarjeta!"
 "targetname" "Text003"
 "channel" "1"
 "fxtime" "0.25"
@@ -649,7 +650,7 @@
 }
 {
 "origin" "867 1162 60"
-"message" "Looks like the only way now is up that hole in the roof..."
+"message" "Parece que la única manera es subir por ese agujero en el techo..."
 "targetname" "text_005"
 "channel" "1"
 "fxtime" "0.25"
@@ -880,7 +881,7 @@
 }
 {
 "origin" "474 19 556"
-"message" "Bay A1 is now avilable!"
+"message" "¡La bahía A1 ya está disponible!"
 "targetname" "bay_a1"
 "channel" "1"
 "fxtime" "0.25"
@@ -1305,7 +1306,7 @@
 }
 {
 "origin" "0 632 920"
-"message" "Safety Hood One has been disabled!"
+"message" "Campana de seguridad 1 ha sido desactivada!"
 "targetname" "safty_1_unlock_off"
 "channel" "1"
 "fxtime" "0.25"
@@ -1321,7 +1322,7 @@
 }
 {
 "origin" "16 632 920"
-"message" "Bay A2 is now avilable!"
+"message" "¡La bahía A2 ya está disponible!"
 "targetname" "bay_a2"
 "channel" "1"
 "fxtime" "0.25"
@@ -1616,7 +1617,7 @@
 }
 {
 "origin" "789 1263 265"
-"message" "You have collected the Level 03 Keycard!"
+"message" "¡La tarjeta del Nivel 03 fue recogida!"
 "targetname" "level03_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -1706,7 +1707,7 @@
 {
 "origin" "686 478 553"
 "targetname" "secue_doors"
-"message" "You have unlocked the Control room!"
+"message" "¡La sala de control fue desbloqueada!"
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "5"
@@ -1750,7 +1751,7 @@
 }
 {
 "origin" "0 608 920"
-"message" "Safety Hood Two has been disabled!"
+"message" "¡Campana de seguridad 2 ha sido desactivada!"
 "targetname" "safty_2_unlock_off"
 "channel" "1"
 "fxtime" "0.25"
@@ -1874,7 +1875,7 @@
 }
 {
 "origin" "16 608 920"
-"message" "Now that both Safety Hoods are disabled we should be able to get into the Main Lab..."
+"message" "Ahora que ambas campanas de seguridad están desactivadas, deberíamos poder ingresar al laboratorio principal..."
 "targetname" "safty_0_open_door_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -2345,7 +2346,7 @@
 }
 {
 "origin" "101 575 890"
-"message" "Now we can open the Door at the top of the stairs!"
+"message" "¡Ahora podemos abrir la puerta en la parte superior de las escaleras!"
 "targetname" "safty_0_open_door"
 "channel" "1"
 "fxtime" "0.25"
@@ -2497,7 +2498,7 @@
 }
 {
 "origin" "418 845 48"
-"message" "We must be able to find that passcode in there..."
+"message" "Debemos poder encontrar ese código de acceso allí..."
 "targetname" "level04_door_back"
 "channel" "1"
 "fxtime" "0.25"
@@ -3207,7 +3208,7 @@
 }
 {
 "origin" "195 154 21"
-"message" "You have collected the Code number! Now we can open the KeyCode lock!"
+"message" "¡El código fue recogido! ¡Ahora podemos abrir la puerta bloqueada en el panel de acceso!"
 "targetname" "door_keycode_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -3371,7 +3372,7 @@
 }
 {
 "origin" "-8 796 -366"
-"message" "Holy!? Quick take cover under the tables!!"
+"message" "¿¡Santo cielo, que es eso!?\n¡Rápido ponte a cubierto bajo las mesas!"
 "targetname" "wall1"
 "channel" "1"
 "fxtime" "0.25"
@@ -3387,7 +3388,7 @@
 }
 {
 "origin" "144 554 889"
-"message" "We'll need to turn off both Safty hoods to open this door...."
+"message" "Tendremos que apagar ambas campanas de seguridad para abrir esta puerta...."
 "targetname" "shakey_shaky"
 "channel" "1"
 "fxtime" "0.25"
@@ -3490,7 +3491,7 @@
 }
 {
 "origin" "695 -20 888"
-"message" "Now we have finshed off that monster we can exit up the elevator..."
+"message" "Ahora que hemos acabado con ese monstruo podemos salir por el ascensor...."
 "targetname" "killtarget_once"
 "channel" "1"
 "fxtime" "0.25"
@@ -3623,7 +3624,7 @@
 }
 {
 "origin" "10 768 -365"
-"message" "Phew, I'm glad thats over!"
+"message" "Phew, me alegro de que eso haya terminado!"
 "targetname" "wall4"
 "channel" "1"
 "fxtime" "0.25"
@@ -3762,7 +3763,7 @@
 }
 {
 "origin" "1151 -374 1050"
-"message" "Oh No! We will have to get that door open again if we want to escape this place!"
+"message" "¡Oh no! Tendremos que abrir esa puerta de nuevo si queremos escapar de este lugar"
 "targetname" "cut_scene_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -5459,7 +5460,7 @@
 }
 {
 "origin" "299 -88 1222"
-"message" "End of Part A - Loading Part B..."
+"message" "Final de la parte A - Cargando parte B..."
 "targetname" "camra5"
 "channel" "1"
 "fxtime" "0.25"
@@ -5512,7 +5513,7 @@
 }
 {
 "origin" "1464 -1071 133"
-"message" "Chapter 1 \nTrapped Like a Rat"
+"message" "Capítulo 1 \nAtrapado como una rata"
 "targetname" "cell_door"
 "channel" "1"
 "fxtime" "0.25"
@@ -5528,7 +5529,7 @@
 }
 {
 "origin" "1052 -512 1209"
-"message" "Chapter 2 \nSafety hood Crisis"
+"message" "Capítulo 2 \nSafety hood Crisis"
 "targetname" "chapter2"
 "channel" "1"
 "fxtime" "0.25"
@@ -5550,7 +5551,7 @@
 }
 {
 "origin" "64 724 925"
-"message" "Chapter 3 \nSecurity Level 4"
+"message" "Capítulo 3 \nNivel de seguridad 4"
 "targetname" "chapter3"
 "channel" "1"
 "fxtime" "0.25"

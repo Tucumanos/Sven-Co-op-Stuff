@@ -9,6 +9,7 @@
 "skyname" "dusk"
 "classname" "worldspawn"
 }
+//Traducido por Cadaver 31-03-19 Revisado 04-05-19
 {
 "origin" "-2036 1460 1516"
 "speed" "100"
@@ -2867,7 +2868,7 @@
 "color" "255 255 255"
 "y" "0.7"
 "x" "-1"
-"message" "We've found the level 7 Security Card!"
+"message" "¡Hemos encontrado la tarjeta de seguridad del nivel 7!"
 "spawnflags" "1"
 "classname" "game_text"
 }
@@ -3085,6 +3086,7 @@
 {
 "origin" "1633 -2596 1983"
 "end_exit" "20"
+"end_credits" "3"
 "end_fade" "0"
 "end_text" "0"
 "targetname" "end_multi"
@@ -3914,7 +3916,7 @@
 }
 {
 "origin" "1699 -2679 1994"
-"message" "After defeating numerous monsters, evading many traps \n and solving the puzzles of the underground lab..."
+"message" "Después de derrotar a numerosos monstruos, evadir muchas trampas\n y resolviendo los enigmas del laboratorio subterráneo...."
 "targetname" "ending_text1"
 "channel" "1"
 "fxtime" "0.25"
@@ -3930,7 +3932,7 @@
 }
 {
 "origin" "1724 -2684 1994"
-"message" "Your team has once again done the impossible and..."
+"message" "Tu equipo ha vuelto a hacer lo imposible y..."
 "targetname" "ending_text2"
 "channel" "1"
 "fxtime" "0.25"
@@ -3946,7 +3948,7 @@
 }
 {
 "origin" "1752 -2692 1994"
-"message" "E -|- S -|- C -|- A -|- P -|- E -|- D"
+"message" "E -|- S -|- C -|- A -|- P -|- A -|- R -|- O -|- N"
 "targetname" "ending_text3"
 "channel" "1"
 "fxtime" "0.25"
@@ -4019,7 +4021,7 @@
 "color" "255 255 255"
 "y" "0.7"
 "x" "-1"
-"message" "Seems we need 2 batteries to start the generator."
+"message" "Parece que necesitamos 2 baterías para arrancar el generador."
 "spawnflags" "1"
 "classname" "game_text"
 }
@@ -4035,7 +4037,7 @@
 "color" "255 255 255"
 "y" "0.7"
 "x" "-1"
-"message" "Battery One Inserted"
+"message" "Primera batería insertada"
 "spawnflags" "1"
 "classname" "game_text"
 }
@@ -4051,7 +4053,7 @@
 "color" "255 255 255"
 "y" "0.7"
 "x" "-1"
-"message" "Battery Two Inserted"
+"message" "Segunda batería insertada"
 "spawnflags" "1"
 "classname" "game_text"
 }
@@ -4067,7 +4069,7 @@
 "color" "255 255 255"
 "y" "0.7"
 "x" "-1"
-"message" "We need to get back to the train, Hurry!"
+"message" "Tenemos que volver al tren, ¡Dense prisa!"
 "spawnflags" "1"
 "classname" "game_text"
 }
@@ -4858,4 +4860,20 @@
 "angles" "0 0 0"
 "rendercolor" "51 89 38"
 "classname" "func_water"
+}
+{
+"origin" "674 1864 -2589"
+"targetname" "end_credits"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "15"
+"fadeout" "1"
+"fadein" "1"
+"color2" "255 0 0"
+"color" "0 255 255"
+"y" "0.7"
+"x" "-1"
+"message" "Traducción por Cadaver\nSven Co-op Tucumanos"
+"spawnflags" "1"
+"classname" "game_text"
 }

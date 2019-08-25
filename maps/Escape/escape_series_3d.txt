@@ -10,6 +10,7 @@
 "skyname" "black"
 "classname" "worldspawn"
 }
+//Traducido por Cadaver 31-03-19 Revisado 04-05-19
 {
 "style" "32"
 "origin" "-880 2464 486"
@@ -799,7 +800,7 @@
 "color" "255 255 255"
 "y" "0.7"
 "x" "-1"
-"message" "We should be able to start the motor up there."
+"message" "Deberíamos poder arrancar el motor desde ahí arriba."
 "spawnflags" "1"
 "classname" "game_text"
 }
@@ -3611,7 +3612,7 @@
 "color" "255 255 255"
 "y" "0.8"
 "x" "0.8"
-"message" "Loading : Escape 3 Part E"
+"message" "Cargando : Escape 3 Parte E"
 "spawnflags" "1"
 "classname" "game_text"
 }
@@ -3648,7 +3649,7 @@
 "color" "255 255 255"
 "y" "0.7"
 "x" "-1"
-"message" "What happened? were we just dreaming..."
+"message" "¿Que pasó?\nEstábamos soñando..."
 "spawnflags" "1"
 "classname" "game_text"
 }
@@ -3681,7 +3682,7 @@
 "color" "255 255 255"
 "y" "0.7"
 "x" "-1"
-"message" "We've found the level 5 Security Card!"
+"message" "¡Hemos encontrado la tarjeta de seguridad de nivel 5!"
 "spawnflags" "1"
 "classname" "game_text"
 }
@@ -4491,7 +4492,7 @@
 "color" "255 255 255"
 "y" "0.7"
 "x" "-1"
-"message" "This control panel needs a key\ncard to unlock level 5.\n\nIt must be around here somewhere..."
+"message" "Este panel de control necesita una tarjeta para desbloquear el nivel 5.\n\nDebe estar por aquí en alguna parte..."
 "classname" "game_text"
 }
 {

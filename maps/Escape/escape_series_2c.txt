@@ -9,6 +9,7 @@
 "sounds" "1"
 "classname" "worldspawn"
 }
+//Traducido por Cadaver 31-03-19 Revisado 04-05-19
 {
 "model" "*1"
 "angles" "0 0 0"
@@ -2103,7 +2104,7 @@
 }
 {
 "origin" "304 88 -279"
-"message" "Chapter 5 \n Grunt Work"
+"message" "Capítulo 5 \n Trabajo duro"
 "targetname" "monster_spawn_1"
 "channel" "1"
 "fxtime" "0.25"
@@ -3944,7 +3945,7 @@
 }
 {
 "origin" "-149 -229 -262"
-"message" "Chapter 6 \n Alone in the Dark"
+"message" "Capítulo 6 \n Solo en la oscuridad"
 "targetname" "chapter_6"
 "channel" "1"
 "fxtime" "0.25"
@@ -4823,7 +4824,7 @@
 }
 {
 "origin" "-1543 708 -281"
-"message" "Great we have the key, Now lets open that door!"
+"message" "¡Genial tenemos la llave, ahora vamos a abrir esa puerta!"
 "targetname" "keycard_found_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -4839,7 +4840,7 @@
 }
 {
 "origin" "-1395 -1189 -328"
-"message" "The Powers Restored! Now maybe we can open that door..."
+"message" "¡Los poderes han sido restaurados! Ahora tal vez podamos abrir esa puerta..."
 "targetname" "power_restore"
 "channel" "1"
 "fxtime" "0.25"
@@ -4931,7 +4932,7 @@
 }
 {
 "origin" "-929 -673 -304"
-"message" "The Note says... Ive hidden the keycard to the pump room in one of the file cabinets"
+"message" "La nota dice ... He escondido la tarjeta de acceso a la sala de bombas en uno de los archivadores."
 "targetname" "book_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -5126,7 +5127,7 @@
 }
 {
 "origin" "-809 -1397 -261"
-"message" "Maybe we can break the bars and then electrocute that monster..."
+"message" "Tal vez podamos romper las barras y luego electrocutar a ese monstruo..."
 "targetname" "break_with_bomb"
 "channel" "1"
 "fxtime" "0.25"
@@ -5142,7 +5143,7 @@
 }
 {
 "origin" "-1755 -1004 -283"
-"message" "Are weapons are not enough to kill this monster, there has to be another way"
+"message" "Si las armas no son suficientes para matar a este monstruo, tiene que haber otra forma."
 "targetname" "boss_cam"
 "channel" "1"
 "fxtime" "0.25"
@@ -7100,7 +7101,7 @@
 }
 {
 "origin" "-970 1101 -122"
-"message" "Maybe if we can find some high explosives \n We can clear the way...."
+"message" "Tal vez si pudiéramos encontrar algunos explosivos fuertes. \n Podemos despejar el camino...."
 "targetname" "find_explosives_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -7209,7 +7210,7 @@
 }
 {
 "origin" "-1009 1148 -143"
-"message" "Now with these explosives \n we should be able to clear a way through"
+"message" "Ahora con estos explosivos \n deberíamos ser capaces de despejar un camino"
 "targetname" "found_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -7233,7 +7234,7 @@
 }
 {
 "origin" "-976 1165 -142"
-"message" "Take Cover!"
+"message" "¡A cubierto!"
 "targetname" "countdown_6"
 "channel" "1"
 "fxtime" "0.25"
@@ -7283,7 +7284,7 @@
 }
 {
 "origin" "-1019 1102 -143"
-"message" "Loading Part D \n Stand By"
+"message" "Cargando parte D \n Espere.."
 "targetname" "loadkey"
 "channel" "1"
 "fxtime" "0.25"
@@ -7300,6 +7301,7 @@
 {
 "model" "*267"
 "map" "escape_series_2d"
+"keep_inventory" "1"
 "targetname" "loadkey"
 "classname" "trigger_changelevel"
 }
@@ -7410,7 +7412,7 @@
 }
 {
 "origin" "-2038 169 -319"
-"message" "Key Card One \n Collected!"
+"message" "Tarjeta 1\n ¡Recogida!"
 "targetname" "key_found_1_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -7436,7 +7438,7 @@
 }
 {
 "origin" "-2040 189 -319"
-"message" "Key Card Two \n Collected!"
+"message" "Tarjeta 2\n ¡Recogida!"
 "targetname" "key_found_2_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -7460,7 +7462,7 @@
 }
 {
 "origin" "-691 437 -35"
-"message" "We need to locate 2 keycards and then \n use them at the exact same time to open this door!"
+"message" "¡Necesitamos localizar 2 tarjetas y luego \n usarlas exactamente al mismo tiempo para abrir esta puerta!"
 "targetname" "start_puzzle_keycards"
 "channel" "1"
 "fxtime" "0.25"
@@ -8149,7 +8151,7 @@
 }
 {
 "origin" "1144 -592 56"
-"message" "Perhaps the can break the door controls.."
+"message" "Tal vez la lata de explosivos pueda romper los controles de la puerta..."
 "targetname" "door_lock_camera"
 "channel" "1"
 "fxtime" "0.25"

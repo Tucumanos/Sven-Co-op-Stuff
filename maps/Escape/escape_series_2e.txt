@@ -9,6 +9,7 @@
 "skyname" "night"
 "classname" "worldspawn"
 }
+//Traducido por Cadaver 31-03-19 Revisado 04-05-19
 {
 "origin" "-219 1203 317"
 "rendercolor" "0 0 0"
@@ -979,7 +980,7 @@
 }
 {
 "origin" "-1748 1208 936"
-"message" "Chapter 9 \n Escape Route"
+"message" "Capítulo 9 \n Ruta de escape"
 "targetname" "chapter9"
 "channel" "1"
 "fxtime" "0.25"
@@ -2018,7 +2019,7 @@
 }
 {
 "origin" "-728 272 -900"
-"message" "ID Card required!? \n We gotta go past those traps again!?"
+"message" "¿Tarjeta de identificación requerida? \n ¿Tenemos que ir más allá de esas trampas de nuevo?"
 "targetname" "text01"
 "channel" "1"
 "fxtime" "0.25"
@@ -2091,7 +2092,7 @@
 }
 {
 "origin" "-744 272 -900"
-"message" "Great we have the ID Card \n Now Lets blow this joint!"
+"message" "Genial tenemos la tarjeta de identificación \n ¡Ahora volemos esta mierda!"
 "targetname" "text02"
 "channel" "1"
 "fxtime" "0.25"
@@ -2119,7 +2120,7 @@
 }
 {
 "origin" "-760 272 -900"
-"message" "The Emergency door wont open \n untill the countdown begins..."
+"message" "La puerta de emergencia no se abrirá \n hasta que comience la cuenta regresiva..."
 "targetname" "text03"
 "channel" "1"
 "fxtime" "0.25"
@@ -2270,7 +2271,7 @@
 }
 {
 "origin" "-1062 184 -1070"
-"message" "Chapter 10 \n Countdown To Destruction"
+"message" "Capítulo 10 \n Cuenta atrás para la destrucción"
 "targetname" "chapter10"
 "channel" "1"
 "fxtime" "0.25"
@@ -2414,7 +2415,7 @@
 }
 {
 "origin" "-1919 235 -2355"
-"message" "GAME OVER \n YOU HAVE FAILED TO ESCAPE IN TIME"
+"message" "GAME OVER \n HAN FALLADO EN ESCAPAR EN EL TIEMPO NECESARIO"
 "targetname" "failed"
 "channel" "1"
 "fxtime" "0.25"
@@ -2984,7 +2985,7 @@
 }
 {
 "origin" "-1825 -1744 2950"
-"message" "After defeating numerous monsters, evading many traps \n and solving the puzzles of the underground lab..."
+"message" "Después de derrotar a numerosos monstruos, evadir muchas trampas. \n y resolviendo los enigmas del laboratorio subterráneo...."
 "targetname" "ending_text1"
 "channel" "1"
 "fxtime" "0.25"
@@ -3000,7 +3001,7 @@
 }
 {
 "origin" "-1830 -1769 2950"
-"message" "Your team has once again done the impossible and..."
+"message" "Tu equipo ha vuelto a hacer lo imposible y..."
 "targetname" "ending_text2"
 "channel" "1"
 "fxtime" "0.25"
@@ -3016,7 +3017,7 @@
 }
 {
 "origin" "-1838 -1797 2950"
-"message" "E -|- S -|- C -|- A -|- P -|- E -|- D"
+"message" "E -|- S -|- C -|- A -|- P -|- A -|- R -|- O -|- N"
 "targetname" "ending_text3"
 "channel" "1"
 "fxtime" "0.25"
@@ -4445,7 +4446,7 @@
 }
 {
 "origin" "-1799 -1747 2920"
-"message" "The Escape Series \n Escape 3 Loading"
+"message" "The Escape Series \n Cargando Escape 3 "
 "targetname" "fade_out_credits"
 "channel" "1"
 "fxtime" "0.25"
