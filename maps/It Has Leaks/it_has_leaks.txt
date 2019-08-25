@@ -652,7 +652,7 @@
 }
 {
 "origin" "-8 352 -192"
-"message" "¡La llave de plata abrió la puerta!"
+"message" "The Silver key opened the door !"
 "targetname" "it_silver_key_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -764,7 +764,7 @@
 }
 {
 "origin" "-128 -368 64"
-"message" "¡Un SlipGater ha encontrado un secreto!"
+"message" "A SlipGater has found a secret !"
 "targetname" "it_secret_disc_1"
 "channel" "1"
 "fxtime" "0.25"
@@ -785,7 +785,7 @@
 }
 {
 "origin" "1920 536 -584"
-"message" "¡Un SlipGater ha encontrado un secreto!"
+"message" "A SlipGater has found a secret !"
 "targetname" "it_secret_disc_2"
 "channel" "1"
 "fxtime" "0.25"
@@ -1121,7 +1121,7 @@
 {
 "origin" "960 288 -544"
 "targetname" "it_door_1"
-"message" "El botón abrió una puerta en algún lugar..."
+"message" "The button opened a gate somewhere..."
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "1.2"
@@ -1225,7 +1225,7 @@
 }
 {
 "origin" "-528 -1608 -232"
-"message" "¡Un SlipGater ha encontrado un secreto!"
+"message" "A SlipGater has found a secret !"
 "targetname" "it_secret_disc_3"
 "channel" "1"
 "fxtime" "0.25"
@@ -1295,7 +1295,7 @@
 }
 {
 "origin" "-400 16 -216"
-"message" "¡Un SlipGater ha encontrado un secreto!"
+"message" "A SlipGater has found a secret !"
 "targetname" "it_secret_disc_4"
 "channel" "1"
 "fxtime" "0.25"
@@ -1594,7 +1594,7 @@
 }
 {
 "origin" "816 -552 -232"
-"message" "¡Un SlipGater ha encontrado un secreto!"
+"message" "A SlipGater has found a secret !"
 "targetname" "it_secret_disc_6"
 "channel" "1"
 "fxtime" "0.25"
@@ -1696,7 +1696,7 @@
 }
 {
 "origin" "460 -1428 -24"
-"message" "¡Un SlipGater ha encontrado un secreto!"
+"message" "A SlipGater has found a secret !"
 "targetname" "it_secret_disc_7"
 "channel" "1"
 "fxtime" "0.25"
@@ -1974,7 +1974,7 @@
 }
 {
 "origin" "1920 -1336 -296"
-"message" "Ahora puedes pasar por esta puerta..."
+"message" "You can now pass this door..."
 "targetname" "it_door_2_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -2022,7 +2022,7 @@
 }
 {
 "origin" "2008 -1136 -328"
-"message" "¡Un SlipGater ha encontrado un secreto!"
+"message" "A SlipGater has found a secret !"
 "targetname" "it_secret_disc_8"
 "channel" "1"
 "fxtime" "0.25"
@@ -2208,7 +2208,7 @@
 }
 {
 "origin" "-1600 -672 -232"
-"message" "1 más..."
+"message" "1 more to go..."
 "targetname" "it_gold_key_d_text1"
 "channel" "1"
 "fxtime" "0.25"
@@ -2305,7 +2305,7 @@
 }
 {
 "origin" "-1616 -672 -232"
-"message" "Secuencia completada"
+"message" "Sequence completed"
 "targetname" "it_gold_key_d_text2"
 "channel" "1"
 "fxtime" "0.25"
@@ -2421,7 +2421,7 @@
 }
 {
 "origin" "-1888 -176 -8"
-"message" "¡La llave de oro está justo en este agujero! ¡Agárrala!"
+"message" "The gold key is right in this hole ! Get it !"
 "targetname" "it_gold_key_t_txt"
 "channel" "1"
 "fxtime" "0.25"
@@ -2468,7 +2468,7 @@
 }
 {
 "origin" "-1784 -200 208"
-"message" "¡La llave de oro abrió la puerta!"
+"message" "The Gold key opened the door !"
 "targetname" "it_gold_key_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -2776,7 +2776,7 @@
 }
 {
 "origin" "-728 -576 -472"
-"message" "¡Un SlipGater ha encontrado un secreto!"
+"message" "A SlipGater has found a secret !"
 "targetname" "it_secret_disc_9"
 "channel" "1"
 "fxtime" "0.25"
@@ -2797,7 +2797,7 @@
 }
 {
 "origin" "-1892 36 204"
-"message" "¡Un SlipGater ha encontrado un secreto!"
+"message" "A SlipGater has found a secret !"
 "targetname" "it_secret_disc_10"
 "channel" "1"
 "fxtime" "0.25"
@@ -3196,7 +3196,7 @@
 }
 {
 "origin" "-400 2256 16"
-"message" "1 más..."
+"message" "1 more to go..."
 "targetname" "it_heart_d_text1"
 "channel" "1"
 "fxtime" "0.25"
@@ -3212,7 +3212,7 @@
 }
 {
 "origin" "-400 2240 16"
-"message" "Secuencia completada"
+"message" "Sequence completed"
 "targetname" "it_heart_d_text2"
 "channel" "1"
 "fxtime" "0.25"
@@ -3398,7 +3398,7 @@
 }
 {
 "origin" "64 904 -212"
-"message" "¡Un SlipGater ha encontrado un secreto!"
+"message" "A SlipGater has found a secret !"
 "targetname" "it_secret_disc_11"
 "channel" "1"
 "fxtime" "0.25"
@@ -3496,7 +3496,7 @@
 }
 {
 "origin" "-380 3536 -204"
-"message" "¡Tienes el pergamino! ¡Cuidado ! ¡Aquí está el guardián!"
+"message" "You've got the Scroll ! Watch out ! Here's the warden !!"
 "targetname" "it_heart_p_heart_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -3627,7 +3627,7 @@
 }
 {
 "origin" "-432 3328 152"
-"message" "¡Tus sagradas uñas los expulsarán a todos!"
+"message" "Your Holy nails shall ban them all !"
 "targetname" "it_nailgun_text"
 "channel" "1"
 "fxtime" "0.25"
@@ -3691,7 +3691,7 @@
 }
 {
 "origin" "-496 3432 124"
-"message" "¡Un SlipGater ha encontrado un secreto!"
+"message" "A SlipGater has found a secret !"
 "targetname" "it_secret_disc_12"
 "channel" "1"
 "fxtime" "0.25"
@@ -3759,7 +3759,7 @@
 {
 "origin" "-2896 1616 1344"
 "targetname" "it_end_text"
-"message" "Las estrellas tienen razón una vez más ... La inmortalidad espera ... \n -Contrato revocado..."
+"message" "The stars are right once more.. Immortality awaits... - Contract Revoked"
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "8"
@@ -4830,7 +4830,7 @@
 }
 {
 "origin" "-256 -512 -132"
-"message" "Se ha activado un atajo...."
+"message" "A shortcut has been activated..."
 "targetname" "it_shortcut_door"
 "channel" "1"
 "fxtime" "0.25"
@@ -5905,7 +5905,7 @@
 }
 {
 "origin" "588 625 -165"
-"message" "¡Un SlipGater ha encontrado un secreto!"
+"message" "A SlipGater has found a secret !"
 "targetname" "it_secret_disc_13"
 "channel" "1"
 "fxtime" "0.25"
