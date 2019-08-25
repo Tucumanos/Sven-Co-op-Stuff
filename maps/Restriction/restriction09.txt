@@ -6,6 +6,7 @@
 "skyname" "cx"
 "classname" "worldspawn"
 }
+////Edit by Cadaver 20/05/2018
 {
 "model" "*1"
 "rendercolor" "0 0 0"
@@ -67,13 +68,6 @@
 "model" "*12"
 "rendercolor" "0 0 0"
 "classname" "func_wall"
-}
-{
-"origin" "-166 2052 259"
-"iuser3" "4096"
-"iuser2" "256"
-"rendercolor" "98 106 113"
-"classname" "env_fog"
 }
 {
 "model" "*13"
@@ -1180,7 +1174,7 @@
 }
 {
 "origin" "-1376 248 0"
-"model" "models/sc_russian/cars/NP_niva.mdl"
+"model" "models/sc_russian/cars/np_niva.mdl"
 "rendercolor" "0 0 0"
 "framerate" "10"
 "angles" "0 -71 0"
@@ -1637,7 +1631,7 @@
 }
 {
 "origin" "-212 508 27"
-"message" "Hey, you're trying to leave this place, right ? I'm trapped here since my squad got killed by those creatures..."
+"message" "Oye, estás tratando de escapar de este lugar, ¿verdad? Estoy atrapado aquí desde que mi escuadrón fue asesinado por esas criaturas ..."
 "targetname" "torch_speech1"
 "channel" "2"
 "fxtime" "0.25"
@@ -1653,7 +1647,7 @@
 }
 {
 "origin" "-193 508 27"
-"message" "You got the underground key"
+"message" "Tienes la clave subterránea"
 "targetname" "underground_key"
 "channel" "4"
 "fxtime" "0.25"
@@ -1669,7 +1663,7 @@
 }
 {
 "origin" "-212 470 27"
-"message" "There is a radio transmitter in there, you can use it to call for help.\n\nI have a key to the underground tunnels, take it..."
+"message" "Hay un transmisor de radio allí, puedes usarlo para pedir ayuda.\n\nTengo una llave de los túneles subterráneos, tómala ..."
 "targetname" "torch_speech3"
 "channel" "2"
 "fxtime" "0.25"
@@ -2120,6 +2114,7 @@
 {
 "model" "*66"
 "map" "restriction10"
+"keep_inventory" "1"
 "classname" "trigger_changelevel"
 }
 {
@@ -2734,7 +2729,7 @@
 }
 {
 "origin" "-434 593 -44"
-"message" "This door is blocked from the other side"
+"message" "Esta puerta está bloqueada desde el otro lado"
 "targetname" "Subtarrean_txt"
 "channel" "1"
 "fxtime" "0.25"
@@ -3464,7 +3459,7 @@
 }
 {
 "origin" "-697 2628 -24"
-"message" "A key is needed"
+"message" "Se necesita una llave"
 "targetname" "underground_locked"
 "channel" "1"
 "fxtime" "0.25"
@@ -3535,7 +3530,7 @@
 {
 "origin" "-281 2048 -152"
 "effect" "1"
-"message" "This elevator is offline"
+"message" "Este elevador está desactivado"
 "targetname" "elev_under_txt"
 "channel" "1"
 "fxtime" "0.25"
@@ -4312,7 +4307,7 @@
 {
 "origin" "-229 1744 -440"
 "effect" "1"
-"message" "Elevator online !"
+"message" "Elevador activado"
 "targetname" "elev_under_chng"
 "channel" "1"
 "fxtime" "0.25"
@@ -4691,7 +4686,7 @@
 {
 "origin" "308 1412 298"
 "effect" "1"
-"message" "You found a propane canister"
+"message" "Encontraste un bote de propano"
 "targetname" "torch_equip"
 "channel" "1"
 "fxtime" "0.25"
@@ -5023,7 +5018,7 @@
 {
 "origin" "946 1820 50"
 "effect" "1"
-"message" "Empty..."
+"message" "Vacio..."
 "targetname" "Empty"
 "channel" "1"
 "fxtime" "0.25"
@@ -5539,7 +5534,7 @@
 }
 {
 "origin" "753 1969 89"
-"message" "We now have all we need !"
+"message" "¡Ahora tenemos todo lo que necesitamos!"
 "targetname" "Bus_2"
 "channel" "2"
 "fxtime" "0.25"
@@ -5600,7 +5595,7 @@
 {
 "origin" "671 2658 97"
 "effect" "1"
-"message" "You found a gazoline tank"
+"message" "Encontraste un tanque de gasolina"
 "targetname" "car_essence"
 "channel" "1"
 "fxtime" "0.25"
@@ -5626,7 +5621,7 @@
 {
 "origin" "-1426 2273 88"
 "effect" "1"
-"message" "You found a car battery"
+"message" "Encontraste una batería de automóvil"
 "targetname" "car_batterie"
 "channel" "1"
 "fxtime" "0.25"
@@ -5686,7 +5681,7 @@
 }
 {
 "origin" "737 1970 89"
-"message" "This bus won't move before we refuel it and get a new battery..."
+"message" "Este autobús no se moverá antes de reabastecerlo de combustible y obtener una batería nueva ..."
 "targetname" "bus_dntmove_msg1"
 "channel" "2"
 "fxtime" "0.25"
@@ -6054,7 +6049,7 @@
 {
 "origin" "1160 2085 -72"
 "effect" "1"
-"message" "You got the bus keys"
+"message" "Conseguiste las llaves del autobús"
 "targetname" "car_cles"
 "channel" "1"
 "fxtime" "0.25"
@@ -6716,7 +6711,7 @@
 }
 {
 "origin" "-212 489 27"
-"message" "I just need some propane to cut that door open. If you find me that, I can help you enter that huge building near here."
+"message" "Solo necesito un poco de propano para abrir esa puerta. Si encuentras eso, puedo ayudarte a entrar en ese enorme edificio cerca de aquí."
 "targetname" "torch_speech2"
 "channel" "4"
 "fxtime" "0.25"
@@ -6740,7 +6735,7 @@
 }
 {
 "origin" "737 1970 71"
-"message" "We also need to find the keys"
+"message" "También necesitamos encontrar las llaves"
 "targetname" "bus_dntmove_msg2"
 "channel" "4"
 "fxtime" "0.25"
@@ -8319,4 +8314,21 @@
 "model" "*191"
 "rendercolor" "0 0 0"
 "classname" "func_wall"
+}
+{
+"origin" "-166 2052 259"
+"iuser3" "12000"
+"targetname" "sos"
+"iuser2" "256"
+"rendercolor" "98 106 113"
+"spawnflags" "1"
+"classname" "env_fog"
+}
+{
+"origin" "475 -739 70"
+"model" "sprites/map_change.spr"
+"rendermode" "4"
+"renderamt" "255"
+"scale" "1"
+"classname" "env_sprite"
 }

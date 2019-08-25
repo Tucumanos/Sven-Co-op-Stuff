@@ -6,6 +6,7 @@
 "skyname" "cx"
 "classname" "worldspawn"
 }
+////Edit by Cadaver 20/05/2018
 {
 "origin" "-849 282 -896"
 "model" "models/sc_russian/btr_70_russian02.mdl"
@@ -2275,6 +2276,7 @@
 {
 "model" "*11"
 "map" "restriction08"
+"keep_inventory" "1"
 "classname" "trigger_changelevel"
 }
 {
@@ -2620,7 +2622,7 @@
 }
 {
 "origin" "980 539 -196"
-"iuser3" "4096"
+"iuser3" "15000"
 "iuser2" "256"
 "rendercolor" "98 106 113"
 "classname" "env_fog"
@@ -5284,7 +5286,7 @@
 }
 {
 "origin" "-1521 261 -1946"
-"message" "Well, I didn't expect a small mercenary team to kill so many of my men... I guess you also got the scientist I was waiting for."
+"message" "Bueno, no esperaba que un pequeño equipo de mercenarios matara a tantos de mis hombres ...Supongo que también tienes al científico que estaba esperando."
 "targetname" "elite_text1"
 "channel" "1"
 "fxtime" "0.25"
@@ -5300,7 +5302,7 @@
 }
 {
 "origin" "-1505 261 -1946"
-"message" "I'm very impressed, but you know too much, I can't let you get out of here alive..."
+"message" "Estoy muy impresionado, pero sabes demasiado, no puedo dejar que salgas de aquí con vida ..."
 "targetname" "elite_text2"
 "channel" "2"
 "fxtime" "0.25"
@@ -5610,7 +5612,7 @@
 {
 "origin" "-1449 53 -1938"
 "effect" "1"
-"message" "You found a key"
+"message" "Encontraste una llave"
 "targetname" "locked_maint"
 "channel" "1"
 "fxtime" "0.25"
@@ -5678,7 +5680,7 @@
 {
 "origin" "-1368 -218 -1835"
 "effect" "1"
-"message" "A key is needed !"
+"message" "Se necesita una llave"
 "targetname" "locked_maintM"
 "channel" "1"
 "fxtime" "0.25"
@@ -5748,7 +5750,7 @@
 {
 "origin" "-1611 61 -1937"
 "effect" "1"
-"message" "We have here all the proofs we need, we should get out of here before it gets worse !"
+"message" "Tenemos aquí todas las pruebas que necesitamos, ¡deberíamos salir de aquí antes de que empeore!"
 "targetname" "elitedoc_message3"
 "channel" "1"
 "fxtime" "0.25"
@@ -5765,7 +5767,7 @@
 {
 "origin" "-1611 95 -1937"
 "effect" "1"
-"message" "So this officer was behind all this. He paid the scientist to steal the NP Society's researches..."
+"message" "Entonces este oficial estaba detrás de todo esto. Pagó al científico para robar las investigaciones de NP's..."
 "targetname" "elitedoc_message1"
 "channel" "2"
 "fxtime" "0.25"
@@ -5781,7 +5783,7 @@
 }
 {
 "origin" "-1611 95 -1921"
-"message" "But why ?"
+"message" "Pero.. ¿Por que?"
 "effect" "1"
 "targetname" "elitedoc_message2"
 "channel" "4"
@@ -6590,4 +6592,12 @@
 {
 "origin" "-1804 1053 -2947"
 "classname" "info_node_air"
+}
+{
+"origin" "-2335 1407 -2940"
+"model" "sprites/map_change.spr"
+"rendermode" "4"
+"renderamt" "255"
+"scale" "1"
+"classname" "env_sprite"
 }

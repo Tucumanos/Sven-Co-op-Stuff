@@ -6,6 +6,7 @@
 "sounds" "1"
 "classname" "worldspawn"
 }
+////Edit by Cadaver 20/05/2018
 {
 "origin" "-2665 1370 231"
 "model" "models/sc_russian/tree_poplar1.mdl"
@@ -1249,7 +1250,7 @@
 }
 {
 "origin" "-106 638 416"
-"iuser3" "4096"
+"iuser3" "15000"
 "iuser2" "256"
 "rendercolor" "98 106 113"
 "classname" "env_fog"
@@ -3328,6 +3329,7 @@
 {
 "model" "*86"
 "map" "restriction09"
+"keep_inventory" "1"
 "classname" "trigger_changelevel"
 }
 {

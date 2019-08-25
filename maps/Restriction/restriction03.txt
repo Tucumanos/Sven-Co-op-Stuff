@@ -7,6 +7,7 @@
 "sounds" "1"
 "classname" "worldspawn"
 }
+////Edit by Cadaver 20/05/2018
 {
 "origin" "-1961 -1456 -370"
 "_fade" "1.0"
@@ -2097,7 +2098,7 @@
 {
 "origin" "-506 -2090 -373"
 "effect" "1"
-"message" "We have to restore the power first !"
+"message" "¡Primero tenemos que restaurar la energia!"
 "targetname" "button_security01TX"
 "channel" "1"
 "fxtime" "0.25"
@@ -4009,6 +4010,7 @@
 {
 "model" "*76"
 "map" "restriction04"
+"keep_inventory" "1"
 "classname" "trigger_changelevel"
 }
 {
@@ -4912,7 +4914,7 @@
 {
 "origin" "-173 -84 -633"
 "effect" "1"
-"message" "We have to restore the power first !"
+"message" "¡Primero tenemos que restaurar la energia!"
 "targetname" "button_security01bTX"
 "channel" "1"
 "fxtime" "0.25"
@@ -4969,7 +4971,7 @@
 "origin" "31 -1330 -282"
 "effect" "1"
 "targetname" "proofstxt"
-"message" "We need to get more..."
+"message" "Necesitamos conseguir más..."
 "channel" "2"
 "fxtime" "0.25"
 "holdtime" "4"
@@ -5029,7 +5031,7 @@
 "origin" "-163 -2243 -406"
 "effect" "1"
 "targetname" "proof3"
-"message" "These documents describe the results of experiments conducted on human subjects."
+"message" "Estos documentos describen los resultados de los experimentos realizados en humanos."
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "5"
@@ -5046,7 +5048,7 @@
 "origin" "-400 306 -425"
 "effect" "1"
 "targetname" "proof2"
-"message" "Looks like they were working on some kind of genetically improved subjets, here."
+"message" "Parece que estaban trabajando en algún tipo de sujetos genéticamente mejorados, aquí."
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "5"
@@ -5063,7 +5065,7 @@
 "origin" "-827 74 -679"
 "effect" "1"
 "targetname" "proof1"
-"message" "This PC contains a lot of data about a series of genetical experiments called ''Project Chimera''..."
+"message" "Esta PC contiene una gran cantidad de datos sobre una serie de experimentos genéticos llamado ''Proyecto Chimera''..."
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "5"
@@ -5080,7 +5082,7 @@
 "origin" "1153 -2982 -423"
 "effect" "1"
 "targetname" "proof4"
-"message" "This case contains viruses samples intended to be used on test subjects."
+"message" "Este caso contiene muestras de virus destinadas a ser utilizadas en sujetos de prueba."
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "5"
@@ -5851,7 +5853,7 @@
 "origin" "1146 -3106 -1389"
 "effect" "1"
 "targetname" "labsaccess"
-"message" "The power has been restored."
+"message" "La energia fue restaurada"
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "4"
@@ -5868,7 +5870,7 @@
 "origin" "1146 -3123 -1389"
 "effect" "1"
 "targetname" "labsaccess"
-"message" "We can now get to the labs and search for documents, data... anything we can save from this mess !"
+"message" "Ahora podemos ir a los laboratorios y buscar documentos, datos ... ¡cualquier cosa que podamos salvar de este desastre!"
 "channel" "2"
 "fxtime" "0.25"
 "holdtime" "4"
@@ -6011,7 +6013,7 @@
 }
 {
 "origin" "2038 -2421 -1148"
-"message" "You must find him before it's too late, we can't let him sell our researches !"
+"message" "Debes encontrarlo antes de que sea demasiado tarde, ¡no podemos dejar que venda nuestras investigaciones!"
 "targetname" "text_second7"
 "channel" "1"
 "fxtime" "0.25"
@@ -6027,7 +6029,7 @@
 }
 {
 "origin" "2022 -2421 -1148"
-"message" "He spread a virus in the ventilation system and escaped\nby the railroad network."
+"message" "Él extendió un virus en el sistema de ventilación y escapó\npor la red ferroviaria."
 "targetname" "text_second5"
 "channel" "4"
 "fxtime" "0.25"
@@ -6043,7 +6045,7 @@
 }
 {
 "origin" "2006 -2421 -1148"
-"message" "One of the scientists who was working in the genetic labs stole a\ncase of samples, He probably wants to sell it !"
+"message" "Uno de los científicos que estaba trabajando en los laboratorios genéticos robó unas muestras, probablemente para venderlas."
 "targetname" "text_second3"
 "channel" "2"
 "fxtime" "0.25"
@@ -6059,7 +6061,7 @@
 }
 {
 "origin" "1990 -2420 -1148"
-"message" "Are you the mercenaries hired to protect our work ?\nI was hiding here since it all started, I saw what happened."
+"message" "¿Son los mercenarios contratados para proteger nuestro trabajo?\nMe estaba escondiendo aquí desde que todo comenzó, vi lo que sucedió."
 "targetname" "text_second1"
 "channel" "1"
 "fxtime" "0.25"
@@ -6206,7 +6208,7 @@
 "origin" "137 -1435 -646"
 "effect" "1"
 "targetname" "labdoor1"
-"message" "This command console is offline"
+"message" "Esta consola de comando está offline"
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "1.2"
@@ -6223,7 +6225,7 @@
 "origin" "155 -1400 -637"
 "effect" "1"
 "targetname" "online_txt"
-"message" "Main door command console online"
+"message" "Consola de comando de puerta principal online"
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "1.2"
@@ -10530,4 +10532,12 @@
 "angles" "0 132 0"
 "spawnflags" "1024"
 "classname" "squadmaker"
+}
+{
+"origin" "2380 1436 -650"
+"model" "sprites/map_change.spr"
+"rendermode" "4"
+"renderamt" "255"
+"scale" "1"
+"classname" "env_sprite"
 }

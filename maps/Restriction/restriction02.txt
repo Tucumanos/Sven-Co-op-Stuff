@@ -6,6 +6,7 @@
 "MaxRange" "4096"
 "classname" "worldspawn"
 }
+////Edit by Cadaver 20/05/2018
 {
 "origin" "610 -1968 -371"
 "angles" "0 90 0"
@@ -1155,7 +1156,7 @@
 "origin" "-617 681 -189"
 "effect" "1"
 "targetname" "online_txt"
-"message" "Primary system online"
+"message" "Sistema primario online"
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "1.2"
@@ -1172,7 +1173,7 @@
 "origin" "-617 665 -189"
 "effect" "1"
 "targetname" "offline_txt"
-"message" "Primary system offline"
+"message" "Sistema primario offline"
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "1.2"
@@ -2210,6 +2211,7 @@
 {
 "model" "*57"
 "map" "restriction03"
+"keep_inventory" "1"
 "classname" "trigger_changelevel"
 }
 {
@@ -2971,7 +2973,7 @@
 }
 {
 "origin" "-638 -648 -371"
-"message" "Security fence opened"
+"message" "Valla de seguridad abierta"
 "targetname" "griddoor"
 "channel" "1"
 "fxtime" "0.25"
@@ -3504,7 +3506,7 @@
 {
 "origin" "1230 2843 -137"
 "effect" "1"
-"message" "Biological labs research documents found !"
+"message" "¡Se encontraron documentos de investigación de laboratorios biológicos!"
 "targetname" "file01"
 "channel" "1"
 "fxtime" "0.25"
@@ -4420,7 +4422,7 @@
 }
 {
 "origin" "-633 -516 -566"
-"message" "They're crazy ! They create those... things !!\nWell, we have to do our job, and protect their work !\n"
+"message" "Estan locos... ellos crearon estas... cosas\nBueno, tenemos que hacer nuestro trabajo, y proteger sus trabajos..\n"
 "targetname" "text_second1"
 "channel" "1"
 "fxtime" "0.25"
@@ -4436,7 +4438,7 @@
 }
 {
 "origin" "-601 -532 -566"
-"message" "We have some guys trapped inside\nand no more information about the situation"
+"message" "Tenemos algunos muchachos atrapados dentro\ny no hay más información sobre la situación"
 "targetname" "text_second5"
 "channel" "4"
 "fxtime" "0.25"
@@ -4452,7 +4454,7 @@
 }
 {
 "origin" "-585 -532 -566"
-"message" "Good luck men, we're staying here\nto secure the area !"
+"message" "¡Buena suerte!, nos quedamos aqui\na asegurar el area!"
 "targetname" "text_second7"
 "channel" "1"
 "fxtime" "0.25"
@@ -4473,7 +4475,7 @@
 }
 {
 "origin" "-617 -532 -566"
-"message" "You have to enter the labs and save the NP's research files\nbefore the army is warned and kill all of us !"
+"message" "Tienen que ingresar a los laboratorios y guardar los archivos de investigación del NP\nantes de que el ejército sea advertido y nos mate a todos.."
 "targetname" "text_second3"
 "channel" "2"
 "fxtime" "0.25"
@@ -4823,7 +4825,7 @@
 {
 "origin" "1193 2403 -148"
 "effect" "2"
-"message" "This thing... It's trying to control my... mind..."
+"message" "Esta cosa... está tratando de controlAr Mi... mEnTe..."
 "targetname" "controlled_text1"
 "channel" "2"
 "fxtime" "0.15"
@@ -7550,7 +7552,7 @@
 {
 "origin" "-1990 478 -781"
 "effect" "1"
-"message" "You found a gazoline tank"
+"message" "Encontraste un tanque de gasolina"
 "targetname" "btn_lock_gene"
 "channel" "1"
 "fxtime" "0.25"
@@ -7645,7 +7647,7 @@
 {
 "origin" "-1582 855 -729"
 "effect" "1"
-"message" "This generator need gazoline !"
+"message" "Este generador necesita gasolina"
 "targetname" "liq_gen_txt"
 "channel" "1"
 "fxtime" "0.25"
@@ -9681,4 +9683,12 @@
 "health" "10"
 "spawnflags" "8"
 "classname" "ambient_generic"
+}
+{
+"origin" "2050 2042 90"
+"model" "sprites/map_change.spr"
+"rendermode" "4"
+"renderamt" "255"
+"scale" "1"
+"classname" "env_sprite"
 }

@@ -6,9 +6,10 @@
 "skyname" "cx"
 "classname" "worldspawn"
 }
+////Edit by Cadaver 20/05/2018
 {
 "origin" "-77 -508 1055"
-"iuser3" "4096"
+"iuser3" "15000"
 "iuser2" "256"
 "rendercolor" "105 142 165 120"
 "classname" "env_fog"
@@ -9874,7 +9875,7 @@
 }
 {
 "origin" "1349 347 562"
-"message" "We're on the way, but a military helicopter is approaching your position. You have to take it down to allow us to pick you up !"
+"message" "Estamos en camino, pero un helicóptero militar se acerca a su posición. ¡Tienes que bajarlo para que podamos recogerte!"
 "targetname" "text_end2"
 "channel" "4"
 "fxtime" "0.25"
@@ -10074,7 +10075,7 @@
 }
 {
 "origin" "1365 347 562"
-"message" "Hey, you're still alive ?\n\nSo you've saved most of the researches in the labs ?\nGood, Our employer will be satisfied..."
+"message" "Oye, ¿todavía estás vivo?\n\n¿Así que has guardado la mayoría de las investigaciones en los laboratorios?\nBien, nuestro empleador estará satisfecho ..."
 "targetname" "text_end1"
 "channel" "2"
 "fxtime" "0.25"

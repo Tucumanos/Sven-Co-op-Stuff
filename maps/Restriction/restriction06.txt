@@ -6,6 +6,7 @@
 "skyname" "cx"
 "classname" "worldspawn"
 }
+////Edit by Cadaver 20/05/2018
 {
 "origin" "453 3545 -1594"
 "_fade" "1.0"
@@ -464,7 +465,7 @@
 }
 {
 "origin" "357 -523 -542"
-"iuser3" "4096"
+"iuser3" "15000"
 "iuser2" "256"
 "rendercolor" "98 106 113"
 "classname" "env_fog"
@@ -1519,7 +1520,7 @@
 {
 "origin" "-422 730 -1257"
 "effect" "1"
-"message" "You need a keycode !"
+"message" "¡Necesitas una tarjeta de acceso!"
 "targetname" "button_security01TX"
 "channel" "1"
 "fxtime" "0.25"
@@ -1612,7 +1613,7 @@
 {
 "origin" "1251 763 -1473"
 "effect" "1"
-"message" "You found a keycode !"
+"message" "¡Encontraste la tarjeta de acceso!"
 "targetname" "button_security01CH"
 "channel" "1"
 "fxtime" "0.25"
@@ -2661,7 +2662,7 @@
 {
 "origin" "-143 973 -1361"
 "effect" "1"
-"message" "You found a gazoline tank"
+"message" "Encontraste un tanque de gasolina"
 "targetname" "btn_lock_transpal"
 "channel" "1"
 "fxtime" "0.25"
@@ -3051,6 +3052,7 @@
 {
 "model" "*105"
 "map" "restriction07"
+"keep_inventory" "1"
 "classname" "trigger_changelevel"
 }
 {
@@ -3251,7 +3253,7 @@
 {
 "origin" "1249 918 -1465"
 "effect" "1"
-"message" "This forklift seems to be empty..."
+"message" "Este autoelevador parece estar vacio.."
 "targetname" "transpal_multi_txt"
 "channel" "1"
 "fxtime" "0.25"
@@ -6862,4 +6864,12 @@
 "health" "10"
 "spawnflags" "17"
 "classname" "ambient_generic"
+}
+{
+"origin" "1991 -3605 -1430"
+"model" "sprites/map_change.spr"
+"rendermode" "4"
+"renderamt" "255"
+"scale" "1"
+"classname" "env_sprite"
 }
