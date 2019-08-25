@@ -3209,7 +3209,7 @@
 "monstercount" "1"
 "rendercolor" "0 0 0"
 "angles" "0 270 0"
-"new_model" "models/sc_strangers/Helldrone.mdl"
+"new_model" "models/sc_strangers/helldrone.mdl"
 "classname" "squadmaker"
 }
 {
@@ -5153,7 +5153,7 @@
 "monstercount" "1"
 "rendercolor" "0 0 0"
 "angles" "0 270 0"
-"new_model" "models/sc_strangers/Helldrone.mdl"
+"new_model" "models/sc_strangers/helldrone.mdl"
 "classname" "squadmaker"
 }
 {
@@ -5274,7 +5274,7 @@
 "monstercount" "1"
 "rendercolor" "0 0 0"
 "angles" "0 270 0"
-"new_model" "models/sc_strangers/Helldrone.mdl"
+"new_model" "models/sc_strangers/helldrone.mdl"
 "classname" "squadmaker"
 }
 {
@@ -6412,7 +6412,7 @@
 "origin" "-2279 -1002 -2078"
 "angles" "0 0 0"
 "targetname" "spawnchange"
-"message" "New checkpoint found"
+"message" "Nuevo punto de aparición creado"
 "delay" "0"
 "x" "-1"
 "y" "0.67"
@@ -10005,7 +10005,7 @@
 "monstercount" "1"
 "rendercolor" "0 0 0"
 "angles" "0 180 0"
-"new_model" "models/sc_strangers/Helldrone.mdl"
+"new_model" "models/sc_strangers/helldrone.mdl"
 "classname" "squadmaker"
 }
 {
@@ -10030,7 +10030,7 @@
 "monstercount" "1"
 "rendercolor" "0 0 0"
 "angles" "0 180 0"
-"new_model" "models/sc_strangers/Helldrone.mdl"
+"new_model" "models/sc_strangers/helldrone.mdl"
 "classname" "squadmaker"
 }
 {
@@ -12054,7 +12054,7 @@
 "origin" "-2049 2410 -2026"
 "targetname" "door02"
 "angles" "0 0 0"
-"message" "New door in the old garage is open, let's move out before more Race X aliens come..."
+"message" "Una nueva puerta del viejo garaje está abierta, salgamos antes de que vengan más extraterrestres de Raza X..."
 "delay" "0"
 "x" "-1"
 "y" "0.67"
@@ -12658,7 +12658,7 @@
 "targetname" "alienattack09"
 "angles" "0 0 0"
 "playmode" "1"
-"message" "sc_strangers/RipandTear.ogg"
+"message" "sc_strangers/ripandtear.ogg"
 "volume" "10"
 "spawnflags" "1"
 "classname" "ambient_music"
