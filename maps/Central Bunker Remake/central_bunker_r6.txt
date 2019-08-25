@@ -532,14 +532,14 @@
 "origin" "-480 320 20"
 "rendercolor" "0 0 0"
 "angles" "0 0 0"
-"model" "models/arc_fern.mdl"
+"model" "models/central_bunker/arc_fern.mdl"
 "classname" "cycler"
 }
 {
 "origin" "-480 -320 20"
 "rendercolor" "0 0 0"
 "angles" "0 143 0"
-"model" "models/arc_fern.mdl"
+"model" "models/central_bunker/arc_fern.mdl"
 "classname" "cycler"
 }
 {
@@ -572,7 +572,7 @@
 "origin" "-1088 352 20"
 "rendercolor" "0 0 0"
 "angles" "0 0 0"
-"model" "models/arc_fern.mdl"
+"model" "models/central_bunker/arc_fern.mdl"
 "classname" "cycler"
 }
 {
@@ -2018,7 +2018,7 @@
 {
 "origin" "-824 -448 -1184"
 "targetname" "plasma"
-"message" "What's this?"
+"message" "¿Que es eso?"
 "x" "-1"
 "y" "-1"
 "color" "100 100 100"
@@ -2203,7 +2203,7 @@
 {
 "origin" "464 -417 161"
 "targetname" "txt1"
-"message" "Waitng for players...."
+"message" "Esperando a los demás jugadores...."
 "x" "-1"
 "y" "-1"
 "color" "100 100 100"
@@ -2244,7 +2244,7 @@
 {
 "origin" "480 -417 161"
 "targetname" "txt2"
-"message" "Game commencing!"
+"message" "¡Comenzando la partida!"
 "x" "-1"
 "y" "-1"
 "color" "100 100 100"
@@ -2276,7 +2276,7 @@
 "origin" "272 -289 37"
 "rendercolor" "0 0 0"
 "angles" "0 0 0"
-"model" "models/flo_bush.mdl"
+"model" "models/central_bunker/flo_bush.mdl"
 "minhullsize" "0 0 0"
 "maxhullsize" "0 0 0"
 "spawnflags" "4"
@@ -2286,7 +2286,7 @@
 "origin" "590 -1001 37"
 "rendercolor" "0 0 0"
 "angles" "0 0 0"
-"model" "models/flo_bush.mdl"
+"model" "models/central_bunker/flo_bush.mdl"
 "minhullsize" "0 0 0"
 "maxhullsize" "0 0 0"
 "spawnflags" "4"
@@ -2296,7 +2296,7 @@
 "origin" "484 147 37"
 "rendercolor" "0 0 0"
 "angles" "0 233 0"
-"model" "models/flo_bush.mdl"
+"model" "models/central_bunker/flo_bush.mdl"
 "minhullsize" "0 0 0"
 "maxhullsize" "0 0 0"
 "spawnflags" "4"
@@ -2306,7 +2306,7 @@
 "origin" "672 -337 69"
 "rendercolor" "0 0 0"
 "angles" "0 233 0"
-"model" "models/flo_bush.mdl"
+"model" "models/central_bunker/flo_bush.mdl"
 "minhullsize" "0 0 0"
 "maxhullsize" "0 0 0"
 "spawnflags" "4"
@@ -2316,7 +2316,7 @@
 "origin" "248 -865 37"
 "rendercolor" "0 0 0"
 "angles" "0 0 0"
-"model" "models/flo_bush.mdl"
+"model" "models/central_bunker/flo_bush.mdl"
 "minhullsize" "0 0 0"
 "maxhullsize" "0 0 0"
 "spawnflags" "4"
@@ -2356,7 +2356,7 @@
 {
 "origin" "480 -401 161"
 "targetname" "txt3"
-"message" "OK SOLDIER!! Your mission is to infiltrate the base! GOOD LUCK!! (and have fun ;-)"
+"message" "¡¡OK SOLDADO!! Tu misión es infiltrarte en la base \n¡¡BUENA SUERTE!!;-)"
 "x" "-1"
 "y" "-1"
 "color" "100 100 100"
@@ -2394,7 +2394,7 @@
 "m_flGibLife" "20"
 "rendercolor" "0 0 0"
 "shootsounds" "2"
-"shootmodel" "models/gibs_stairsmetal.mdl"
+"shootmodel" "models/central_bunker/gibs_stairsmetal.mdl"
 "classname" "env_shooter"
 }
 {
@@ -2407,7 +2407,7 @@
 "m_flGibLife" "20"
 "rendercolor" "0 0 0"
 "shootsounds" "2"
-"shootmodel" "models/gibs_stairsmetal.mdl"
+"shootmodel" "models/central_bunker/gibs_stairsmetal.mdl"
 "classname" "env_shooter"
 }
 {
@@ -3141,14 +3141,14 @@
 "origin" "-848 2256 -1260"
 "rendercolor" "0 0 0"
 "angles" "0 0 0"
-"model" "models/arc_fern.mdl"
+"model" "models/central_bunker/arc_fern.mdl"
 "classname" "cycler"
 }
 {
 "origin" "-848 1456 -1260"
 "rendercolor" "0 0 0"
 "angles" "0 0 0"
-"model" "models/arc_fern.mdl"
+"model" "models/central_bunker/arc_fern.mdl"
 "classname" "cycler"
 }
 {
@@ -3173,7 +3173,7 @@
 "origin" "-288 1792 -1260"
 "rendercolor" "0 0 0"
 "angles" "0 0 0"
-"model" "models/arc_fern.mdl"
+"model" "models/central_bunker/arc_fern.mdl"
 "classname" "cycler"
 }
 {
@@ -4147,7 +4147,7 @@
 }
 {
 "model" "*96"
-"gibmodel" "models/gibs_crate.mdl"
+"gibmodel" "models/central_bunker/gibs_crate.mdl"
 "rendercolor" "0 0 0"
 "spawnobject" "6"
 "explosion" "1"
@@ -4158,7 +4158,7 @@
 }
 {
 "model" "*97"
-"gibmodel" "models/gibs_crate.mdl"
+"gibmodel" "models/central_bunker/gibs_crate.mdl"
 "rendercolor" "0 0 0"
 "spawnobject" "6"
 "explosion" "1"
@@ -4169,7 +4169,7 @@
 }
 {
 "model" "*98"
-"gibmodel" "models/gibs_crate.mdl"
+"gibmodel" "models/central_bunker/gibs_crate.mdl"
 "rendercolor" "0 0 0"
 "explodemagnitude" "200"
 "explosion" "1"
@@ -4909,7 +4909,7 @@
 {
 "origin" "1264 2032 -772"
 "targetname" "mine_txt"
-"message" "You've found a security card"
+"message" "Has encontrado una tarjeta de seguridad"
 "x" "-1"
 "y" "-1"
 "color" "100 100 100"
@@ -7200,16 +7200,6 @@
 "classname" "ambient_generic"
 }
 {
-"origin" "3132 199 -1120"
-"targetname" "gg_mm"
-"gg_spr" "0"
-"garg" ".5"
-"kill_spr" ".3"
-"garg_beam1" "0"
-"gg_laser" "1"
-"classname" "multi_manager"
-}
-{
 "origin" "3116 199 -1120"
 "targetname" "kill_spr"
 "killtarget" "garg_beam"
@@ -7269,7 +7259,7 @@
 {
 "origin" "3356 247 -1040"
 "targetname" "end_portal_exp5"
-"message" "Portal Destroyed! now kill the Gargantua!"
+"message" "Portal destruido, ahora puedes matar la Gargantua!"
 "x" "-1"
 "y" "-1"
 "color" "100 100 100"
@@ -7285,7 +7275,7 @@
 {
 "origin" "3308 247 -1040"
 "targetname" "end_2"
-"message" "Map rebuilt by GiGaBiTe"
+"message" "Map rebuilt by GiGaBiTe\n\n Traducido por Cadaver"
 "x" "-1"
 "y" "-1"
 "color" "100 100 100"
@@ -7317,7 +7307,7 @@
 {
 "origin" "3324 247 -1040"
 "targetname" "end_1"
-"message" "Mission Successful!"
+"message" "¡Misión exitosa!"
 "x" "-1"
 "y" "-1"
 "color" "100 100 100"
@@ -8512,4 +8502,31 @@
 {
 "origin" "1664 -208 -1008"
 "classname" "info_node"
+}
+{
+"origin" "3132 199 -1120"
+"targetname" "gg_mm"
+"gg_spr" "0"
+"garg" ".5"
+"kill_spr" ".3"
+"garg_beam1" "0"
+"gg_laser" "1"
+"gg_text" "1"
+"classname" "multi_manager"
+}
+{
+"origin" "-824 -448 -1184"
+"targetname" "gg_text"
+"message" "Destruye los cristales que estan en el portal para debilitar la Gargantua y así poder matarla."
+"x" "-1"
+"y" "-0.05"
+"color" "100 100 100"
+"color2" "240 110 0"
+"fadein" "1.5"
+"fadeout" "0.5"
+"holdtime" "10"
+"fxtime" "0.25"
+"channel" "1"
+"spawnflags" "1"
+"classname" "game_text"
 }
