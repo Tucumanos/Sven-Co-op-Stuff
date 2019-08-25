@@ -1,0 +1,8142 @@
+{
+  "compiler" "ZHLT v3.4-VL33-SC5.0 (Feb 26 2014)"
+  "wad" "halflife.wad;liquids.wad;decals.wad;xeno.wad;"
+  "mapversion" "220"
+  "scversion2" "500"
+  "newunit" "1"
+  "MaxRange" "32768"
+  "sounds" "1"
+  "skyname" "night"
+  "classname" "worldspawn"
+}
+{
+  "model" "*1"
+  "damagetype" "32"
+  "dmg" "500"
+  "classname" "trigger_hurt"
+}
+{
+  "model" "*2"
+  "damagetype" "32"
+  "dmg" "500"
+  "classname" "trigger_hurt"
+}
+{
+  "model" "*3"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-992 2476 -499"
+  "_fade" "1.0"
+  "_light" "255 255 255 80"
+  "classname" "light"
+}
+{
+  "origin" "-992 2476 -498"
+  "scale" "0.5"
+  "rendermode" "3"
+  "model" "sprites/flare1.spr"
+  "renderfx" "14"
+  "rendercolor" "255 255 255"
+  "renderamt" "100"
+  "classname" "env_glow"
+}
+{
+  "origin" "-1108 2360 -499"
+  "_fade" "1.0"
+  "_light" "255 255 255 50"
+  "classname" "light"
+}
+{
+  "origin" "-1108 2360 -498"
+  "scale" "0.5"
+  "rendermode" "3"
+  "model" "sprites/flare1.spr"
+  "renderfx" "14"
+  "rendercolor" "255 255 255"
+  "renderamt" "100"
+  "classname" "env_glow"
+}
+{
+  "model" "*4"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*5"
+  "damagetype" "32"
+  "dmg" "500"
+  "classname" "trigger_hurt"
+}
+{
+  "model" "*6"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*7"
+  "damagetype" "32"
+  "dmg" "500"
+  "classname" "trigger_hurt"
+}
+{
+  "origin" "-2656 2244 -371"
+  "_fade" "1.0"
+  "_light" "255 255 255 80"
+  "classname" "light"
+}
+{
+  "origin" "-2656 2244 -370"
+  "scale" "0.5"
+  "rendermode" "3"
+  "model" "sprites/flare1.spr"
+  "renderfx" "14"
+  "rendercolor" "255 255 255"
+  "renderamt" "100"
+  "classname" "env_glow"
+}
+{
+  "origin" "-2771 1532 -392"
+  "_fade" "1.0"
+  "_light" "255 255 255 50"
+  "classname" "light"
+}
+{
+  "origin" "-2771 1532 -391"
+  "scale" "0.5"
+  "rendermode" "3"
+  "model" "sprites/flare1.spr"
+  "renderfx" "14"
+  "rendercolor" "255 255 255"
+  "renderamt" "100"
+  "classname" "env_glow"
+}
+{
+  "origin" "-2540 2360 -371"
+  "_fade" "1.0"
+  "_light" "255 255 255 40"
+  "classname" "light"
+}
+{
+  "origin" "-2540 2360 -370"
+  "scale" "0.5"
+  "rendermode" "3"
+  "model" "sprites/flare1.spr"
+  "renderfx" "14"
+  "rendercolor" "255 255 255"
+  "renderamt" "100"
+  "classname" "env_glow"
+}
+{
+  "model" "*8"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-1696 2328 -336"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "angles" "0 313 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_barnacle"
+}
+{
+  "origin" "-1784 2368 -336"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "angles" "0 253 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_barnacle"
+}
+{
+  "origin" "-1888 2352 -336"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "angles" "0 81 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_barnacle"
+}
+{
+  "origin" "-2592 2376 -336"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_barnacle"
+}
+{
+  "origin" "-2672 2328 -336"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_barnacle"
+}
+{
+  "model" "*9"
+  "angles" "0 0 0"
+  "zhlt_lightflags" "2"
+  "renderamt" "100"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "168 2968 -608"
+  "rendercolor" "0 0 0"
+  "angles" "0 180 0"
+  "classname" "weapon_grapple"
+}
+{
+  "model" "*10"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*11"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-992 3068 -499"
+  "_fade" "1.0"
+  "_light" "255 255 255 50"
+  "classname" "light"
+}
+{
+  "origin" "-992 3068 -498"
+  "scale" "0.5"
+  "rendermode" "3"
+  "model" "sprites/flare1.spr"
+  "renderfx" "14"
+  "rendercolor" "255 255 255"
+  "renderamt" "100"
+  "classname" "env_glow"
+}
+{
+  "origin" "-877 3188 -520"
+  "_fade" "1.0"
+  "_light" "255 255 255 50"
+  "classname" "light"
+}
+{
+  "origin" "-877 3188 -519"
+  "scale" "0.5"
+  "rendermode" "3"
+  "model" "sprites/flare1.spr"
+  "renderfx" "14"
+  "rendercolor" "255 255 255"
+  "renderamt" "100"
+  "classname" "env_glow"
+}
+{
+  "origin" "-32 2904 -552"
+  "linearmax" "5"
+  "linearmin" "2"
+  "message" "ambience/burning3.wav"
+  "targetname" "silence"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "6"
+  "spawnflags" "18"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "-24 2920 -552"
+  "targetname" "comp_fire"
+  "scale" "1"
+  "renderamt" "255"
+  "rendermode" "5"
+  "model" "sprites/fire.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "model" "*12"
+  "damagetype" "8"
+  "dmg" "10"
+  "classname" "trigger_hurt"
+}
+{
+  "origin" "-24 2904 -536"
+  "targetname" "comp_fire"
+  "scale" "1.5"
+  "renderamt" "255"
+  "rendermode" "5"
+  "model" "sprites/fire.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "-32 2904 -536"
+  "style" "5"
+  "_fade" "1.0"
+  "_light" "193 63 0 60"
+  "classname" "light"
+}
+{
+  "origin" "48 3127 -520"
+  "targetname" "comp_fire"
+  "scale" "1"
+  "renderamt" "255"
+  "rendermode" "5"
+  "model" "sprites/fire.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "16 3114 -536"
+  "targetname" "comp_fire"
+  "scale" "1"
+  "renderamt" "255"
+  "rendermode" "5"
+  "model" "sprites/fire.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "51 3111 -528"
+  "targetname" "comp_fire"
+  "scale" "1"
+  "renderamt" "255"
+  "rendermode" "5"
+  "model" "sprites/fire.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "32 3134 -526"
+  "linearmax" "5"
+  "linearmin" "2"
+  "message" "ambience/burning1.wav"
+  "targetname" "silence"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "6"
+  "spawnflags" "18"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "38 3121 -530"
+  "style" "5"
+  "_fade" "1.0"
+  "_light" "193 63 0 60"
+  "classname" "light"
+}
+{
+  "model" "*13"
+  "damagetype" "8"
+  "dmg" "10"
+  "classname" "trigger_hurt"
+}
+{
+  "origin" "-227 3291 -546"
+  "style" "5"
+  "_fade" "1.0"
+  "_light" "193 63 0 80"
+  "classname" "light"
+}
+{
+  "origin" "-228 3314 -524"
+  "targetname" "comp_fire"
+  "scale" "2"
+  "renderamt" "255"
+  "rendermode" "5"
+  "model" "sprites/fire.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "-218 3292 -542"
+  "linearmax" "5"
+  "linearmin" "2"
+  "message" "ambience/burning1.wav"
+  "targetname" "silence"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "6"
+  "spawnflags" "18"
+  "classname" "ambient_generic"
+}
+{
+  "model" "*14"
+  "damagetype" "8"
+  "dmg" "10"
+  "classname" "trigger_hurt"
+}
+{
+  "origin" "248 2992 -604"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "scale" "1"
+  "sequencename" "idle"
+  "rendercolor" "0 0 0"
+  "angles" "0 0 0"
+  "classname" "item_battery"
+}
+{
+  "origin" "232 2952 -604"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "scale" "1"
+  "sequencename" "idle"
+  "rendercolor" "0 0 0"
+  "angles" "0 0 0"
+  "classname" "item_battery"
+}
+{
+  "model" "*15"
+  "target" "cliff_door"
+  "classname" "trigger_once"
+}
+{
+  "model" "*16"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "targetname" "cliff_door"
+  "lip" "16"
+  "wait" "-1"
+  "stopsnd" "4"
+  "movesnd" "3"
+  "speed" "15"
+  "angles" "0 90 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_door"
+}
+{
+  "origin" "-1908 2360 -371"
+  "_fade" "1.0"
+  "style" "10"
+  "_light" "255 255 255 40"
+  "classname" "light"
+}
+{
+  "origin" "-1908 2360 -370"
+  "scale" "0.5"
+  "rendermode" "3"
+  "model" "sprites/flare1.spr"
+  "renderfx" "14"
+  "rendercolor" "255 255 255"
+  "renderamt" "100"
+  "classname" "env_glow"
+}
+{
+  "model" "*17"
+  "angles" "0 0 0"
+  "renderamt" "150"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*18"
+  "angles" "0 0 0"
+  "renderamt" "150"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*19"
+  "angles" "0 0 0"
+  "renderamt" "150"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*20"
+  "angles" "0 0 0"
+  "renderamt" "150"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*21"
+  "angles" "0 0 0"
+  "renderamt" "150"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*22"
+  "angles" "0 0 0"
+  "renderamt" "150"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*23"
+  "angles" "0 0 0"
+  "renderamt" "150"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-1620 2360 -371"
+  "_fade" "1.0"
+  "_light" "255 255 255 40"
+  "classname" "light"
+}
+{
+  "model" "*24"
+  "angles" "0 0 0"
+  "renderamt" "150"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-1620 2360 -370"
+  "scale" "0.5"
+  "rendermode" "3"
+  "model" "sprites/flare1.spr"
+  "renderfx" "14"
+  "rendercolor" "255 255 255"
+  "renderamt" "100"
+  "classname" "env_glow"
+}
+{
+  "origin" "-3169 936 -231"
+  "_light" "255 255 128 2"
+  "_fade" "1.0"
+  "angles" "0 0 0"
+  "classname" "light_environment"
+}
+{
+  "origin" "-3220 1015 -374"
+  "linearmax" "5"
+  "linearmin" "2"
+  "message" "ambience/cricket.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "7"
+  "spawnflags" "4"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "-2099 949 -338"
+  "linearmax" "5"
+  "linearmin" "2"
+  "targetname" "outside_ambience"
+  "message" "ambience/cricket.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "20"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "-517 1488 -350"
+  "linearmax" "5"
+  "linearmin" "2"
+  "message" "ambience/burning1.wav"
+  "targetname" "comp_fire"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "6"
+  "spawnflags" "2"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "-498 1526 -311"
+  "targetname" "comp_fire"
+  "scale" "2"
+  "renderamt" "255"
+  "rendermode" "5"
+  "model" "sprites/fire.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "-535 1543 -352"
+  "style" "5"
+  "_fade" "1.0"
+  "_light" "193 63 0 100"
+  "classname" "light"
+}
+{
+  "origin" "-449 1143 -323"
+  "targetname" "tail_break_fire"
+  "style" "32"
+  "_fade" "1.0"
+  "_light" "193 63 0 120"
+  "classname" "light"
+}
+{
+  "origin" "-451 1135 -287"
+  "targetname" "tail_break_fire"
+  "scale" "2"
+  "renderamt" "255"
+  "rendermode" "5"
+  "model" "sprites/fire.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "-629 1584 -445"
+  "linearmax" "5"
+  "linearmin" "2"
+  "message" "ambience/burning1.wav"
+  "targetname" "comp_fire"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "6"
+  "spawnflags" "2"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "-635 1579 -447"
+  "style" "5"
+  "_fade" "1.0"
+  "_light" "193 63 0 100"
+  "classname" "light"
+}
+{
+  "origin" "-650 1570 -448"
+  "targetname" "comp_fire"
+  "scale" "1"
+  "renderamt" "255"
+  "rendermode" "5"
+  "model" "sprites/fire.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "-645 1596 -461"
+  "targetname" "comp_fire"
+  "scale" "1"
+  "renderamt" "255"
+  "rendermode" "5"
+  "model" "sprites/fire.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "-610 1601 -426"
+  "targetname" "comp_fire"
+  "scale" "1.5"
+  "renderamt" "255"
+  "rendermode" "5"
+  "model" "sprites/fire.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "model" "*25"
+  "damagetype" "8"
+  "dmg" "10"
+  "classname" "trigger_hurt"
+}
+{
+  "model" "*26"
+  "rendermode" "4"
+  "renderamt" "255"
+  "skin" "-1"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*27"
+  "rendermode" "4"
+  "renderamt" "255"
+  "skin" "-1"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*28"
+  "rendermode" "4"
+  "renderamt" "255"
+  "skin" "-1"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*29"
+  "angles" "0 0 0"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "-1704 2360 -336"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "angles" "0 152 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_barnacle"
+}
+{
+  "origin" "-1792 2400 -336"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "angles" "0 36 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_barnacle"
+}
+{
+  "origin" "-1800 2336 -336"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "angles" "0 130 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_barnacle"
+}
+{
+  "origin" "-1880 2320 -336"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "angles" "0 36 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_barnacle"
+}
+{
+  "origin" "-1021 2601 -576"
+  "targetname" "grapple_trap_multi"
+  "grapple_trap_fall2" "6"
+  "grapple_trap_fall" "3"
+  "grapple_trap_shake" "0"
+  "grapple_trap_block" "4"
+  "classname" "multi_manager"
+}
+{
+  "origin" "-1007 2633 -565"
+  "targetname" "grapple_trap_shake"
+  "frequency" "2.5"
+  "duration" "10"
+  "radius" "500"
+  "amplitude" "7"
+  "spawnflags" "1"
+  "classname" "env_shake"
+}
+{
+  "model" "*30"
+  "weapon" "1"
+  "targetname" "grapple_trap_block"
+  "renderamt" "255"
+  "rendermode" "4"
+  "material" "1"
+  "health" "100"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_breakable"
+}
+{
+  "model" "*31"
+  "weapon" "1"
+  "targetname" "grapple_trap_block"
+  "renderamt" "255"
+  "rendermode" "4"
+  "material" "1"
+  "health" "100"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_breakable"
+}
+{
+  "model" "*32"
+  "weapon" "1"
+  "targetname" "grapple_trap_fall"
+  "material" "1"
+  "health" "100"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_breakable"
+}
+{
+  "model" "*33"
+  "weapon" "1"
+  "targetname" "grapple_trap_fall2"
+  "material" "8"
+  "health" "100"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_breakable"
+}
+{
+  "model" "*34"
+  "target" "grapple_trap_multi"
+  "classname" "trigger_once"
+}
+{
+  "origin" "227 2811 -588"
+  "targetname" "osprey_fire"
+  "scale" "2"
+  "renderamt" "255"
+  "rendermode" "5"
+  "model" "sprites/fire.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "182 2830 -584"
+  "targetname" "osprey_fire"
+  "scale" "2"
+  "renderamt" "255"
+  "rendermode" "5"
+  "model" "sprites/fire.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "194 2774 -549"
+  "targetname" "osprey_fire"
+  "scale" "2"
+  "renderamt" "255"
+  "rendermode" "5"
+  "model" "sprites/fire.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "204 2880 -566"
+  "targetname" "osprey_fire"
+  "scale" "2"
+  "renderamt" "255"
+  "rendermode" "5"
+  "model" "sprites/fire.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "model" "*35"
+  "origin" "220 3371 -372"
+  "wait" "-1"
+  "master" "need_water_master"
+  "target" "fire_put_out2"
+  "distance" "120"
+  "sounds" "23"
+  "speed" "40"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "128"
+  "classname" "func_rot_button"
+}
+{
+  "model" "*36"
+  "target" "need_water_multi"
+  "classname" "trigger_once"
+}
+{
+  "origin" "-47 2803 -553"
+  "unblock_find_water" "0"
+  "need_water_text_1" "0"
+  "need_water_master" "0"
+  "targetname" "need_water_multi"
+  "classname" "multi_manager"
+}
+{
+  "origin" "-37 2776 -553"
+  "targetname" "need_water_master"
+  "classname" "multisource"
+}
+{
+  "origin" "-22 2809 -553"
+  "targetname" "need_water_text_1"
+  "channel" "1"
+  "fxtime" "0.25"
+  "holdtime" "6"
+  "fadeout" "1"
+  "fadein" "1"
+  "color2" "255 255 255"
+  "color" "255 255 255"
+  "y" "0.7"
+  "x" "-1"
+  "message" "The fire is too intense,\nwe need to find a way to extinguish the flames\n and recover our equipment."
+  "spawnflags" "1"
+  "classname" "game_text"
+}
+{
+  "model" "*37"
+  "angles" "0 0 0"
+  "targetname" "burst_pipe"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_wall_toggle"
+}
+{
+  "origin" "32 2776 -552"
+  "targetname" "scene_fadeout_9"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "duration" "1"
+  "spawnflags" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "32 2792 -552"
+  "targetname" "scene_fadein_9"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "duration" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "16 2776 -552"
+  "turnspeed" "40"
+  "angles" "0 89 0"
+  "target" "scene_target_9"
+  "speed" "40"
+  "moveto" "scene_path_9_1_1"
+  "targetname" "scene_cam_9"
+  "deceleration" "500"
+  "acceleration" "500"
+  "wait" "15"
+  "spawnflags" "24"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "0 2776 -552"
+  "outside_ambience" "0"
+  "scene_fadeout_9#1" "16"
+  "scene_fadein_9#1" "15"
+  "scene_fadeout_9" "1"
+  "scene_fadein_9" "0"
+  "scene_target_9" "1"
+  "scene_cam_9" "1"
+  "targetname" "scene_9"
+  "classname" "multi_manager"
+}
+{
+  "model" "*38"
+  "origin" "16 2792 -552"
+  "m_iObeyTriggerMode" "1"
+  "angles" "0 90 0"
+  "target" "scene_path_9_2_1"
+  "renderamt" "255"
+  "rendermode" "2"
+  "targetname" "scene_target_9"
+  "volume" "1.0"
+  "speed" "40"
+  "rendercolor" "0 0 0"
+  "spawnflags" "8"
+  "classname" "func_train"
+}
+{
+  "origin" "16 2808 -544"
+  "target" "scene_path_9_1_2"
+  "speed" "40"
+  "targetname" "scene_path_9_1_1"
+  "angles" "0 89 0"
+  "spawnflags" "2"
+  "classname" "path_corner"
+}
+{
+  "origin" "184 2808 -544"
+  "speed" "40"
+  "target" "scene_path_9_1_3"
+  "targetname" "scene_path_9_1_2"
+  "angles" "0 130 0"
+  "spawnflags" "4"
+  "classname" "path_corner"
+}
+{
+  "origin" "184 2832 -544"
+  "speed" "40"
+  "target" "scene_path_9_2_3"
+  "targetname" "scene_path_9_2_2"
+  "angles" "0 130 0"
+  "spawnflags" "4"
+  "classname" "path_corner"
+}
+{
+  "origin" "16 2832 -544"
+  "target" "scene_path_9_2_2"
+  "speed" "40"
+  "targetname" "scene_path_9_2_1"
+  "angles" "0 92 0"
+  "spawnflags" "2"
+  "classname" "path_corner"
+}
+{
+  "origin" "168 3024 -544"
+  "speed" "40"
+  "target" "scene_path_1_3"
+  "wait" "20"
+  "targetname" "scene_path_9_2_3"
+  "angles" "0 130 0"
+  "spawnflags" "4"
+  "classname" "path_corner"
+}
+{
+  "origin" "208 2872 -544"
+  "speed" "30"
+  "target" "scene_path_9_1_4"
+  "targetname" "scene_path_9_1_3"
+  "angles" "0 130 0"
+  "spawnflags" "4"
+  "classname" "path_corner"
+}
+{
+  "origin" "188 2944 -556"
+  "burst_water_sound" "2"
+  "burst_water2" "4"
+  "burst_shake_sound" "0"
+  "osprey_fire" "6"
+  "burst_water_flood" "5"
+  "burst_water#1" "5"
+  "burst_water" "2"
+  "burst_pipe" "2"
+  "targetname" "burst_multi2"
+  "classname" "multi_manager"
+}
+{
+  "model" "*39"
+  "angles" "0 0 0"
+  "targetname" "burst_water"
+  "renderamt" "100"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_wall_toggle"
+}
+{
+  "model" "*40"
+  "angles" "0 0 0"
+  "renderamt" "100"
+  "rendermode" "2"
+  "targetname" "burst_water2"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_wall_toggle"
+}
+{
+  "model" "*41"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "angles" "90 0 0"
+  "renderamt" "100"
+  "rendermode" "2"
+  "skin" "-3"
+  "wait" "-1"
+  "speed" "10"
+  "targetname" "burst_water_flood"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_water"
+}
+{
+  "origin" "208 2760 -544"
+  "message" "burst_multi"
+  "speed" "40"
+  "wait" "3"
+  "targetname" "scene_path_9_1_4"
+  "angles" "0 130 0"
+  "spawnflags" "4"
+  "classname" "path_corner"
+}
+{
+  "model" "*42"
+  "targetname" "osprey_fire"
+  "damagetype" "8"
+  "dmg" "50"
+  "classname" "trigger_hurt"
+}
+{
+  "origin" "226 3025 -517"
+  "linearmax" "5"
+  "linearmin" "2"
+  "targetname" "burst_water_sound"
+  "message" "ambience/waterfall2.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "5"
+  "spawnflags" "18"
+  "classname" "ambient_generic"
+}
+{
+  "model" "*43"
+  "weapon" "1"
+  "targetname" "burst_pipe"
+  "explodemagnitude" "1"
+  "material" "2"
+  "health" "1"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_breakable"
+}
+{
+  "origin" "213 2999 -544"
+  "linearmax" "5"
+  "linearmin" "2"
+  "targetname" "burst_shake_sound"
+  "message" "ambience/rocket_groan3.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "17"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "235 3003 -544"
+  "targetname" "burst_shake_sound"
+  "frequency" "2.5"
+  "duration" "1"
+  "radius" "500"
+  "amplitude" "10"
+  "spawnflags" "1"
+  "classname" "env_shake"
+}
+{
+  "model" "*44"
+  "angles" "0 0 0"
+  "targetname" "osprey_fire"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall_toggle"
+}
+{
+  "origin" "196 2824 -576"
+  "targetname" "osprey_fire"
+  "style" "33"
+  "_fade" "1.0"
+  "_light" "193 63 0 200"
+  "classname" "light"
+}
+{
+  "origin" "196 2824 -592"
+  "linearmax" "5"
+  "linearmin" "2"
+  "message" "ambience/burning3.wav"
+  "targetname" "osprey_fire"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "5"
+  "spawnflags" "2"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "-13 2758 -553"
+  "burst_multi2" "6"
+  "scene_9" "0"
+  "targetname" "fire_put_out2"
+  "classname" "multi_manager"
+}
+{
+  "model" "*45"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*46"
+  "skin" "-1"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*47"
+  "angles" "0 0 0"
+  "renderamt" "150"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "184 3216 -499"
+  "_fade" "1.0"
+  "_light" "255 255 255 50"
+  "classname" "light"
+}
+{
+  "origin" "184 3216 -498"
+  "scale" "0.5"
+  "rendermode" "3"
+  "model" "sprites/flare1.spr"
+  "renderfx" "14"
+  "rendercolor" "255 255 255"
+  "renderamt" "100"
+  "classname" "env_glow"
+}
+{
+  "origin" "-581 1008 -761"
+  "linearmax" "5"
+  "linearmin" "2"
+  "targetname" "outside_ambience"
+  "message" "ambience/crickets.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "24"
+  "classname" "ambient_generic"
+}
+{
+  "model" "*48"
+  "damagetype" "32"
+  "dmg" "500"
+  "classname" "trigger_hurt"
+}
+{
+  "model" "*49"
+  "weapon" "1"
+  "material" "8"
+  "health" "10"
+  "rendercolor" "0 0 0"
+  "spawnflags" "6"
+  "classname" "func_breakable"
+}
+{
+  "model" "*50"
+  "angles" "0 0 0"
+  "renderamt" "150"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "276 3368 -323"
+  "_fade" "1.0"
+  "style" "10"
+  "_light" "255 255 255 70"
+  "classname" "light"
+}
+{
+  "origin" "191 3354 -387"
+  "_fade" "1.0"
+  "_light" "255 255 255 10"
+  "classname" "light"
+}
+{
+  "model" "*51"
+  "angles" "0 0 0"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "276 3368 -327"
+  "MaxDelay" "4"
+  "angles" "0 0 0"
+  "spawnflags" "64"
+  "classname" "env_spark"
+}
+{
+  "origin" "276 3368 -323"
+  "scale" "0.5"
+  "rendermode" "3"
+  "model" "sprites/flare1.spr"
+  "renderfx" "14"
+  "rendercolor" "255 255 255"
+  "renderamt" "100"
+  "classname" "env_glow"
+}
+{
+  "model" "*52"
+  "angles" "0 0 0"
+  "targetname" "unblock_find_water"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall_toggle"
+}
+{
+  "model" "*53"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*54"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*55"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*56"
+  "classname" "func_ladder"
+}
+{
+  "model" "*57"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*58"
+  "angles" "0 0 0"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*59"
+  "origin" "1720 1692 -1724"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "master" "rock_fall_door_lock"
+  "distance" "90"
+  "wait" "4"
+  "speed" "100"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_door_rotating"
+}
+{
+  "model" "*60"
+  "weapon" "1"
+  "material" "1"
+  "health" "200"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*61"
+  "weapon" "1"
+  "material" "1"
+  "health" "100"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*62"
+  "weapon" "1"
+  "material" "1"
+  "health" "100"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*63"
+  "weapon" "1"
+  "material" "1"
+  "health" "200"
+  "rendercolor" "0 0 0"
+  "spawnflags" "256"
+  "classname" "func_breakable"
+}
+{
+  "model" "*64"
+  "angles" "0 0 0"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*65"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*66"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*67"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*68"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*69"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*70"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "targetname" "rock_fall_1"
+  "rendermode" "4"
+  "dmg" "500"
+  "wait" "-1"
+  "speed" "200"
+  "angles" "-90 0 0"
+  "renderamt" "255"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_door"
+}
+{
+  "model" "*71"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "targetname" "rock_fall_2"
+  "renderamt" "255"
+  "rendermode" "4"
+  "dmg" "500"
+  "wait" "-1"
+  "speed" "200"
+  "angles" "-90 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_door"
+}
+{
+  "origin" "816 1896 -1712"
+  "rock_fall_2_shake" "0"
+  "rock_fall_2" "0"
+  "targetname" "rock_fall_2_multi"
+  "classname" "multi_manager"
+}
+{
+  "origin" "816 1880 -1712"
+  "targetname" "rock_fall_2_shake"
+  "frequency" "200"
+  "duration" "6"
+  "radius" "500"
+  "amplitude" "14"
+  "spawnflags" "1"
+  "classname" "env_shake"
+}
+{
+  "model" "*72"
+  "target" "rock_fall_2_multi"
+  "classname" "trigger_once"
+}
+{
+  "origin" "552 1504 -1704"
+  "targetname" "rock_fall_1_shake"
+  "frequency" "100"
+  "duration" "13"
+  "radius" "500"
+  "amplitude" "9"
+  "spawnflags" "1"
+  "classname" "env_shake"
+}
+{
+  "origin" "552 1488 -1704"
+  "rock_fall_1_shake" "0"
+  "rock_fall_1" "1"
+  "targetname" "rock_fall_1_multi"
+  "classname" "multi_manager"
+}
+{
+  "model" "*73"
+  "target" "rock_fall_1_multi"
+  "classname" "trigger_once"
+}
+{
+  "model" "*74"
+  "weapon" "1"
+  "material" "8"
+  "health" "1"
+  "targetname" "rock_fall_1"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_breakable"
+}
+{
+  "model" "*75"
+  "targetname" "rock_fall_5_light2"
+  "skin" "-1"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "origin" "1976 2048 -1712"
+  "spawn_dark_zombies" "5"
+  "rock_fall_5_light" "5"
+  "rock_fall_5_expl" "3"
+  "rock_fall_5_shake" "0"
+  "rock_fall_5_render" "5"
+  "rock_fall_5" "5"
+  "targetname" "rock_fall_5_multi2"
+  "classname" "multi_manager"
+}
+{
+  "origin" "1984 2072 -1712"
+  "targetname" "rock_fall_5_render"
+  "renderamt" "30"
+  "rendermode" "5"
+  "target" "rock_fall_5_light2"
+  "rendercolor" "0 0 0"
+  "classname" "env_render"
+}
+{
+  "model" "*76"
+  "target" "rock_fall_5_multi2"
+  "classname" "trigger_once"
+}
+{
+  "origin" "1992 2048 -1712"
+  "targetname" "rock_fall_5_shake"
+  "frequency" "255"
+  "duration" "5"
+  "radius" "500"
+  "amplitude" "14"
+  "spawnflags" "1"
+  "classname" "env_shake"
+}
+{
+  "model" "*77"
+  "weapon" "1"
+  "targetname" "rock_fall_5_expl"
+  "explodemagnitude" "40"
+  "health" "10"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_breakable"
+}
+{
+  "origin" "1960 1992 -1672"
+  "_fade" "1.0"
+  "style" "34"
+  "_light" "255 255 128 140"
+  "targetname" "rock_fall_5_expl"
+  "classname" "light"
+}
+{
+  "model" "*78"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "weapon" "1"
+  "buoyancy" "30"
+  "friction" "220"
+  "size" "2"
+  "rendercolor" "0 0 0"
+  "explosion" "1"
+  "material" "1"
+  "health" "60"
+  "classname" "func_pushable"
+}
+{
+  "model" "*79"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "weapon" "1"
+  "buoyancy" "40"
+  "friction" "110"
+  "size" "3"
+  "rendercolor" "0 0 0"
+  "explosion" "1"
+  "material" "1"
+  "health" "50"
+  "classname" "func_pushable"
+}
+{
+  "style" "35"
+  "origin" "1960 2152 -1712"
+  "_fade" "1.0"
+  "_light" "255 255 128 60"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "style" "35"
+  "origin" "2016 2152 -1712"
+  "_fade" "1.0"
+  "_light" "255 255 128 60"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "style" "35"
+  "origin" "2072 2152 -1712"
+  "targetname" "rock_fall_5_light"
+  "_fade" "1.0"
+  "_light" "255 255 128 60"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "model" "*80"
+  "weapon" "1"
+  "zhlt_lightflags" "2"
+  "material" "8"
+  "health" "100"
+  "targetname" "rock_fall_5"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_breakable"
+}
+{
+  "model" "*81"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "renderamt" "100"
+  "rendermode" "2"
+  "skin" "-3"
+  "wait" "4"
+  "speed" "100"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_water"
+}
+{
+  "model" "*82"
+  "weapon" "1"
+  "targetname" "rock_fall_2"
+  "material" "8"
+  "health" "1"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_breakable"
+}
+{
+  "origin" "1432 1832 -1928"
+  "health" "310"
+  "monstertype" "monster_ichthyosaur"
+  "targetname" "ichthyosaur_spawn"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "weapons" "1"
+  "gag" "-1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "rendercolor" "0 0 0"
+  "angles" "0 270 0"
+  "classname" "squadmaker"
+}
+{
+  "model" "*83"
+  "weapon" "1"
+  "target" "hurt"
+  "targetname" "ichthyosaur_release"
+  "material" "2"
+  "health" "1"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_breakable"
+}
+{
+  "model" "*84"
+  "angles" "0 0 0"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*85"
+  "target" "find_weapon"
+  "classname" "trigger_once"
+}
+{
+  "origin" "1656 1736 -1704"
+  "scene_50" "0"
+  "targetname" "find_weapon"
+  "classname" "multi_manager"
+}
+{
+  "origin" "1496 1768 -1696"
+  "target" "scene_path_50_2"
+  "speed" "20"
+  "targetname" "scene_path_50_1"
+  "angles" "0 180 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "1496 1784 -1696"
+  "targetname" "door_block_text"
+  "channel" "1"
+  "fxtime" "0.25"
+  "holdtime" "6"
+  "fadeout" "1"
+  "fadein" "1"
+  "color2" "255 255 255"
+  "color" "255 255 255"
+  "y" "0.7"
+  "x" "-1"
+  "message" "If only we had a weapon,\n we could break down this barricade..."
+  "spawnflags" "1"
+  "classname" "game_text"
+}
+{
+  "origin" "1480 1784 -1696"
+  "scene_60" "10"
+  "scene_fadeout_50#1" "11"
+  "scene_fadein_50#1" "10"
+  "scene_fadeout_50" "1"
+  "scene_fadein_50" "0"
+  "scene_cam_50" "1"
+  "door_block_text" "2"
+  "targetname" "scene_50"
+  "classname" "multi_manager"
+}
+{
+  "origin" "1480 1768 -1696"
+  "turnspeed" "40"
+  "moveto" "scene_path_50_1"
+  "angles" "0 323 0"
+  "target" "scene_target_50"
+  "speed" "20"
+  "targetname" "scene_cam_50"
+  "deceleration" "500"
+  "acceleration" "500"
+  "wait" "10"
+  "spawnflags" "24"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "1480 1752 -1696"
+  "targetname" "scene_fadeout_50"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "duration" "1"
+  "spawnflags" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "1496 1752 -1696"
+  "targetname" "scene_fadein_50"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "duration" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "1682 1668 -1724"
+  "targetname" "scene_target_50"
+  "classname" "info_target"
+}
+{
+  "origin" "1624 1024 -1760"
+  "message" "ichthyosaur_spawn"
+  "target" "scene_path_60_2"
+  "speed" "90"
+  "targetname" "scene_path_60_1"
+  "angles" "0 150 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "1640 992 -1760"
+  "targetname" "scene_fadeout_60"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "duration" "1"
+  "spawnflags" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "1624 992 -1760"
+  "targetname" "scene_fadein_60"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "duration" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "1640 1008 -1760"
+  "turnspeed" "40"
+  "angles" "0 90 0"
+  "target" "scene_target_60"
+  "speed" "40"
+  "moveto" "scene_path_60_1"
+  "targetname" "scene_cam_60"
+  "deceleration" "500"
+  "acceleration" "500"
+  "wait" "15"
+  "spawnflags" "24"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "1640 1024 -1760"
+  "ichthyosaur_release" "13"
+  "scene_fadeout_60#1" "16"
+  "scene_fadein_60#1" "15"
+  "scene_target_60" "0"
+  "scene_cam_60" "1"
+  "targetname" "scene_60"
+  "classname" "multi_manager"
+}
+{
+  "origin" "1608 1512 -1760"
+  "target" "scene_path_60_3"
+  "speed" "90"
+  "targetname" "scene_path_60_2"
+  "angles" "0 130 0"
+  "spawnflags" "4"
+  "classname" "path_corner"
+}
+{
+  "origin" "1568 1568 -1760"
+  "speed" "60"
+  "target" "scene_path_60_4"
+  "wait" "1"
+  "targetname" "scene_path_60_3"
+  "angles" "0 130 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "1432 1680 -1848"
+  "speed" "1"
+  "wait" "10"
+  "targetname" "scene_path_60_4"
+  "angles" "0 130 0"
+  "classname" "path_corner"
+}
+{
+  "model" "*86"
+  "target" "hurt"
+  "targetname" "hurt"
+  "dmg" "10"
+  "classname" "trigger_hurt"
+}
+{
+  "origin" "600 1544 -1676"
+  "_fade" "1.0"
+  "_light" "255 255 128 50"
+  "classname" "light"
+}
+{
+  "origin" "600 1544 -1675"
+  "scale" "0.5"
+  "rendermode" "3"
+  "model" "sprites/flare1.spr"
+  "renderfx" "14"
+  "rendercolor" "255 255 128"
+  "renderamt" "150"
+  "classname" "env_glow"
+}
+{
+  "model" "*87"
+  "angles" "0 0 0"
+  "renderamt" "150"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "600 1760 -1676"
+  "_fade" "1.0"
+  "_light" "255 255 128 50"
+  "classname" "light"
+}
+{
+  "origin" "600 1760 -1675"
+  "scale" "0.5"
+  "rendermode" "3"
+  "model" "sprites/flare1.spr"
+  "renderfx" "14"
+  "rendercolor" "255 255 128"
+  "renderamt" "150"
+  "classname" "env_glow"
+}
+{
+  "model" "*88"
+  "angles" "0 0 0"
+  "renderamt" "150"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "736 1832 -1676"
+  "_fade" "1.0"
+  "_light" "255 255 128 50"
+  "classname" "light"
+}
+{
+  "origin" "736 1832 -1675"
+  "scale" "0.5"
+  "rendermode" "3"
+  "model" "sprites/flare1.spr"
+  "renderfx" "14"
+  "rendercolor" "255 255 128"
+  "renderamt" "150"
+  "classname" "env_glow"
+}
+{
+  "model" "*89"
+  "angles" "0 0 0"
+  "renderamt" "150"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*90"
+  "origin" "1624 1008 -1760"
+  "m_iObeyTriggerMode" "1"
+  "target" "scene_path_60_1"
+  "renderamt" "255"
+  "rendermode" "2"
+  "targetname" "scene_target_60"
+  "volume" "1.0"
+  "speed" "60"
+  "rendercolor" "0 0 0"
+  "spawnflags" "8"
+  "classname" "func_train"
+}
+{
+  "origin" "1144 1832 -1676"
+  "_fade" "1.0"
+  "_light" "255 255 128 50"
+  "classname" "light"
+}
+{
+  "origin" "1144 1832 -1675"
+  "scale" "0.5"
+  "rendermode" "3"
+  "model" "sprites/flare1.spr"
+  "renderfx" "14"
+  "rendercolor" "255 255 128"
+  "renderamt" "150"
+  "classname" "env_glow"
+}
+{
+  "model" "*91"
+  "angles" "0 0 0"
+  "renderamt" "150"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "1480 1646 -1695"
+  "linearmax" "5"
+  "linearmin" "2"
+  "message" "ambience/drips.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "6"
+  "spawnflags" "4"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "1517 2055 -2096"
+  "rendercolor" "0 0 0"
+  "angles" "0 25 0"
+  "classname" "weapon_pipewrench"
+}
+{
+  "model" "*92"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "renderamt" "100"
+  "rendermode" "2"
+  "WaveHeight" "1"
+  "skin" "-3"
+  "wait" "4"
+  "speed" "100"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_water"
+}
+{
+  "model" "*93"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*94"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*95"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "targetname" "rock_fall_3"
+  "renderamt" "255"
+  "rendermode" "4"
+  "dmg" "500"
+  "wait" "-1"
+  "speed" "200"
+  "angles" "-90 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_door"
+}
+{
+  "origin" "664 1128 -1712"
+  "rock_fall_3_shake" "0"
+  "rock_fall_3" "0"
+  "targetname" "rock_fall_3_multi"
+  "classname" "multi_manager"
+}
+{
+  "origin" "648 1128 -1712"
+  "targetname" "rock_fall_3_shake"
+  "frequency" "200"
+  "duration" "6"
+  "radius" "500"
+  "amplitude" "14"
+  "spawnflags" "1"
+  "classname" "env_shake"
+}
+{
+  "model" "*96"
+  "target" "rock_fall_3_multi"
+  "classname" "trigger_once"
+}
+{
+  "model" "*97"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*98"
+  "origin" "-540 1144 -380"
+  "m_iObeyTriggerMode" "1"
+  "avelocity" "23 23 25"
+  "targetname" "tail_break"
+  "target" "tail_1"
+  "angles" "0 0 0"
+  "volume" "0.85"
+  "dmg" "999"
+  "speed" "650"
+  "rendercolor" "0 0 0"
+  "classname" "func_train"
+}
+{
+  "origin" "-540 1144 -380"
+  "target" "tail_2"
+  "targetname" "tail_1"
+  "angles" "0 0 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "-540 1144 -1512"
+  "target" "tail_3"
+  "targetname" "tail_2"
+  "angles" "0 74 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "-540 1144 -1624"
+  "message" "hitfloor"
+  "target" "tail_4"
+  "targetname" "tail_3"
+  "angles" "0 0 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "-540 1144 -1776"
+  "targetname" "tail_4"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "path_corner"
+}
+{
+  "origin" "-291 1185 -1565"
+  "look_out" "4"
+  "tail_break_fire" "4"
+  "tail_break_explotion1#1" "4"
+  "tail_break_explotion5" "3.3"
+  "tail_break_explotion4" "3"
+  "tail_break_explotion3" "2.5"
+  "tail_break_explotion2" "3"
+  "tail_break_explotion1" "2"
+  "tail_break" "4"
+  "targetname" "tail_break_multi"
+  "classname" "multi_manager"
+}
+{
+  "origin" "-584 1095 -368"
+  "targetname" "tail_break_explotion1"
+  "iMagnitude" "100"
+  "spawnflags" "2"
+  "classname" "env_explosion"
+}
+{
+  "origin" "-490 1137 -348"
+  "targetname" "tail_break_explotion1"
+  "iMagnitude" "100"
+  "spawnflags" "2"
+  "classname" "env_explosion"
+}
+{
+  "origin" "-575 1182 -365"
+  "targetname" "tail_break_explotion1"
+  "iMagnitude" "100"
+  "spawnflags" "2"
+  "classname" "env_explosion"
+}
+{
+  "origin" "-537 1072 -356"
+  "targetname" "tail_break_explotion2"
+  "iMagnitude" "100"
+  "spawnflags" "2"
+  "classname" "env_explosion"
+}
+{
+  "origin" "-504 1206 -356"
+  "targetname" "tail_break_explotion2"
+  "iMagnitude" "100"
+  "spawnflags" "2"
+  "classname" "env_explosion"
+}
+{
+  "origin" "-629 1128 -363"
+  "targetname" "tail_break_explotion3"
+  "iMagnitude" "100"
+  "spawnflags" "2"
+  "classname" "env_explosion"
+}
+{
+  "origin" "-452 1136 -349"
+  "targetname" "tail_break_explotion3"
+  "iMagnitude" "100"
+  "spawnflags" "2"
+  "classname" "env_explosion"
+}
+{
+  "origin" "-539 1136 -365"
+  "targetname" "tail_break_explotion4"
+  "iMagnitude" "100"
+  "spawnflags" "2"
+  "classname" "env_explosion"
+}
+{
+  "origin" "-574 1239 -356"
+  "targetname" "tail_break_explotion4"
+  "iMagnitude" "100"
+  "spawnflags" "2"
+  "classname" "env_explosion"
+}
+{
+  "origin" "-505 1218 -350"
+  "targetname" "tail_break_explotion5"
+  "iMagnitude" "100"
+  "spawnflags" "2"
+  "classname" "env_explosion"
+}
+{
+  "origin" "-553 1074 -363"
+  "targetname" "tail_break_explotion5"
+  "iMagnitude" "100"
+  "spawnflags" "2"
+  "classname" "env_explosion"
+}
+{
+  "origin" "-624 1185 -362"
+  "targetname" "tail_break_explotion5"
+  "iMagnitude" "100"
+  "spawnflags" "2"
+  "classname" "env_explosion"
+}
+{
+  "origin" "-283 1222 -1569"
+  "targetname" "tail_break_shake"
+  "frequency" "50"
+  "duration" "10"
+  "radius" "500"
+  "amplitude" "16"
+  "spawnflags" "1"
+  "classname" "env_shake"
+}
+{
+  "origin" "-578 1095 -1619"
+  "targetname" "hitfloor"
+  "iMagnitude" "100"
+  "classname" "env_explosion"
+}
+{
+  "origin" "-501 1162 -1610"
+  "targetname" "hitfloor"
+  "iMagnitude" "100"
+  "classname" "env_explosion"
+}
+{
+  "origin" "-492 1101 -1611"
+  "targetname" "hitfloor"
+  "iMagnitude" "100"
+  "classname" "env_explosion"
+}
+{
+  "origin" "-578 1194 -1611"
+  "targetname" "hitfloor"
+  "iMagnitude" "100"
+  "classname" "env_explosion"
+}
+{
+  "origin" "-556 1157 -1616"
+  "targetname" "hitfloor"
+  "iMagnitude" "100"
+  "classname" "env_explosion"
+}
+{
+  "origin" "-626 1168 -1621"
+  "targetname" "hitfloor"
+  "iMagnitude" "100"
+  "classname" "env_explosion"
+}
+{
+  "origin" "-824 928 -120"
+  "target" "scene_path_80_2"
+  "speed" "40"
+  "targetname" "scene_path_80_1"
+  "angles" "0 89 0"
+  "spawnflags" "2"
+  "classname" "path_corner"
+}
+{
+  "origin" "-984 968 -256"
+  "scene_cam_880" "1"
+  "scene_fadeout_80" "2"
+  "scene_fadein_80" "0"
+  "check_point" "16"
+  "spawn_3" "1"
+  "spawn_4" "2"
+  "targetname" "scene_80"
+  "classname" "multi_manager"
+}
+{
+  "origin" "-817 928 -120"
+  "turnspeed" "40"
+  "angles" "0 55 0"
+  "target" "look_at_me_tail"
+  "speed" "40"
+  "moveto" "scene_path_80_1"
+  "targetname" "scene_cam_880"
+  "deceleration" "500"
+  "acceleration" "500"
+  "wait" "7"
+  "spawnflags" "24"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "-952 968 -256"
+  "targetname" "scene_fadeout_80"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "duration" "1"
+  "spawnflags" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "-952 984 -256"
+  "holdtime" "1"
+  "targetname" "scene_fadein_80"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "duration" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "-912 968 -144"
+  "target" "scene_path_80_3"
+  "speed" "40"
+  "targetname" "scene_path_80_2"
+  "angles" "0 89 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "-952 1048 -152"
+  "message" "look_out"
+  "target" "scene_path_80_4"
+  "speed" "40"
+  "targetname" "scene_path_80_3"
+  "angles" "0 89 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "-339 1180 -1564"
+  "scene_80" "0"
+  "targetname" "tail_break_seq"
+  "tail_break_multi" "4"
+  "classname" "multi_manager"
+}
+{
+  "origin" "-856 1013 -308"
+  "targetname" "look_out"
+  "channel" "1"
+  "fxtime" "0.25"
+  "holdtime" "2"
+  "fadeout" "1"
+  "fadein" "1"
+  "color2" "255 255 255"
+  "color" "255 255 255"
+  "y" "0.7"
+  "x" "-1"
+  "spawnflags" "1"
+  "classname" "game_text"
+}
+{
+  "model" "*99"
+  "angles" "0 0 0"
+  "targetname" "hitfloor"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_wall_toggle"
+}
+{
+  "origin" "-495 1151 -1553"
+  "targetname" "hitfloor"
+  "scale" "2"
+  "renderamt" "255"
+  "rendermode" "5"
+  "model" "sprites/fire.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "env_sprite"
+}
+{
+  "origin" "-493 1159 -1589"
+  "style" "36"
+  "_fade" "1.0"
+  "_light" "193 63 0 120"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "origin" "-649 1107 -1592"
+  "targetname" "hitfloor"
+  "scale" "1"
+  "renderamt" "255"
+  "rendermode" "5"
+  "model" "sprites/fire.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "env_sprite"
+}
+{
+  "origin" "-642 1103 -1605"
+  "targetname" "hitfloor"
+  "style" "36"
+  "_fade" "1.0"
+  "_light" "193 63 0 70"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "origin" "-543 1155 -1558"
+  "linearmax" "5"
+  "linearmin" "2"
+  "message" "ambience/burning1.wav"
+  "targetname" "hitfloor"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "6"
+  "spawnflags" "20"
+  "classname" "ambient_generic"
+}
+{
+  "model" "*100"
+  "weapon" "1"
+  "explodemagnitude" "4"
+  "material" "2"
+  "health" "10"
+  "targetname" "hitfloor"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_breakable"
+}
+{
+  "model" "*101"
+  "wait" "-1"
+  "sounds" "2"
+  "speed" "5"
+  "angles" "0 0 0"
+  "target" "tail_break_seq_multi"
+  "rendercolor" "0 0 0"
+  "spawnflags" "65"
+  "classname" "func_button"
+}
+{
+  "origin" "-650 1634 -1590"
+  "tail_break_shake" "0"
+  "tail_break_seq_boom" "2"
+  "tail_break_seq_multi" "0"
+  "tail_break_seq" "8"
+  "targetname" "tail_break_seq_multi"
+  "classname" "multi_manager"
+}
+{
+  "origin" "-702 1606 -1584"
+  "targetname" "tail_break_seq_boom"
+  "iMagnitude" "10"
+  "classname" "env_explosion"
+}
+{
+  "origin" "-577 1611 -1590"
+  "linearmax" "5"
+  "linearmin" "2"
+  "targetname" "tail_break_shake"
+  "message" "ambience/the_horror4.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "49"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "-520 1312 -1596"
+  "targetname" "spawn_4"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "-576 1312 -1596"
+  "targetname" "spawn_4"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "-632 1312 -1596"
+  "targetname" "spawn_4"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "-520 1368 -1596"
+  "targetname" "spawn_4"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "-576 1368 -1596"
+  "targetname" "spawn_4"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "-632 1368 -1596"
+  "targetname" "spawn_4"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "-576 1424 -1596"
+  "targetname" "spawn_4"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "-520 1424 -1596"
+  "targetname" "spawn_4"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "-632 1424 -1596"
+  "targetname" "spawn_4"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "-986 993 -256"
+  "targetname" "check_point"
+  "channel" "1"
+  "fxtime" "0.25"
+  "holdtime" "5"
+  "fadeout" "1"
+  "fadein" "1"
+  "color2" "255 255 255"
+  "color" "255 255 255"
+  "y" "0.8"
+  "x" "0.8"
+  "message" "New Check Point \n Activated"
+  "spawnflags" "1"
+  "classname" "game_text"
+}
+{
+  "origin" "-392 3032 -572"
+  "targetname" "spawn_3"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "-448 3032 -572"
+  "targetname" "spawn_3"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "-448 3144 -572"
+  "targetname" "spawn_3"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "-448 3088 -572"
+  "targetname" "spawn_3"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "-392 3144 -572"
+  "targetname" "spawn_3"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "-392 3088 -572"
+  "targetname" "spawn_3"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "-112 3032 -572"
+  "targetname" "spawn_3"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "-112 3088 -572"
+  "targetname" "spawn_3"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "-112 3144 -572"
+  "targetname" "spawn_3"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "-168 3144 -572"
+  "targetname" "spawn_3"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "-168 3088 -572"
+  "targetname" "spawn_3"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "-168 3032 -572"
+  "targetname" "spawn_3"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "model" "*102"
+  "damagetype" "32"
+  "dmg" "9999"
+  "classname" "trigger_hurt"
+}
+{
+  "origin" "-114 2673 -3352"
+  "sequence" "13"
+  "UnUseSentence" "garg/gar_idle1.wav"
+  "UseSentence" "garg/gar_alert2.wav"
+  "targetname" "sci1"
+  "is_player_ally" "1"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "angles" "0 347 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "130"
+  "classname" "monster_scientist"
+}
+{
+  "model" "*103"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "style" "37"
+  "origin" "-704 2864 -3280"
+  "_fade" "1.0"
+  "_light" "255 255 255 100"
+  "classname" "light"
+}
+{
+  "style" "37"
+  "origin" "-704 2736 -3280"
+  "_fade" "1.0"
+  "_light" "255 255 255 100"
+  "classname" "light"
+}
+{
+  "style" "37"
+  "origin" "-704 2608 -3280"
+  "_fade" "1.0"
+  "_light" "255 255 255 100"
+  "classname" "light"
+}
+{
+  "style" "37"
+  "origin" "-80 2864 -3280"
+  "_fade" "1.0"
+  "_light" "255 255 255 100"
+  "classname" "light"
+}
+{
+  "style" "37"
+  "origin" "-704 2608 -3304"
+  "_fade" "1.0"
+  "_light" "255 255 255 100"
+  "classname" "light"
+}
+{
+  "style" "37"
+  "origin" "-704 2736 -3304"
+  "_fade" "1.0"
+  "_light" "255 255 255 100"
+  "classname" "light"
+}
+{
+  "style" "37"
+  "origin" "-704 2864 -3304"
+  "_fade" "1.0"
+  "_light" "255 255 255 100"
+  "classname" "light"
+}
+{
+  "style" "37"
+  "origin" "-80 2608 -3304"
+  "_fade" "1.0"
+  "_light" "255 255 255 100"
+  "classname" "light"
+}
+{
+  "style" "37"
+  "origin" "-80 2736 -3304"
+  "_fade" "1.0"
+  "_light" "255 255 255 100"
+  "classname" "light"
+}
+{
+  "style" "37"
+  "origin" "-80 2864 -3304"
+  "_fade" "1.0"
+  "_light" "255 255 255 100"
+  "classname" "light"
+}
+{
+  "style" "37"
+  "origin" "-80 2736 -3280"
+  "_fade" "1.0"
+  "_light" "255 255 255 100"
+  "classname" "light"
+}
+{
+  "style" "37"
+  "origin" "-472 2728 -3192"
+  "_fade" "1.0"
+  "_light" "255 255 255 100"
+  "classname" "light"
+}
+{
+  "style" "37"
+  "origin" "-392 2648 -3192"
+  "_fade" "1.0"
+  "_light" "255 255 255 100"
+  "classname" "light"
+}
+{
+  "style" "37"
+  "origin" "-312 2728 -3192"
+  "_fade" "1.0"
+  "_light" "255 255 255 100"
+  "classname" "light"
+}
+{
+  "model" "*104"
+  "angles" "0 0 0"
+  "rendermode" "4"
+  "renderamt" "255"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "style" "37"
+  "origin" "-80 2608 -3280"
+  "_fade" "1.0"
+  "_light" "255 255 255 100"
+  "classname" "light"
+}
+{
+  "style" "37"
+  "origin" "-392 2808 -3193"
+  "_fade" "1.0"
+  "_light" "255 255 255 100"
+  "classname" "light"
+}
+{
+  "origin" "-392 2784 -3352"
+  "sequence" "13"
+  "is_player_ally" "1"
+  "UnUseSentence" "garg/gar_idle1.wav"
+  "UseSentence" "garg/gar_alert2.wav"
+  "targetname" "comper"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "body" "1"
+  "angles" "0 270 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "130"
+  "classname" "monster_scientist"
+}
+{
+  "origin" "837 2880 -3304"
+  "targetname" "steam2"
+  "scale" "2"
+  "model" "sprites/xsmoke1.spr"
+  "framerate" "10.0"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "rendermode" "5"
+  "angles" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "824 2968 -3312"
+  "targetname" "steam3"
+  "scale" "2"
+  "model" "sprites/xsmoke1.spr"
+  "framerate" "10.0"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "rendermode" "5"
+  "angles" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "model" "*105"
+  "skin" "-1"
+  "renderamt" "100"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*106"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "680 3048 -3256"
+  "style" "10"
+  "_fade" "1.0"
+  "_light" "255 0 0 100"
+  "classname" "light"
+}
+{
+  "origin" "512 2864 -3240"
+  "style" "10"
+  "_fade" "1.0"
+  "_light" "140 0 0 100"
+  "classname" "light"
+}
+{
+  "model" "*107"
+  "angles" "0 0 0"
+  "targetname" "steam3"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall_toggle"
+}
+{
+  "model" "*108"
+  "angles" "0 0 0"
+  "targetname" "steam3"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall_toggle"
+}
+{
+  "model" "*109"
+  "angles" "0 0 0"
+  "targetname" "steam3"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall_toggle"
+}
+{
+  "model" "*110"
+  "angles" "0 0 0"
+  "renderamt" "170"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*111"
+  "angles" "0 0 0"
+  "renderamt" "150"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*112"
+  "origin" "1040 2952 -2736"
+  "m_iObeyTriggerMode" "1"
+  "angles" "0 90 0"
+  "target" "scene_path_1_2_1"
+  "renderamt" "255"
+  "rendermode" "2"
+  "targetname" "scene_target_1"
+  "volume" "1.0"
+  "speed" "100"
+  "rendercolor" "0 0 0"
+  "spawnflags" "8"
+  "classname" "func_train"
+}
+{
+  "origin" "1072 2904 -2736"
+  "turnspeed" "40"
+  "angles" "0 113 0"
+  "target" "scene_target_1"
+  "speed" "40"
+  "moveto" "scene_path_1_1_1"
+  "targetname" "scene_cam_1"
+  "deceleration" "600"
+  "acceleration" "600"
+  "wait" "20"
+  "spawnflags" "28"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "1064 2856 -2744"
+  "targetname" "scene_fadein_1"
+  "rendercolor" "255 255 255"
+  "renderamt" "255"
+  "duration" "6"
+  "classname" "env_fade"
+}
+{
+  "origin" "1064 2840 -2744"
+  "holdtime" "2"
+  "targetname" "scene_fadeout_1"
+  "rendercolor" "255 255 255"
+  "renderamt" "255"
+  "duration" "14"
+  "spawnflags" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "1032 2840 -2744"
+  "intro_music3" "0"
+  "show_logo" "0"
+  "weapon_strip" "0"
+  "kill_all" "0"
+  "spawn_respawn" "2"
+  "spawn1" "0"
+  "spawn_3" "1"
+  "scene_2" "20"
+  "scene_fadein_1_2" "18"
+  "incy247" "17"
+  "scene_fadeout_1" "0"
+  "scene_target_1" "1"
+  "scene_cam_1" "1"
+  "targetname" "scene_1"
+  "classname" "multi_manager"
+}
+{
+  "origin" "1088 2904 -2736"
+  "target" "scene_path_1_1_2"
+  "speed" "10"
+  "targetname" "scene_path_1_1_1"
+  "angles" "0 89 0"
+  "spawnflags" "2"
+  "classname" "path_corner"
+}
+{
+  "origin" "1056 2952 -2736"
+  "target" "scene_path_1_2_2"
+  "speed" "28"
+  "targetname" "scene_path_1_2_1"
+  "angles" "0 92 0"
+  "spawnflags" "2"
+  "classname" "path_corner"
+}
+{
+  "origin" "1472 2904 -2736"
+  "target" "scene_path_1_1_3"
+  "speed" "29"
+  "targetname" "scene_path_1_1_2"
+  "angles" "0 89 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "1464 2952 -2736"
+  "target" "scene_path_1_2_3"
+  "speed" "200"
+  "targetname" "scene_path_1_2_2"
+  "angles" "0 92 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "1080 2888 -2736"
+  "_fade" "1.0"
+  "_light" "255 255 128 200"
+  "classname" "light"
+}
+{
+  "origin" "1240 2888 -2736"
+  "_fade" "1.0"
+  "_light" "255 255 128 200"
+  "classname" "light"
+}
+{
+  "origin" "1432 2888 -2736"
+  "_fade" "1.0"
+  "_light" "255 255 128 200"
+  "classname" "light"
+}
+{
+  "origin" "1288 2656 -2736"
+  "target" "scene_path_1_1_4"
+  "speed" "300"
+  "targetname" "scene_path_1_1_3"
+  "angles" "0 89 0"
+  "spawnflags" "2"
+  "classname" "path_corner"
+}
+{
+  "origin" "1288 2616 -2736"
+  "target" "scene_path_1_1_5"
+  "wait" "100"
+  "targetname" "scene_path_1_1_4"
+  "angles" "0 89 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "1284 2959 -2736"
+  "targetname" "target"
+  "classname" "info_target"
+}
+{
+  "origin" "1288 2576 -2736"
+  "wait" "100"
+  "targetname" "scene_path_1_1_5"
+  "angles" "0 89 0"
+  "classname" "path_corner"
+}
+{
+  "model" "*113"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "lip" "-1"
+  "wait" "-1"
+  "speed" "100"
+  "targetname" "incy247"
+  "angles" "90 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_door"
+}
+{
+  "origin" "1086 2857 -2743"
+  "targetname" "scene_fadein_1_2"
+  "rendercolor" "255 255 255"
+  "renderamt" "255"
+  "duration" "2"
+  "classname" "env_fade"
+}
+{
+  "origin" "1288 2952 -2736"
+  "speed" "500"
+  "wait" "10"
+  "targetname" "scene_path_1_2_3"
+  "angles" "0 92 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "-696 2704 -3264"
+  "turnspeed" "40"
+  "angles" "0 13 0"
+  "target" "scene_target_2"
+  "speed" "40"
+  "moveto" "scene_path_2_1"
+  "targetname" "scene_cam_2"
+  "deceleration" "600"
+  "acceleration" "600"
+  "wait" "15"
+  "spawnflags" "28"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "-696 2688 -3264"
+  "target" "scene_path_2_2"
+  "speed" "10"
+  "targetname" "scene_path_2_1"
+  "angles" "0 89 0"
+  "spawnflags" "2"
+  "classname" "path_corner"
+}
+{
+  "origin" "-624 2568 -3295"
+  "targetname" "scene_fadein_2"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "duration" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "-624 2552 -3295"
+  "holdtime" "1"
+  "targetname" "scene_fadeout_2"
+  "rendercolor" "255 255 255"
+  "renderamt" "255"
+  "duration" "1"
+  "spawnflags" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "-656 2552 -3295"
+  "sci_walk" "0"
+  "scene_3" "15"
+  "scene_fadein_2" "14"
+  "subtitle_1" "4"
+  "scene_fadeout_2" "0"
+  "scene_cam_2" "0"
+  "targetname" "scene_2"
+  "classname" "multi_manager"
+}
+{
+  "origin" "-460 2728 -3272"
+  "targetname" "scene_target_2"
+  "classname" "info_target"
+}
+{
+  "origin" "-672 2616 -3264"
+  "target" "scene_path_2_3"
+  "speed" "20"
+  "targetname" "scene_path_2_2"
+  "angles" "0 89 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "-576 2552 -3264"
+  "target" "scene_path_2_4"
+  "speed" "20"
+  "targetname" "scene_path_2_3"
+  "angles" "0 89 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "-400 2552 -3264"
+  "target" "scene_path_2_5"
+  "speed" "20"
+  "targetname" "scene_path_2_4"
+  "angles" "0 89 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "-384 2552 -3264"
+  "wait" "20"
+  "targetname" "scene_path_2_5"
+  "angles" "0 89 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "-662 2580 -3263"
+  "targetname" "subtitle_1"
+  "channel" "1"
+  "fxtime" "0.02"
+  "holdtime" "7"
+  "fadeout" "1"
+  "fadein" "1"
+  "color2" "255 255 255"
+  "color" "255 255 255"
+  "y" "0.8"
+  "x" "0.8"
+  "message" "Incy247 Presents"
+  "spawnflags" "1"
+  "classname" "game_text"
+}
+{
+  "model" "*114"
+  "angles" "0 0 0"
+  "rendermode" "4"
+  "renderamt" "255"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*115"
+  "angles" "0 0 0"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*116"
+  "angles" "0 0 0"
+  "targetname" "intro_power_down"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*117"
+  "targetname" "intro_water_drain"
+  "frequency" "4"
+  "density" "6"
+  "classname" "env_bubbles"
+}
+{
+  "model" "*118"
+  "targetname" "intro_water_drain"
+  "frequency" "4"
+  "density" "6"
+  "classname" "env_bubbles"
+}
+{
+  "model" "*119"
+  "targetname" "intro_water_drain"
+  "frequency" "4"
+  "density" "6"
+  "classname" "env_bubbles"
+}
+{
+  "style" "37"
+  "origin" "-296 3096 -3248"
+  "_fade" "1.0"
+  "_light" "15 15 255 150"
+  "classname" "light"
+}
+{
+  "style" "37"
+  "origin" "-232 3096 -3248"
+  "_fade" "1.0"
+  "_light" "15 15 255 150"
+  "classname" "light"
+}
+{
+  "style" "37"
+  "origin" "-296 2992 -3248"
+  "_fade" "1.0"
+  "_light" "0 0 128 90"
+  "classname" "light"
+}
+{
+  "style" "37"
+  "origin" "-232 2992 -3248"
+  "_fade" "1.0"
+  "_light" "0 0 128 90"
+  "classname" "light"
+}
+{
+  "style" "37"
+  "origin" "-552 2992 -3248"
+  "_fade" "1.0"
+  "_light" "0 0 128 90"
+  "classname" "light"
+}
+{
+  "style" "37"
+  "origin" "-488 2992 -3248"
+  "_fade" "1.0"
+  "_light" "0 0 128 90"
+  "classname" "light"
+}
+{
+  "style" "37"
+  "origin" "-552 3096 -3248"
+  "_fade" "1.0"
+  "_light" "15 15 255 150"
+  "classname" "light"
+}
+{
+  "style" "37"
+  "origin" "-488 3096 -3248"
+  "targetname" "intro_power_down"
+  "_fade" "1.0"
+  "_light" "15 15 255 150"
+  "classname" "light"
+}
+{
+  "model" "*120"
+  "targetname" "intro_water_drain"
+  "frequency" "4"
+  "density" "6"
+  "classname" "env_bubbles"
+}
+{
+  "model" "*121"
+  "angles" "0 0 0"
+  "renderamt" "100"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "1448 2000 -2832"
+  "scene_fadein_3" "10.5"
+  "subtitle_2" "1"
+  "scene_4" "11.5"
+  "scene_fadeout_3" "0"
+  "scene_target_3" "0"
+  "scene_cam_3" "0"
+  "targetname" "scene_3"
+  "classname" "multi_manager"
+}
+{
+  "origin" "1480 2000 -2832"
+  "holdtime" "1"
+  "targetname" "scene_fadeout_3"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "duration" "1"
+  "spawnflags" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "1480 1984 -2832"
+  "targetname" "scene_fadein_3"
+  "rendercolor" "255 255 255"
+  "renderamt" "255"
+  "duration" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "1512 1968 -2832"
+  "turnspeed" "40"
+  "angles" "0 240 0"
+  "target" "scene_target_3"
+  "speed" "20"
+  "moveto" "scene_path_3_1_1"
+  "targetname" "scene_cam_3"
+  "deceleration" "600"
+  "acceleration" "600"
+  "wait" "11.5"
+  "spawnflags" "28"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "1528 1968 -2832"
+  "target" "scene_path_3_1_2"
+  "speed" "20"
+  "targetname" "scene_path_3_1_1"
+  "angles" "0 230 0"
+  "spawnflags" "2"
+  "classname" "path_corner"
+}
+{
+  "model" "*122"
+  "origin" "1400 1800 -2832"
+  "m_iObeyTriggerMode" "1"
+  "angles" "0 90 0"
+  "target" "scene_path_3_2_1"
+  "renderamt" "255"
+  "rendermode" "2"
+  "targetname" "scene_target_3"
+  "volume" "1.0"
+  "speed" "25"
+  "rendercolor" "0 0 0"
+  "spawnflags" "8"
+  "classname" "func_train"
+}
+{
+  "origin" "1416 1800 -2832"
+  "target" "scene_path_3_2_2"
+  "speed" "30"
+  "targetname" "scene_path_3_2_1"
+  "angles" "0 92 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "896 1968 -2832"
+  "target" "scene_path_3_1_3"
+  "speed" "30"
+  "targetname" "scene_path_3_1_2"
+  "angles" "0 89 0"
+  "spawnflags" "2"
+  "classname" "path_corner"
+}
+{
+  "origin" "904 1800 -2832"
+  "target" "scene_path_3_2_3"
+  "speed" "30"
+  "targetname" "scene_path_3_2_2"
+  "angles" "0 92 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "1523 1989 -2859"
+  "targetname" "subtitle_2"
+  "channel" "4"
+  "fxtime" "0.02"
+  "holdtime" "8"
+  "fadeout" "1"
+  "fadein" "1"
+  "color2" "255 255 255"
+  "color" "255 255 255"
+  "y" "0.8"
+  "x" "0.8"
+  "message" "The final chapter in\nThe Escape Series"
+  "spawnflags" "1"
+  "classname" "game_text"
+}
+{
+  "origin" "1096 2856 -3048"
+  "target" "scene_path_4_2_2"
+  "speed" "17"
+  "targetname" "scene_path_4_2_1"
+  "angles" "0 92 0"
+  "classname" "path_corner"
+}
+{
+  "model" "*123"
+  "origin" "1096 2840 -3048"
+  "m_iObeyTriggerMode" "1"
+  "angles" "0 90 0"
+  "target" "scene_path_4_2_1"
+  "renderamt" "255"
+  "rendermode" "2"
+  "targetname" "scene_target_4"
+  "volume" "1.0"
+  "speed" "25"
+  "rendercolor" "0 0 0"
+  "spawnflags" "8"
+  "classname" "func_train"
+}
+{
+  "origin" "1096 2808 -3048"
+  "turnspeed" "40"
+  "angles" "0 91 0"
+  "target" "scene_target_4"
+  "speed" "20"
+  "moveto" "scene_path_4_1_1"
+  "targetname" "scene_cam_4"
+  "deceleration" "600"
+  "acceleration" "600"
+  "wait" "4.5"
+  "spawnflags" "28"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "1096 2824 -3048"
+  "target" "scene_path_4_1_2"
+  "speed" "20"
+  "targetname" "scene_path_4_1_1"
+  "angles" "0 230 0"
+  "spawnflags" "2"
+  "classname" "path_corner"
+}
+{
+  "origin" "1120 2824 -3048"
+  "scene_fadeout_4" "0"
+  "scene_fadein_4" "4"
+  "scene_5" "4.5"
+  "scene_target_4" "0"
+  "scene_cam_4" "0"
+  "targetname" "scene_4"
+  "classname" "multi_manager"
+}
+{
+  "origin" "1152 2840 -3048"
+  "targetname" "scene_fadein_4"
+  "rendercolor" "255 255 255"
+  "renderamt" "255"
+  "duration" "0.5"
+  "classname" "env_fade"
+}
+{
+  "origin" "1152 2824 -3048"
+  "targetname" "scene_fadeout_4"
+  "rendercolor" "255 255 255"
+  "renderamt" "255"
+  "duration" "0.5"
+  "spawnflags" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "1208 2824 -3048"
+  "target" "scene_path_4_1_2"
+  "speed" "20"
+  "targetname" "scene_path_4_1_2"
+  "angles" "0 230 0"
+  "spawnflags" "2"
+  "classname" "path_corner"
+}
+{
+  "origin" "1208 2856 -3048"
+  "target" "scene_path_4_2_2"
+  "speed" "17"
+  "targetname" "scene_path_4_2_2"
+  "angles" "0 92 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "1136 2795 -3016"
+  "_fade" "1.0"
+  "_light" "255 255 128 200"
+  "classname" "light"
+}
+{
+  "origin" "1304 2792 -3016"
+  "_fade" "1.0"
+  "_light" "255 255 128 200"
+  "classname" "light"
+}
+{
+  "origin" "1456 2792 -3016"
+  "_fade" "1.0"
+  "_light" "255 255 128 200"
+  "classname" "light"
+}
+{
+  "origin" "727 2793 -3288"
+  "subtitle_3" "2"
+  "scene_fadeout_5" "0"
+  "scene_fadein_5" "5"
+  "scene_6" "6"
+  "scene_cam_5" "0"
+  "targetname" "scene_5"
+  "classname" "multi_manager"
+}
+{
+  "origin" "680 2840 -3288"
+  "target" "scene_path_5_1_2"
+  "speed" "20"
+  "targetname" "scene_path_5_1_1"
+  "angles" "0 230 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "680 2824 -3288"
+  "turnspeed" "40"
+  "angles" "0 28 0"
+  "target" "scene_target_5"
+  "speed" "10"
+  "moveto" "scene_path_5_1_1"
+  "targetname" "scene_cam_5"
+  "deceleration" "600"
+  "acceleration" "600"
+  "wait" "6"
+  "spawnflags" "28"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "759 2809 -3288"
+  "targetname" "scene_fadein_5"
+  "rendercolor" "255 255 255"
+  "renderamt" "255"
+  "duration" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "759 2793 -3288"
+  "targetname" "scene_fadeout_5"
+  "rendercolor" "255 255 255"
+  "renderamt" "255"
+  "duration" "1"
+  "spawnflags" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "892 2932 -3284"
+  "targetname" "scene_target_5"
+  "classname" "info_target"
+}
+{
+  "origin" "256 2672 -3264"
+  "target" "scene_path_5_1_2"
+  "speed" "20"
+  "targetname" "scene_path_5_1_2"
+  "angles" "0 230 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "710 2819 -3279"
+  "targetname" "subtitle_3"
+  "channel" "4"
+  "fxtime" "0.02"
+  "holdtime" "3"
+  "fadeout" "1"
+  "fadein" "1"
+  "color2" "255 255 255"
+  "color" "255 255 255"
+  "y" "0.8"
+  "x" "0.8"
+  "spawnflags" "1"
+  "classname" "game_text"
+}
+{
+  "origin" "763 2758 -3275"
+  "_fade" "1.0"
+  "_light" "255 255 128 40"
+  "classname" "light"
+}
+{
+  "origin" "1224 2856 -3048"
+  "target" "scene_path_6_2_2"
+  "speed" "25"
+  "targetname" "scene_path_6_2_1"
+  "angles" "0 92 0"
+  "classname" "path_corner"
+}
+{
+  "model" "*124"
+  "origin" "1224 2840 -3048"
+  "m_iObeyTriggerMode" "1"
+  "angles" "0 90 0"
+  "target" "scene_path_6_2_1"
+  "renderamt" "255"
+  "rendermode" "2"
+  "targetname" "scene_target_6"
+  "volume" "1.0"
+  "speed" "25"
+  "rendercolor" "0 0 0"
+  "spawnflags" "8"
+  "classname" "func_train"
+}
+{
+  "origin" "1224 2824 -3048"
+  "target" "scene_path_6_1_2"
+  "speed" "30"
+  "targetname" "scene_path_6_1_1"
+  "angles" "0 230 0"
+  "spawnflags" "2"
+  "classname" "path_corner"
+}
+{
+  "origin" "1224 2808 -3048"
+  "turnspeed" "40"
+  "angles" "0 91 0"
+  "target" "scene_target_6"
+  "speed" "20"
+  "moveto" "scene_path_6_1_1"
+  "targetname" "scene_cam_6"
+  "deceleration" "600"
+  "acceleration" "600"
+  "wait" "5"
+  "spawnflags" "28"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "1336 2819 -3030"
+  "scene_fadeout_6" "0"
+  "scene_fadein_6" "4.5"
+  "scene_7" "5"
+  "scene_target_6" "0"
+  "scene_cam_6" "0"
+  "targetname" "scene_6"
+  "classname" "multi_manager"
+}
+{
+  "origin" "1368 2835 -3030"
+  "targetname" "scene_fadein_6"
+  "rendercolor" "255 255 255"
+  "renderamt" "255"
+  "duration" "0.5"
+  "classname" "env_fade"
+}
+{
+  "origin" "1368 2819 -3030"
+  "targetname" "scene_fadeout_6"
+  "rendercolor" "255 255 255"
+  "renderamt" "255"
+  "duration" "0.5"
+  "spawnflags" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "1400 2856 -3048"
+  "target" "scene_path_6_2_2"
+  "speed" "25"
+  "targetname" "scene_path_6_2_2"
+  "angles" "0 92 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "1400 2824 -3048"
+  "target" "scene_path_6_1_2"
+  "speed" "30"
+  "targetname" "scene_path_6_1_2"
+  "angles" "0 230 0"
+  "spawnflags" "2"
+  "classname" "path_corner"
+}
+{
+  "origin" "1472 2864 -2976"
+  "target" "scene_path_8_2_2"
+  "speed" "20"
+  "targetname" "scene_path_8_2_1"
+  "angles" "0 92 0"
+  "classname" "path_corner"
+}
+{
+  "model" "*125"
+  "origin" "1472 2848 -2976"
+  "m_iObeyTriggerMode" "1"
+  "angles" "0 90 0"
+  "target" "scene_path_8_2_1"
+  "renderamt" "255"
+  "rendermode" "2"
+  "targetname" "scene_target_8"
+  "volume" "1.0"
+  "speed" "25"
+  "rendercolor" "0 0 0"
+  "spawnflags" "8"
+  "classname" "func_train"
+}
+{
+  "origin" "1472 2840 -2976"
+  "target" "scene_path_8_1_2"
+  "speed" "25"
+  "targetname" "scene_path_8_1_1"
+  "angles" "0 230 0"
+  "spawnflags" "2"
+  "classname" "path_corner"
+}
+{
+  "origin" "1472 2824 -2976"
+  "turnspeed" "40"
+  "angles" "0 91 0"
+  "target" "scene_target_8"
+  "speed" "20"
+  "moveto" "scene_path_8_1_1"
+  "targetname" "scene_cam_8"
+  "deceleration" "600"
+  "acceleration" "600"
+  "wait" "4"
+  "spawnflags" "28"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "1472 2840 -3072"
+  "target" "scene_path_8_1_2"
+  "speed" "25"
+  "targetname" "scene_path_8_1_2"
+  "angles" "0 230 0"
+  "spawnflags" "2"
+  "classname" "path_corner"
+}
+{
+  "origin" "1435 2840 -2966"
+  "targetname" "scene_fadein_8"
+  "rendercolor" "255 255 255"
+  "renderamt" "255"
+  "duration" "0.5"
+  "classname" "env_fade"
+}
+{
+  "origin" "1435 2824 -2966"
+  "targetname" "scene_fadeout_8"
+  "rendercolor" "255 255 255"
+  "renderamt" "255"
+  "duration" "0.5"
+  "spawnflags" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "1403 2824 -2966"
+  "scene_21" "4"
+  "scene_fadeout_8" "0"
+  "scene_fadein_8" "3.5"
+  "scene_target_8" "0"
+  "scene_cam_8" "0"
+  "targetname" "scene_8"
+  "classname" "multi_manager"
+}
+{
+  "origin" "1472 2864 -3072"
+  "target" "scene_path_8_2_2"
+  "speed" "20"
+  "targetname" "scene_path_8_2_2"
+  "angles" "0 92 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "-876 945 -211"
+  "targetname" "subtitle_4"
+  "channel" "4"
+  "fxtime" "0.02"
+  "holdtime" "5"
+  "fadeout" "1"
+  "fadein" "1"
+  "color2" "255 255 255"
+  "color" "255 255 255"
+  "y" "0.8"
+  "x" "0.8"
+  "spawnflags" "1"
+  "classname" "game_text"
+}
+{
+  "origin" "-853 1013 -196"
+  "holdtime" "1"
+  "targetname" "scene_fadeout_7"
+  "rendercolor" "255 255 255"
+  "renderamt" "255"
+  "duration" "1"
+  "spawnflags" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "-853 1029 -196"
+  "targetname" "scene_fadein_7"
+  "rendercolor" "255 255 255"
+  "renderamt" "255"
+  "duration" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "-885 1013 -196"
+  "scene_cam_777" "0"
+  "subtitle_4" "2"
+  "scene_8" "6"
+  "scene_fadeout_7" "0"
+  "scene_fadein_7" "5"
+  "scene_target_7" "0"
+  "targetname" "scene_7"
+  "classname" "multi_manager"
+}
+{
+  "origin" "-120 1128 -120"
+  "target" "scene_path_7_1_2"
+  "speed" "140"
+  "targetname" "scene_path_7_1_1"
+  "angles" "0 230 0"
+  "spawnflags" "2"
+  "classname" "path_corner"
+}
+{
+  "origin" "-296 976 -212"
+  "target" "scene_path_7_1_3"
+  "speed" "140"
+  "targetname" "scene_path_7_1_2"
+  "angles" "0 230 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "-856 984 -212"
+  "target" "scene_path_7_1_3"
+  "speed" "140"
+  "targetname" "scene_path_7_1_3"
+  "angles" "0 230 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "-119 1128 -142"
+  "turnspeed" "40"
+  "angles" "0 122 0"
+  "target" "scene_target_777"
+  "speed" "20"
+  "moveto" "scene_path_7_1_1"
+  "targetname" "scene_cam_777"
+  "deceleration" "600"
+  "acceleration" "600"
+  "wait" "6"
+  "spawnflags" "28"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "-542 1387 -366"
+  "targetname" "scene_target_777"
+  "classname" "info_target"
+}
+{
+  "origin" "60 2897 -536"
+  "targetname" "scene_target_21"
+  "classname" "info_target"
+}
+{
+  "origin" "-331 2857 -531"
+  "turnspeed" "40"
+  "angles" "0 3 0"
+  "target" "scene_target_21"
+  "speed" "20"
+  "moveto" "scene_path_21_1_1"
+  "targetname" "scene_cam_21"
+  "deceleration" "600"
+  "acceleration" "600"
+  "wait" "5"
+  "spawnflags" "28"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "-382 2909 -555"
+  "targetname" "scene_fadein_21"
+  "rendercolor" "255 255 255"
+  "renderamt" "255"
+  "duration" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "-382 2893 -555"
+  "holdtime" "1"
+  "targetname" "scene_fadeout_21"
+  "rendercolor" "255 255 255"
+  "renderamt" "255"
+  "duration" "1"
+  "spawnflags" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "-414 2893 -555"
+  "silence" "9"
+  "scene_22" "5"
+  "scene_fadeout_21" "0"
+  "scene_fadein_21" "4"
+  "scene_target_21" "0"
+  "scene_cam_21" "0"
+  "targetname" "scene_21"
+  "classname" "multi_manager"
+}
+{
+  "origin" "-328 2872 -528"
+  "target" "scene_path_21_1_2"
+  "speed" "30"
+  "targetname" "scene_path_21_1_1"
+  "angles" "0 230 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "-328 3180 -528"
+  "target" "scene_path_21_1_3"
+  "speed" "30"
+  "targetname" "scene_path_21_1_2"
+  "angles" "0 230 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "1169 2714 -2994"
+  "kill_music_ents" "5.5"
+  "scene_fadeout_23" "20.5"
+  "scene_fadein_22" "5.5"
+  "scene_cam_27" "5.5"
+  "scene_cam_26" "4.8"
+  "scene_cam_25" "4.1"
+  "scene_cam_24" "2.8"
+  "scene_cam_23" "1.9"
+  "scene_fadeout_22" "0"
+  "scene_cam_22" "0.7"
+  "targetname" "scene_22"
+  "classname" "multi_manager"
+}
+{
+  "origin" "1120 2816 -2984"
+  "turnspeed" "40"
+  "angles" "0 90 0"
+  "target" "scene_target_22"
+  "speed" "20"
+  "targetname" "scene_cam_22"
+  "deceleration" "600"
+  "acceleration" "600"
+  "wait" "1.2"
+  "spawnflags" "28"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "1201 2730 -2994"
+  "targetname" "scene_fadein_22"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "duration" "15"
+  "classname" "env_fade"
+}
+{
+  "origin" "1201 2714 -2994"
+  "holdtime" "0.7"
+  "targetname" "scene_fadeout_22"
+  "rendercolor" "255 255 255"
+  "renderamt" "255"
+  "duration" "0.5"
+  "spawnflags" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "1120 2872 -2984"
+  "targetname" "scene_target_22"
+  "classname" "info_target"
+}
+{
+  "origin" "1228 2872 -2984"
+  "targetname" "scene_target_23"
+  "classname" "info_target"
+}
+{
+  "origin" "1228 2816 -2984"
+  "turnspeed" "40"
+  "angles" "0 90 0"
+  "target" "scene_target_23"
+  "speed" "20"
+  "targetname" "scene_cam_23"
+  "deceleration" "600"
+  "acceleration" "600"
+  "wait" "0.9"
+  "spawnflags" "28"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "1355 2872 -2984"
+  "targetname" "scene_target_24"
+  "classname" "info_target"
+}
+{
+  "origin" "1355 2816 -2984"
+  "turnspeed" "40"
+  "angles" "0 90 0"
+  "target" "scene_target_24"
+  "speed" "20"
+  "targetname" "scene_cam_24"
+  "deceleration" "600"
+  "acceleration" "600"
+  "wait" "1.3"
+  "spawnflags" "28"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "1288 2884 -3000"
+  "targetname" "scene_target_25"
+  "classname" "info_target"
+}
+{
+  "origin" "1288 2792 -3000"
+  "turnspeed" "40"
+  "moveto" "1.1"
+  "angles" "0 90 0"
+  "target" "scene_target_25"
+  "speed" "20"
+  "targetname" "scene_cam_25"
+  "deceleration" "600"
+  "acceleration" "600"
+  "wait" "0.7"
+  "spawnflags" "28"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "1288 2691 -3000"
+  "turnspeed" "40"
+  "angles" "0 90 0"
+  "target" "scene_target_25"
+  "speed" "20"
+  "targetname" "scene_cam_26"
+  "deceleration" "600"
+  "acceleration" "600"
+  "wait" "0.7"
+  "spawnflags" "28"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "1288 2576 -3000"
+  "turnspeed" "40"
+  "angles" "0 90 0"
+  "target" "scene_target_25"
+  "speed" "20"
+  "targetname" "scene_cam_27"
+  "deceleration" "600"
+  "acceleration" "600"
+  "wait" "15"
+  "spawnflags" "28"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "1141 2712 -2993"
+  "targetname" "spawn_respawn"
+  "classname" "trigger_respawn"
+}
+{
+  "origin" "1194 2691 -2993"
+  "holdtime" "3"
+  "targetname" "scene_fadeout_23"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "duration" "10"
+  "spawnflags" "1"
+  "classname" "env_fade"
+}
+{
+  "model" "*126"
+  "angles" "0 0 0"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "600 1056 -1676"
+  "_fade" "1.0"
+  "_light" "255 255 128 50"
+  "classname" "light"
+}
+{
+  "origin" "600 1056 -1675"
+  "scale" "0.5"
+  "rendermode" "3"
+  "model" "sprites/flare1.spr"
+  "renderfx" "14"
+  "rendercolor" "255 255 128"
+  "renderamt" "150"
+  "classname" "env_glow"
+}
+{
+  "model" "*127"
+  "angles" "0 0 0"
+  "renderamt" "150"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "229 1056 -1676"
+  "_fade" "1.0"
+  "_light" "255 255 128 50"
+  "classname" "light"
+}
+{
+  "origin" "229 1056 -1675"
+  "scale" "0.5"
+  "rendermode" "3"
+  "model" "sprites/flare1.spr"
+  "renderfx" "14"
+  "rendercolor" "255 255 128"
+  "renderamt" "150"
+  "classname" "env_glow"
+}
+{
+  "model" "*128"
+  "angles" "0 0 0"
+  "renderamt" "150"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*129"
+  "target" "rock_fall_door_lock44"
+  "classname" "trigger_once"
+}
+{
+  "model" "*130"
+  "angles" "0 0 0"
+  "targetname" "rock_fall_door_lock_wall"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall_toggle"
+}
+{
+  "origin" "1523 2122 -2063"
+  "rock_fall_door_lock" "0"
+  "rock_fall_door_lock_wall" "0"
+  "targetname" "rock_fall_door_lock44"
+  "classname" "multi_manager"
+}
+{
+  "origin" "1566 2118 -2063"
+  "targetname" "rock_fall_door_lock"
+  "classname" "multisource"
+}
+{
+  "origin" "1192 2952 -3033"
+  "renderamt" "255"
+  "rendermode" "5"
+  "scale" "0.5"
+  "model" "sprites/blueflare1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "1109 2926 -3024"
+  "renderamt" "255"
+  "rendermode" "5"
+  "scale" "0.5"
+  "model" "sprites/blueflare1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "1504 2960 -3072"
+  "renderamt" "255"
+  "rendermode" "5"
+  "scale" "0.5"
+  "model" "sprites/blueflare1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "1480 2928 -2984"
+  "renderamt" "255"
+  "rendermode" "5"
+  "scale" "1"
+  "model" "sprites/blueflare1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "1464 2960 -3016"
+  "renderamt" "255"
+  "rendermode" "5"
+  "scale" "0.5"
+  "model" "sprites/blueflare1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "1432 2936 -3072"
+  "renderamt" "255"
+  "rendermode" "5"
+  "scale" "1"
+  "model" "sprites/blueflare1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "1344 2928 -3072"
+  "renderamt" "255"
+  "rendermode" "5"
+  "scale" "0.5"
+  "model" "sprites/blueflare1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "1296 2936 -3056"
+  "renderamt" "255"
+  "rendermode" "5"
+  "scale" "1"
+  "model" "sprites/blueflare1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "1248 2944 -3040"
+  "renderamt" "255"
+  "rendermode" "5"
+  "scale" "1"
+  "model" "sprites/blueflare1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "1224 2936 -3072"
+  "renderamt" "255"
+  "rendermode" "5"
+  "scale" "0.5"
+  "model" "sprites/blueflare1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "model" "*131"
+  "targetname" "hitfloor"
+  "damagetype" "8"
+  "dmg" "10"
+  "spawnflags" "2"
+  "classname" "trigger_hurt"
+}
+{
+  "model" "*132"
+  "targetname" "hitfloor"
+  "damagetype" "8"
+  "dmg" "10"
+  "spawnflags" "2"
+  "classname" "trigger_hurt"
+}
+{
+  "origin" "1168 2552 -3052"
+  "targetname" "spawn_e3"
+  "angles" "0 91 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1168 2608 -3052"
+  "targetname" "spawn_e3"
+  "angles" "0 91 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1168 2664 -3052"
+  "targetname" "spawn_e3"
+  "angles" "0 91 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1112 2664 -3052"
+  "targetname" "spawn_e3"
+  "angles" "0 91 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1112 2608 -3052"
+  "targetname" "spawn_e3"
+  "angles" "0 91 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1112 2552 -3052"
+  "targetname" "spawn_e3"
+  "angles" "0 91 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1448 2608 -3052"
+  "targetname" "spawn_e3"
+  "angles" "0 91 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1448 2664 -3052"
+  "targetname" "spawn_e3"
+  "angles" "0 91 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1448 2552 -3052"
+  "targetname" "spawn_e3"
+  "angles" "0 91 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1392 2552 -3052"
+  "targetname" "spawn_e3"
+  "angles" "0 91 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1392 2608 -3052"
+  "targetname" "spawn_e3"
+  "angles" "0 91 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1392 2664 -3052"
+  "targetname" "spawn_e3"
+  "angles" "0 91 0"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1512 2616 -3040"
+  "_fade" "1.0"
+  "_light" "0 128 255 200"
+  "classname" "light"
+}
+{
+  "origin" "1072 2616 -3040"
+  "_fade" "1.0"
+  "_light" "0 128 255 200"
+  "classname" "light"
+}
+{
+  "model" "*133"
+  "targetname" "start_button"
+  "target" "e3_intro_start"
+  "wait" "-1"
+  "sounds" "7"
+  "lip" "-16"
+  "speed" "10"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_button"
+}
+{
+  "model" "*134"
+  "targetname" "start_button"
+  "target" "e3_intro_start"
+  "wait" "-1"
+  "sounds" "7"
+  "lip" "-16"
+  "speed" "10"
+  "angles" "0 180 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_button"
+}
+{
+  "origin" "1080 2658 -3039"
+  "spawn_respawn22" "10"
+  "intro_fadeout2" "8"
+  "intro_fadein2" "0"
+  "intro_osprey" "8"
+  "spawn1" "8"
+  "spawn_e3" "9"
+  "intro_text" "3"
+  "start_button_kill" "0"
+  "targetname" "e3_intro_start_multi"
+  "classname" "multi_manager"
+}
+{
+  "origin" "1127 2654 -3039"
+  "target" "e3_intro_start_multi"
+  "targetname" "e3_intro_start"
+  "classname" "multisource"
+}
+{
+  "model" "*135"
+  "target" "aaa"
+  "killtarget" "start_button"
+  "targetname" "start_button_kill"
+  "spawnflags" "2"
+  "classname" "trigger_once"
+}
+{
+  "origin" "1118 2625 -3061"
+  "holdtime" "2"
+  "targetname" "intro_fadeout2"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "duration" "2"
+  "spawnflags" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "1118 2641 -3061"
+  "holdtime" "5"
+  "targetname" "intro_fadein2"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "duration" "3"
+  "classname" "env_fade"
+}
+{
+  "origin" "1093 2634 -3050"
+  "targetname" "intro_text"
+  "channel" "1"
+  "fxtime" "0.02"
+  "holdtime" "3"
+  "fadeout" "1"
+  "fadein" "1"
+  "color2" "255 255 255"
+  "color" "255 255 255"
+  "y" "0.6"
+  "x" "-1"
+  "message" "Several hours after the events of Escape 2..."
+  "spawnflags" "1"
+  "classname" "game_text"
+}
+{
+  "origin" "1144 2928 -3048"
+  "renderamt" "255"
+  "rendermode" "5"
+  "scale" "1"
+  "model" "sprites/blueflare1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "1146 2737 -3026"
+  "targetname" "spawn_respawn22"
+  "classname" "trigger_respawn"
+}
+{
+  "origin" "1088 2928 -3072"
+  "renderamt" "255"
+  "rendermode" "5"
+  "scale" "0.5"
+  "model" "sprites/blueflare1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "model" "*136"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "skin" "-3"
+  "wait" "4"
+  "speed" "100"
+  "angles" "0 0 0"
+  "renderamt" "200"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_water"
+}
+{
+  "model" "*137"
+  "weapon" "1"
+  "targetname" "rock_fall_3"
+  "material" "8"
+  "health" "1"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_breakable"
+}
+{
+  "model" "*138"
+  "m_iObeyTriggerMode" "1"
+  "target" "cliffs_path5"
+  "targetname" "cliffs_train"
+  "volume" "0.85"
+  "speed" "500"
+  "rendercolor" "0 0 0"
+  "spawnflags" "8"
+  "classname" "func_train"
+}
+{
+  "model" "*139"
+  "m_iObeyTriggerMode" "1"
+  "target" "cliffs_path6"
+  "targetname" "cliffs_train"
+  "volume" "0.85"
+  "speed" "500"
+  "rendercolor" "0 0 0"
+  "spawnflags" "8"
+  "classname" "func_train"
+}
+{
+  "model" "*140"
+  "m_iObeyTriggerMode" "1"
+  "target" "cliffs_path7"
+  "targetname" "cliffs_train"
+  "volume" "0.85"
+  "speed" "500"
+  "rendercolor" "0 0 0"
+  "spawnflags" "8"
+  "classname" "func_train"
+}
+{
+  "model" "*141"
+  "m_iObeyTriggerMode" "1"
+  "target" "cliffs_path8"
+  "targetname" "cliffs_train"
+  "volume" "0.85"
+  "speed" "500"
+  "rendercolor" "0 0 0"
+  "spawnflags" "8"
+  "classname" "func_train"
+}
+{
+  "model" "*142"
+  "m_iObeyTriggerMode" "1"
+  "target" "cliffs_path9"
+  "targetname" "cliffs_train"
+  "volume" "0.85"
+  "speed" "500"
+  "rendercolor" "0 0 0"
+  "spawnflags" "8"
+  "classname" "func_train"
+}
+{
+  "model" "*143"
+  "m_iObeyTriggerMode" "1"
+  "target" "cliffs_path10"
+  "targetname" "cliffs_train"
+  "volume" "0.85"
+  "speed" "500"
+  "rendercolor" "0 0 0"
+  "spawnflags" "8"
+  "classname" "func_train"
+}
+{
+  "origin" "-208 2416 3072"
+  "target" "cliffs_path6"
+  "targetname" "cliffs_path5"
+  "angles" "0 0 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "176 2416 3072"
+  "target" "cliffs_path7"
+  "targetname" "cliffs_path6"
+  "angles" "0 0 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "560 2416 3072"
+  "target" "cliffs_path8"
+  "targetname" "cliffs_path7"
+  "angles" "0 0 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "944 2416 3072"
+  "target" "cliffs_path9"
+  "targetname" "cliffs_path8"
+  "angles" "0 0 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "1328 2416 3072"
+  "target" "cliffs_path10"
+  "targetname" "cliffs_path9"
+  "angles" "0 0 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "1712 2416 3072"
+  "target" "cliffs_path11"
+  "targetname" "cliffs_path10"
+  "angles" "0 0 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "2096 2416 3072"
+  "target" "cliffs_path12"
+  "targetname" "cliffs_path11"
+  "angles" "0 0 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "2480 2416 3072"
+  "target" "cliffs_path1"
+  "targetname" "cliffs_path12"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "path_corner"
+}
+{
+  "model" "*144"
+  "origin" "502 2028 3366"
+  "m_iObeyTriggerMode" "1"
+  "spawnorigin" "0 0 0"
+  "angles" "0 0 0"
+  "fanfriction" "3"
+  "speed" "800"
+  "rendercolor" "0 0 0"
+  "spawnflags" "193"
+  "classname" "func_rotating"
+}
+{
+  "model" "*145"
+  "origin" "502 2828 3366"
+  "m_iObeyTriggerMode" "1"
+  "spawnorigin" "0 0 0"
+  "angles" "0 0 0"
+  "fanfriction" "3"
+  "speed" "800"
+  "rendercolor" "0 0 0"
+  "spawnflags" "193"
+  "classname" "func_rotating"
+}
+{
+  "origin" "2238 2400 3326"
+  "target" "apac_2"
+  "targetname" "apac_1"
+  "angles" "0 179 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "2271 2402 3303"
+  "TriggerTarget" "intro_start22"
+  "TriggerCondition" "4"
+  "health" "4000"
+  "target" "apac_1"
+  "targetname" "spawn_apache"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "rendercolor" "0 0 0"
+  "angles" "0 180 0"
+  "spawnflags" "64"
+  "classname" "monster_apache"
+}
+{
+  "origin" "1564 2935 3350"
+  "target" "apac_3"
+  "targetname" "apac_2"
+  "angles" "0 243 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "-324 2951 3517"
+  "wait" "10"
+  "target" "apac_4"
+  "targetname" "apac_3"
+  "angles" "0 290 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "1128 1767 3490"
+  "wait" "5"
+  "target" "apac_5"
+  "targetname" "apac_4"
+  "angles" "0 148 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "-378 1941 3528"
+  "wait" "5"
+  "target" "apac_6"
+  "targetname" "apac_5"
+  "angles" "0 39 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "532 2948 3520"
+  "wait" "5"
+  "target" "apac_7"
+  "targetname" "apac_6"
+  "angles" "0 263 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "1768 1840 3289"
+  "wait" "5"
+  "target" "apac_2"
+  "targetname" "apac_7"
+  "angles" "0 139 0"
+  "classname" "path_corner"
+}
+{
+  "model" "*146"
+  "weapon" "1"
+  "material" "2"
+  "health" "200"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*147"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*148"
+  "m_iObeyTriggerMode" "1"
+  "target" "tail_12"
+  "volume" "0.85"
+  "speed" "300"
+  "targetname" "tail2"
+  "rendercolor" "0 0 0"
+  "classname" "func_train"
+}
+{
+  "origin" "1016 2428 3328"
+  "target" "tail_22"
+  "targetname" "tail_12"
+  "angles" "0 0 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "2064 2440 2520"
+  "message" "kill_tail"
+  "target" "tail_32"
+  "targetname" "tail_22"
+  "angles" "0 0 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "2080 2440 2520"
+  "targetname" "tail_3"
+  "angles" "0 0 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "1000 2428 3328"
+  "zhlt_lightflags2" "2"
+  "kill_tail2" "6"
+  "tail_boom22" "0.5"
+  "tail_boom12" "0"
+  "tail2" "0"
+  "targetname" "tail_break2"
+  "classname" "multi_manager"
+}
+{
+  "origin" "1016 2336 3320"
+  "targetname" "tail_boom12"
+  "iMagnitude" "100"
+  "classname" "env_explosion"
+}
+{
+  "origin" "1016 2520 3320"
+  "targetname" "tail_boom12"
+  "iMagnitude" "100"
+  "classname" "env_explosion"
+}
+{
+  "origin" "1016 2400 3320"
+  "targetname" "tail_boom12"
+  "iMagnitude" "100"
+  "classname" "env_explosion"
+}
+{
+  "origin" "1016 2456 3320"
+  "targetname" "tail_boom12"
+  "iMagnitude" "100"
+  "classname" "env_explosion"
+}
+{
+  "origin" "1080 2464 3312"
+  "targetname" "tail_boom22"
+  "iMagnitude" "100"
+  "classname" "env_explosion"
+}
+{
+  "origin" "1080 2344 3312"
+  "targetname" "tail_boom22"
+  "iMagnitude" "100"
+  "classname" "env_explosion"
+}
+{
+  "origin" "1080 2416 3312"
+  "targetname" "tail_boom22"
+  "iMagnitude" "100"
+  "classname" "env_explosion"
+}
+{
+  "origin" "1080 2504 3312"
+  "targetname" "tail_boom22"
+  "iMagnitude" "100"
+  "classname" "env_explosion"
+}
+{
+  "model" "*149"
+  "weapon" "1"
+  "material" "2"
+  "health" "200"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*150"
+  "weapon" "1"
+  "rendermode" "2"
+  "health" "100"
+  "renderamt" "100"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*151"
+  "weapon" "1"
+  "rendermode" "2"
+  "health" "100"
+  "renderamt" "100"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*152"
+  "weapon" "1"
+  "material" "2"
+  "health" "200"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*153"
+  "weapon" "1"
+  "rendermode" "2"
+  "health" "100"
+  "renderamt" "100"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*154"
+  "weapon" "1"
+  "material" "2"
+  "health" "200"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*155"
+  "weapon" "1"
+  "material" "2"
+  "health" "200"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*156"
+  "weapon" "1"
+  "rendermode" "2"
+  "health" "100"
+  "renderamt" "100"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*157"
+  "weapon" "1"
+  "rendermode" "2"
+  "health" "100"
+  "renderamt" "100"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*158"
+  "weapon" "1"
+  "material" "2"
+  "health" "200"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*159"
+  "weapon" "1"
+  "rendermode" "2"
+  "health" "100"
+  "renderamt" "100"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*160"
+  "weapon" "1"
+  "rendermode" "2"
+  "health" "100"
+  "renderamt" "100"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*161"
+  "weapon" "1"
+  "material" "2"
+  "health" "200"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*162"
+  "weapon" "1"
+  "rendermode" "2"
+  "health" "100"
+  "renderamt" "100"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*163"
+  "weapon" "1"
+  "material" "2"
+  "health" "200"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*164"
+  "weapon" "1"
+  "rendermode" "2"
+  "health" "100"
+  "renderamt" "100"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*165"
+  "weapon" "1"
+  "rendermode" "2"
+  "health" "100"
+  "renderamt" "100"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*166"
+  "weapon" "1"
+  "material" "2"
+  "health" "200"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*167"
+  "weapon" "1"
+  "material" "2"
+  "health" "400"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*168"
+  "weapon" "1"
+  "material" "2"
+  "health" "400"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*169"
+  "weapon" "1"
+  "material" "2"
+  "health" "400"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*170"
+  "weapon" "1"
+  "material" "2"
+  "health" "100"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*171"
+  "weapon" "1"
+  "target" "tail_break2"
+  "material" "2"
+  "health" "200"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*172"
+  "weapon" "1"
+  "material" "2"
+  "health" "100"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*173"
+  "weapon" "1"
+  "material" "2"
+  "health" "200"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*174"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*175"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "616 2464 3220"
+  "rendercolor" "0 0 0"
+  "angles" "0 180 0"
+  "classname" "weapon_rpg"
+}
+{
+  "origin" "712 2464 3220"
+  "rendercolor" "0 0 0"
+  "angles" "0 180 0"
+  "classname" "ammo_rpgclip"
+}
+{
+  "origin" "672 2464 3220"
+  "rendercolor" "0 0 0"
+  "angles" "0 180 0"
+  "classname" "ammo_rpgclip"
+}
+{
+  "origin" "2072 2464 2512"
+  "target" "tail2"
+  "targetname" "kill_tail2"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "env_render"
+}
+{
+  "origin" "368 2456 3228"
+  "targetname" "spawn1"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "328 2400 3228"
+  "targetname" "spawn1"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "368 2400 3228"
+  "targetname" "spawn1"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "408 2400 3228"
+  "targetname" "spawn1"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "408 2456 3228"
+  "targetname" "spawn1"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "464 2456 3228"
+  "targetname" "spawn1"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "464 2400 3228"
+  "targetname" "spawn1"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "504 2400 3228"
+  "targetname" "spawn1"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "504 2456 3228"
+  "targetname" "spawn1"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "544 2456 3228"
+  "targetname" "spawn1"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "544 2400 3228"
+  "targetname" "spawn1"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "584 2428 3228"
+  "targetname" "spawn1"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "744 2428 3228"
+  "targetname" "spawn1"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "704 2428 3228"
+  "targetname" "spawn1"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "664 2428 3228"
+  "targetname" "spawn1"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "624 2428 3228"
+  "targetname" "spawn1"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "511 2544 3228"
+  "boss1_end" "0"
+  "cliffs_train" "11"
+  "targetname" "intro_start22"
+  "scene_1" "10"
+  "scene_fadein_1" "4"
+  "classname" "multi_manager"
+}
+{
+  "origin" "-377 2912 3432"
+  "target" "intro_osprey_2"
+  "speed" "100"
+  "targetname" "intro_osprey_1"
+  "angles" "0 230 0"
+  "spawnflags" "2"
+  "classname" "path_corner"
+}
+{
+  "origin" "-377 2912 3410"
+  "turnspeed" "40"
+  "angles" "0 327 0"
+  "target" "intro_osprey_target"
+  "speed" "150"
+  "moveto" "intro_osprey_1"
+  "targetname" "intro_osprey_cam"
+  "deceleration" "600"
+  "acceleration" "600"
+  "wait" "10"
+  "spawnflags" "24"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "-552 2424 3391"
+  "target" "intro_osprey_3"
+  "speed" "100"
+  "targetname" "intro_osprey_2"
+  "angles" "0 230 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "-348 2913 3409"
+  "targetname" "intro_osprey_fadeout"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "duration" "3"
+  "spawnflags" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "-348 2929 3409"
+  "targetname" "intro_osprey_fadein"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "duration" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "531 2426 3269"
+  "targetname" "intro_osprey_target"
+  "classname" "info_target"
+}
+{
+  "origin" "-377 2940 3477"
+  "boss1_intro_music_multi" "0"
+  "cliffs_train" "0"
+  "spawn_apache" "0"
+  "intro_osprey_fadein" "9"
+  "intro_osprey_fadeout" "10"
+  "intro_osprey_cam" "0"
+  "targetname" "intro_osprey"
+  "classname" "multi_manager"
+}
+{
+  "origin" "-377 1993 3530"
+  "target" "intro_osprey_4"
+  "speed" "100"
+  "targetname" "intro_osprey_3"
+  "angles" "0 230 0"
+  "classname" "path_corner"
+}
+{
+  "model" "*176"
+  "m_iObeyTriggerMode" "1"
+  "target" "cliffs_path2"
+  "targetname" "cliffs_train"
+  "volume" "0.85"
+  "speed" "500"
+  "rendercolor" "0 0 0"
+  "spawnflags" "8"
+  "classname" "func_train"
+}
+{
+  "model" "*177"
+  "m_iObeyTriggerMode" "1"
+  "target" "cliffs_path3"
+  "targetname" "cliffs_train"
+  "volume" "0.85"
+  "speed" "500"
+  "rendercolor" "0 0 0"
+  "spawnflags" "8"
+  "classname" "func_train"
+}
+{
+  "model" "*178"
+  "m_iObeyTriggerMode" "1"
+  "target" "cliffs_path4"
+  "targetname" "cliffs_train"
+  "volume" "0.85"
+  "speed" "500"
+  "rendercolor" "0 0 0"
+  "spawnflags" "8"
+  "classname" "func_train"
+}
+{
+  "origin" "-1360 2416 3072"
+  "target" "cliffs_path3"
+  "targetname" "cliffs_path2"
+  "angles" "0 0 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "-976 2416 3072"
+  "target" "cliffs_path4"
+  "targetname" "cliffs_path3"
+  "angles" "0 0 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "-592 2416 3072"
+  "target" "cliffs_path5"
+  "targetname" "cliffs_path4"
+  "angles" "0 0 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "-1744 2416 3072"
+  "target" "cliffs_path2"
+  "targetname" "cliffs_path1"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "path_corner"
+}
+{
+  "model" "*179"
+  "m_iObeyTriggerMode" "1"
+  "target" "cliffs_path11"
+  "targetname" "cliffs_train"
+  "volume" "0.85"
+  "speed" "500"
+  "rendercolor" "0 0 0"
+  "spawnflags" "8"
+  "classname" "func_train"
+}
+{
+  "origin" "1376 2951 -3049"
+  "renderamt" "255"
+  "rendermode" "5"
+  "scale" "0.5"
+  "model" "sprites/blueflare1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "env_sprite"
+}
+{
+  "origin" "-392 2960 -3352"
+  "targetname" "sci_walk"
+  "m_fMoveTo" "1"
+  "m_iszEntity" "sci1"
+  "m_flRadius" "512"
+  "angles" "0 89 0"
+  "classname" "aiscripted_sequence"
+}
+{
+  "origin" "536 2448 3592"
+  "boss1_intro_music_multi2" "60"
+  "boss1_intro_music#1" "60"
+  "boss1_intro_music" "0"
+  "targetname" "boss1_intro_music_multi"
+  "classname" "multi_manager"
+}
+{
+  "origin" "536 2464 3592"
+  "boss1_intro_music_multi" "60"
+  "boss1_intro_music#1" "60"
+  "boss1_intro_music" "0"
+  "targetname" "boss1_intro_music_multi2"
+  "classname" "multi_manager"
+}
+{
+  "origin" "552 2464 3592"
+  "weapon_strip" "5"
+  "boss1_intro_music" "2"
+  "targetname" "boss1_end"
+  "classname" "multi_manager"
+}
+{
+  "model" "*180"
+  "target" "killer"
+  "killtarget" "boss1_intro_music_multi"
+  "targetname" "boss1_end"
+  "spawnflags" "2"
+  "classname" "trigger_once"
+}
+{
+  "model" "*181"
+  "killtarget" "boss1_intro_music_multi2"
+  "targetname" "boss1_end"
+  "spawnflags" "2"
+  "classname" "trigger_once"
+}
+{
+  "model" "*182"
+  "killtarget" "boss1_intro_music"
+  "targetname" "killer"
+  "spawnflags" "2"
+  "classname" "trigger_once"
+}
+{
+  "origin" "-952 1064 -152"
+  "speed" "40"
+  "wait" "10"
+  "targetname" "scene_path_80_4"
+  "angles" "0 89 0"
+  "classname" "path_corner"
+}
+{
+  "origin" "-538 1163 -379"
+  "targetname" "look_at_me_tail"
+  "classname" "info_target"
+}
+{
+  "origin" "2288 2196 -1607"
+  "_fade" "1.0"
+  "_light" "255 255 128 10"
+  "classname" "light"
+}
+{
+  "origin" "2178 2192 -1575"
+  "_fade" "1.0"
+  "_light" "255 255 128 60"
+  "classname" "light"
+}
+{
+  "model" "*183"
+  "skin" "-1"
+  "renderamt" "20"
+  "rendermode" "5"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*184"
+  "skin" "-1"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*185"
+  "angles" "0 0 0"
+  "rendermode" "2"
+  "renderamt" "100"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "style" "38"
+  "origin" "1496 2512 -1504"
+  "_fade" "1.0"
+  "_light" "255 255 255 90"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "style" "38"
+  "origin" "1552 2416 -1504"
+  "_fade" "1.0"
+  "_light" "255 255 255 90"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "style" "38"
+  "origin" "1496 2848 -1504"
+  "_fade" "1.0"
+  "_light" "255 255 255 90"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "style" "38"
+  "origin" "1544 2688 -1504"
+  "_fade" "1.0"
+  "_light" "255 255 255 90"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "style" "38"
+  "origin" "1752 2568 -1504"
+  "_fade" "1.0"
+  "_light" "255 255 255 90"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "style" "38"
+  "origin" "1752 2808 -1504"
+  "_fade" "1.0"
+  "_light" "255 255 255 90"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "style" "38"
+  "origin" "1776 2808 -1504"
+  "_fade" "1.0"
+  "_light" "255 255 255 90"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "style" "38"
+  "origin" "1776 2568 -1504"
+  "_fade" "1.0"
+  "_light" "255 255 255 90"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "style" "38"
+  "origin" "1976 2416 -1504"
+  "_fade" "1.0"
+  "_light" "255 255 255 90"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "style" "38"
+  "origin" "2032 2512 -1504"
+  "_fade" "1.0"
+  "_light" "255 255 255 90"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "style" "38"
+  "origin" "1984 2688 -1504"
+  "_fade" "1.0"
+  "_light" "255 255 255 90"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "style" "38"
+  "origin" "2032 2848 -1504"
+  "_fade" "1.0"
+  "_light" "255 255 255 90"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "model" "*186"
+  "angles" "0 0 0"
+  "targetname" "power_on"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "1708 3021 -1558"
+  "fast_zombie2" "2"
+  "fast_walk5" "5"
+  "kill_buttons" "0"
+  "power_start_lights#6" "5.8"
+  "power_start_lights#5" "5.5"
+  "button_mirror" "0"
+  "power_start_lights#4" "5.3"
+  "power_start_lights#3" "4.9"
+  "power_start_lights#2" "4.5"
+  "power_start_lights#1" "4.3"
+  "power_start_lights" "4"
+  "power_sound2" "2.5"
+  "power_sound" "0"
+  "power_master" "0"
+  "power_on" "3"
+  "targetname" "power_start_up_multi"
+  "classname" "multi_manager"
+}
+{
+  "model" "*187"
+  "angles" "0 0 0"
+  "targetname" "power_on"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*188"
+  "target" "keypad_door_multi"
+  "wait" "-1"
+  "sounds" "4"
+  "master" "power_master"
+  "speed" "5"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_button"
+}
+{
+  "origin" "1684 2995 -1558"
+  "targetname" "power_master"
+  "classname" "multisource"
+}
+{
+  "origin" "1640 3032 -1558"
+  "linearmax" "5"
+  "linearmin" "2"
+  "message" "plats/ttrain_start1.wav"
+  "targetname" "power_sound"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "52"
+  "classname" "ambient_generic"
+}
+{
+  "style" "39"
+  "origin" "1704 3032 -1536"
+  "_fade" "1.0"
+  "_light" "255 255 0 40"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "origin" "1664 3032 -1539"
+  "linearmax" "5"
+  "linearmin" "2"
+  "targetname" "power_sound2"
+  "message" "ambience/dronemachine1.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "6"
+  "spawnflags" "24"
+  "classname" "ambient_generic"
+}
+{
+  "model" "*189"
+  "targetname" "power_button"
+  "target" "power_start_up_2"
+  "wait" "0.5"
+  "sounds" "1"
+  "speed" "5"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "65"
+  "classname" "func_button"
+}
+{
+  "origin" "1624 2918 -1554"
+  "_fade" "1.0"
+  "_light" "255 255 128 30"
+  "classname" "light"
+}
+{
+  "origin" "1636 2552 -1566"
+  "_fade" "1.0"
+  "_light" "255 255 128 20"
+  "classname" "light"
+}
+{
+  "style" "39"
+  "origin" "1824 3032 -1536"
+  "targetname" "power_on"
+  "_fade" "1.0"
+  "_light" "255 255 0 40"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "model" "*190"
+  "targetname" "power_button"
+  "target" "power_start_up_2"
+  "wait" "1"
+  "sounds" "1"
+  "speed" "5"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_button"
+}
+{
+  "origin" "1654 2971 -1558"
+  "target" "power_start_up_multi"
+  "targetname" "power_start_up_2"
+  "classname" "multisource"
+}
+{
+  "model" "*191"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "wait" "-1"
+  "speed" "1000"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "rendermode" "4"
+  "targetname" "kill_buttons"
+  "killtarget" "power_button"
+  "spawnflags" "520"
+  "classname" "func_door"
+}
+{
+  "model" "*192"
+  "angles" "0 0 0"
+  "targetname" "kill_buttons"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_wall_toggle"
+}
+{
+  "model" "*193"
+  "angles" "0 0 0"
+  "targetname" "kill_buttons"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_wall_toggle"
+}
+{
+  "origin" "2368 2312 -1608"
+  "health" "100"
+  "bloodcolor" "1"
+  "targetname" "spawn_dark_zombies"
+  "monstertype" "monster_zombie"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "weapons" "1"
+  "gag" "-1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "rendercolor" "0 0 0"
+  "angles" "0 260 0"
+  "classname" "squadmaker"
+}
+{
+  "origin" "2352 2040 -1608"
+  "health" "100"
+  "bloodcolor" "1"
+  "targetname" "spawn_dark_zombies"
+  "monstertype" "monster_zombie"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "weapons" "1"
+  "gag" "-1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "rendercolor" "0 0 0"
+  "angles" "0 89 0"
+  "classname" "squadmaker"
+}
+{
+  "origin" "2416 1960 -1608"
+  "health" "100"
+  "bloodcolor" "1"
+  "targetname" "spawn_dark_zombies"
+  "monstertype" "monster_zombie"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "weapons" "1"
+  "gag" "-1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "rendercolor" "0 0 0"
+  "angles" "0 89 0"
+  "classname" "squadmaker"
+}
+{
+  "origin" "2384 1864 -1608"
+  "health" "100"
+  "bloodcolor" "1"
+  "targetname" "spawn_dark_zombies"
+  "monstertype" "monster_zombie"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "weapons" "1"
+  "gag" "-1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "rendercolor" "0 0 0"
+  "angles" "0 89 0"
+  "classname" "squadmaker"
+}
+{
+  "origin" "2416 2200 -1624"
+  "sequence" "35"
+  "pose" "1"
+  "angles" "0 271 0"
+  "rendercolor" "0 0 0"
+  "classname" "monster_barney_dead"
+}
+{
+  "origin" "1770 2184 -1608"
+  "health" "100"
+  "bloodcolor" "1"
+  "targetname" "spawn_dark_zombies"
+  "monstertype" "monster_zombie"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "weapons" "1"
+  "gag" "-1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "rendercolor" "0 0 0"
+  "angles" "0 358 0"
+  "classname" "squadmaker"
+}
+{
+  "origin" "1664 2312 -1608"
+  "health" "100"
+  "bloodcolor" "1"
+  "targetname" "spawn_dark_zombies"
+  "monstertype" "monster_zombie"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "weapons" "1"
+  "gag" "-1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "rendercolor" "0 0 0"
+  "angles" "0 265 0"
+  "classname" "squadmaker"
+}
+{
+  "origin" "2056 2176 -1672"
+  "rendercolor" "0 0 0"
+  "angles" "0 0 0"
+  "classname" "weapon_pipewrench"
+}
+{
+  "model" "*194"
+  "rendercolor" "0 0 0"
+  "classname" "func_healthcharger"
+}
+{
+  "model" "*195"
+  "rendercolor" "0 0 0"
+  "classname" "func_recharge"
+}
+{
+  "style" "38"
+  "origin" "2440 2040 -1512"
+  "_fade" "1.0"
+  "_light" "255 255 255 70"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "style" "38"
+  "origin" "2440 2448 -1512"
+  "_fade" "1.0"
+  "_light" "255 255 255 70"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "style" "38"
+  "origin" "2304 1944 -1512"
+  "_fade" "1.0"
+  "_light" "255 255 255 70"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "style" "38"
+  "origin" "2504 1824 -1514"
+  "_fade" "1.0"
+  "_light" "255 255 255 70"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "origin" "2216 2232 -1512"
+  "style" "38"
+  "_fade" "1.0"
+  "_light" "255 255 255 30"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "origin" "1840 2096 -1512"
+  "style" "38"
+  "_fade" "1.0"
+  "_light" "255 255 255 40"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "style" "38"
+  "origin" "1840 2232 -1512"
+  "_fade" "1.0"
+  "_light" "255 255 255 50"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "style" "38"
+  "origin" "2216 2096 -1512"
+  "_fade" "1.0"
+  "_light" "255 255 255 70"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "origin" "1666 2166 -1560"
+  "_fade" "1.0"
+  "_light" "255 255 128 20"
+  "classname" "light"
+}
+{
+  "origin" "2474 1856 -1570"
+  "targetname" "keypad_master"
+  "classname" "multisource"
+}
+{
+  "origin" "2470 1880 -1570"
+  "keypad_door" "0"
+  "keypad_master" "0"
+  "targetname" "keypad_door_multi"
+  "classname" "multi_manager"
+}
+{
+  "model" "*196"
+  "targetname" "keypad_buttons_kill"
+  "target" "keypad_door_unlock2"
+  "master" "keypad_master"
+  "wait" "2"
+  "speed" "5"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_button"
+}
+{
+  "model" "*197"
+  "targetname" "keypad_buttons_kill"
+  "master" "keypad_master"
+  "wait" "2"
+  "speed" "5"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_button"
+}
+{
+  "model" "*198"
+  "targetname" "keypad_buttons_kill"
+  "master" "keypad_master"
+  "wait" "2"
+  "speed" "5"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_button"
+}
+{
+  "model" "*199"
+  "targetname" "keypad_buttons_kill"
+  "target" "keypad_door_unlock2"
+  "master" "keypad_master"
+  "wait" "2"
+  "speed" "5"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_button"
+}
+{
+  "model" "*200"
+  "targetname" "keypad_buttons_kill"
+  "target" "keypad_door_unlock2"
+  "master" "keypad_master"
+  "wait" "2"
+  "speed" "5"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_button"
+}
+{
+  "model" "*201"
+  "targetname" "keypad_buttons_kill"
+  "master" "keypad_master"
+  "wait" "2"
+  "speed" "5"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_button"
+}
+{
+  "model" "*202"
+  "targetname" "keypad_buttons_kill"
+  "master" "keypad_master"
+  "wait" "2"
+  "speed" "5"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_button"
+}
+{
+  "model" "*203"
+  "targetname" "keypad_buttons_kill"
+  "target" "keypad_door_unlock2"
+  "master" "keypad_master"
+  "wait" "2"
+  "speed" "5"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_button"
+}
+{
+  "model" "*204"
+  "targetname" "keypad_buttons_kill"
+  "target" "keypad_door_unlock2"
+  "master" "keypad_master"
+  "wait" "2"
+  "speed" "5"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_button"
+}
+{
+  "origin" "2622 1874 -1570"
+  "target" "keypad_door_unlock_multi"
+  "targetname" "keypad_door_unlock2"
+  "classname" "multisource"
+}
+{
+  "origin" "2620 1904 -1570"
+  "respawn" "13"
+  "block_exit" "13"
+  "check_point" "10"
+  "spawn_5" "5"
+  "spawn_4" "6"
+  "accepted" "0"
+  "bulkhead_unlocked" "2"
+  "keypad_bulkhead" "5"
+  "kill_keypad" "0"
+  "targetname" "keypad_door_unlock_multi"
+  "classname" "multi_manager"
+}
+{
+  "model" "*205"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "targetname" "keypad_bulkhead"
+  "lip" "8"
+  "wait" "-1"
+  "stopsnd" "1"
+  "movesnd" "6"
+  "speed" "7"
+  "angles" "0 270 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "32"
+  "classname" "func_door"
+}
+{
+  "model" "*206"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "targetname" "keypad_bulkhead"
+  "lip" "8"
+  "wait" "-1"
+  "stopsnd" "1"
+  "movesnd" "6"
+  "speed" "7"
+  "angles" "0 90 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "32"
+  "classname" "func_door"
+}
+{
+  "model" "*207"
+  "angles" "0 0 0"
+  "targetname" "bulkhead_unlocked"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "2654 1905 -1496"
+  "linearmax" "5"
+  "linearmin" "2"
+  "targetname" "bulkhead_unlocked"
+  "message" "buttons/button5.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "52"
+  "classname" "ambient_generic"
+}
+{
+  "style" "40"
+  "origin" "2664 1884 -1496"
+  "targetname" "bulkhead_unlocked"
+  "_fade" "1.0"
+  "_light" "0 255 0 30"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "origin" "2598 1831 -1556"
+  "linearmax" "5"
+  "linearmin" "2"
+  "message" "buttons/button3.wav"
+  "targetname" "accepted"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "52"
+  "classname" "ambient_generic"
+}
+{
+  "style" "38"
+  "origin" "2600 1960 -1512"
+  "targetname" "power_start_lights"
+  "_fade" "1.0"
+  "_light" "255 255 255 70"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "model" "*208"
+  "angles" "0 0 0"
+  "targetname" "kill_keypad"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_wall_toggle"
+}
+{
+  "model" "*209"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "wait" "-1"
+  "speed" "1000"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "rendermode" "4"
+  "targetname" "kill_keypad"
+  "killtarget" "keypad_buttons_kill"
+  "spawnflags" "520"
+  "classname" "func_door"
+}
+{
+  "origin" "1800 2440 -1608"
+  "netname" "fast_zombie_1"
+  "soundlist" "fast_zombie.txt"
+  "new_model" "models/escape_series/fast_zombie/zombie.mdl"
+  "freeroam" "1"
+  "health" "250"
+  "bloodcolor" "1"
+  "monstertype" "monster_zombie"
+  "targetname" "fast_zombie"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "weapons" "1"
+  "gag" "-1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "rendercolor" "0 0 0"
+  "angles" "0 90 0"
+  "classname" "squadmaker"
+}
+{
+  "origin" "1800 2472 -1624"
+  "targetname" "fast_walk1"
+  "m_fMoveTo" "4"
+  "m_iszEntity" "fast_zombie_1"
+  "m_flRadius" "512"
+  "angles" "0 0 0"
+  "classname" "aiscripted_sequence"
+}
+{
+  "origin" "1800 2928 -1624"
+  "targetname" "fast_walk2"
+  "m_fMoveTo" "1"
+  "m_iszEntity" "fast_zombie_1"
+  "m_flRadius" "5120"
+  "angles" "0 89 0"
+  "classname" "scripted_sequence"
+}
+{
+  "origin" "1841 2629 -1554"
+  "fast_walk3" "2.5"
+  "fast_walk2" "1"
+  "fast_zombie" "0"
+  "targetname" "fast_zombie_driveby"
+  "classname" "multi_manager"
+}
+{
+  "model" "*210"
+  "target" "fast_zombie_driveby"
+  "classname" "trigger_once"
+}
+{
+  "origin" "1897 2552 -1566"
+  "_fade" "1.0"
+  "_light" "255 255 128 20"
+  "classname" "light"
+}
+{
+  "origin" "1885 2918 -1554"
+  "_fade" "1.0"
+  "_light" "255 255 128 30"
+  "classname" "light"
+}
+{
+  "origin" "1892 2935 -1594"
+  "killtarget" "fast_zombie_1"
+  "targetname" "fast_walk3"
+  "classname" "trigger_relay"
+}
+{
+  "origin" "1797 2688 -1608"
+  "netname" "fast_zombie_2"
+  "soundlist" "fast_zombie.txt"
+  "new_model" "models/escape_series/fast_zombie/zombie.mdl"
+  "freeroam" "1"
+  "health" "250"
+  "bloodcolor" "1"
+  "monstertype" "monster_zombie"
+  "targetname" "fast_zombie2"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "weapons" "1"
+  "gag" "-1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "rendercolor" "0 0 0"
+  "angles" "0 180 0"
+  "classname" "squadmaker"
+}
+{
+  "origin" "1905 2848 -1617"
+  "killtarget" "fast_zombie_2"
+  "targetname" "fast_walk5"
+  "classname" "trigger_relay"
+}
+{
+  "model" "*211"
+  "angles" "0 0 0"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "3048 1312 -1840"
+  "linearmax" "5"
+  "linearmin" "2"
+  "message" "ambience/waterfall3.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "2"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "3048 1328 -1840"
+  "linearmax" "5"
+  "linearmin" "2"
+  "message" "ambience/drips.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "2"
+  "classname" "ambient_generic"
+}
+{
+  "model" "*212"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "wait" "4"
+  "speed" "100"
+  "angles" "0 0 0"
+  "renderamt" "200"
+  "rendermode" "2"
+  "skin" "-3"
+  "rendercolor" "0 0 0"
+  "classname" "func_water"
+}
+{
+  "model" "*213"
+  "weapon" "1"
+  "rendercolor" "0 0 0"
+  "health" "25"
+  "explosion" "1"
+  "material" "1"
+  "classname" "func_breakable"
+}
+{
+  "model" "*214"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "targetname" "slide_door_open2"
+  "lip" "5"
+  "wait" "-1"
+  "stopsnd" "5"
+  "movesnd" "1"
+  "speed" "60"
+  "angles" "-90 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "512"
+  "classname" "func_door"
+}
+{
+  "origin" "2912 1808 -1588"
+  "targetname" "spawn_5"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "2856 1808 -1588"
+  "targetname" "spawn_5"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "2856 1864 -1588"
+  "targetname" "spawn_5"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "2856 1920 -1588"
+  "targetname" "spawn_5"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "2912 1920 -1588"
+  "targetname" "spawn_5"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "2912 1864 -1588"
+  "targetname" "spawn_5"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "3040 1808 -1588"
+  "targetname" "spawn_5"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "2984 1808 -1588"
+  "targetname" "spawn_5"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "2984 1864 -1588"
+  "targetname" "spawn_5"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "2984 1920 -1588"
+  "targetname" "spawn_5"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "3040 1864 -1588"
+  "targetname" "spawn_5"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "3040 1920 -1588"
+  "targetname" "spawn_5"
+  "angles" "0 0 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "model" "*215"
+  "angles" "0 0 0"
+  "rendermode" "4"
+  "renderamt" "255"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*216"
+  "origin" "3080 1280 -1628"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "master" "grate_door_master2"
+  "targetname" "grate_door2"
+  "rendermode" "4"
+  "distance" "90"
+  "dmg" "999"
+  "wait" "-1"
+  "movesnd" "9"
+  "speed" "70"
+  "angles" "0 0 0"
+  "renderamt" "255"
+  "rendercolor" "0 0 0"
+  "spawnflags" "146"
+  "classname" "func_door_rotating"
+}
+{
+  "model" "*217"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "killtarget" "explosives_crate"
+  "targetname" "slide_door_open"
+  "lip" "5"
+  "wait" "-1"
+  "stopsnd" "5"
+  "movesnd" "1"
+  "speed" "20"
+  "angles" "-90 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "512"
+  "classname" "func_door"
+}
+{
+  "origin" "3368 1885 -1567"
+  "MaxDelay" "1"
+  "angles" "0 0 0"
+  "spawnflags" "64"
+  "classname" "env_spark"
+}
+{
+  "model" "*218"
+  "angles" "0 0 0"
+  "targetname" "block_exit"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_wall_toggle"
+}
+{
+  "model" "*219"
+  "angles" "0 0 0"
+  "renderamt" "100"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "3472 -16 3832"
+  "linearmax" "5"
+  "linearmin" "2"
+  "message" "escape_series/escape3/boss.mp3"
+  "targetname" "boss1_intro_music"
+  "angles" "-90 0 0"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "17"
+  "classname" "ambient_generic"
+}
+{
+  "model" "*220"
+  "target" "slide_button_multi"
+  "wait" "-1"
+  "sounds" "8"
+  "speed" "10"
+  "angles" "90 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_button"
+}
+{
+  "origin" "3353 1947 -1574"
+  "spawn_pipe_crabs" "7"
+  "scene_70" "2"
+  "targetname" "slide_button_multi"
+  "slide_button_sound" "0"
+  "slide_light_change" "1"
+  "slide_door_open" "4"
+  "classname" "multi_manager"
+}
+{
+  "model" "*221"
+  "angles" "0 0 0"
+  "targetname" "slide_light_change"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall_toggle"
+}
+{
+  "model" "*222"
+  "angles" "0 0 0"
+  "targetname" "slide_light_change"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_wall_toggle"
+}
+{
+  "style" "41"
+  "origin" "3365 1920 -1503"
+  "targetname" "slide_light_change"
+  "_fade" "1.0"
+  "_light" "0 128 192 150"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "origin" "3342 1919 -1505"
+  "linearmax" "5"
+  "linearmin" "2"
+  "targetname" "slide_button_sound"
+  "message" "buttons/button6.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "52"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "2970 1960 -1536"
+  "targetname" "scene_fadein_70"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "duration" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "2986 1960 -1536"
+  "targetname" "scene_fadeout_70"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "duration" "1"
+  "spawnflags" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "2986 1992 -1536"
+  "scene_fadeout_70" "1"
+  "scene_fadein_70" "0"
+  "scene_fadein_70#1" "7"
+  "scene_fadeout_70#1" "8"
+  "scene_cam_70" "1"
+  "targetname" "scene_70"
+  "classname" "multi_manager"
+}
+{
+  "origin" "2986 1976 -1536"
+  "turnspeed" "40"
+  "angles" "0 291 0"
+  "target" "scene_target_70"
+  "speed" "40"
+  "targetname" "scene_cam_70"
+  "deceleration" "500"
+  "acceleration" "500"
+  "wait" "7"
+  "spawnflags" "24"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "3048 1508 -1564"
+  "targetname" "scene_target_70"
+  "classname" "info_target"
+}
+{
+  "origin" "2928 1973 -1535"
+  "targetname" "respawn"
+  "classname" "trigger_respawn"
+}
+{
+  "origin" "-256 3036 -571"
+  "targetname" "weapon_strip"
+  "classname" "player_weaponstrip"
+}
+{
+  "origin" "2955 1907 -1536"
+  "linearmax" "5"
+  "linearmin" "2"
+  "message" "ambience/labdrone2.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "5"
+  "spawnflags" "2"
+  "classname" "ambient_generic"
+}
+{
+  "model" "*223"
+  "weapon" "1"
+  "target" "explosives_crate"
+  "explodemagnitude" "50"
+  "material" "2"
+  "health" "100"
+  "rendercolor" "0 0 0"
+  "spawnflags" "512"
+  "classname" "func_breakable"
+}
+{
+  "model" "*224"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "2848 2072 -1592"
+  "rendercolor" "0 0 0"
+  "angles" "0 239 0"
+  "classname" "weapon_handgrenade"
+}
+{
+  "origin" "2912 2064 -1576"
+  "rendercolor" "0 0 0"
+  "angles" "0 0 0"
+  "classname" "weapon_pipewrench"
+}
+{
+  "model" "*225"
+  "targetname" "ladder_pipe"
+  "spawnflags" "1"
+  "classname" "func_ladder"
+}
+{
+  "model" "*226"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*227"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "3048 1191 -1688"
+  "health" "10"
+  "bloodcolor" "2"
+  "targetname" "spawn_pipe_crabs"
+  "monstertype" "monster_headcrab"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "weapons" "1"
+  "gag" "-1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "rendercolor" "0 0 0"
+  "angles" "0 270 0"
+  "classname" "squadmaker"
+}
+{
+  "origin" "3048 1136 -1688"
+  "health" "10"
+  "bloodcolor" "2"
+  "targetname" "spawn_pipe_crabs"
+  "monstertype" "monster_headcrab"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "weapons" "1"
+  "gag" "-1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "rendercolor" "0 0 0"
+  "angles" "0 270 0"
+  "classname" "squadmaker"
+}
+{
+  "origin" "3048 980 -1688"
+  "health" "10"
+  "bloodcolor" "2"
+  "targetname" "spawn_pipe_crabs"
+  "monstertype" "monster_headcrab"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "weapons" "1"
+  "gag" "-1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "rendercolor" "0 0 0"
+  "angles" "0 270 0"
+  "classname" "squadmaker"
+}
+{
+  "origin" "3216 800 -1688"
+  "health" "10"
+  "bloodcolor" "2"
+  "targetname" "spawn_pipe_crabs"
+  "monstertype" "monster_headcrab"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "weapons" "1"
+  "gag" "-1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "rendercolor" "0 0 0"
+  "angles" "0 270 0"
+  "classname" "squadmaker"
+}
+{
+  "origin" "3216 704 -1688"
+  "health" "10"
+  "bloodcolor" "2"
+  "targetname" "spawn_pipe_crabs"
+  "monstertype" "monster_babycrab"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "weapons" "1"
+  "gag" "-1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "rendercolor" "0 0 0"
+  "angles" "0 270 0"
+  "classname" "squadmaker"
+}
+{
+  "origin" "3216 591 -1688"
+  "health" "10"
+  "bloodcolor" "2"
+  "targetname" "spawn_pipe_crabs"
+  "monstertype" "monster_babycrab"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "weapons" "1"
+  "gag" "-1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "rendercolor" "0 0 0"
+  "angles" "0 270 0"
+  "classname" "squadmaker"
+}
+{
+  "origin" "3216 559 -1688"
+  "health" "10"
+  "bloodcolor" "2"
+  "targetname" "spawn_pipe_crabs"
+  "monstertype" "monster_babycrab"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "weapons" "1"
+  "gag" "-1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "rendercolor" "0 0 0"
+  "angles" "0 270 0"
+  "classname" "squadmaker"
+}
+{
+  "origin" "3216 435 -1688"
+  "health" "10"
+  "bloodcolor" "2"
+  "targetname" "spawn_pipe_crabs"
+  "monstertype" "monster_babycrab"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "weapons" "1"
+  "gag" "-1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "rendercolor" "0 0 0"
+  "angles" "0 270 0"
+  "classname" "squadmaker"
+}
+{
+  "model" "*228"
+  "wait" "-1"
+  "sounds" "3"
+  "speed" "5"
+  "angles" "0 0 0"
+  "target" "2nd_bridge_multi"
+  "rendercolor" "0 0 0"
+  "spawnflags" "65"
+  "classname" "func_button"
+}
+{
+  "origin" "3098 1085 -1597"
+  "grate_cover" "1"
+  "slide_door_open2" "0"
+  "grate_master" "0"
+  "targetname" "2nd_bridge_multi"
+  "classname" "multi_manager"
+}
+{
+  "model" "*229"
+  "classname" "func_ladder"
+}
+{
+  "model" "*230"
+  "angles" "0 0 0"
+  "rendermode" "4"
+  "renderamt" "255"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*231"
+  "skin" "-1"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*232"
+  "skin" "-1"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*233"
+  "skin" "-1"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "origin" "3105 626 -1585"
+  "target" "open_4buttons"
+  "targetname" "grate_master"
+  "classname" "multisource"
+}
+{
+  "style" "42"
+  "origin" "3091 580 -1567"
+  "targetname" "grate_cover"
+  "_fade" "1.0"
+  "_light" "0 255 0 30"
+  "spawnflags" "1"
+  "classname" "light"
+}
+{
+  "model" "*234"
+  "target" "grate_open_muti"
+  "wait" "-1"
+  "sounds" "4"
+  "master" "grate_master"
+  "speed" "100"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_button"
+}
+{
+  "origin" "3110 563 -1583"
+  "scene_800" "0"
+  "ladder_pipe" "1.5"
+  "targetname" "grate_open_muti"
+  "classname" "multi_manager"
+}
+{
+  "model" "*235"
+  "origin" "2936 248 -1627"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "targetname" "ladder_pipe"
+  "rendermode" "4"
+  "distance" "90"
+  "wait" "-1"
+  "stopsnd" "4"
+  "movesnd" "9"
+  "speed" "70"
+  "angles" "0 0 0"
+  "renderamt" "255"
+  "rendercolor" "0 0 0"
+  "spawnflags" "82"
+  "classname" "func_door_rotating"
+}
+{
+  "model" "*236"
+  "origin" "3248 384 -1572"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "master" "grate_door_master"
+  "targetname" "grate_door"
+  "renderamt" "255"
+  "rendermode" "4"
+  "distance" "90"
+  "locked_sound" "12"
+  "wait" "-1"
+  "stopsnd" "7"
+  "movesnd" "10"
+  "speed" "100"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "18"
+  "classname" "func_door_rotating"
+}
+{
+  "model" "*237"
+  "weapon" "1"
+  "target" "grate_door_master"
+  "material" "2"
+  "health" "20"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "origin" "3248 357 -1577"
+  "target" "grate_door"
+  "targetname" "grate_door_master"
+  "classname" "multisource"
+}
+{
+  "model" "*238"
+  "angles" "0 0 0"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "3184 216 -1528"
+  "turnspeed" "40"
+  "angles" "0 162 0"
+  "target" "scene_target_800"
+  "speed" "40"
+  "targetname" "scene_cam_800"
+  "deceleration" "500"
+  "acceleration" "500"
+  "wait" "4"
+  "spawnflags" "24"
+  "classname" "trigger_camera"
+}
+{
+  "origin" "3200 216 -1528"
+  "targetname" "scene_fadeout_800"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "duration" "1"
+  "spawnflags" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "3200 200 -1528"
+  "targetname" "scene_fadein_800"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "duration" "1"
+  "classname" "env_fade"
+}
+{
+  "origin" "3168 216 -1528"
+  "steam_multi_trigger" "20"
+  "scene_fadeout_800" "1"
+  "scene_fadein_800" "0"
+  "scene_fadein_800#1" "4"
+  "scene_fadeout_800#1" "5"
+  "scene_cam_800" "1"
+  "targetname" "scene_800"
+  "classname" "multi_manager"
+}
+{
+  "origin" "2936 280 -1626"
+  "targetname" "scene_target_800"
+  "classname" "info_target"
+}
+{
+  "model" "*239"
+  "weapon" "1"
+  "targetname" "explosives_crate"
+  "explodemagnitude" "1"
+  "material" "1"
+  "health" "1"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_breakable"
+}
+{
+  "model" "*240"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "renderamt" "150"
+  "rendermode" "2"
+  "skin" "-3"
+  "wait" "4"
+  "speed" "100"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_water"
+}
+{
+  "model" "*241"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "renderamt" "150"
+  "rendermode" "2"
+  "skin" "-3"
+  "wait" "4"
+  "speed" "100"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_water"
+}
+{
+  "model" "*242"
+  "angles" "0 0 0"
+  "targetname" "show_logo"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall_toggle"
+}
+{
+  "model" "*243"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*244"
+  "skin" "-1"
+  "rendercolor" "0 0 0"
+  "classname" "func_illusionary"
+}
+{
+  "model" "*245"
+  "weapon" "1"
+  "target" "grate_door_master2"
+  "material" "2"
+  "health" "20"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "origin" "3089 1276 -1597"
+  "target" "grate_door2"
+  "targetname" "grate_door_master2"
+  "classname" "multisource"
+}
+{
+  "model" "*246"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "targetname" "firedoor_"
+  "stopsnd" "4"
+  "movesnd" "2"
+  "wait" "-1"
+  "lip" "5"
+  "speed" "20"
+  "angles" "-90 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_door"
+}
+{
+  "model" "*247"
+  "origin" "2828 167 -1568"
+  "master" "grate_door_master"
+  "wait" "-1"
+  "target" "firedoor_"
+  "distance" "90"
+  "sounds" "24"
+  "speed" "60"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "192"
+  "classname" "func_rot_button"
+}
+{
+  "model" "*248"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*249"
+  "angles" "0 0 0"
+  "targetname" "incy247_secret"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall_toggle"
+}
+{
+  "origin" "1280 2400 -3052"
+  "_fade" "1.0"
+  "_light" "128 0 0 40"
+  "classname" "light"
+}
+{
+  "model" "*250"
+  "target" "secret1"
+  "wait" "-1"
+  "speed" "5"
+  "angles" "90 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_button"
+}
+{
+  "origin" "1304 2408 -3073"
+  "secret_text" "0"
+  "secret_sound" "0"
+  "targetname" "secret1"
+  "incy247_secret" "0"
+  "classname" "multi_manager"
+}
+{
+  "origin" "3472 16 3832"
+  "linearmax" "5"
+  "linearmin" "2"
+  "targetname" "secret_sound"
+  "message" "escape_series/secret.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "17"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "1256 2404 -3071"
+  "targetname" "secret_text"
+  "channel" "1"
+  "fxtime" "0.25"
+  "holdtime" "5"
+  "fadeout" "1"
+  "fadein" "1"
+  "color2" "255 255 255"
+  "color" "255 255 255"
+  "y" "0.8"
+  "x" "0.2"
+  "message" "You've found a secret!"
+  "spawnflags" "1"
+  "classname" "game_text"
+}
+{
+  "origin" "3219 305 -1608"
+  "health" "300"
+  "bloodcolor" "2"
+  "targetname" "spawn_pipe_crabs5555"
+  "monstertype" "monster_gonome"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "weapons" "1"
+  "gag" "-1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "rendercolor" "0 0 0"
+  "angles" "0 90 0"
+  "classname" "squadmaker"
+}
+{
+  "origin" "3291 282 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "3018 281 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "3082 185 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "2364 2099 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "2365 2288 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "2363 2463 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "2273 2156 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "2159 2148 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "1873 2159 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "1724 2153 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "1645 2176 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "1649 2266 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "1651 2474 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "1535 2530 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "1719 2543 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "1647 2635 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "1603 2746 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "1548 2822 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "1639 2967 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "1705 2857 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "1719 2745 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "2040 2101 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "2007 2233 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "2396 1917 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "2583 1901 -1624"
+  "classname" "info_node"
+}
+{
+  "origin" "2488 1912 -1624"
+  "classname" "info_node"
+}
+{
+  "model" "*251"
+  "targetname" "kill_music_ents"
+  "target" "weeeee"
+  "killtarget" "intro_music3"
+  "spawnflags" "2"
+  "classname" "trigger_once"
+}
+{
+  "origin" "3472 0 3832"
+  "linearmax" "5"
+  "linearmin" "2"
+  "targetname" "intro_music3"
+  "message" "escape_series/escape3/intro.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "49"
+  "classname" "ambient_generic"
+}
+{
+  "model" "*252"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*253"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*254"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*255"
+  "angles" "0 0 0"
+  "renderamt" "100"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*256"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "targetname" "keypad_door"
+  "lip" "1"
+  "wait" "-1"
+  "stopsnd" "2"
+  "movesnd" "5"
+  "speed" "10"
+  "angles" "-90 0 0"
+  "rendercolor" "0 0 0"
+  "spawnflags" "512"
+  "classname" "func_door"
+}
+{
+  "model" "*257"
+  "weapon" "1"
+  "material" "4"
+  "health" "40"
+  "rendercolor" "0 0 0"
+  "classname" "func_breakable"
+}
+{
+  "model" "*258"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "lip" "1"
+  "wait" "-1"
+  "stopsnd" "4"
+  "movesnd" "4"
+  "speed" "80"
+  "angles" "0 180 0"
+  "targetname" "door_left1"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_door"
+}
+{
+  "model" "*259"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "angles" "0 180 0"
+  "lip" "-8"
+  "wait" "-1"
+  "speed" "80"
+  "targetname" "door_left1"
+  "renderamt" "96"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_door"
+}
+{
+  "model" "*260"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "lip" "1"
+  "wait" "-1"
+  "stopsnd" "4"
+  "movesnd" "4"
+  "speed" "80"
+  "angles" "0 0 0"
+  "targetname" "door_left1"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_door"
+}
+{
+  "model" "*261"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "angles" "0 0 0"
+  "lip" "-8"
+  "wait" "-1"
+  "speed" "80"
+  "targetname" "door_left1"
+  "renderamt" "96"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_door"
+}
+{
+  "model" "*262"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "angles" "0 180 0"
+  "lip" "-8"
+  "wait" "-1"
+  "speed" "80"
+  "targetname" "door_left1"
+  "renderamt" "96"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_door"
+}
+{
+  "model" "*263"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "lip" "1"
+  "wait" "-1"
+  "stopsnd" "4"
+  "movesnd" "4"
+  "speed" "80"
+  "angles" "0 180 0"
+  "targetname" "door_left1"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_door"
+}
+{
+  "model" "*264"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "lip" "1"
+  "wait" "-1"
+  "stopsnd" "4"
+  "movesnd" "4"
+  "speed" "80"
+  "angles" "0 0 0"
+  "targetname" "door_left1"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_door"
+}
+{
+  "model" "*265"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "angles" "0 0 0"
+  "lip" "-8"
+  "wait" "-1"
+  "speed" "80"
+  "targetname" "door_left1"
+  "renderamt" "96"
+  "rendermode" "2"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_door"
+}
+{
+  "origin" "-3856 304 3832"
+  "linearmax" "5"
+  "linearmin" "2"
+  "message" "escape_series/escape3/boss.mp3"
+  "targetname" "boss1_intro_music"
+  "angles" "-90 0 0"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "17"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "-3856 336 3832"
+  "linearmax" "5"
+  "linearmin" "2"
+  "targetname" "secret_sound"
+  "message" "escape_series/secret.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "17"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "-3856 320 3832"
+  "linearmax" "5"
+  "linearmin" "2"
+  "targetname" "intro_music3"
+  "message" "escape_series/escape3/intro.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "49"
+  "classname" "ambient_generic"
+}
+{
+  "model" "*266"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*267"
+  "angles" "0 0 0"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*268"
+  "angles" "0 0 0"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*269"
+  "angles" "0 0 0"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*270"
+  "angles" "0 0 0"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*271"
+  "angles" "0 0 0"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "model" "*272"
+  "angles" "0 0 0"
+  "renderamt" "255"
+  "rendermode" "4"
+  "rendercolor" "0 0 0"
+  "classname" "func_wall"
+}
+{
+  "origin" "2672 112 -1584"
+  "targetname" "steam1"
+  "rendermode" "5"
+  "scale" "3"
+  "renderamt" "255"
+  "model" "sprites/xsmoke1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "255 255 255"
+  "classname" "env_sprite"
+}
+{
+  "origin" "2583 170 -1584"
+  "steam_multi_trigger" "0"
+  "steam1" "0"
+  "targetname" "steam_multi1"
+  "classname" "multi_manager"
+}
+{
+  "origin" "2651 245 -1599"
+  "steam_multi2" "2"
+  "steam_multi1" "0"
+  "steam_multi_trigger2" "7"
+  "targetname" "steam_multi_trigger"
+  "classname" "multi_manager"
+}
+{
+  "origin" "2656 112 -1576"
+  "targetname" "steam1"
+  "rendermode" "5"
+  "scale" "3"
+  "renderamt" "255"
+  "model" "sprites/xsmoke1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "255 255 255"
+  "classname" "env_sprite"
+}
+{
+  "origin" "2632 112 -1581"
+  "targetname" "steam1"
+  "rendermode" "5"
+  "scale" "3"
+  "renderamt" "255"
+  "model" "sprites/xsmoke1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "255 255 255"
+  "classname" "env_sprite"
+}
+{
+  "origin" "2561 151 -1589"
+  "steam2" "0"
+  "steam_multi_trigger" "0"
+  "targetname" "steam_multi2"
+  "classname" "multi_manager"
+}
+{
+  "model" "*273"
+  "damagetype" "8"
+  "dmg" "100"
+  "targetname" "steam1"
+  "spawnflags" "2"
+  "classname" "trigger_hurt"
+}
+{
+  "origin" "2492 3 -1538"
+  "targetname" "steam2"
+  "rendermode" "5"
+  "scale" "3"
+  "renderamt" "255"
+  "model" "sprites/xsmoke1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "255 255 255"
+  "classname" "env_sprite"
+}
+{
+  "origin" "2490 34 -1532"
+  "targetname" "steam2"
+  "rendermode" "5"
+  "scale" "3"
+  "renderamt" "255"
+  "model" "sprites/xsmoke1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "255 255 255"
+  "classname" "env_sprite"
+}
+{
+  "origin" "2489 17 -1517"
+  "targetname" "steam2"
+  "rendermode" "5"
+  "scale" "3"
+  "renderamt" "255"
+  "model" "sprites/xsmoke1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "255 255 255"
+  "classname" "env_sprite"
+}
+{
+  "model" "*274"
+  "damagetype" "8"
+  "dmg" "100"
+  "targetname" "steam2"
+  "spawnflags" "2"
+  "classname" "trigger_hurt"
+}
+{
+  "origin" "2649 130 -1571"
+  "linearmax" "5"
+  "linearmin" "2"
+  "targetname" "steam1"
+  "message" "ambience/steamjet1.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "20"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "2505 15 -1537"
+  "linearmax" "5"
+  "linearmin" "2"
+  "targetname" "steam2"
+  "message" "ambience/steamjet1.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "20"
+  "classname" "ambient_generic"
+}
+{
+  "model" "*275"
+  "wait" "-1"
+  "sounds" "14"
+  "speed" "5"
+  "angles" "0 0 0"
+  "target" "unlock_firedoor2"
+  "rendercolor" "0 0 0"
+  "spawnflags" "65"
+  "classname" "func_button"
+}
+{
+  "model" "*276"
+  "explosion" "1"
+  "weapon" "1"
+  "m_iObeyTriggerMode" "2"
+  "targetname" "unlock_firedoor2"
+  "stopsnd" "4"
+  "movesnd" "2"
+  "wait" "-1"
+  "lip" "5"
+  "speed" "20"
+  "angles" "-90 0 0"
+  "rendercolor" "0 0 0"
+  "classname" "func_door"
+}
+{
+  "origin" "1742 -2207 -1851"
+  "targetname" "spawn_6"
+  "angles" "0 270 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1798 -2207 -1851"
+  "targetname" "spawn_6"
+  "angles" "0 270 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1854 -2263 -1851"
+  "targetname" "spawn_6"
+  "angles" "0 270 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1854 -2207 -1851"
+  "targetname" "spawn_6"
+  "angles" "0 270 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1798 -2263 -1851"
+  "targetname" "spawn_6"
+  "angles" "0 270 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1742 -2263 -1851"
+  "targetname" "spawn_6"
+  "angles" "0 270 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1798 -2319 -1851"
+  "targetname" "spawn_6"
+  "angles" "0 270 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1854 -2319 -1851"
+  "targetname" "spawn_6"
+  "angles" "0 270 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1742 -2319 -1851"
+  "targetname" "spawn_6"
+  "angles" "0 270 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1798 -2135 -1851"
+  "targetname" "spawn_6"
+  "angles" "0 270 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1854 -2135 -1851"
+  "targetname" "spawn_6"
+  "angles" "0 270 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1742 -2135 -1851"
+  "targetname" "spawn_6"
+  "angles" "0 270 0"
+  "spawnflags" "2"
+  "classname" "info_player_deathmatch"
+}
+{
+  "origin" "1824 -2420 -1807"
+  "changelevel_text" "15"
+  "gas_overlay333" "0"
+  "changelevel_3b" "20"
+  "targetname" "captured"
+  "gas_smoke_sound#1" "15"
+  "fall_down" "15"
+  "black_out" "15"
+  "gas_smoke" "0"
+  "gas_smoke_sound" "0"
+  "classname" "multi_manager"
+}
+{
+  "origin" "1845 -2202 -1819"
+  "linearmax" "5"
+  "linearmin" "2"
+  "targetname" "gas_smoke_sound"
+  "message" "ambience/steamjet1.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "17"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "1821 -2219 -1819"
+  "linearmax" "5"
+  "linearmin" "2"
+  "targetname" "fall_down"
+  "message" "player/pl_fallpain1.wav"
+  "pitchstart" "100"
+  "pitch" "100"
+  "health" "10"
+  "spawnflags" "49"
+  "classname" "ambient_generic"
+}
+{
+  "origin" "1849 -2500 -1827"
+  "targetname" "gas_overlay333"
+  "holdtime" "10"
+  "rendercolor" "0 128 255"
+  "renderamt" "150"
+  "duration" "5"
+  "classname" "env_fade"
+}
+{
+  "origin" "1803 -2496 -1828"
+  "holdtime" "20"
+  "targetname" "black_out"
+  "rendercolor" "0 0 0"
+  "renderamt" "255"
+  "classname" "env_fade"
+}
+{
+  "origin" "1704 -2416 -1816"
+  "targetname" "gas_smoke"
+  "rendermode" "5"
+  "scale" "3"
+  "renderamt" "255"
+  "model" "sprites/xsmoke1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 128 255"
+  "classname" "env_sprite"
+}
+{
+  "origin" "1896 -2416 -1816"
+  "targetname" "gas_smoke"
+  "rendermode" "5"
+  "scale" "3"
+  "renderamt" "255"
+  "model" "sprites/xsmoke1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 128 255"
+  "classname" "env_sprite"
+}
+{
+  "origin" "1896 -1944 -1816"
+  "targetname" "gas_smoke"
+  "rendermode" "5"
+  "scale" "3"
+  "renderamt" "255"
+  "model" "sprites/xsmoke1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 128 255"
+  "classname" "env_sprite"
+}
+{
+  "origin" "1704 -1944 -1816"
+  "targetname" "gas_smoke"
+  "rendermode" "5"
+  "scale" "3"
+  "renderamt" "255"
+  "model" "sprites/xsmoke1.spr"
+  "framerate" "10.0"
+  "angles" "0 0 0"
+  "rendercolor" "0 128 255"
+  "classname" "env_sprite"
+}
+{
+  "model" "*277"
+  "target" "close_doors_capture"
+  "classname" "trigger_once"
+}
+{
+  "origin" "1768 -2265 -1815"
+  "endmap_aivision_block" "0#1"
+  "captured" "10"
+  "respawn_gaurds" "3"
+  "move4_1" "4"
+  "move3_1" "4"
+  "move2_1" "4"
+  "move1_1" "4"
+  "spawn_gaurds" "3"
+  "spawn_5" "1"
+  "spawn_6" "0"
+  "targetname" "close_doors_capture"
+  "door_left1" "0"
+  "classname" "multi_manager"
+}
+{
+  "origin" "1600 -2760 -1872"
+  "targetname" "spawn_gaurds"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "displayname" "Body Gaurd"
+  "weapons" "1"
+  "gag" "1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "rendercolor" "0 0 0"
+  "health" "500"
+  "netname" "Gaurd_1"
+  "monstertype" "monster_bodyguard"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "angles" "0 0 0"
+  "spawnflags" "128"
+  "classname" "squadmaker"
+}
+{
+  "origin" "1600 -2824 -1872"
+  "targetname" "spawn_gaurds"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "displayname" "Body Gaurd"
+  "weapons" "1"
+  "gag" "1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "rendercolor" "0 0 0"
+  "health" "500"
+  "netname" "Gaurd_2"
+  "monstertype" "monster_bodyguard"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "angles" "0 0 0"
+  "spawnflags" "128"
+  "classname" "squadmaker"
+}
+{
+  "origin" "1760 -2760 -1888"
+  "m_fMoveTo" "1"
+  "m_iszEntity" "Gaurd_1"
+  "target" "move1_2"
+  "targetname" "move1_1"
+  "m_flRadius" "512"
+  "angles" "0 0 0"
+  "classname" "aiscripted_sequence"
+}
+{
+  "origin" "1760 -2592 -1888"
+  "m_fMoveTo" "1"
+  "m_iszEntity" "Gaurd_1"
+  "targetname" "move1_2"
+  "m_flRadius" "512"
+  "angles" "0 90 0"
+  "classname" "aiscripted_sequence"
+}
+{
+  "origin" "1840 -2824 -1888"
+  "m_fMoveTo" "1"
+  "m_iszEntity" "Gaurd_2"
+  "target" "move2_2"
+  "targetname" "move2_1"
+  "m_flRadius" "512"
+  "angles" "0 0 0"
+  "classname" "aiscripted_sequence"
+}
+{
+  "origin" "1840 -2592 -1888"
+  "m_fMoveTo" "1"
+  "m_iszEntity" "Gaurd_2"
+  "targetname" "move2_2"
+  "m_flRadius" "512"
+  "angles" "0 90 0"
+  "classname" "aiscripted_sequence"
+}
+{
+  "origin" "2136 -1664 -1872"
+  "targetname" "spawn_gaurds"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "displayname" "Body Gaurd"
+  "weapons" "1"
+  "gag" "1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "rendercolor" "0 0 0"
+  "health" "500"
+  "netname" "Gaurd_4"
+  "monstertype" "monster_bodyguard"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "angles" "0 0 0"
+  "spawnflags" "128"
+  "classname" "squadmaker"
+}
+{
+  "origin" "1520 -1664 -1872"
+  "targetname" "spawn_gaurds"
+  "maxhullsize" "0 0 0"
+  "minhullsize" "0 0 0"
+  "displayname" "Body Gaurd"
+  "weapons" "1"
+  "gag" "1"
+  "notsolid" "-1"
+  "new_body" "-1"
+  "rendercolor" "0 0 0"
+  "health" "500"
+  "netname" "Gaurd_3"
+  "monstertype" "monster_bodyguard"
+  "m_imaxlivechildren" "1"
+  "delay" "1"
+  "monstercount" "1"
+  "angles" "0 0 0"
+  "spawnflags" "128"
+  "classname" "squadmaker"
+}
+{
+  "origin" "1840 -1664 -1888"
+  "m_fMoveTo" "1"
+  "m_iszEntity" "Gaurd_4"
+  "target" "move4_2"
+  "targetname" "move4_1"
+  "m_flRadius" "512"
+  "angles" "0 212 0"
+  "classname" "aiscripted_sequence"
+}
+{
+  "origin" "1760 -1664 -1888"
+  "m_fMoveTo" "1"
+  "m_iszEntity" "Gaurd_3"
+  "target" "move3_2"
+  "targetname" "move3_1"
+  "m_flRadius" "512"
+  "angles" "0 295 0"
+  "classname" "aiscripted_sequence"
+}
+{
+  "origin" "1840 -1768 -1888"
+  "m_fMoveTo" "1"
+  "m_iszEntity" "Gaurd_4"
+  "targetname" "move4_2"
+  "m_flRadius" "512"
+  "angles" "0 270 0"
+  "classname" "aiscripted_sequence"
+}
+{
+  "origin" "1760 -1768 -1888"
+  "m_fMoveTo" "1"
+  "m_iszEntity" "Gaurd_3"
+  "targetname" "move3_2"
+  "m_flRadius" "512"
+  "angles" "0 270 0"
+  "classname" "aiscripted_sequence"
+}
+{
+  "origin" "1749 -2296 -1814"
+  "targetname" "respawn_gaurds"
+  "classname" "trigger_respawn"
+}
+{
+  "origin" "2629 254 -1599"
+  "steam_multi_trigger" "5"
+  "steam_multi1" "2"
+  "steam_multi2" "0"
+  "targetname" "steam_multi_trigger2"
+  "classname" "multi_manager"
+}
+{
+  "model" "*278"
+  "weapon" "1"
+  "targetname" "open_4buttons"
+  "material" "2"
+  "health" "1"
+  "rendercolor" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_breakable"
+}
+{
+  "model" "*279"
+  "keep_inventory" "1"
+  "map" "escape_series_3b"
+  "targetname" "changelevel_3b"
+  "classname" "trigger_changelevel"
+}
+{
+  "origin" "1687 -2819 -1848"
+  "targetname" "changelevel_text"
+  "channel" "1"
+  "fxtime" "0.25"
+  "holdtime" "10"
+  "fadeout" "1"
+  "fadein" "1"
+  "color2" "255 255 255"
+  "color" "255 255 255"
+  "y" "0.8"
+  "x" "0.8"
+  "message" "Loading : Escape 3 Part B"
+  "spawnflags" "1"
+  "classname" "game_text"
+}
+{
+  "origin" "1280 2464 -3052"
+  "triggerstate" "0"
+  "angles" "0 91 0"
+  "classname" "info_player_start"
+}
+{
+  "model" "*280"
+  "rendermode" "2"
+  "targetname" "endmap_aivision_block"
+  "rendercolor" "0 0 0"
+  "angles" "0 0 0"
+  "spawnflags" "1"
+  "classname" "func_wall_toggle"
+}
