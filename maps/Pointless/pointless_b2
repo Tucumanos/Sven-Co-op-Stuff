@@ -1005,7 +1005,7 @@
 }
 {
 "origin" "184 -920 168"
-"message" "Secret Found"
+"message" "Secreto encontrado"
 "targetname" "msg01e"
 "channel" "4"
 "fxtime" "0.25"
@@ -1399,7 +1399,7 @@
 {
 "origin" "-2696 -1528 104"
 "effect" "2"
-"message" "Key Accepted"
+"message" "Llave aceptada"
 "targetname" "msg01f"
 "channel" "3"
 "fxtime" "1.5"
@@ -2475,7 +2475,7 @@
 }
 {
 "origin" "-2888 -1272 -56"
-"message" "This is more easy, when done in 3rd person"
+"message" "Esto es más fácil cuando se hace en tercera persona."
 "targetname" "msg2g1"
 "channel" "2"
 "fxtime" "0.25"
@@ -2534,7 +2534,7 @@
 {
 "origin" "-2024 -1608 -1088"
 "effect" "2"
-"message" "Secret Nail Gun found!"
+"message" "¡Arma secreta encontrada!"
 "targetname" "nailmsg"
 "channel" "3"
 "fxtime" "0.25"
@@ -2743,7 +2743,7 @@
 }
 {
 "origin" "-2280 -1272 -568"
-"message" "Dont you just love long staircases !!!"
+"message" "¡No te encantan las escaleras largas!"
 "targetname" "msg02h"
 "channel" "2"
 "fxtime" "0.25"
@@ -3099,7 +3099,7 @@
 {
 "origin" "-2080 136 -984"
 "effect" "2"
-"message" "Hmm, the doors not opening \n  hang on. . . . \n  what the hell !!"
+"message" "Hmm, las puertas no se abren.\n  un momento. . . . \n  ¡¿khe verga?!"
 "targetname" "msg01d"
 "channel" "3"
 "fxtime" "0.25"
@@ -3142,7 +3142,7 @@
 }
 {
 "origin" "-2064 136 -952"
-"message" "Well that was odd !"
+"message" "¡Bueno, eso fue extraño!"
 "targetname" "msg02d"
 "channel" "3"
 "fxtime" "0.25"
@@ -3354,7 +3354,7 @@
 "bloodcolor" "1"
 "respawn_as_playerally" "1"
 "health" "1337"
-"displayname" "Mr. Useless"
+"displayname" "Sr. Inutíl"
 "monstertype" "monster_zombie_barney"
 "targetname" "mon01d"
 "maxhullsize" "0 0 0"
@@ -3858,7 +3858,7 @@
 }
 {
 "origin" "3296 1952 2305"
-"message" "Now you've got down here, \n How do you intend to get back up !!!"
+"message" "Ahora que estás aquí abajo, \n ¡¿Cómo pretendes volver a subir?!"
 "targetname" "msg01k"
 "channel" "4"
 "fxtime" "0.25"
@@ -4137,7 +4137,7 @@
 }
 {
 "origin" "-904 3192 2177"
-"message" "Welcome to \n HELL"
+"message" "Bienvenido al \n INFIERNO"
 "targetname" "msg03k"
 "channel" "4"
 "fxtime" "0.25"
@@ -4739,7 +4739,7 @@
 }
 {
 "origin" "928 -1912 152"
-"message" "The tripmine puzzle is reseting \n Please stand clear!"
+"message" "El puzzle de tripmine se está reiniciando. \n ¡Por favor, espere!"
 "targetname" "msg01m"
 "channel" "1"
 "fxtime" "0.25"
@@ -5285,7 +5285,7 @@
 }
 {
 "origin" "1520 -2768 216"
-"message" "1st Laser off"
+"message" "1º Laser apagado"
 "targetname" "las01n"
 "channel" "3"
 "fxtime" "0.25"
@@ -5301,7 +5301,7 @@
 }
 {
 "origin" "1552 -2768 216"
-"message" "2nd Laser off"
+"message" "2º Laser apagado"
 "targetname" "las02n"
 "channel" "3"
 "fxtime" "0.25"
@@ -5317,7 +5317,7 @@
 }
 {
 "origin" "1584 -2768 216"
-"message" "3rd Laser off"
+"message" "3º Laser apagado"
 "targetname" "las03n"
 "channel" "3"
 "fxtime" "0.25"
@@ -5367,7 +5367,7 @@
 }
 {
 "origin" "1352 -3128 136"
-"message" "Small secret found."
+"message" "Pequeño secreto encontrado."
 "targetname" "msg01n"
 "channel" "3"
 "fxtime" "0.25"
@@ -5403,7 +5403,7 @@
 }
 {
 "origin" "1448 -2408 88"
-"message" "Lead the robot to the end of the maze \n The robot will follow the Transmitter \n but only within a limited range"
+"message" "Conduce al robot hasta el final del laberinto.\n El robot seguirá el transmisor. \n pero solo dentro de un rango limitado."
 "effect" "2"
 "targetname" "msg02n"
 "channel" "1"
@@ -5464,7 +5464,7 @@
 }
 {
 "origin" "-2280 -1272 -72"
-"message" "Hmm... \n So you brought Mr. Useless with you \n oh, well looks like he's not totally useless after all."
+"message" "Hmm... \n Así que trajiste al Sr. Inútil contigo \n Oh, bueno, parece que no es totalmente inútil después de todo."
 "targetname" "msg01z"
 "channel" "3"
 "fxtime" "0.25"
@@ -5524,7 +5524,7 @@
 }
 {
 "origin" "-2752 -2280 144"
-"message" "Use the lasers to kill the Leet Crabs \n Or do it the old fashioned way \n but it may take a while !!"
+"message" "Usa los láseres para matar a los Leet Crabs \n O hacerlo de la manera antigua \n ¡¡pero puede tomar un tiempo!!"
 "targetname" "msg02z"
 "channel" "1"
 "fxtime" "0.25"
@@ -6163,7 +6163,7 @@
 }
 {
 "origin" "2480 -2456 -328"
-"message" "I wonder What that did !"
+"message" "¡Me pregunto que hizo eso!"
 "targetname" "msg01q"
 "channel" "1"
 "fxtime" "0.25"
@@ -6392,7 +6392,7 @@
 "origin" "64 1176 -1560"
 "netname" "msg01r"
 "target" "end02r"
-"message" "End the Map ?"
+"message" "Terminar el mapa?"
 "targetname" "end01r"
 "health" "51"
 "frags" "10"
@@ -6411,7 +6411,7 @@
 }
 {
 "origin" "64 1176 -1576"
-"message" "Staying right here \n Try again in 90 seconds"
+"message" "¡Oyeron eso amigos, nos quedamos por ahora! \n Inténtalo de nuevo en 90 segundos."
 "targetname" "msg01r"
 "channel" "3"
 "fxtime" "0.25"
@@ -6743,7 +6743,7 @@
 {
 "origin" "-217 968 -1602"
 "effect" "2"
-"message" "Back to start"
+"message" "Volver a empezar"
 "targetname" "msg01x"
 "channel" "4"
 "fxtime" "0.5"
@@ -6807,7 +6807,7 @@
 {
 "origin" "2968 2563 2765"
 "effect" "2"
-"message" "The pool area is now open \n at the end of the map"
+"message" "La zona de la piscina ya está abierta \n hasta el final del mapa."
 "targetname" "msg02pax"
 "channel" "1"
 "fxtime" "0.25"
@@ -6871,7 +6871,7 @@
 }
 {
 "origin" "288 992 -1575"
-"message" "Byebye then... \n Map \n By \n TheBard"
+"message" "Adiós entonces :( \n Map \n By \n TheBard"
 "targetname" "msg21x"
 "channel" "1"
 "fxtime" "0.25"
@@ -7393,7 +7393,7 @@
 {
 "origin" "-2304 1984 2856"
 "effect" "2"
-"message" "Here's \n Bert !"
+"message" "¡Aquí está \n Bert!"
 "targetname" "msg-bert"
 "channel" "3"
 "fxtime" "0.25"
@@ -7595,7 +7595,7 @@
 }
 {
 "origin" "-2920 1640 2696"
-"message" "The diving pool has been flushed !"
+"message" "¡La piscina de buceo ha sido vaciada!"
 "targetname" "flushmsg"
 "channel" "4"
 "fxtime" "0.25"
@@ -7626,7 +7626,7 @@
 }
 {
 "origin" "-1800 1800 2168"
-"message" "Hmm... i dont think Bert can swim, you-know !"
+"message" "Hmm... No creo que Bert pueda nadar, tu sabes..."
 "targetname" "xbo1"
 "channel" "4"
 "fxtime" "0.25"
