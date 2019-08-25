@@ -3082,7 +3082,6 @@
 {
 "model" "*192"
 "map" "kyper_kuutio_2"
-"keep_inventory" "1"
 "classname" "trigger_changelevel"
 }
 {
