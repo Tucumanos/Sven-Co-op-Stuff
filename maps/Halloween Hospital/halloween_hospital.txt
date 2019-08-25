@@ -9,6 +9,7 @@
 "sounds" "1"
 "classname" "worldspawn"
 }
+//Editado por Cadaver 16/05/18
 {
 "model" "*1"
 "rendercolor" "0 0 0"
@@ -5220,7 +5221,7 @@
 "fadeout" "0.5"
 "fadein" "1.5"
 "targetname" "text2"
-"message" "Oh,it looks like a portal?"
+"message" "Oh, parece un portal.."
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "10"
@@ -5236,7 +5237,7 @@
 "fadeout" "0.5"
 "fadein" "1.5"
 "targetname" "GATE_DB"
-"message" "Great! Now the maindoor open."
+"message" "¡Genial, ahora la puerta principal está abierta!"
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "6"
@@ -5252,7 +5253,7 @@
 "fadeout" "0.5"
 "fadein" "1.5"
 "targetname" "text1"
-"message" "Note: Your team must find out and destroy all blue boxes."
+"message" "Nota importante: Su equipo debe descubrir y destruir todas las cajas azules."
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "8"
@@ -5353,7 +5354,7 @@
 "pitch" "100"
 "playmode" "2"
 "health" "10"
-"message" "halloween_hospital/3fbgm.wav"
+"message" "halloween_hospital/3fbgm.ogg"
 "spawnflags" "17"
 "classname" "ambient_generic"
 }
@@ -5463,7 +5464,7 @@
 "pitch" "100"
 "playmode" "2"
 "health" "8"
-"message" "halloween_hospital/hhbgm.wav"
+"message" "halloween_hospital/hhbgm.ogg"
 "targetname" "start_bgm_music"
 "spawnflags" "17"
 "classname" "ambient_generic"
@@ -6073,7 +6074,7 @@
 "fadeout" "0.5"
 "fadein" "1.5"
 "targetname" "spawn1"
-"message" "Attention, new spawn activated."
+"message" "Atención, nuevo spawn creado"
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "6"
@@ -6105,7 +6106,7 @@
 "fadeout" "0.5"
 "fadein" "1.5"
 "targetname" "text4"
-"message" "Now the 4F door open!"
+"message" "¡Ahora la puerta 4F está abierta!"
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "3"
@@ -6121,7 +6122,7 @@
 "fadeout" "0.5"
 "fadein" "1.5"
 "targetname" "text5"
-"message" "Note:Now your team must find out and destroy all green cubes."
+"message" "Nota importante: Ahora su equipo debe descubrir y destruir todos los cubos verdes."
 "channel" "1"
 "fxtime" "0.25"
 "holdtime" "10"
@@ -6134,7 +6135,7 @@
 }
 {
 "origin" "-1488 376 72"
-"message" "Players,Thank you to saving me!"
+"message" "¡Gracias por salvarme!"
 "fadeout" "0.5"
 "fadein" "1.5"
 "targetname" "text6"
@@ -6150,7 +6151,7 @@
 }
 {
 "origin" "-1488 344 72"
-"message" "As a reward,I can tell you something about HalfLife3."
+"message" "Como recompensa, puedo contarte algo sobre Half Life 3..."
 "fadeout" "0.5"
 "fadein" "1.5"
 "targetname" "text7"
@@ -6184,7 +6185,7 @@
 }
 {
 "origin" "-1488 312 72"
-"message" "Note: Nice job! Players,game will ending in 40s."
+"message" "¡Buen trabajo, el mapa terminará en 40 segundos!"
 "fadeout" "0.5"
 "fadein" "1.5"
 "targetname" "text8"
@@ -6796,7 +6797,7 @@
 }
 {
 "origin" "-1288 380 -12"
-"points" "200"
+"points" "100"
 "targetname" "hevdead_score_200"
 "classname" "game_score"
 }
@@ -6811,7 +6812,7 @@
 "color" "255 128 0"
 "y" "0.67"
 "x" "-1"
-"message" "H.E.V.body found.(+200)"
+"message" "H.E.V. encontrado (+100 score)"
 "targetname" "hevdead_score_text"
 "classname" "game_text"
 }
