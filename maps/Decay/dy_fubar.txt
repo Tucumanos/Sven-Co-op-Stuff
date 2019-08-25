@@ -7439,7 +7439,7 @@
 "classname" "info_player_deathmatch"
 }
 {
-"origin" "210 -2070 1656"
+"origin" "210 -2070 1956"
 "angles" "0 90 0"
 "targetname" "first_spawn"
 "classname" "info_player_deathmatch"
