@@ -4315,6 +4315,7 @@
 {
 "model" "*252"
 "map" "bh1_l1_bonus"
+"keep_inventory" "1"
 "classname" "trigger_changelevel"
 }
 {
@@ -6591,7 +6592,7 @@
 }
 {
 "origin" "1248 -3802 -137"
-"message" "blackhawk/music/lateralus.wav"
+"message" "blackhawk/music/lateralus.ogg"
 "targetname" "music"
 "pitchstart" "100"
 "pitch" "100"
@@ -6601,7 +6602,7 @@
 }
 {
 "origin" "1267 -334 -59"
-"message" "blackhawk/music/lateralus.wav"
+"message" "blackhawk/music/lateralus.ogg"
 "targetname" "music"
 "pitchstart" "100"
 "pitch" "100"
@@ -6611,7 +6612,7 @@
 }
 {
 "origin" "-1292 -2898 -179"
-"message" "blackhawk/music/lateralus.wav"
+"message" "blackhawk/music/lateralus.ogg"
 "targetname" "music"
 "pitchstart" "100"
 "pitch" "100"
@@ -6621,7 +6622,7 @@
 }
 {
 "origin" "3512 -2149 -80"
-"message" "blackhawk/music/lateralus.wav"
+"message" "blackhawk/music/lateralus.ogg"
 "targetname" "music"
 "pitchstart" "100"
 "pitch" "100"
@@ -6642,7 +6643,7 @@
 }
 {
 "origin" "-1293 -2876 -179"
-"message" "blackhawk/music/schism.wav"
+"message" "blackhawk/music/schism.ogg"
 "targetname" "sushi2"
 "pitchstart" "100"
 "pitch" "100"
@@ -6652,7 +6653,7 @@
 }
 {
 "origin" "1247 -3780 -137"
-"message" "blackhawk/music/schism.wav"
+"message" "blackhawk/music/schism.ogg"
 "targetname" "sushi2"
 "pitchstart" "100"
 "pitch" "100"
@@ -6662,7 +6663,7 @@
 }
 {
 "origin" "1266 -312 -59"
-"message" "blackhawk/music/schism.wav"
+"message" "blackhawk/music/schism.ogg"
 "targetname" "sushi2"
 "pitchstart" "100"
 "pitch" "100"
@@ -6672,7 +6673,7 @@
 }
 {
 "origin" "3511 -2127 -80"
-"message" "blackhawk/music/schism.wav"
+"message" "blackhawk/music/schism.ogg"
 "targetname" "sushi2"
 "pitchstart" "100"
 "pitch" "100"
