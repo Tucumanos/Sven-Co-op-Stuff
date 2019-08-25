@@ -1,5 +1,5 @@
 {
-  "wad" "\spiele\half-life\valve\halflife.wad;\spiele\half-life\valve\xeno.wad;\spiele\half-life\svencoop\blackops.wad;\spiele\half-life\svencoop\blackops_decals.wad;"
+  "wad" "\spiele\half-life\valve\halflife.wad;\spiele\half-life\valve\xeno.wad;\spiele\half-life\svencoop\blackops.wad;\spiele\half-life\svencoop\decals.wad;"
   "mapversion" "220"
   "message" "BLACK MESA REVISITED"
   "newunit" "1"
@@ -8,6 +8,7 @@
   "classname" "worldspawn"
   "classname" "worldspawn"
 }
+//Edited by Cadaver 19/08/19
 {
   "model" "*1"
   "rendercolor" "0 0 0"
@@ -4421,6 +4422,7 @@
   "model" "*316"
   "landmark" "desrt_to_park"
   "map" "ops_desrt"
+  "keep_inventory" "1"
   "spawnflags" "2"
   "classname" "trigger_changelevel"
 }
@@ -4508,11 +4510,6 @@
   "classname" "multi_manager"
 }
 {
-  "origin" "80 488 -56"
-  "targetname" "end"
-  "classname" "game_end"
-}
-{
   "origin" "104 512 -56"
   "holdtime" "5"
   "targetname" "final_fade"
@@ -4532,6 +4529,7 @@
   "targetname" "lc_final"
   "landmark" "park1_to_credits"
   "map" "ops_credits"
+  "keep_inventory" "1"
   "spawnflags" "2"
   "classname" "trigger_changelevel"
 }

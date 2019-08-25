@@ -1,5 +1,5 @@
 {
-  "wad" "\spiele\half-life\valve\halflife.wad;\spiele\half-life\valve\xeno.wad;\spiele\half-life\svencoop\blackops.wad;\spiele\half-life\svencoop\blackops_decals.wad;"
+  "wad" "\spiele\half-life\valve\halflife.wad;\spiele\half-life\valve\xeno.wad;\spiele\half-life\svencoop\blackops.wad;\spiele\half-life\svencoop\decals.wad;"
   "mapversion" "220"
   "MaxRange" "4096"
   "message" "DUTY CALLS"
@@ -2008,6 +2008,7 @@
 }
 {
   "model" "*118"
+  "keep_inventory" "1"
   "landmark" "intro_to_hq1"
   "map" "ops_intro"
   "spawnflags" "2"
@@ -3377,6 +3378,7 @@
 {
   "model" "*149"
   "landmark" "hq_to_17th"
+  "keep_inventory" "1"
   "map" "ops_17th"
   "targetname" "lc_hq_to_17"
   "spawnflags" "2"

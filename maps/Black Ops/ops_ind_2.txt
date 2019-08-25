@@ -1,5 +1,5 @@
 {
-  "wad" "\spiele\half-life\valve\halflife.wad;\spiele\half-life\valve\xeno.wad;\spiele\half-life\svencoop\blackops.wad;\spiele\half-life\svencoop\blackops_decals.wad;"
+  "wad" "\spiele\half-life\valve\halflife.wad;\spiele\half-life\valve\xeno.wad;\spiele\half-life\svencoop\blackops.wad;\spiele\half-life\svencoop\decals.wad;"
   "mapversion" "220"
   "MaxRange" "4096"
   "sounds" "1"
@@ -8,6 +8,7 @@
   "classname" "worldspawn"
   "classname" "worldspawn"
 }
+//Edited by Cadaver 19/08/19
 {
   "model" "*1"
   "rendercolor" "0 0 0"
@@ -95,6 +96,7 @@
 {
   "model" "*15"
   "landmark" "ind1_to_ind2"
+  "keep_inventory" "1"
   "map" "ops_ind_1"
   "spawnflags" "1"
   "classname" "trigger_changelevel"
@@ -1816,6 +1818,7 @@
 {
   "model" "*165"
   "map" "ops_ind_3"
+  "keep_inventory" "1"
   "landmark" "ind2_to_ind3"
   "targetname" "lchng_ind2_to_ind3"
   "spawnflags" "2"
@@ -2020,4 +2023,15 @@
   "origin" "1216 568 160"
   "angles" "0 0 0"
   "classname" "ammo_357"
+}
+{
+"origin" "-1123 931 150"
+"scale" "0.5"
+"renderamt" "255"
+"rendermode" "4"
+"model" "sprites/adamr/arrow_take.spr"
+"framerate" "10.0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"classname" "env_sprite"
 }

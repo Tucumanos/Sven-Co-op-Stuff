@@ -8,6 +8,7 @@
   "classname" "worldspawn"
   "classname" "worldspawn"
 }
+//Edited by Cadaver 19/08/19
 {
   "origin" "24 144 -224"
   "targetname" "cam"
@@ -279,6 +280,7 @@
   "model" "*7"
   "landmark" "park1_to_credits"
   "map" "ops_park_1"
+  "keep_inventory" "1"
   "spawnflags" "2"
   "classname" "trigger_changelevel"
 }

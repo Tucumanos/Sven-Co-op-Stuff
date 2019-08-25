@@ -1,5 +1,5 @@
 {
-  "wad" "\spiele\half-life\valve\halflife.wad;\spiele\half-life\valve\xeno.wad;\spiele\half-life\svencoop\blackops.wad;\spiele\half-life\svencoop\blackops_decals.wad;"
+  "wad" "\spiele\half-life\valve\halflife.wad;\spiele\half-life\valve\xeno.wad;\spiele\half-life\svencoop\blackops.wad;\spiele\half-life\svencoop\decals.wad;"
   "mapversion" "220"
   "MaxRange" "4096"
   "sounds" "1"
@@ -8,9 +8,11 @@
   "classname" "worldspawn"
   "classname" "worldspawn"
 }
+//Edited by Cadaver 19/08/19
 {
   "model" "*1"
   "landmark" "jail3_to_jail4"
+  "keep_inventory" "1"
   "map" "ops_jail_3"
   "classname" "trigger_changelevel"
 }
@@ -1426,6 +1428,7 @@
 {
   "model" "*96"
   "landmark" "jail4_to_cut4"
+  "keep_inventory" "1"
   "map" "ops_desrt"
   "targetname" "lc_jail4_to_cut4"
   "spawnflags" "2"

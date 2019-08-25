@@ -1,5 +1,5 @@
 {
-  "wad" "\spiele\half-life\valve\halflife.wad;\spiele\half-life\valve\xeno.wad;\spiele\half-life\svencoop\blackops.wad;\spiele\half-life\svencoop\blackops_decals.wad;"
+  "wad" "\spiele\half-life\valve\halflife.wad;\spiele\half-life\valve\xeno.wad;\spiele\half-life\svencoop\blackops.wad;\spiele\half-life\svencoop\decals.wad;"
   "mapversion" "220"
   "MaxRange" "4096"
   "sounds" "1"
@@ -9,6 +9,7 @@
   "skyname" "metro_nite"
   "classname" "worldspawn"
 }
+//Edited by Cadaver 19/08/19
 {
   "origin" "-63 136 104"
   "rendermode" "3"
@@ -40,6 +41,7 @@
 {
   "model" "*2"
   "landmark" "sew_to_chtwn3"
+  "keep_inventory" "1"
   "map" "ops_sew"
   "spawnflags" "2"
   "classname" "trigger_changelevel"
@@ -2163,6 +2165,7 @@
 }
 {
   "model" "*145"
+  "keep_inventory" "1"
   "landmark" "chtwn3_to_cut2"
   "map" "ops_ind_1"
   "targetname" "lc_cthwn_to_cut"
@@ -2194,12 +2197,6 @@
   "rstrnt_dr" "0"
   "targetname" "mm_end"
   "classname" "multi_manager"
-}
-{
-  "model" "*146"
-  "master" "ms_chtwn_tele"
-  "target" "tele_target1"
-  "classname" "trigger_teleport"
 }
 {
   "origin" "424 -2056 712"
@@ -2283,3 +2280,20 @@
   "origin" "-344 -772 1472"
   "classname" "path_corner"
 }
+{
+"origin" "391 -2101 715"
+"scale" "0.5"
+"renderamt" "255"
+"rendermode" "4"
+"model" "sprites/adamr/arrow_use.spr"
+"framerate" "10.0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"classname" "env_sprite"
+}
+//{
+//  "model" "*146"
+//  "master" "ms_chtwn_tele"
+//  "target" "tele_target1"
+// "classname" "trigger_teleport"
+//}

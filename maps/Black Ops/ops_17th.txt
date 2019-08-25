@@ -1,5 +1,5 @@
 {
-  "wad" "\spiele\half-life\valve\halflife.wad;\spiele\half-life\valve\xeno.wad;\spiele\half-life\svencoop\blackops.wad;\spiele\half-life\svencoop\blackops_decals.wad;"
+  "wad" "\spiele\half-life\valve\halflife.wad;\spiele\half-life\valve\xeno.wad;\spiele\half-life\svencoop\blackops.wad;\spiele\half-life\svencoop\decals.wad;"
   "mapversion" "220"
   "message" "PRECINCT 17"
   "MaxRange" "4096"
@@ -9,6 +9,7 @@
   "classname" "worldspawn"
   "classname" "worldspawn"
 }
+//Edited by Cadaver 19/08/19
 {
   "model" "*1"
   "rendercolor" "0 0 0"
@@ -955,6 +956,7 @@
 {
   "model" "*109"
   "map" "ops_sub"
+  "keep_inventory" "1"
   "landmark" "17th_to_sub"
   "classname" "trigger_changelevel"
 }
@@ -1787,4 +1789,15 @@
   "angles" "0 270 0"
   "targetname" "spawnpoint"
   "classname" "info_player_deathmatch"
+}
+{
+"origin" "380 -599 -80"
+"scale" "0.3"
+"renderamt" "255"
+"rendermode" "4"
+"model" "sprites/level_change.spr"
+"framerate" "10.0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"classname" "env_sprite"
 }

@@ -1,5 +1,5 @@
 {
-  "wad" "\spiele\half-life\valve\halflife.wad;\spiele\half-life\valve\xeno.wad;\spiele\half-life\svencoop\blackops.wad;\spiele\half-life\svencoop\blackops_decals.wad;"
+  "wad" "\spiele\half-life\valve\halflife.wad;\spiele\half-life\valve\xeno.wad;\spiele\half-life\svencoop\blackops.wad;\spiele\half-life\svencoop\decals.wad;"
   "mapversion" "220"
   "MaxRange" "4096"
   "message" "COUNTER-STRIKE"
@@ -8,6 +8,7 @@
   "sounds" "1"
   "classname" "worldspawn"
 }
+//Edited by Cadaver 19/08/19
 {
   "model" "*1"
   "origin" "328 113 63"
@@ -96,6 +97,7 @@
 {
   "model" "*12"
   "landmark" "ind3_to_ind4"
+  "keep_inventory" "1"
   "map" "ops_ind_3"
   "spawnflags" "2"
   "classname" "trigger_changelevel"
@@ -2921,6 +2923,7 @@
   "model" "*205"
   "landmark" "ind4_to_cut3"
   "map" "ops_jail_1"
+  "keep_inventory" "1"
   "targetname" "lc_ind4_to_cut3"
   "spawnflags" "2"
   "classname" "trigger_changelevel"
@@ -3039,4 +3042,15 @@
   "angles" "0 0 0"
   "rendercolor" "0 0 0"
   "classname" "monster_tripmine"
+}
+{
+"origin" "1314 -1996 205"
+"scale" "0.5"
+"renderamt" "255"
+"rendermode" "4"
+"model" "sprites/adamr/arrow_take.spr"
+"framerate" "10.0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"classname" "env_sprite"
 }
