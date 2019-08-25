@@ -3625,7 +3625,6 @@
 "model" "*57"
 "map" "hellmouth2"
 "targetname" "eint2"
-"keep_inventory" "1"
 "changedelay" "2"
 "classname" "trigger_changelevel"
 }
