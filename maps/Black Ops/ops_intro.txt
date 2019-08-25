@@ -1,5 +1,5 @@
 {
-  "wad" "\spiele\half-life\valve\halflife.wad;\spiele\half-life\valve\xeno.wad;\spiele\half-life\svencoop\blackops.wad;\spiele\half-life\svencoop\blackops_decals.wad;"
+  "wad" "\spiele\half-life\valve\halflife.wad;\spiele\half-life\valve\xeno.wad;\spiele\half-life\svencoop\blackops.wad;\spiele\half-life\svencoop\decals.wad;"
   "mapversion" "220"
   "message" "INTRO"
   "MaxRange" "4096"
@@ -9,6 +9,7 @@
   "skyname" "metro_nite"
   "classname" "worldspawn"
 }
+//Edited by Cadaver 19/08/19
 {
   "origin" "352 -360 32"
   "angles" "0 135 0"
@@ -2496,6 +2497,7 @@
   "model" "*50"
   "landmark" "intro_to_hq1"
   "map" "ops_hq_1"
+  "keep_inventory" "1"
   "targetname" "level_change1"
   "spawnflags" "2"
   "classname" "trigger_changelevel"
